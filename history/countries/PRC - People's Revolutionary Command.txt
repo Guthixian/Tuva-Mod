@@ -7,6 +7,9 @@ recruit_character = PRC_Generic_Vacant
 
 set_country_flag = is_russian_nation
 
+### Playable
+set_country_flag = tno_playable_country
+
 recruit_character = PRC_Aleksandr_Vasilevsky
 
 recruit_character = PRC_Grigory_Shtern
