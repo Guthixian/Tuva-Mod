@@ -1,0 +1,98 @@
+﻿l_english:
+
+ ### Parties ###
+ PRC_communist_party: "VKP(b)"
+ PRC_communist_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
+ PRC_socialist_party: "VKP(b)"
+ PRC_socialist_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
+ PRC_paternalism_party: "VKP(b)"
+ PRC_paternalism_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
+ PRC_paternalism_1_party: "VKP(b)"
+ PRC_paternalism_party_1_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
+ PRC_paternalism_2_party: "VKP(b)"
+ PRC_paternalism_2_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
+ 
+ ### Leader Desc ###
+ PRC_Aleksandr_Vasilevsky: "Aleksandr Vasilevsky" 
+ POLITICS_ALEKSANDER_VASILEVSKY_DESC: "Aleksandr Mikhailovich Vasilevsky was the son of a Russian Orthodox priest and was expected to follow in his father's footsteps, but he was drawn to a military life and traded his seminarian's robes for a soldier's uniform. He fought in the Imperial Russian Army and rose through the ranks, but resigned his post during the October Revolution and spent much of the Russian Civil War commanding soldiers well behind the front lines. In the interwar years, he distinguished himself as a skilled organizer, and befriended other notable officers such as Alexander Yegorov, Mikhail Tukhachevsky, and Georgy Zhukov. When the Germans invaded, Vasilevsky was serving in Bukharin's general staff, and his ability to work well under pressure helped him rise through the ranks. But not even his skills could stop the evacuation of Moscow from degenerating into a mad stampede as soldiers, bureaucrats, and millions of civilians desperately fighting each other for a coveted safe passage out of the city.\n\nDetermined to help as much of the Red Army to survive as possible, Vasilevsky organized a semi-orderly retreat of the forces that escaped the Mozhaisk defense line and marched east, over the Urals. Their goal: the Mongolian People's Republic, where they could regroup and resume the offensive. But the opportunity never came, for the Japanese and their puppet state of Mengjiang had already invaded Ulaanbaatar and forced the remnants of the Mongolian Army into the steppes. Vasilevsky formed a tenuous alliance with the Mongolians, and the two armies set up a domain in the former Tuvan People's Republic. They were isolated from the West Russian War, the Siberian War and the fall of the People's Republic of Western Siberia. They gladly avoided Yagoda's government in Irkutsk, fearful that he would label their retreat as cowardice and have them shot for treason. But despite having no allies, Vasilevsky is still determined to rally his men, draft the battle plans, and fight their way back home."
+
+### Ideas ###
+PRC_red_army_dynamic_modifier: "Vasilevsky's Red Army"
+PRC_red_army_dynamic_modifier_desc: "loredump"
+
+PRC_factionalism: "Home of the Dnipropetrovsk Mafia"
+PRC_factionalism_desc: "Name pending since Ukraine was German by 1948 RIP... but it's Brezhnev's guys."
+PRC_democratic_military: "Corrupted Remnant"
+PRC_democratic_military_desc: "tldr Tuva is the last remaining legitimate bastion of the old, Bukharinist USSR but it's sort of forgot what communism actually was over time"
+
+PRC_preparation_for_war: "Prepared for War"
+PRC_preparation_for_war_desc: "The state's preparations have been completed, and all aspects of its economy have been tuned for wartime supply and production. Though its economic base is likely much smaller than those of its future enemies, this singular focus, and the very many optimizations made in its execution, should enable it to remain competitive, and engage on more equal ground."
+
+ ### Characters ###
+ PRC_Grigory_Shtern: "Leonid Brezhnev"
+ PRC_Grigory_Shtern_hog_desc: "§YHead of Government\nAnocracy§!\n--------------\n"
+ PRC_Ivan_Ivanov: "Andrei Kirilenko"
+ PRC_Ivan_Ivanov_for_desc: "§YForeign Minister\nSocial Nationalism§!\n--------------\n"
+ PRC_Jambyn_Batmonkh: "Nikolai Tikhonov"
+ PRC_Jambyn_Batmonkh_eco_desc: "§YEconomy Minister\nLeft-Wing Corporatism§!\n--------------\n"
+ PRC_Jamiyangiin_Lkhagvasuren: "Yuri Churbanov"
+ PRC_Jamiyangiin_Lkhagvasuren_sec_desc: "§YSecurity Minister\nOligarchy§!\n--------------\n"
+ 
+ PRC_Issa_Pliev: "Issa Pliev"
+ PRC_Pavel_Batitsky: "Pavel Batitsky"
+ PRC_Leonid_Brezhnev: "Leonid Brezhnev"
+ PRC_Alexander_Oskin: "Alexander Oskin"
+ PRC_Batyn_Dorzh: "Batyn Dorzh"
+ PRC_Butochiyn_Tsog: "Butochiyn Tsog"
+ PRC_Lodongiin_Dandar: "Lodongiin Dandar"
+ 
+ PRC_paternalism: "Tuva"
+ PRC_paternalism_DEF: "the Organization for the Preservation of the Soviet Union"
+ PRC_paternalism_ADJ: "Soviet"
+ 
+ ###Events###
+ 
+ PRC.1.t: "Tuva Intro"
+ PRC.1.d: "Vasilevsky tried to hold the Siberian SR together after Bukharin died or whatever happened to him pregame, alongside Nikolai Shchelokov's Soviet police who was fighting a shadow war against the NKVD. Neither side won, the Union collapsed and now there's schizo rurikids and anarkiddies in the provinces oh no..."
+ PRC.1.a: "Russkiy, Mir..."
+ 
+ ### Focus Tree ###
+ PRC_Tomb_of_the_Union: "Persisting"
+ PRC_Tomb_of_the_Union2: "Soviet Nostalgia"
+ PRC_Tomb_of_the_Union3: "Our Grand Legacy"
+ PRC_Tomb_of_the_Union4: "Reminding the People"
+ PRC_Tomb_of_the_Union5: "A Moral Agency"
+ PRC_Tomb_of_the_Union6: "The Fascist Traitors"
+ PRC_Tomb_of_the_Union7: "Backing Our Guy"
+ PRC_Tomb_of_the_Union8: "A Union for Me..."
+ PRC_Tomb_of_the_Union9: "And a Union for You"
+ PRC_Tomb_of_the_Union10: "Defining War Communism"
+ PRC_Tomb_of_the_Union11: "Long-Term Profit"
+ PRC_Tomb_of_the_Union12: "Short-Term Benefit"
+ PRC_Tomb_of_the_Union13: "The Soviet Treasury"
+ PRC_Tomb_of_the_Union14: "The Army of Labor"
+ PRC_Tomb_of_the_Union15: "A Secure Economy"
+ PRC_Tomb_of_the_Union16: "Vasilevsky's Finest"
+ PRC_Tomb_of_the_Union17: "Interservice Cooperation"
+ PRC_Tomb_of_the_Union18: "Militsiya Expansion"
+ PRC_Tomb_of_the_Union19: "Securing Arms"
+ PRC_Tomb_of_the_Union20: "Village Mobillization"
+ PRC_Tomb_of_the_Union21: "Tuvan Tank Brigades"
+ PRC_Tomb_of_the_Union22: "Irregular Auxillaries"
+ PRC_Tomb_of_the_Union23: "Rapid-fire Tactics"
+ PRC_Tomb_of_the_Union24: "Let's Go!"
+ PRC_Tomb_of_the_Union25: "Ending the Anarchy"
+ PRC_expansion: "A Little Police Action"
+ PRC_expansion2: "The Common Soldier"
+ PRC_expansion3: "A System For Everyone"
+ PRC_expansion4: "The Siberian Worker"
+ PRC_expansion5: "A Spoils System"
+ PRC_expansion6: "Bureaucratic Control"
+ PRC_expansion7: "Concepts of a Plan"
+ PRC_expansion8: "A Mostly Stable Politics"
+ PRC_expansion9: "The Political Enemy"
+ PRC_expansion10: "The Turncoat Generals"
+ PRC_expansion11: "Replacing Ideologues..."
+ PRC_expansion12: "...With More Compatible Clients"
+ PRC_expansion13: "A Mostly Orderly State"
+ PRC_expansion14: "Looking Eastwards"

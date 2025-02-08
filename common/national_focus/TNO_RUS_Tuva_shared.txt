@@ -1,0 +1,899 @@
+### Leonid Brezhnev corruption association
+
+### Starting tree by Guthixian###
+shared_focus = {
+	id = PRC_Tomb_of_the_Union
+	icon = GFX_focus_RUS_let_the_past_fade
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	x = 9
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union"
+		add_political_power = 50
+		hidden_effect = {
+			country_event = { id = PRC.1 days = 3 }
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union2
+	icon = GFX_focus_RUS_rehabilitated_nationalism
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union
+	}
+	x = -6
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union2"
+		country_event = { id = PRC.20 }
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union3
+	icon = GFX_focus_UKS_comrades_lenin_bukharin
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union2
+	}
+	x = -1
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union3"
+		country_event = { id = PRC.3 }
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union4
+	icon = GFX_focus_IRK_propaganda
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union3
+	}
+	x = -1
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union4"
+		country_event = { id = PRC.4 }
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union5
+	icon = GFX_focus_KOM_loyal_police_force
+	cost = 3.00
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union2
+	}
+	x = 0
+	y = 2
+	relative_position_id = PRC_Tomb_of_the_Union2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union5"
+		add_political_power = 25
+		# tno_security_improve = yes
+		if = {
+			limit = { has_dlc = "La Resistance" }
+			create_intelligence_agency = yes
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union6
+	icon = GFX_focus_BRY_burn_tyrants_down
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union2
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union6"
+		country_event = { id = PRC.5 }
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union7
+	icon = GFX_focus_BRY_for_our_future
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union6
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union7"
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union8
+	icon = GFX_focus_generic_pillage
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union4
+	}
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union5
+	}
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union7
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union5
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus RC_Tomb_of_the_Union8"
+		SIB_increase_worker_tension_low = yes
+		add_stability = 0.1
+		TNO_improve_admin_efficiency_low = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union9
+	icon = GFX_focus_generic_pragmatism
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union8
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union8
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union9"
+		country_event = { id = PRC.23 days = 1 }
+		add_war_support = 0.05
+		add_political_power = 25
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union10
+	icon = GFX_focus_generic_industry_tanks_red
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union10"
+		country_event = { id = PRC.6 }
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union11
+	icon = GFX_focus_generic_corruption
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union10
+	}
+	mutually_exclusive = {
+		focus = PRC_Tomb_of_the_Union12
+	}
+	x = -1
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union10
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union11"
+		country_event = { id = PRC.10 days = 1 }
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union12
+	icon = GFX_focus_generic_cooperate_with_the_socialists
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union10
+	}
+	mutually_exclusive = {
+		focus = PRC_Tomb_of_the_Union11
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union10
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: PRC_Tomb_of_the_Union12"
+		country_event = { id = PRC.11 days = 1 }
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union13
+	icon = GFX_focus_generic_close_the_economy
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union11
+		focus = PRC_Tomb_of_the_Union12
+	}
+	mutually_exclusive = {
+		focus = PRC_Tomb_of_the_Union14
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union11
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NPRC_Tomb_of_the_Union13"
+		country_event = { id = PRC.12 days = 1 }
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union14
+	icon = GFX_focus_generic_workers_rights
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union11
+		focus = PRC_Tomb_of_the_Union12
+	}
+	mutually_exclusive = {
+		focus = PRC_Tomb_of_the_Union13
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union12
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union14"
+		country_event = { id = PRC.13 days = 1 }
+		tno_trade_unions_improve = yes
+		TNO_worsen_press_rights_policy_effectiveness_low = yes
+		TNO_worsen_trade_unions_policy_effectiveness_low = yes
+		set_temp_variable = { econ_centralization_temp = -5 }
+		econ_centralization_change = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union15
+	icon = GFX_focus_generic_fully_controlled_economy
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union13
+		focus = PRC_Tomb_of_the_Union14
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union13
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union15"
+		set_temp_variable = { gdp_growth_temp = 0.1 }
+		econ_gdp_growth_change = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union16
+	icon = GFX_focus_RUS_a_socialist_indoctrination
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union
+	}
+	x = 6
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union16"
+		army_experience = 20
+		TNO_improve_military_supervision_policy_effectiveness_low = yes
+		hidden_effect = {
+			country_event = { id = PRC.27 days = 1 }
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union17
+	icon = GFX_focus_RUS_rely_on_the_commissars
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union16
+	}
+	x = -2
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union16
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union17"
+		TNO_improve_training_policy_effectiveness_med = yes
+		division_template = {
+			name = "Gvardeiskaya Strelkovaya Diviziya"
+			division_names_group = NOV_Guards
+			regiments = {
+				elite_infantry = { x = 0 y = 0 }
+				elite_infantry = { x = 0 y = 1 }
+				elite_infantry = { x = 0 y = 2 }
+				elite_infantry = { x = 0 y = 3 }
+				elite_infantry = { x = 0 y = 4 }
+				artillery_brigade = { x = 1 y = 0 }
+			}
+			support = {
+				artillery = { x = 0 y = 0 }
+				engineer = { x = 0 y = 1 }
+			}
+		}
+		add_tech_bonus = {
+			name = infantry_weapons
+			bonus = 0.33
+			uses = 2
+			category = infantry_weapons
+		}
+		hidden_effect = {
+			country_event = { id = PRC.26 days = 7 random_hours = 24 }
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union18
+	icon = GFX_focus_generic_deploy_the_militia
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union16
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union16
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union18"
+		add_tech_bonus = {
+			name = fighter
+			bonus = 0.33
+			uses = 2
+			category = fighter
+		}
+		hidden_effect = {
+			country_event = { id = PRC.8 days = 7 random_hours = 24 }
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union19
+	icon = GFX_focus_RUS_soviet_arms
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union16
+	}
+	x = 2
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union16
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union19"
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 250
+			producer = PRC
+		}
+		add_equipment_to_stockpile = {
+			type = APC_chassis
+			amount = 50
+			producer = PRC
+		}
+		add_tech_bonus = {
+			name = APC
+			bonus = 0.5
+			uses = 1
+			category = APC
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union20
+	icon = GFX_focus_RUS_russian_soldier_industry
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union17
+	}
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union18
+	}
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union19
+	}
+	x = 0
+	y = 2
+	relative_position_id = PRC_Tomb_of_the_Union16
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union20"
+		country_event = { id = PRC.7 }
+		TNO_improve_industrial_equipment_low = yes
+		set_temp_variable = { pus_temp = 2 }
+		econ_pus_change = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union21
+	icon = GFX_focus_generic_socialist_tank_2
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union20
+	}
+	x = -2
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union20
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union21"
+		hidden_effect = {
+			country_event = { id = PRC.29 days = 1 }
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union22
+	icon = GFX_focus_generic_talk_with_socialist_militias
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union20
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union20
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union22"
+		country_event = { id = PRC.30 days = 1 }
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union23
+	icon = GFX_focus_generic_army_for_the_motherland
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union20
+	}
+	x = 2
+	y = 1
+	relative_position_id = PRC_Tomb_of_the_Union20
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union23"
+		SIB_increase_worker_tension_low = yes
+		set_temp_variable = { temp_econ_spending_amount = 0.045 }
+		econ_spend_money_once_effect_raw_money = yes
+		set_temp_variable = { temp_econ_GDP_boost_flat = 0.065 }
+		econ_GDP_boost_once_flat = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union24
+	icon = GFX_focus_generic_victory_parade_communist
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union21
+	}
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union22
+	}
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union23
+	}
+	x = 0
+	y = 2
+	relative_position_id = PRC_Tomb_of_the_Union20
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union24"
+		add_political_power = 25
+		set_temp_variable = { temp_econ_GDP_boost_percentage = 0.013 }
+		econ_GDP_boost_once_percentage = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_Tomb_of_the_Union25
+	icon = GFX_focus_WRS_the_neighbors
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union9
+	}
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union24
+	}
+	prerequisite = {
+		focus = PRC_Tomb_of_the_Union15
+	}
+	x = 0
+	y = 2
+	relative_position_id = PRC_Tomb_of_the_Union15
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union25"
+		add_stability = 0.05
+		country_event = { id = PRC.2 days = 1 }
+	}
+}
+
+### Internal/Expansion tree ###
+shared_focus = {
+	id = PRC_expansion
+	icon = GFX_focus_generic_police
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	available = {
+		custom_trigger_tooltip = {
+			date > 1963.5.1
+		}
+	}
+	x = 7
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion"
+		add_political_power = 50
+		country_event = { id = PRC_expansion.1 }
+		RUS_Smuta_Enable = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion2
+	icon = GFX_focus_generic_communist_ensure_loyalty
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_expansion
+	}
+	x = -3
+	y = 1
+	relative_position_id = PRC_expansion
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion2"
+		TNO_improve_academic_base_high = yes
+		TNO_improve_industrial_expertise_high = yes
+		country_event = { id = PRC_expansion.2 }
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion3
+	icon = GFX_focus_generic_communist_offer_our_thanks
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_expansion2
+	}
+	x = 0
+	y = 2
+	relative_position_id = PRC_expansion2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion3"
+		set_temp_variable = { Y = 0.03 }
+		RUS_Smuta_SuppliesWeeklyGain_Add_Y = yes
+		TNO_improve_agriculture_low = yes
+		TNO_improve_education_policy_effectiveness_med = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion4
+	icon = GFX_focus_generic_workers_for_business
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_expansion
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_expansion
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion4"
+		add_war_support = 0.05
+		SIB_increase_resources_med = yes
+		TNO_improve_conscription_policy_effectiveness_med = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion5
+	icon = GFX_focus_generic_corporate_wealth_red
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_expansion4
+	}
+	mutually_exclusive = {
+		focus = PRC_expansion6
+	}
+	x = -2
+	y = 1
+	relative_position_id = PRC_expansion4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion5"
+		set_temp_variable = { Y = -5 }
+		RUS_Smuta_Chaos_Mission_Cost_Add_Y = yes
+		TNO_improve_admin_efficiency_med = yes
+		SIB_increase_efficiency_gain_low = yes
+		country_event = { id = PRC_expansion.15 }
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion6
+	icon = GFX_focus_generic_the_industrial_security_council
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_expansion4
+	}
+	mutually_exclusive = {
+		focus = PRC_expansion5
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_expansion4
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion6"
+		set_temp_variable = { Y = -30 }
+		RUS_Smuta_Chaos_Add_Y = yes
+		TNO_improve_admin_efficiency_low = yes
+		SIB_increase_efficiency_gain_med = yes
+		country_event = { id = PRC_expansion.16 }
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion7
+	icon = GFX_focus_generic_industrial_data_consolidation
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_expansion5
+		focus = PRC_expansion6
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_expansion5
+	available = {
+		set_temp_variable = { Y = 200 }
+		RUS_Smuta_ScriptedTrigger_Chaos_LessThanY = yes
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion7"
+		set_temp_variable = { Y = 30 }
+		RUS_Smuta_Chaos_Add_Y = yes
+		set_temp_variable = { Y = 0.2 }
+		RUS_Smuta_Supplies_Add_Y = yes
+		SIB_increase_max_efficiency_med = yes
+		country_event = { id = PRC_expansion.17 }
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion8
+	icon = GFX_focus_generic_controlled_politics
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_expansion3
+	}
+	prerequisite = {
+		focus = PRC_expansion7
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_expansion3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion8"
+		set_temp_variable = { Y = 0.8 }
+		RUS_Smuta_Smuta_CoringCost_MultiplyBy_Y = yes
+		TNO_worsen_political_parties_policy_effectiveness_high = yes
+		country_event = { id = PRC_expansion.18 }
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion9
+	icon = GFX_focus_generic_purge_the_bureaucrats
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_expansion
+	}
+	x = 3
+	y = 1
+	relative_position_id = PRC_expansion
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion9"
+		set_temp_variable = { Y = 40 }
+		RUS_Smuta_Chaos_Add_Y = yes
+		set_temp_variable = { Y = -5 }
+		RUS_Smuta_Chaos_Mission_Cost_Add_Y = yes
+		add_stability = 0.2
+		add_command_power = 60
+		TNO_improve_security_policy_effectiveness_monthly_med = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion10
+	icon = GFX_focus_generic_purge_the_officers
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_expansion9
+	}
+	x = -1
+	y = 1
+	relative_position_id = PRC_expansion9
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion10"
+		set_temp_variable = { Y = 0.8 }
+		RUS_Smuta_Smuta_CoringCost_MultiplyBy_Y = yes
+		set_temp_variable = { Y = -0.01 }
+		RUS_Smuta_SuppliesWeeklyGain_Add_Y = yes
+		TNO_worsen_vote_franchise_policy_effectiveness_med = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion11
+	icon = GFX_focus_generic_eviction_order
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_expansion9
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_expansion9
+	available = {
+		set_temp_variable = { Y = 200 }
+		RUS_Smuta_ScriptedTrigger_Chaos_LessThanY = yes
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion11"
+		set_temp_variable = { Y = 25 }
+		RUS_Smuta_Chaos_Add_Y = yes
+		set_temp_variable = { Y = 0.02 }
+		RUS_Smuta_SuppliesWeeklyGain_Add_Y = yes
+		SIB_increase_ic_low = yes
+		SIB_increase_worker_tension_low = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion12
+	icon = GFX_focus_generic_guns_for_cash
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_expansion6
+		focus = PRC_expansion7
+	}
+	prerequisite = {
+		focus = PRC_expansion10
+	}
+	prerequisite = {
+		focus = PRC_expansion11
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_expansion10
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion12"
+		set_temp_variable = { debt_temp = 0.1 }
+		econ_national_debt_change = yes
+		SIB_decrease_worker_tension_low = yes
+		SIB_increase_construction_speed_low = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion13
+	icon = GFX_focus_generic_red_junta
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_expansion12
+	}
+	x = -1
+	y = 1
+	relative_position_id = PRC_expansion12
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion13"
+		SIB_decrease_worker_tension_med = yes
+		set_temp_variable = { Y = -25 }
+		RUS_Smuta_Chaos_Add_Y = yes
+		set_temp_variable = { Y = 1.2 }
+		RUS_Smuta_Smuta_CoringCost_MultiplyBy_Y = yes
+	}
+}
+
+shared_focus = {
+	id = PRC_expansion14
+	icon = GFX_focus_RUS_red_siberia
+	cost = 4.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	available = {
+		RUS_Smuta_ScriptedTrigger_OnlyOneContenderLeft = yes
+	}
+	prerequisite = {
+		focus = PRC_expansion8
+	}
+	prerequisite = {
+		focus = PRC_expansion13
+	}
+	x = 2
+	y = 1
+	relative_position_id = PRC_expansion8
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_expansion14"
+		RUS_Smuta_Disable = yes
+		country_event = { id = PRC_expansion.13 days = 1 }
+	}
+}

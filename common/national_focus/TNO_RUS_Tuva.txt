@@ -1,0 +1,25 @@
+focus_tree = {
+	id = PRC_tuva_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	default = no
+	shared_focus = PRC_Tomb_of_the_Union
+}
+
+focus_tree = {
+	id = PRC_expansion
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	default = no
+	shared_focus = PRC_expansion
+}
