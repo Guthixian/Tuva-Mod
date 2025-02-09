@@ -23,3 +23,16 @@ focus_tree = {
 	default = no
 	shared_focus = PRC_expansion
 }
+
+focus_tree = {
+	id = PRC_regional
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	default = no
+	shared_focus = PRC_regional
+}

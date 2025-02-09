@@ -897,3 +897,611 @@ shared_focus = {
 		country_event = { id = PRC_expansion.13 days = 1 }
 	}
 }
+
+### Regional tree ###
+
+### Poltical Section ###
+shared_focus = {
+		id = PRC_regional
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		x = 4
+		y = 0
+
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional"
+			country_event = { id = PRC.38 days = 1 }
+			add_political_power = 75
+			remove_ideas = TYM_trove_of_salvage
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional2
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional
+		}
+		mutually_exclusive = {
+			focus = PRC_regional3
+		}
+		x = -1
+		y = 1
+		relative_position_id = PRC_regional
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			country_event = {
+				id = PRC.156
+				days = 2
+			}
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional2"
+			add_ideas = TYM_honor_the_party
+			TNO_improve_political_parties_policy_effectiveness_med = yes
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional3
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional
+		}
+		mutually_exclusive = {
+			focus = PRC_regional2
+		}
+		x = 1
+		y = 1
+		relative_position_id = PRC_regional
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			hidden_effect = {
+				add_to_variable = {
+					khrushchev_coup = 1
+				}
+			}
+			country_event = {
+				id = PRC.157
+				days = 2
+			}
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional3"
+			add_ideas = TYM_honor_the_worker
+			TNO_improve_vote_franchise_policy_effectiveness_med = yes
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional4
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional2
+			focus = PRC_regional3
+		}
+		x = 1
+		y = 1
+		relative_position_id = PRC_regional2
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional4"
+			custom_effect_tooltip = TYM_reflect_upon_stalins_word_tt
+			country_event = {
+				id = PRC.122
+				days = 1
+			}
+			add_popularity = {
+				ideology = communist
+				popularity = 0.05
+			}
+			RUS_decrease_administrative_strain = yes
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional5
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional4
+		}
+		x = -4
+		y = 1
+		relative_position_id = PRC_regional4
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional5"
+			add_stability = 0.025
+			country_event = { id = TYM.60 days = 1 }
+			social_funding_minimal_increase_low = yes
+			social_funding_maximal_increase_low = yes
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional6
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional5
+		}
+		mutually_exclusive = {
+			focus = PRC_regional7
+		}
+		x = -1
+		y = 1
+		relative_position_id = PRC_regional5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional6"
+			tno_gender_rights_improve = yes
+			TNO_improve_gender_rights_policy_effectiveness_monthly_high = yes
+			add_to_variable = { TYM_stalinism_conscription_factor = 0.05 }
+			add_to_variable = { TYM_stalinism_stability_factor = -0.025 }
+			custom_effect_tooltip = TYM_stalinism_conscription_factor_increase_05_tt
+			custom_effect_tooltip = TYM_stalinism_stability_factor_decrease_025_tt
+			custom_effect_tooltip = TYM_khrushchev_coup_tt
+			add_to_variable = { khrushchev_coup = 1 }
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional7
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional5
+		}
+		mutually_exclusive = {
+			focus = PRC_regional6
+		}
+		x = 1
+		y = 1
+		relative_position_id = PRC_regional5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional7"
+			tno_women_worsen = yes
+			if = {
+				limit = {
+					NOT = {
+						has_idea = tno_gender_rights_traditional_roles
+					}
+				}
+				add_ideas = tno_gender_rights_traditional_roles
+			}
+			TNO_improve_gender_rights_policy_effectiveness_monthly_low = yes
+			add_to_variable = { TYM_stalinism_population_factor = 0.10 }
+			add_to_variable = { TYM_stalinism_ic_factor = -0.05 }
+			add_to_variable = { TYM_stalinism_stability_factor = 0.025 }
+			custom_effect_tooltip = TYM_stalinism_population_factor_increase_1_tt
+			custom_effect_tooltip = TYM_stalinism_ic_factor_decrease_05_tt
+			custom_effect_tooltip = TYM_stalinism_stability_factor_increase_025_tt
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional8
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional6
+			focus = PRC_regional7
+		}
+		mutually_exclusive = {
+			focus = PRC_regional9
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional6
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus TYM_spiritual_and_political_flourishing"
+			add_political_power = 50
+			country_event = {
+				id = TYM.61
+				days = 1
+			}
+			custom_effect_tooltip = TYM_khrushchev_coup_tt
+			add_to_variable = { khrushchev_coup = 1 }
+			TNO_improve_public_meetings_policy_effectiveness_monthly_low = yes
+			TNO_improve_press_rights_policy_effectiveness_monthly_low = yes
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional9
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional6
+			focus = PRC_regional7
+		}
+		mutually_exclusive = {
+			focus = PRC_regional8
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional7
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional9"
+			add_to_variable = { TYM_stalinism_stability_factor = 0.025 }
+			custom_effect_tooltip = TYM_stalinism_stability_factor_increase_025_tt
+			add_to_variable = { TYM_stalinism_building_speed_factor = 0.05 }
+			custom_effect_tooltip = TYM_stalinism_building_speed_factor_increase_05_tt
+			country_event = {
+				id = PRC.62
+				days = 1
+			}
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional10
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional4
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional4
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional10"
+			add_war_support = 0.025
+			country_event = {
+				id = PRC.63
+				days = 1
+			}
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional11
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional10
+		}
+		mutually_exclusive = {
+			focus = PRC_regional12
+		}
+		x = -1
+		y = 1
+		relative_position_id = PRC_regional10
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional11"
+			tno_immigration_improve = yes
+			tno_refugees_improve = yes
+			add_to_variable = { TYM_stalinism_trade_opinion_factor = 0.1 }
+			custom_effect_tooltip = TYM_stalinism_trade_opinion_factor_increase_1_tt
+			custom_effect_tooltip = TYM_khrushchev_coup_tt
+			add_to_variable = { khrushchev_coup = 1 }
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional12
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional10
+		}
+		mutually_exclusive = {
+			focus = PRC_regional11
+		}
+		x = 1
+		y = 1
+		relative_position_id = PRC_regional10
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional12"
+			tno_immigration_worsen = yes
+			tno_refugees_worsen = yes
+			TNO_improve_immigration_policy_effectiveness_monthly_low = yes
+			TNO_improve_immigration_policy_effectiveness_monthly_low = yes
+			add_to_variable = { TYM_stalinism_trade_opinion_factor = -0.1 }
+			custom_effect_tooltip = TYM_stalinism_trade_opinion_factor_decrease_1_tt
+			add_to_variable = { TYM_stalinism_export_factor = -0.1 }
+			custom_effect_tooltip = TYM_stalinism_export_factor_decrease_1_tt
+			hidden_effect = {
+				country_event = {
+					id = PRC.64
+					days = 1
+				}
+			}
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional13
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional11
+			focus = PRC_regional12
+		}
+		mutually_exclusive = {
+			focus = PRC_regional14
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional11
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional13"
+			tno_minorities_improve = yes
+			add_stability = 0.1
+			add_political_power = -25
+			RUS_decrease_administrative_strain = yes
+			custom_effect_tooltip = TYM_khrushchev_coup_tt
+			add_to_variable = { khrushchev_coup = 1 }
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional14
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional11
+			focus = PRC_regional12
+		}
+		mutually_exclusive = {
+			focus = PRC_regional13
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional12
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional14"
+			add_political_power = 25
+			#TNO_worsen_minorities_policy_effectiveness_monthly_med = yes
+			add_popularity = {
+				ideology = communist
+				popularity = -0.05
+			}
+			add_to_variable = { TYM_stalinism_population_factor = -0.025 }
+			custom_effect_tooltip = TYM_stalinism_population_factor_decrease_025_tt
+			RUS_decrease_administrative_strain = yes
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional15
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional4
+		}
+		x = 4
+		y = 1
+		relative_position_id = PRC_regional4
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional15"
+			RUS_decrease_administrative_strain = yes
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional16
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional15
+		}
+		mutually_exclusive = {
+			focus = PRC_regional17
+		}
+		x = -1
+		y = 1
+		relative_position_id = PRC_regional15
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional16"
+			tno_vote_franchise_improve = yes
+			add_to_variable = { TYM_stalinism_political_power_factor = -0.025 }
+			custom_effect_tooltip = TYM_stalinism_political_power_factor_decrease_025_tt
+			TNO_improve_vote_franchise_policy_effectiveness_med = yes
+			add_popularity = {
+				ideology = socialist
+				popularity = 0.03
+			}
+			custom_effect_tooltip = TYM_khrushchev_coup_tt
+			add_to_variable = { khrushchev_coup = 1 }
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional17
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional15
+		}
+		mutually_exclusive = {
+			focus = PRC_regional16
+		}
+		x = 1
+		y = 1
+		relative_position_id = PRC_regional15
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional17"
+			add_stability = 0.05
+			add_to_variable = { TYM_stalinism_political_power_factor = 0.025 }
+			custom_effect_tooltip = TYM_stalinism_political_power_factor_increase_025_tt
+			TNO_improve_vote_franchise_policy_effectiveness_med = yes
+			add_popularity = {
+				ideology = socialist
+				popularity = -0.05
+			}
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional18
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional16
+			focus = PRC_regional17
+		}
+		mutually_exclusive = {
+			focus = PRC_regional19
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional16
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional18"
+			add_popularity = {
+				ideology = socialist
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = paternalism
+				popularity = 0.04
+			}
+			add_stability = 0.05
+			TNO_improve_admin_efficiency_low = yes
+			add_to_variable = { TYM_stalinism_conscription_factor = -0.05 }
+			custom_effect_tooltip = TYM_stalinism_conscription_factor_decrease_05_tt
+			RUS_decrease_administrative_strain = yes
+			add_to_variable = { khrushchev_coup = 1 }
+			custom_effect_tooltip = TYM_khrushchev_coup_tt
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional19
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional16
+			focus = PRC_regional17
+		}
+		mutually_exclusive = {
+			focus = PRC_regional18
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional17
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional19"
+			country_event = {
+				id = TYM.123
+				days = 1
+			}
+			add_popularity = {
+				ideology = socialist
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = paternalism
+				popularity = -0.04
+			}
+			add_political_power = 25
+			TNO_worsen_admin_efficiency_low = yes
+			add_to_variable = { TYM_stalinism_consumer_goods_factor = -0.05 }
+			custom_effect_tooltip = TYM_stalinism_consumer_goods_factor_decrease_05_tt
+			RUS_decrease_administrative_strain = yes
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional20
+		icon = GFX_focus_generic_socialist_constitution
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional8
+			focus = PRC_regional9
+		}
+		prerequisite = {
+			focus = PRC_regional13
+			focus = PRC_regional14
+		}
+		prerequisite = {
+			focus = PRC_regional18
+			focus = PRC_regional19
+		}
+		x = 1
+		y = 1
+		relative_position_id = PRC_regional13
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional20"
+			hidden_effect = {
+				if = {
+					limit = {
+						check_variable = { khrushchev_coup > 3 }
+						NOT = { has_country_flag = TYM_coup_happened }
+					}
+					country_event = { id = TYM_khrushchev.1 days = 2 }
+				}
+				else_if = {
+					limit = { 
+						NOT = { check_variable = { khrushchev_coup > 3 } }
+						NOT = { has_country_flag = TYM_coup_happened }
+					}
+					country_event = { id = TYM.136 days = 2 } 
+				}
+			}
+			custom_effect_tooltip = TYM_fate_of_the_union_tt
+			country_event = { id = TYM.39 days = 1 }
+			RUS_decrease_administrative_strain = yes
+			set_country_flag = RUS_REGIONAL_POLITICAL_TREE_DONE
+			custom_effect_tooltip = RUS_unlock_race_to_urals_tt
+			TNO_improve_health_care_policy_effectiveness_monthly_low = yes
+			TNO_improve_income_taxation_policy_effectiveness_monthly_low = yes
+			#TNO_improve_child_labor_policy_effectiveness_monthly_high = yes
+		}
+	}

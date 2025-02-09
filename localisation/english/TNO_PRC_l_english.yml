@@ -37,6 +37,8 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_Jambyn_Batmonkh_eco_desc: "§YEconomy Minister\nLeft-Wing Corporatism§!\n--------------\n"
  PRC_Jamiyangiin_Lkhagvasuren: "Yuri Churbanov"
  PRC_Jamiyangiin_Lkhagvasuren_sec_desc: "§YSecurity Minister\nOligarchy§!\n--------------\n"
+ PRC_Salchak_Toka: "Salchak Toka"
+ 
  
  PRC_Issa_Pliev: "Issa Pliev"
  PRC_Pavel_Batitsky: "Pavel Batitsky"
@@ -57,6 +59,8 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC.1.a: "Russkiy, Mir..."
  
  ### Focus Tree ###
+ 
+ ### Intro
  PRC_Tomb_of_the_Union: "Persisting"
  PRC_Tomb_of_the_Union2: "Soviet Nostalgia"
  PRC_Tomb_of_the_Union3: "Our Grand Legacy"
@@ -82,6 +86,8 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_Tomb_of_the_Union23: "Rapid-fire Tactics"
  PRC_Tomb_of_the_Union24: "Let's Go!"
  PRC_Tomb_of_the_Union25: "Ending the Anarchy"
+ 
+ ###Smuta
  PRC_expansion: "A Little Police Action"
  PRC_expansion2: "The Common Soldier"
  PRC_expansion3: "A System For Everyone"
@@ -96,3 +102,27 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_expansion12: "...With More Compatible Clients"
  PRC_expansion13: "A Mostly Orderly State"
  PRC_expansion14: "Looking Eastwards"
+ 
+ ### Regional ###
+ 
+ ### Political
+ PRC_regional: "Political Tree (Regional)"
+ PRC_regional2: "WIP"
+ PRC_regional3: "WIP"
+ PRC_regional4: "WIP"
+ PRC_regional5: "WIP"
+ PRC_regional6: "WIP"
+ PRC_regional7: "WIP"
+ PRC_regional8: "WIP"
+ PRC_regional9: "WIP"
+ PRC_regional10: "WIP"
+ PRC_regional11: "WIP"
+ PRC_regional12: "WIP"
+ PRC_regional13: "WIP"
+ PRC_regional14: "WIP"
+ PRC_regional15: "WIP"
+ PRC_regional16: "WIP"
+ PRC_regional17: "WIP"
+ PRC_regional18: "WIP"
+ PRC_regional19: "WIP"
+ PRC_regional20: "Politics Done"
