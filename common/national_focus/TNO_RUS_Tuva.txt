@@ -35,4 +35,5 @@ focus_tree = {
 	}
 	default = no
 	shared_focus = PRC_regional
+	shared_focus = PRC_regional21
 }
