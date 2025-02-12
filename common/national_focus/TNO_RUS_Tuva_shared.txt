@@ -2025,3 +2025,317 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional44"
 		}
 	}
+	
+	
+### Military Section ###
+shared_focus = {
+	id = PRC_regional45
+	icon = GFX_focus_generic_communist_officer
+	x = 30
+	y = 0
+	cost = 3.6
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+			has_completed_focus = PRC_regional43
+		}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_regional45"
+		country_event = { id = PRC.29 }
+	}
+}
+
+shared_focus = {
+		id = PRC_regional46
+		icon = GFX_focus_generic_question_the_army
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional45
+		}
+		x = -2
+		y = 1
+		relative_position_id = PRC_regional45
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional46"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional47
+		icon = GFX_focus_generic_army_focus_red
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional45
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional45
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional47"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional48
+		icon = GFX_focus_generic_socialist_plane
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional45
+		}
+		x = 2
+		y = 1
+		relative_position_id = PRC_regional45
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional48"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional49
+		icon = GFX_focus_generic_red_junta
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional46
+		}
+		x = -2
+		y = 1
+		relative_position_id = PRC_regional46
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = {
+		focus = PRC_regional50
+	}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional49"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional50
+		icon = GFX_focus_generic_red_junta
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional46
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional46
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = {
+		focus = PRC_regional49
+	}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional50"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional51
+		icon = GFX_focus_generic_red_junta
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional47
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional47
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional51"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional52
+		icon = GFX_focus_generic_red_junta
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional48
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional48
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = {
+		focus = PRC_regional53
+	}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional52"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional53
+		icon = GFX_focus_generic_red_junta
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional48
+		}
+		x = 2
+		y = 1
+		relative_position_id = PRC_regional48
+		ai_will_do = {
+			factor = 1
+		}
+		mutually_exclusive = {
+		focus = PRC_regional52
+	}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional53"
+		}
+	}
+
+shared_focus = {
+		id = PRC_regional54
+		icon = GFX_focus_generic_red_junta
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional49
+			focus = PRC_regional50
+		}
+		x = 1
+		y = 1
+		relative_position_id = PRC_regional49
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional54"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional55
+		icon = GFX_focus_generic_red_junta
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional52
+			focus = PRC_regional53
+		}
+		x = 1
+		y = 1
+		relative_position_id = PRC_regional52
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional55"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional56
+		icon = GFX_focus_generic_red_junta
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional51
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional51
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional56"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional57
+		icon = GFX_focus_generic_red_junta
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional54
+			focus = PRC_regional56
+		}
+		x = 1
+		y = 1
+		relative_position_id = PRC_regional54
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional57"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional58
+		icon = GFX_focus_generic_red_junta
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional55
+			focus = PRC_regional56
+		}
+		x = -1
+		y = 1
+		relative_position_id = PRC_regional55
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional57"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional59
+		icon = GFX_focus_generic_red_junta
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional54
+			focus = PRC_regional55
+			focus = PRC_regional56
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional56
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional59"
+		}
+	}
+
+shared_focus = {
+		id = PRC_regional60
+		icon = GFX_focus_generic_new_model_army
+		cost = 3.6
+		prerequisite = {
+			focus = PRC_regional57
+			}
+		prerequisite = {
+			focus = PRC_regional58
+			}
+		prerequisite = {
+			focus = PRC_regional59
+		}
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional59
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional60"
+		}
+	}
