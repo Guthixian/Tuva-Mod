@@ -20,8 +20,8 @@
 PRC_red_army_dynamic_modifier: "Vasilevsky's Red Army"
 PRC_red_army_dynamic_modifier_desc: "loredump"
 
-PRC_factionalism: "Home of the Dnipropetrovsk Mafia"
-PRC_factionalism_desc: "Name pending since Ukraine was German by 1948 RIP... but it's Brezhnev's guys."
+PRC_factionalism: "Home of the Brezhnev Mafia"
+PRC_factionalism_desc: "I love corruption!!!!!"
 PRC_democratic_military: "Corrupted Remnant"
 PRC_democratic_military_desc: "tldr Tuva is the last remaining legitimate bastion of the old, Bukharinist USSR but it's sort of forgot what communism actually was over time"
 
@@ -31,11 +31,11 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  ### Characters ###
  PRC_Grigory_Shtern: "Leonid Brezhnev"
  PRC_Grigory_Shtern_hog_desc: "§YPremier of the USSR\nAnocracy§!\n--------------\n"
- PRC_Ivan_Ivanov: "Andrei Kirilenko"
+ PRC_Ivan_Ivanov: "Frol Kozlov"
  PRC_Ivan_Ivanov_for_desc: "§YForeign Minister\nSocial Nationalism§!\n--------------\n"
- PRC_Jambyn_Batmonkh: "Nikolai Tikhonov"
+ PRC_Jambyn_Batmonkh: "Andrei Kirilenko"
  PRC_Jambyn_Batmonkh_eco_desc: "§YEconomy Minister\nLeft-Wing Corporatism§!\n--------------\n"
- PRC_Jamiyangiin_Lkhagvasuren: "Yuri Churbanov"
+ PRC_Jamiyangiin_Lkhagvasuren: "Semyon Tsvigun"
  PRC_Jamiyangiin_Lkhagvasuren_sec_desc: "§YSecurity Minister\nOligarchy§!\n--------------\n"
  PRC_Salchak_Toka: "Salchak Toka"
  
