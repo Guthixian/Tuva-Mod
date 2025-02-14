@@ -2339,3 +2339,335 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional60"
 		}
 	}
+	
+shared_focus = {
+		id = PRC_regional61
+		icon = GFX_focus_generic_the_spectre_that_haunts_the_world
+		cost = 3.6
+		x = 42
+		y = 0
+		available = {
+		has_completed_focus = PRC_regional60
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional61"
+			add_political_power = 75
+			country_event = { id = zhukovregional.6 days = 1 }
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional62
+		icon = GFX_focus_generic_orthographic_russia
+		cost = 3.6
+		x = -3
+		y = 1
+		relative_position_id = PRC_regional61
+		ai_will_do = {
+			factor = 20
+		}
+		mutually_exclusive = {
+			focus = PRC_regional63
+		}
+		prerequisite = {
+			focus = PRC_regional61
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional62"
+			custom_effect_tooltip = WRS_zhukov_regional_eyes_to_the_west_tt
+			WRS_zhukovregional_increase_yakovlev_influence_med = yes
+			WRS_zhukovregional_increase_akhromeyev_influence_low = yes
+			WRRFTangle_calcXY = yes
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional63
+		icon = GFX_focus_generic_socialism_first
+		cost = 3.6
+		x = 3
+		y = 1
+		relative_position_id = PRC_regional61
+		ai_will_do = {
+			factor = 20
+		}
+		mutually_exclusive = {
+			focus = PRC_regional62
+		}
+		prerequisite = {
+			focus = PRC_regional61
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional63"
+			custom_effect_tooltip = WRS_zhukov_regional_eyes_straight_ahead_tt
+			WRS_zhukovregional_increase_ryzhkov_influence_med = yes
+			WRRFTangle_calcXY = yes
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional64
+		icon = GFX_focus_generic_world
+		cost = 3.6
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional63
+		prerequisite = {
+			focus = PRC_regional63
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional64"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional65
+		icon = GFX_focus_generic_world
+		cost = 3.6
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional62
+		prerequisite = {
+			focus = PRC_regional62
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional65"
+		}
+	}
+
+shared_focus = {
+		id = PRC_regional66
+		icon = GFX_focus_generic_world
+		cost = 3.6
+		x = -2
+		y = 1
+		relative_position_id = PRC_regional65
+		prerequisite = {
+			focus = PRC_regional65
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional66"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional67
+		icon = GFX_focus_generic_world
+		cost = 3.6
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional65
+		prerequisite = {
+			focus = PRC_regional65
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional67"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional68
+		icon = GFX_focus_generic_world
+		cost = 3.6
+		x = 2
+		y = 1
+		relative_position_id = PRC_regional65
+		prerequisite = {
+			focus = PRC_regional65
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional68"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional69
+		icon = GFX_focus_generic_world
+		cost = 3.6
+		x = 1
+		y = 1
+		relative_position_id = PRC_regional66
+		prerequisite = {
+			focus = PRC_regional66
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional69"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional70
+		icon = GFX_focus_generic_world
+		cost = 3.6
+		x = -1
+		y = 1
+		relative_position_id = PRC_regional68
+		prerequisite = {
+			focus = PRC_regional68
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional68"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional71
+		icon = GFX_focus_generic_global_anti_fascism
+		cost = 3.6
+		x = 0
+		y = 2
+		relative_position_id = PRC_regional67
+		prerequisite = {
+			focus = PRC_regional67
+		}
+		prerequisite = {
+			focus = PRC_regional69
+		}
+		prerequisite = {
+			focus = PRC_regional70
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional71"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional72
+		icon = GFX_focus_generic_world
+		cost = 3.6
+		x = 2
+		y = 1
+		relative_position_id = PRC_regional64
+		prerequisite = {
+			focus = PRC_regional64
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional72"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional73
+		icon = GFX_focus_generic_world
+		cost = 3.6
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional72
+		prerequisite = {
+			focus = PRC_regional72
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional73"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional74
+		icon = GFX_focus_generic_world
+		cost = 3.6
+		x = -1.5
+		y = 1
+		relative_position_id = PRC_regional64
+		prerequisite = {
+			focus = PRC_regional64
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional74"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional75
+		icon = GFX_focus_generic_world
+		cost = 3.6
+		x = -1.5
+		y = 1
+		relative_position_id = PRC_regional74
+		prerequisite = {
+			focus = PRC_regional74
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional75"
+		}
+	}
+
+shared_focus = {
+		id = PRC_regional76
+		icon = GFX_focus_generic_world
+		cost = 3.6
+		x = 1.5
+		y = 1
+		relative_position_id = PRC_regional74
+		prerequisite = {
+			focus = PRC_regional74
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional76"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_regional77
+		icon = GFX_focus_generic_comintern
+		cost = 3.6
+		x = 0
+		y = 1
+		relative_position_id = PRC_regional76
+		prerequisite = {
+			focus = PRC_regional75
+		}
+		prerequisite = {
+			focus = PRC_regional76
+		}
+		prerequisite = {
+			focus = PRC_regional73
+		}
+		ai_will_do = {
+			factor = 20
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional77"
+		}
+	}

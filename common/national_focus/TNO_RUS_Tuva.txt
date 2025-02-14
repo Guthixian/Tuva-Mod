@@ -37,4 +37,5 @@ focus_tree = {
 	shared_focus = PRC_regional
 	shared_focus = PRC_regional21
 	shared_focus = PRC_regional45
+	shared_focus = PRC_regional61
 }
