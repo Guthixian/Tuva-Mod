@@ -1,0 +1,216 @@
+ideas = {
+	country = {
+		PRC_factionalism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_factionalism" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = PRC_directional_disputes
+			modifier = {
+				stability_factor = -0.3
+				political_power_gain = -0.5
+				misc_income_modifier = -0.05
+			}
+		}
+		PRC_factionalism2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_factionalism2" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = PRC_directional_disputes
+			modifier = {
+				stability_factor = -0.3
+				political_power_gain = -0.25
+				misc_income_modifier = -0.05
+			}
+		}
+		PRC_factionalism3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_factionalism3" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = PRC_directional_disputes
+			modifier = {
+				stability_factor = -0.15
+				misc_income_modifier = -0.10
+			}
+		}
+		PRC_factionalism4 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_factionalism4" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = PRC_directional_disputes
+			modifier = {
+				stability_factor = 0.10
+				misc_income_modifier = 0.10
+			}
+		}
+		PRC_propaganda = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_propaganda" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_communist_party_membership
+			modifier = {
+				stability_weekly_factor = 0.01
+				political_power_gain = 0.25
+			}
+		}
+		PRC_propaganda2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_propaganda2" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = BRY_for_the_forsaken
+			modifier = {
+				war_support_weekly_factor = 0.01
+				compliance_gain = 0.05
+			}
+		}
+		PRC_democratic_military = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_democrattic_military" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = PRC_democratic_military
+			modifier = {
+				army_org_factor = -0.10
+				political_power_gain = 0.25
+			}
+		}
+		PRC_democratic_military2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_democrattic_military2" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = PRC_democratic_military
+			modifier = {
+				army_org_factor = 0.10
+				political_power_gain = 0.50
+			}
+		}
+		PRC_unclear_war_communism = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_unclear_war_communism2" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_communist_economy_2
+			modifier = {
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		PRC_war_communism2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_war_communism2" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_communist_economy_2
+			modifier = {
+				political_power_gain = -0.25
+			}
+		}
+		PRC_war_communism3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_war_communism3" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_communist_economy_2
+			modifier = {
+			political_power_gain = 0.25
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		PRC_war_communism_profit = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_war_communism_profit" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_money_locked_down
+			modifier = {
+				misc_income_modifier = 0.02
+			}
+		}
+		PRC_war_communism_populist = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_war_communism_populist" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_communist_workers
+			modifier = {
+				production_speed_buildings_factor = 0.02
+				industrial_capacity_factory = 0.02
+				consumer_goods_production_factor = 0.02
+			}
+		}
+	}
+}

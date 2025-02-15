@@ -1,5 +1,6 @@
 ### PRC events yay
 
+
 add_namespace = PRC
 add_namespace = PRC_expansion
 
@@ -13,8 +14,11 @@ country_event = { #Intro Event
 
 	option = {
 		name = PRC.1.a
+		hidden_effect = {
 		set_temp_variable = { temp_econ_GDP_boost_flat = 2 }
 			econ_GDP_boost_once_flat = yes
+			add_timed_idea = { idea = CEN_SIB_the_flight_east days = 365 }
+			}
 	}
 }
 

@@ -32,6 +32,7 @@ add_ideas = {
 	### National Spirits ###
 	RUS_warlord_manpower
 	RUS_warlord_econ
+	PRC_unclear_war_communism
 	PRC_democratic_military
 	PRC_factionalism
 	

@@ -5,6 +5,8 @@
  PRC_communist_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
  PRC_socialist_party: "VKP(b)"
  PRC_socialist_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
+ PRC_socialist_1_party: "VKP(b)"
+ PRC_socialist_1_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
  PRC_paternalism_party: "VKP(b)"
  PRC_paternalism_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
  PRC_paternalism_1_party: "VKP(b)"
@@ -22,8 +24,19 @@ PRC_red_army_dynamic_modifier_desc: "loredump"
 
 PRC_factionalism: "Home of the Brezhnev Mafia"
 PRC_factionalism_desc: "I love corruption!!!!!"
+PRC_factionalism2: "Home of the Brezhnev Mafia"
+PRC_factionalism3: "Home of the Brezhnev Mafia"
+PRC_factionalism4: "Home of the Brezhnev Mafia"
 PRC_democratic_military: "Corrupted Remnant"
 PRC_democratic_military_desc: "tldr Tuva is the last remaining legitimate bastion of the old, Bukharinist USSR but it's sort of forgot what communism actually was over time"
+PRC_democratic_military2: "Corrupted Remnant"
+PRC_unclear_war_communism: "Unclear War Communism"
+PRC_war_communism2: "Defining War Communism"
+PRC_war_communism3: "Secure Economy"
+PRC_war_communism_profit: "War Communist Profiteering"
+PRC_war_communism_populist: "War Communist Populism"
+PRC_propaganda: "Lenin, Bukharin, Brezhnev!"
+PRC_propaganda2: "Tuvan Indoctrination Campaign"
 
 PRC_preparation_for_war: "Prepared for War"
 PRC_preparation_for_war_desc: "The state's preparations have been completed, and all aspects of its economy have been tuned for wartime supply and production. Though its economic base is likely much smaller than those of its future enemies, this singular focus, and the very many optimizations made in its execution, should enable it to remain competitive, and engage on more equal ground."
@@ -57,6 +70,32 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC.1.t: "Tuva Intro"
  PRC.1.d: "Vasilevsky tried to hold the Siberian SR together after Bukharin died or whatever happened to him pregame, alongside Nikolai Shchelokov's Soviet police who was fighting a shadow war against the NKVD. Neither side won, the Union collapsed and now there's schizo rurikids and anarkiddies in the provinces oh no..."
  PRC.1.a: "Russkiy, Mir..."
+ 
+ PRC.2.t: "Three Men Meet in Kyzyl"
+ 
+ ###Tooltips###
+ 
+ PRC_Tomb_of_the_Union.tt: "§ROur Union§! will §GEndure§!..."
+ PRC_Tomb_of_the_Union2.tt: "§RNostalgia for communism§! will help us §Bconsolidate our position§!."
+ 
+ PRC_Tomb_of_the_Union6.tt: "We shall introduce those §YNKVD fascists§! to the taste of §Wlead§!!"
+ PRC_Tomb_of_the_Union7.tt: "We must help that §Ybrave young man§! defeat §RYagoda§!!"
+ PRC_Tomb_of_the_Union8.tt: "The §WCircle§! will §Yentrench§! itself further."
+ PRC_Tomb_of_the_Union9.tt: "With our §Wpower base§! secure, we can start distributing some of the §Yprofits§! to the §Rpeople§!!"
+ PRC_Tomb_of_the_Union10.tt: "We must define what form of §RWar Communism§! we will pursue."
+ PRC_Tomb_of_the_Union11.tt: "§RWar Communism§! will enrich the §WCircle§!!"
+ PRC_Tomb_of_the_Union12.tt: "§RWar Communism§! will placate the §WWorkers§!!"
+ 
+ PRC_Tomb_of_the_Union18.tt: "We will mobillize some elite §RSoviet Police§! divisions."
+ PRC_Tomb_of_the_Union19.tt: "§RVasilevsky§! will go on an expedition to find some §Ygun caches§!."
+ PRC_Tomb_of_the_Union20.tt: "§RSalchak Toka§! will rally some §GTuvan volunteers§! to our cause!"
+ PRC_Tomb_of_the_Union21.tt: "A §Ysmall tank division§! will be smuggled out of §GBarnaul§!!"
+ PRC_Tomb_of_the_Union22.tt: "§RPartisans§! from across §BCentral Siberia§! will join the fight!"
+ 
+ PRC_Tomb_of_the_Union24.tt: "The §RRed Army of the Far East§! is §Wmotivated§! and §Wready§!!"
+ 
+ PRC_Tomb_of_the_Unionpartypop1.tt: "Change Paternalism popularity: §G+1.00%§!"
+ PRC_Tomb_of_the_Unionpartypop2.tt: "Change Socialism popularity: §G+1.00%§!"
  
  ### Focus Tree ###
  
