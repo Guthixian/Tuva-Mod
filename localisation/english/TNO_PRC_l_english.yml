@@ -14,6 +14,14 @@
  PRC_paternalism_2_party: "VKP(b)"
  PRC_paternalism_2_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
  
+ ### Cosmetic Parties (unused for now)
+ PRC_national_socialism_party: "VKP(b)"
+ PRC_ultranationalism_party: "VKP(b)"
+ PRC_liberalism_party: "VKP(b)"
+ PRC_progressivism_party: "VKP(b)"
+ PRC_conservatism_party: "VKP(b)"
+ PRC_despotism_party: "VKP(b)"
+ 
  ### Leader Desc ###
  PRC_Aleksandr_Vasilevsky: "Aleksandr Vasilevsky" 
  POLITICS_ALEKSANDER_VASILEVSKY_DESC: "Aleksandr Mikhailovich Vasilevsky was the son of a Russian Orthodox priest and was expected to follow in his father's footsteps, but he was drawn to a military life and traded his seminarian's robes for a soldier's uniform. He fought in the Imperial Russian Army and rose through the ranks, but resigned his post during the October Revolution and spent much of the Russian Civil War commanding soldiers well behind the front lines. In the interwar years, he distinguished himself as a skilled organizer, and befriended other notable officers such as Alexander Yegorov, Mikhail Tukhachevsky, and Georgy Zhukov. When the Germans invaded, Vasilevsky was serving in Bukharin's general staff, and his ability to work well under pressure helped him rise through the ranks. But not even his skills could stop the evacuation of Moscow from degenerating into a mad stampede as soldiers, bureaucrats, and millions of civilians desperately fighting each other for a coveted safe passage out of the city.\n\nDetermined to help as much of the Red Army to survive as possible, Vasilevsky organized a semi-orderly retreat of the forces that escaped the Mozhaisk defense line and marched east, over the Urals. Their goal: the Mongolian People's Republic, where they could regroup and resume the offensive. But the opportunity never came, for the Japanese and their puppet state of Mengjiang had already invaded Ulaanbaatar and forced the remnants of the Mongolian Army into the steppes. Vasilevsky formed a tenuous alliance with the Mongolians, and the two armies set up a domain in the former Tuvan People's Republic. They were isolated from the West Russian War, the Siberian War and the fall of the People's Republic of Western Siberia. They gladly avoided Yagoda's government in Irkutsk, fearful that he would label their retreat as cowardice and have them shot for treason. But despite having no allies, Vasilevsky is still determined to rally his men, draft the battle plans, and fight their way back home."
@@ -38,6 +46,21 @@ PRC_war_communism_profit: "War Communist Profiteering"
 PRC_war_communism_populist: "War Communist Populism"
 PRC_propaganda: "Lenin, Bukharin, Brezhnev!"
 PRC_propaganda2: "Tuvan Indoctrination Campaign"
+PRC_Brezhnev_Constitution: "The Brezhnev Constitution"
+
+PRC_regionalpolitics6: "Race Riots!"
+PRC_regionalpolitics7: "Anti-Racist Demonstrations!"
+PRC_regionalpolitics8: "Militsiya Hero Cult!"
+PRC_regionalpolitics9: "Desecularization!"
+PRC_regionalpolitics11: "Volunteer Wave!"
+PRC_regionalpolitics12: "Draft Dodging!"
+PRC_regionalpolitics13: "Nomenklatura Flourishing!"
+PRC_regionalpolitics14: "Fortunate Sons!"
+PRC_regionalpolitics16: "Controlled Politics!"
+PRC_regionalpolitics17: "Spoils System!"
+PRC_regionalpolitics18: "Ethnic Conflict!"
+PRC_regionalpolitics19: "Russochauvinism!"
+
 
 PRC_preparation_for_war: "Prepared for War"
 PRC_preparation_for_war_desc: "The state's preparations have been completed, and all aspects of its economy have been tuned for wartime supply and production. Though its economic base is likely much smaller than those of its future enemies, this singular focus, and the very many optimizations made in its execution, should enable it to remain competitive, and engage on more equal ground."
@@ -95,10 +118,19 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  
  PRC_Tomb_of_the_Union24.tt: "The §RRed Army of the Far East§! is §Wmotivated§! and §Wready§!!"
  
+ PRC.regional14.tt: "Work will begin on the §RBrezhnev Constitution§!!"
+ PRC.regional15.tt: "We will add §Yimmigration§! and §Yreligious§! amendments to the §RBrezhnev Constitution§!."
+ PRC.regional10.tt: "We will rescind some of the §Yemergency conscription orders§! instated by §RVasilevsky§! during the §W1950s§!.
+ 
+ PRC_regional20.tt: "Surely the §Rpeople§! will love our §Yreforms§!!"
+ PRC_regional20_2.tt: "Based on our choices during the promulgation of the new Soviet constitution, the people will react."
+ 
  PRC_Tomb_of_the_Unionpartypop1.tt: "Change Paternalism popularity: §G+1.00%§!"
  PRC_Tomb_of_the_Unionpartypop2.tt: "Change Socialism popularity: §G+1.00%§!"
  
  PRC_events1.tt: "Now that we are back in control of §BCentral Siberia§!, the §WCircle§! can no longer finance the state as effectively."
+ 
+ PRC.hashadrevolt.tt: "We have sufficient control over §BCentral Siberia§!"
  
  ### Focus Tree ###
  
@@ -148,26 +180,26 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  ### Regional ###
  
  ### Political
- PRC_regional: "Political Tree (Regional)"
- PRC_regional2: "WIP"
- PRC_regional3: "WIP"
- PRC_regional4: "WIP"
- PRC_regional5: "WIP"
- PRC_regional6: "WIP"
- PRC_regional7: "WIP"
- PRC_regional8: "WIP"
- PRC_regional9: "WIP"
- PRC_regional10: "WIP"
- PRC_regional11: "WIP"
- PRC_regional12: "WIP"
- PRC_regional13: "WIP"
- PRC_regional14: "WIP"
- PRC_regional15: "WIP"
- PRC_regional16: "WIP"
- PRC_regional17: "WIP"
- PRC_regional18: "WIP"
- PRC_regional19: "WIP"
- PRC_regional20: "Politics Done"
+ PRC_regional: "Back Where We Started"
+ PRC_regional2: "Address Some Issues"
+ PRC_regional3: "Crush The Bandits!"
+ PRC_regional4: "Promulgating Soviet Fundamental Law"
+ PRC_regional5: "Article 1: State Of The Whole People"
+ PRC_regional6: "Increase Immigration Quotas"
+ PRC_regional7: "New Russocentric Model"
+ PRC_regional8: "Honoring The Soviet Police"
+ PRC_regional9: "Honoring The Russian Character"
+ PRC_regional10: "Article 3: Status of Conscription"
+ PRC_regional11: "Scale It Down"
+ PRC_regional12: "Scale It Up!"
+ PRC_regional13: "Fill The Nomenklatura"
+ PRC_regional14: "Leave Some Loopholes"
+ PRC_regional15: "Article 6: Leading Role Of The Party"
+ PRC_regional16: "A Guiding Force..."
+ PRC_regional17: "A Servant Of The People..."
+ PRC_regional18: "Of All The Soviet Union!"
+ PRC_regional19: "Of The Great Russian Motherland!"
+ PRC_regional20: "Signed; Leonid Ilyich Brezhnev [GetYear]"
  
  
  ###Economic

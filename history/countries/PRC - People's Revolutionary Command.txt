@@ -54,13 +54,13 @@ add_ideas = {
 	tno_vote_franchise_no_voting
 
 	### Military Laws ###
-	tno_conscription_broadened_conscription
-	tno_military_supervision_rules_of_engagement
-	tno_training_basic_training
+	tno_conscription_all_adults_serve
+	tno_military_supervision_no_supervision
+	tno_training_minimal_training
 	tno_draft_exemptions_none
 
 	### Social Laws ###
-	tno_health_care_low_income_protections
+	tno_health_care_service_for_care
 	tno_education_public_education
 	tno_penal_system_military_justice
 	tno_gender_rights_women_in_the_workplace

@@ -228,5 +228,215 @@ ideas = {
 				consumer_goods_production_factor = 0.02
 			}
 		}
+		PRC_Brezhnev_Constitution = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_Brezhnev_Constitution" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			}
+		
+		}
+		PRC_regionalpolitics6 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionalpolitics6" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			}
+		
+		}
+		PRC_regionalpolitics7 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionalpolitics7" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			stability_weekly_factor = -0.01
+			political_power_factor = -0.03
+			}
+		
+		}
+		PRC_regionalpolitics8 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionalpolitics8" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			political_power_gain = -0.15
+			stability_weekly = 0.005
+			weekly_manpower = -1500
+			}
+		
+		}
+		PRC_regionalpolitics9 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionalpolitics9" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			}
+		
+		}
+		PRC_regionalpolitics11 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionalpolitics11" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			conscription_factor = 0.10
+			army_morale_factor = 0.3
+			army_core_attack_factor = 0.15
+			}
+		
+		}
+		PRC_regionalpolitics12 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionalpolitics12" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			conscription_factor = -0.10
+			army_morale_factor = -0.3
+			army_core_attack_factor = -0.15
+			}
+		
+		}
+		PRC_regionalpolitics13 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionalpolitics13" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			misc_income_modifier = 0.15
+			}
+		
+		}
+		PRC_regionalpolitics14 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionalpolitics14" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			}
+		
+		}
+		PRC_regionalpolitics16 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionalpolitics16" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			socialist_drift = -0.009
+			communist_drift = -0.009
+			drift_defence_factor = -0.20
+			}
+		
+		}
+		PRC_regionalpolitics17 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionalpolitics17" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			}
+		
+		}
+		PRC_regionalpolitics18 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionalpolitics18" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			}
+		
+		}
+		PRC_regionalpolitics19 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionalpolitics19" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_constitution
+			modifier = {
+			}
+		
+		}
 	}
 }
