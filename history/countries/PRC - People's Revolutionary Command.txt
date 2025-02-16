@@ -34,7 +34,6 @@ add_ideas = {
 	RUS_warlord_econ
 	PRC_unclear_war_communism
 	PRC_democratic_military
-	RUS_savy_army
 	PRC_factionalism
 	
 	### Ministers ###

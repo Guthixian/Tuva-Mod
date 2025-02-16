@@ -129,6 +129,7 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_Tomb_of_the_Unionpartypop2.tt: "Change Socialism popularity: §G+1.00%§!"
  
  PRC_events1.tt: "Now that we are back in control of §BCentral Siberia§!, the §WCircle§! can no longer finance the state as effectively."
+ PRC_events2.tt: "Comrades §WShchelokov§! and §WBrezhnev§! will ensure §RVasilevsky's army§! is capable of sustaining itself."
  
  PRC.hashadrevolt.tt: "We have sufficient control over §BCentral Siberia§!"
  

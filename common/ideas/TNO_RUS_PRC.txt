@@ -1,6 +1,6 @@
 ideas = {
-	country = {
-		PRC_shadow_economy = {
+hidden_ideas = {
+PRC_shadow_economy = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_shadow_economy" }
 			allowed = {
 				always = no
@@ -12,10 +12,14 @@ ideas = {
 			removal_cost = -1
 			picture = generic_rampant_corruption
 			modifier = {
-				misc_income_modifier = 0.20
-				gdp_growth_modifier = 0.5
+				personnel_cost_modifier = -1.0
+				military_expenditures_factor = -1.0
+				misc_income_modifier = 0.02
+
 			}
 		}
+}
+	country = {
 		PRC_factionalism = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_factionalism" }
 			allowed = {
@@ -30,7 +34,6 @@ ideas = {
 			modifier = {
 				stability_factor = -0.3
 				political_power_gain = -0.5
-				misc_income_modifier = -0.05
 			}
 		}
 		PRC_factionalism2 = {
@@ -47,7 +50,6 @@ ideas = {
 			modifier = {
 				stability_factor = -0.3
 				political_power_gain = -0.25
-				misc_income_modifier = -0.05
 			}
 		}
 		PRC_factionalism3 = {
@@ -63,7 +65,6 @@ ideas = {
 			picture = PRC_directional_disputes
 			modifier = {
 				stability_factor = -0.15
-				misc_income_modifier = -0.10
 			}
 		}
 		PRC_factionalism4 = {
@@ -79,7 +80,6 @@ ideas = {
 			picture = PRC_directional_disputes
 			modifier = {
 				stability_factor = 0.10
-				misc_income_modifier = 0.10
 			}
 		}
 		PRC_propaganda = {
@@ -208,7 +208,7 @@ ideas = {
 			removal_cost = -1
 			picture = generic_money_locked_down
 			modifier = {
-				misc_income_modifier = 0.02
+				misc_income_modifier = 0.001
 			}
 		}
 		PRC_war_communism_populist = {
