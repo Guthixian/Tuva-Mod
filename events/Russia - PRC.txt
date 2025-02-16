@@ -53,6 +53,7 @@ country_event = { #Load regional tree
 	option = { #
 		name = PRC_expansion.13.a
 		ai_chance = { factor = 1 }
+		set_capital = { state = 570 }
 		custom_effect_tooltip = PRC_events1.tt
 		hidden_effect = {
 		remove_ideas = PRC_shadow_economy 

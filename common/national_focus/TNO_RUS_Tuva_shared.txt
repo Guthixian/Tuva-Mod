@@ -1529,6 +1529,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional18"
+			add_ideas = tno_refugees_open
 		}
 	}
 	
@@ -1551,6 +1552,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional19"
+		add_ideas =	tno_refugees_vetted_entry
 		}
 	}
 	

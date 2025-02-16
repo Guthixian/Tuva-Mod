@@ -79,7 +79,7 @@ add_ideas = {
 	tno_pollution_no_controls
 	tno_safety_minimal_regulations
 	tno_child_labor_illegal
-	tno_refugees_open
+	tno_refugees_not_applicable
 	tno_racial_integration_integrated_military
 	tno_women_combat_roles
 	tno_minorities_equal_rights
