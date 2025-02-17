@@ -1706,7 +1706,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional22"
 			PRC = {
-			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Dirigisme }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Banditry }
 			econ_subtype_change = yes
 		}
 		}
@@ -1734,7 +1734,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional23"
 			PRC = {
-			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Dirigisme }
 			econ_subtype_change = yes
 		}
 		}
