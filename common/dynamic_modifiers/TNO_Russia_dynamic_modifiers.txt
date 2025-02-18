@@ -120,6 +120,42 @@ PRC_red_army_dynamic_modifier = {
 	experience_gain_army_factor = PRC_RA_experience_gain_army_factor
 }
 
+PRC_benefits_scheme_dynamic_modifier = {
+	enable = { always = yes }
+	remove_trigger = { has_country_flag = PRC_remove_benefits_scheme }
+	icon = "GFX_idea_generic_black_market_payments"
+
+	gdp_growth_modifier = PRC_gdp_growth
+	misc_costs_modifier = PRC_misc_cost
+	misc_income_modifier = PRC_misc_income
+	political_power_gain = PRC_pp_gain
+	industrial_capacity_factory = PRC_factory_output
+}
+
+PRC_planonomics_dynamic_modifier = {
+	enable = { always = yes }
+	remove_trigger = { has_country_flag = PRC_remove_planonomics }
+	icon = "GFX_idea_generic_planned_economy"
+
+	gdp_growth_modifier = PRC_gdp_growth
+	misc_costs_modifier = PRC_misc_cost
+	misc_income_modifier = PRC_misc_income
+	political_power_gain = PRC_pp_gain
+	industrial_capacity_factory = PRC_factory_output
+}
+
+PRC_worker_populism_dynamic_modifier = {
+	enable = { always = yes }
+	remove_trigger = { has_country_flag = PRC_remove_worker_populism }
+	icon = "GFX_idea_generic_communist_workers"
+
+	gdp_growth_modifier = PRC_gdp_growth
+	misc_costs_modifier = PRC_misc_cost
+	misc_income_modifier = PRC_misc_income
+	political_power_gain = PRC_pp_gain
+	industrial_capacity_factory = PRC_factory_output
+}
+
 PRC_army_civilian_support = {
 	enable = { always = yes }
 	icon = "GFX_idea_generic_familial_connections"

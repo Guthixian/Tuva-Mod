@@ -41,6 +41,27 @@ country_event = { #Load expansion tree
 	}
 }
 
+country_event = { #Economic Restructuring
+	id = PRC.40
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.40" }
+	title = PRC.40.t
+	desc = PRC.40.d
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #
+		name = PRC.40.a
+		ai_chance = { factor = 1 }
+		PRC = {
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Banditry }
+			econ_subtype_change = yes
+		}
+		set_temp_variable = { econ_centralization_temp = -60 }
+		econ_centralization_change = yes
+	}
+}
 country_event = { #Manpower fix
 	id = PRC.63
 	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.63" }
