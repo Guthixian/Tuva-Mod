@@ -62,6 +62,37 @@ country_event = { #Economic Restructuring
 		econ_centralization_change = yes
 	}
 }
+
+country_event = { #Economic Outcome
+	id = PRC.43
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.43" }
+	title = PRC.43.t
+	desc = PRC.43.d
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #
+		name = PRC.43.a
+		ai_chance = { factor = 1 }
+		IF = {
+		limit = { has_completed_focus = PRC_regional22 }
+					set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Corporate_Oligopoly }
+					econ_subtype_change = yes
+		}
+		ELSE_IF = {
+		limit = { has_completed_focus = PRC_regional23 }
+					set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+					econ_type_change = yes
+		}
+		ELSE_IF = {
+		limit = { has_completed_focus = PRC_regional24 }
+					set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Worker_Directed }
+					econ_subtype_change = yes
+		}
+		}
+	}
 country_event = { #Manpower fix
 	id = PRC.63
 	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.63" }
