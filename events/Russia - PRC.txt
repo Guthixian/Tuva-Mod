@@ -83,8 +83,8 @@ country_event = { #Economic Outcome
 		}
 		ELSE_IF = {
 		limit = { has_completed_focus = PRC_regional23 }
-					set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
-					econ_type_change = yes
+					set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Dirigisme }
+					econ_subtype_change = yes
 		}
 		ELSE_IF = {
 		limit = { has_completed_focus = PRC_regional24 }
