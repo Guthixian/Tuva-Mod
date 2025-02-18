@@ -1821,10 +1821,9 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional25"
 			TNO_improve_poverty_med = yes
-			set_temp_variable = { gdp_growth_temp = 0.15 }
+			set_temp_variable = { gdp_growth_temp = 0.75 }
 			econ_gdp_growth_change = yes
-			set_temp_variable = { inflation_temp = 0.05 }
-			econ_inflation_change = yes
+			TNO_improve_industrial_expertise_low = yes
 		}
 	}
 	
@@ -1969,21 +1968,15 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional31"
-			set_temp_variable = { gdp_growth_temp = 0.15 }
-			econ_gdp_growth_change = yes
-			set_temp_variable = { inflation_temp = 0.05 }
-			econ_inflation_change = yes
-			random_owned_controlled_state = {
-				limit = {
-					state = 516
-					
-				add_resource = {
-					type = steel
-					amount = 8
-				}
+			TNO_improve_industrial_equipment_low = yes
+				random_owned_controlled_state = {
+				set_temp_variable = { temp_state_value_addition = 0.03 }
+				econ_state_value_change_addition = yes
 			}
-		}
-		TNO_improve_poverty_med = yes
+			random_owned_controlled_state = {
+				tset_temp_variable = { temp_state_value_addition = 0.03 }
+				econ_state_value_change_addition = yes
+			}
 	}
 	}
 shared_focus = {
