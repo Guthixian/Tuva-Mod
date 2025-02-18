@@ -93,26 +93,6 @@ country_event = { #Economic Outcome
 		}
 		}
 	}
-country_event = { #Manpower fix
-	id = PRC.63
-	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.63" }
-	title = PRC.63.t
-	desc = PRC.63.desc
-	picture = GFX_report_event_GNG_corruption_generic_2
-
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = { #
-		name = PRC.63.a
-		ai_chance = { factor = 1 }
-		hidden_effect = {
-			add_manpower = -2000000
-			add_manpower = 100000
-		}
-	}
-}
-
 country_event = { #Load regional tree
 	id = PRC_expansion.13
 	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_expansion.13" }

@@ -1347,6 +1347,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional10"
+			custom_effect_tooltip = PRC.regional10.tt
 			add_war_support = 0.025
 			hidden_effect = {
 			country_event = {
@@ -1354,7 +1355,6 @@ shared_focus = {
 				days = 1
 			}
 			}
-			custom_effect_tooltip = PRC.regional10.tt
 			hidden_effect = {
 			add_ideas = tno_conscription_broadened_conscription
 			add_ideas = tno_military_supervision_rules_of_engagement
