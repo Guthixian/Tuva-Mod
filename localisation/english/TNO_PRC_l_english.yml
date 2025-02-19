@@ -61,6 +61,12 @@ PRC_regionalpolitics17: "Spoils System!"
 PRC_regionalpolitics18: "Ethnic Conflict!"
 PRC_regionalpolitics19: "Russochauvinism!"
 
+PRC_regionaleconomy1: "Effects Of Full Employment Economy"
+PRC_regionaleconomy2: "Effects Of The Spoils System"
+PRC_regionaleconomy3: "Effects Of Return To Bukharinist Economy"
+PRC_regionaleconomy4: "Effects Of WIP something about self-management Economy"
+PRC_regionaleconomy5: "Effects Of Co-Optation Of The Kostin Movement"
+
 PRC_benefits_scheme_dynamic_modifier: "Nomenklatura-Directed Economic Outlook"
 PRC_planonomics_dynamic_modifier: "Planner-Directed Economic Outlook"
 PRC_worker_populism_dynamic_modifier: "Worker-Directed Economic Outlook"
@@ -100,6 +106,13 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC.1.a: "Russkiy, Mir..."
  
  PRC.2.t: "Three Men Meet in Kyzyl"
+ 
+ PRC.29.t: "Extent of Pension Reform"
+ PRC.29.d: "Placeholder loc \n\nEither do a small increase in investment, a medium one, a big one, or pocket the money"
+ PRC.29.a: "Spend a bit more on this."
+ PRC.29.b: "Increasing pensions further is a good idea."
+ PRC.29.c: "We will create a new pensioner class!"
+ PRC.29.e: "On second thought, let's pocket the investment instead."
  
  PRC.40.t: "Alienable Rights"
  PRC.40.d: "This is all placeholder text but look at my Brezhnev constitution IRL :goog: \n\nArticle 39 enabled the government to prohibit any activities it considered detrimental by stating that "Enjoyment of the rights and freedoms of citizens must not be to the detriment of the interests of society or the state." \n\nArticle 59 obliged citizens to obey the laws and comply with the standards of socialist society as determined by the Party. The government did not treat as inalienable those political and socioeconomic rights the Constitution granted to the people. Citizens enjoyed rights only when the exercise of those rights did not interfere with the interests of the state, and the CPSU alone had the power and authority to determine policies for the government and society."

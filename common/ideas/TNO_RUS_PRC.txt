@@ -438,5 +438,100 @@ PRC_shadow_economy = {
 			}
 		
 		}
+		PRC_regionaleconomy1 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionaleconomy1" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_generic_democracy_of_the_gentry
+			modifier = {
+			admin_efficiency_monthly_rate = -0.1
+			misc_cost_modifier = 0.075
+			stability_weekly_factor = -0.005
+			political_power_gain = 0.75
+			}
+		
+		}
+		PRC_regionaleconomy2 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionaleconomy2" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_generic_political_violence
+			modifier = {
+			admin_efficiency_monthly_rate = -0.1
+			misc_cost_modifier = 0.075
+			stability_weekly_factor = -0.005
+			political_power_gain = 0.75
+			}
+		
+		}
+		PRC_regionaleconomy3 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionaleconomy3" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_BRY_The_Ghost_Of_Bukharinism
+			modifier = {
+			admin_efficiency_monthly_rate = -0.1
+			misc_cost_modifier = 0.075
+			stability_weekly_factor = -0.005
+			political_power_gain = 0.75
+			}
+		
+		}
+		PRC_regionaleconomy4 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionaleconomy4" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_generic_innovative_workforce
+			modifier = {
+			admin_efficiency_monthly_rate = -0.1
+			misc_cost_modifier = 0.075
+			stability_weekly_factor = -0.005
+			political_power_gain = 0.75
+			}
+		
+		}
+		PRC_regionaleconomy5 = {
+		on_add = { log = "[GetDateText]: [Root.GetName]: add idea PRC_regionaleconomy5" }
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = RUS_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = idea_generic_purged_intelligentsia_communist
+			modifier = {
+			admin_efficiency_monthly_rate = -0.1
+			misc_cost_modifier = 0.075
+			stability_weekly_factor = -0.005
+			political_power_gain = 0.75
+			}
+		
+		}
 	}
 }

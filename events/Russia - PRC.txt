@@ -41,6 +41,43 @@ country_event = { #Load expansion tree
 	}
 }
 
+country_event = { # Extent of pensions for spoils system
+	id = PRC.29
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.29" }
+	title = PRC.29.t
+	desc = PRC.29.d
+	picture = GFX_report_generic_flatcap_worker
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #
+		name = PRC.29.a
+		ai_chance = { factor = 1 }
+		tno_pensions_improve = yes
+		set_temp_variable = { temp_econ_spending_amount = 0.12 }
+		econ_spend_money_once_effect_raw_money = yes
+	}
+	option = { #
+		name = PRC.29.b
+		ai_chance = { factor = 1 }
+		add_ideas = tno_pensions_acceptable_pensions
+		set_temp_variable = { temp_econ_spending_amount = 0.24 }
+		econ_spend_money_once_effect_raw_money = yes
+	}
+	option = { #
+		name = PRC.29.c
+		ai_chance = { factor = 1 }
+		add_ideas = tno_pensions_good_pensions
+		set_temp_variable = { temp_econ_spending_amount = 0.36 }
+		econ_spend_money_once_effect_raw_money = yes
+	}
+	option = { #
+		name = PRC.29.e
+		ai_chance = { factor = 1 }
+	}
+}
+
 country_event = { #Economic Restructuring
 	id = PRC.40
 	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.40" }

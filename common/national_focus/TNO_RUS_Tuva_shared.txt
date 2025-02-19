@@ -1132,6 +1132,7 @@ shared_focus = {
 			add_ideas = tno_penal_system_harsh_penal_code
 			add_ideas = tno_security_maintenance_of_order
 			add_ideas = tno_minimum_wage_collective_bargaining
+			RUS_decrease_administrative_strain = yes
 		}
 	}
 	
@@ -1163,6 +1164,7 @@ shared_focus = {
 			add_ideas = tno_penal_system_politicized_penal_system
 			add_ideas = tno_slavery_work_programs
 			add_ideas = tno_unemployment_full_employment_policy
+			RUS_decrease_administrative_strain = yes
 		}
 	}
 	
@@ -1222,6 +1224,7 @@ shared_focus = {
 			custom_effect_tooltip = PRC.regional15.tt
 			social_funding_minimal_increase_low = yes
 			social_funding_maximal_increase_low = yes
+			RUS_decrease_administrative_strain = yes
 		}
 	}
 	
@@ -1296,7 +1299,7 @@ shared_focus = {
 				id = PRC.61
 				days = 1
 			}
-			TNO_improve_religious_policy_effectiveness_med = yes
+			TNO_improve_security_policy_effectiveness_high = yes
 			}
 			
 		}
@@ -1360,6 +1363,7 @@ shared_focus = {
 			add_ideas = tno_military_supervision_rules_of_engagement
 			add_ideas = tno_health_care_low_income_protections
 			}
+			RUS_decrease_administrative_strain = yes
 
 		}
 	}
@@ -1824,6 +1828,8 @@ shared_focus = {
 			set_temp_variable = { gdp_growth_temp = 0.75 }
 			econ_gdp_growth_change = yes
 			TNO_improve_industrial_expertise_low = yes
+			set_temp_variable = { econ_centralization_temp = 5 }
+			econ_centralization_change = yes
 		}
 	}
 	
@@ -1882,6 +1888,8 @@ shared_focus = {
 				add_extra_state_shared_building_slots = 1
 				set_temp_variable = { state_value_multiplier_temp = 1.01 }
 				econ_state_value_change_multiply = yes
+				set_temp_variable = { econ_centralization_temp = 10 }
+			econ_centralization_change = yes
 			}
 		}
 	}
@@ -1905,6 +1913,8 @@ shared_focus = {
 			add_stability = 0.025
 			TNO_improve_penal_system_policy_effectiveness_low = yes
 			TNO_worsen_poverty_low = yes
+			set_temp_variable = { econ_centralization_temp = 5 }
+			econ_centralization_change = yes
 		}
 	}
 	
@@ -1925,8 +1935,12 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional29"
 			add_political_power = 25
 			add_stability = 0.025
+			tno_pensions_improve = yes
 			TNO_improve_security_policy_effectiveness_low = yes
 			TNO_worsen_poverty_low = yes
+			country_event = { id = PRC.29 }
+			set_temp_variable = { econ_centralization_temp = 5 }
+			econ_centralization_change = yes
 		}
 	}
 	
@@ -1977,6 +1991,8 @@ shared_focus = {
 				tset_temp_variable = { temp_state_value_addition = 0.03 }
 				econ_state_value_change_addition = yes
 			}
+			set_temp_variable = { econ_centralization_temp = 5 }
+			econ_centralization_change = yes
 	}
 	}
 shared_focus = {
@@ -2015,6 +2031,8 @@ shared_focus = {
 			econ_gdp_growth_change = yes
 			set_temp_variable = { temp_econ_spending_amount = 0.001 }
 			econ_spend_money_once_effect_raw_money = yes
+			set_temp_variable = { econ_centralization_temp = 5 }
+			econ_centralization_change = yes
 		}
 	}
 	
@@ -2055,6 +2073,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional33"
+			add_timed_idea = { idea = PRC_regionaleconomy3 days = 365 }
 		}
 	}
 	
@@ -2155,6 +2174,11 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional36"
+			add_timed_idea = { idea = PRC_regionaleconomy1 days = 365 }
+			TNO_worsen_academic_base_low = yes
+			TNO_worsen_education_policy_effectiveness_monthly_low = yes
+			set_temp_variable = { econ_centralization_temp = 15 }
+			econ_centralization_change = yes
 		}
 	}
 	
@@ -2176,12 +2200,14 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional37"
+			tno_press_rights_improve = yes
+			TNO_improve_press_rights_policy_effectiveness_med = yes
 		}
 	}
 	
 shared_focus = {
 		id = PRC_regional38
-		icon = GFX_focus_generic_class_cooperation
+		icon = GFX_focus_CAN_sickle_camera
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional26
@@ -2197,6 +2223,8 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional38"
+			tno_press_rights_worsen = yes
+			TNO_improve_press_rights_policy_effectiveness_high = yes
 		}
 	}
 shared_focus = {
@@ -2218,6 +2246,8 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional39"
+			TNO_improve_industrial_expertise_med = yes
+			TNO_improve_max_workhours_policy_effectiveness_monthly_low = yes
 		}
 	}
 
@@ -2258,6 +2288,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional40"
+			add_timed_idea = { idea = PRC_regionaleconomy4 days = 365 }
 		}
 	}
 	
@@ -2310,6 +2341,8 @@ shared_focus = {
 			econ_gdp_growth_change = yes
 			set_temp_variable = { temp_econ_spending_amount = 0.2 }
 			econ_spend_money_once_effect_raw_money = yes
+			set_temp_variable = { econ_centralization_temp = 5 }
+			econ_centralization_change = yes
 		}
 	}
 	
@@ -2351,6 +2384,9 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional42"
+			add_timed_idea = { idea = PRC_regionaleconomy2 days = 365 }
+			set_temp_variable = { econ_centralization_temp = 10 }
+			econ_centralization_change = yes
 		}
 	}
 	
@@ -2375,6 +2411,8 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional43"
 			country_event = { id = PRC.43 }
+			set_temp_variable = { econ_centralization_temp = -5 }
+			econ_centralization_change = yes
 		}
 	}
 	
@@ -2414,6 +2452,9 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional44"
+			add_timed_idea = { idea = PRC_regionaleconomy5 days = 365 }
+			set_temp_variable = { econ_centralization_temp = -10 }
+			econ_centralization_change = yes
 		}
 	}
 	
