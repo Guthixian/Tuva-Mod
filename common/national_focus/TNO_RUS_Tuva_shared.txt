@@ -616,7 +616,7 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_Tomb_of_the_Union21"
 		hidden_effect = {
-			country_event = { id = PRC.29 days = 1 }
+			country_event = { id = PRC.21 days = 1 }
 		}
 		custom_effect_tooltip = PRC_Tomb_of_the_Union21.tt
 		hidden_effect = {
@@ -2462,7 +2462,7 @@ shared_focus = {
 ### Military Section ###
 shared_focus = {
 	id = PRC_regional45
-	icon = GFX_focus_generic_communist_officer
+	icon = GFX_focus_RUS_summon_the_revolutionary_war_command
 	x = 30
 	y = 0
 	cost = 3.6
@@ -2474,13 +2474,15 @@ shared_focus = {
 		}
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_regional45"
-		country_event = { id = PRC.29 }
+		TNO_improve_training_policy_effectiveness_high = yes
+		tno_training_improve = yes
+		country_event = { id = PRC.45 }
 	}
 }
 
 shared_focus = {
 		id = PRC_regional46
-		icon = GFX_focus_generic_question_the_army
+		icon = GFX_focus_generic_a_standing_army
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional45
@@ -2498,7 +2500,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_regional47
-		icon = GFX_focus_generic_army_focus_red
+		icon = GFX_focus_IRK_security
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional45
@@ -2516,7 +2518,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_regional48
-		icon = GFX_focus_generic_socialist_plane
+		icon = GFX_focus_generic_helicopter_assault
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional45
@@ -2534,7 +2536,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_regional49
-		icon = GFX_focus_generic_red_junta
+		icon = GFX_focus_generic_question_the_army
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional46
@@ -2555,7 +2557,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_regional50
-		icon = GFX_focus_generic_red_junta
+		icon = GFX_focus_RUS_soldiers_marching
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional46
@@ -2576,7 +2578,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_regional51
-		icon = GFX_focus_generic_red_junta
+		icon = GFX_focus_IRK_in_the_trenches
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional47
@@ -2594,7 +2596,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_regional52
-		icon = GFX_focus_generic_red_junta
+		icon = GFX_focus_generic_helicopter_1
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional48
@@ -2615,7 +2617,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_regional53
-		icon = GFX_focus_generic_red_junta
+		icon = GFX_focus_generic_helicopter_red_cross
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional48
@@ -2636,7 +2638,7 @@ shared_focus = {
 
 shared_focus = {
 		id = PRC_regional54
-		icon = GFX_focus_generic_red_junta
+		icon = GFX_focus_RUS_soviet_men_marching
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional49
@@ -2655,7 +2657,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_regional55
-		icon = GFX_focus_generic_red_junta
+		icon = GFX_focus_COG_helicopter_combat
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional52
@@ -2669,12 +2671,34 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional55"
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_tech_bonus = {
+				name = air_equipment
+				bonus = 1.0
+				uses = 2
+				category = air_equipment
+			}
+			set_temp_variable = { temp_econ_spending_amount = 0.075 }
+			econ_spend_money_once_effect_raw_money = yes
 		}
 	}
 	
 shared_focus = {
 		id = PRC_regional56
-		icon = GFX_focus_generic_red_junta
+		icon = GFX_focus_generic_close_the_book
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional51
@@ -2692,7 +2716,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_regional57
-		icon = GFX_focus_generic_red_junta
+		icon = GFX_focus_generic_communist_officer
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional54
@@ -2711,7 +2735,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_regional58
-		icon = GFX_focus_generic_red_junta
+		icon = GFX_focus_generic_let_them_come
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional55
@@ -2730,7 +2754,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_regional59
-		icon = GFX_focus_generic_red_junta
+		icon = GFX_focus_generic_unite_the_garrison
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional54
