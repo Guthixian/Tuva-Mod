@@ -3200,3 +3200,332 @@ shared_focus = {
 			TNO_run_socintern_script = yes
 		}
 	}
+	
+	
+# Superregional Tree
+shared_focus = {
+		id = PRC_superregional
+		icon = GFX_focus_RUS_revolutionary_reconstruction_siberia
+		cost = 2.3
+		x = 4
+		y = 0
+		available = {
+		}
+
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional2
+		icon = GFX_focus_generic_technical_difficulties
+		cost = 2.3
+		x = -1
+		y = 1
+		relative_position_id = PRC_superregional
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional2"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional3
+		icon = GFX_focus_generic_peace_after_violence
+		cost = 2.3
+		x = 1
+		y = 1
+		relative_position_id = PRC_superregional
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional3"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional4
+		icon = GFX_focus_generic_technical_difficulties
+		cost = 2.3
+		x = 3
+		y = 1
+		relative_position_id = PRC_superregional
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional4"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional5
+		icon = GFX_focus_generic_technical_difficulties
+		cost = 2.3
+		x = -3
+		y = 1
+		relative_position_id = PRC_superregional
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional5"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional6
+		icon = GFX_focus_generic_finance_the_ports
+		cost = 2.3
+		x = 1
+		y = 1
+		relative_position_id = PRC_superregional5
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional2
+		}
+prerequisite = {
+			focus = PRC_superregional5
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional6"
+			TNO_improve_industrial_equipment_med = yes
+			set_temp_variable = { gdp_growth_temp = 0.5 }
+			econ_gdp_growth_change = yes
+			army_funding_minimal_increase_med = yes
+			army_funding_maximal_increase_med = yes
+			naval_funding_minimal_increase_med = yes
+			naval_funding_maximal_increase_med = yes
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional7
+		icon = GFX_focus_generic_communist_navy
+		cost = 2.3
+		x = 1
+		y = 1
+		relative_position_id = PRC_superregional3
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional3
+		}
+prerequisite = {
+			focus = PRC_superregional4
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional7"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional8
+		icon = GFX_focus_generic_technical_difficulties
+		cost = 2.3
+		x = 0
+		y = 2
+		relative_position_id = PRC_superregional
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional2
+		}
+prerequisite = {
+			focus = PRC_superregional3
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional8"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional9
+		icon = GFX_focus_generic_red_dawn
+		cost = 2.3
+		x = 0
+		y = 1
+		relative_position_id = PRC_superregional8
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional6
+		}
+prerequisite = {
+			focus = PRC_superregional7
+		}
+prerequisite = {
+			focus = PRC_superregional8
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional9"
+		}
+	}	
+shared_focus = {
+		id = PRC_superregional11
+		icon = GFX_focus_generic_technical_difficulties
+		cost = 2.3
+		x = 1
+		y = 1
+		relative_position_id = PRC_superregional9
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional9
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional11"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional12
+		icon = GFX_focus_generic_technical_difficulties
+		cost = 2.3
+		x = -1
+		y = 1
+		relative_position_id = PRC_superregional9
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional9
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional12"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional13
+		icon = GFX_focus_generic_technical_difficulties
+		cost = 2.3
+		x = -3
+		y = 1
+		relative_position_id = PRC_superregional9
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional9
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional13"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional14
+		icon = GFX_focus_generic_technical_difficulties
+		cost = 2.3
+		x = 3
+		y = 1
+		relative_position_id = PRC_superregional9
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional9
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional14"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional10
+		icon = GFX_focus_generic_technical_difficulties
+		cost = 2.3
+		x = 0
+		y = 2
+		relative_position_id = PRC_superregional9
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional13
+		}
+prerequisite = {
+			focus = PRC_superregional12
+		}
+prerequisite = {
+			focus = PRC_superregional11
+		}
+prerequisite = {
+			focus = PRC_superregional14
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional10"
+		}
+	}
+	
+shared_focus = {
+		id = PRC_superregional15
+		icon = GFX_focus_generic_technical_difficulties
+		cost = 2.3
+		x = 0
+		y = 1
+		relative_position_id = PRC_superregional10
+		available = {
+		}
+prerequisite = {
+			focus = PRC_superregional10
+		}
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional15"
+		}
+	}

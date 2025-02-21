@@ -39,3 +39,18 @@ focus_tree = {
 	shared_focus = PRC_regional45
 	shared_focus = PRC_regional61
 }
+
+focus_tree = {
+	id = PRC_superregional
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	default = no
+	shared_focus = PRC_superregional
+	shared_focus = RUS_SIB_nukes_into_the_atomic_age
+	
+}

@@ -642,6 +642,16 @@ CSB_FST_is_compatible = {
 					}
 					FST = {
 						original_tag = IRK
+						NOT = {
+						has_country_leader = {
+						character = IRK_Genrikh_Yagoda
+						ruling_only = yes
+					}
+					}
+						
+					}
+				
+			}
 					}
 				}
 			}
@@ -990,9 +1000,6 @@ RWS_SIB_is_compatible = {
 					}
 				}
 				OR = {
-					SIB = {
-						original_tag = PRC
-					}
 					SIB = {
 						original_tag = KRS
 					}

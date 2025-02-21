@@ -4,6 +4,7 @@
 add_namespace = PRC
 add_namespace = PRC_expansion
 add_namespace = PRC_regional
+add_namespace = PRC_superregional
 
 country_event = { #Intro Event
 	id = PRC.1
@@ -204,5 +205,27 @@ country_event = { # Pardoning Novosib Generals
 		
 		country_event = { id = PRC.regional.50_2 }
 			
+	}
+}
+
+country_event = { # load superregional tree
+	id = PRC_superregional.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_superregional.1" }
+	title = PRC_superregional.1.t
+	desc = PRC_superregional.1.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	PRC = {
+		has_country_flag = RUS_superregional_stage
+		}
+	}
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = { # Yes
+		name = PRC.superregional.1.a
+		hidden_effect = {
+			load_focus_tree = { tree = PRC_superregional keep_completed = no }
+		}
 	}
 }
