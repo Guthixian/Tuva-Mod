@@ -353,12 +353,6 @@ shared_focus = {
 		}
 		add_political_power = 25
 		custom_effect_tooltip = PRC_Tomb_of_the_Unionpartypop2.tt
-		hidden_effect = {
-		add_popularity = {
-				ideology = socialist_1
-				popularity = 0.01
-			}
-			}
 		add_timed_idea = { idea = PRC_war_communism_populist days = 365 }
 		SIB_decrease_worker_tension_low = yes
 	}
@@ -1199,6 +1193,9 @@ shared_focus = {
 			add_ideas = PRC_Brezhnev_Constitution
 			}
 			RUS_decrease_administrative_strain = yes
+			hidden_effect = {
+			country_event = { id = PRC.regional4 days = 1 }
+			}
 		}
 	}
 	
@@ -1331,7 +1328,6 @@ shared_focus = {
 			}
 			}
 			add_ideas = tno_religious_rights_pluralism
-			TNO_improve_religious_policy_effectiveness_low = yes
 		}
 	}
 	
@@ -1988,7 +1984,7 @@ shared_focus = {
 				econ_state_value_change_addition = yes
 			}
 			random_owned_controlled_state = {
-				tset_temp_variable = { temp_state_value_addition = 0.03 }
+				set_temp_variable = { temp_state_value_addition = 0.03 }
 				econ_state_value_change_addition = yes
 			}
 			set_temp_variable = { econ_centralization_temp = 5 }
@@ -2477,6 +2473,14 @@ shared_focus = {
 		TNO_improve_training_policy_effectiveness_high = yes
 		tno_training_improve = yes
 		country_event = { id = PRC.45 }
+		custom_effect_tooltip = PRC_regional45.tt
+		set_variable = { PRC_RA_army_armor_attack_factor = 0 }
+		set_variable = { PRC_RA_army_armor_speed_factor = 0 }
+		set_variable = { PRC_RA_army_org = 0 }
+		set_variable = { PRC_RA_army_infantry_attack_factor = 0 }
+		set_variable = { PRC_RA_training_time_army = 0 }
+		set_variable = { PRC_RA_experience_gain_army_factor = 0 }
+		set_variable = { PRC_RA_army_infantry_defence_factor = 0 }
 	}
 }
 
@@ -2495,6 +2499,8 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional46"
+			army_experience = 25
+			country_event = { id = PRC.46 }
 		}
 	}
 	
@@ -2513,6 +2519,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional47"
+			country_event = { id = PRC.47 }
 		}
 	}
 	
@@ -2531,6 +2538,24 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional48"
+			air_experience = 25
+			add_tech_bonus = {
+			name = helicopter
+			bonus = 0.50
+			uses = 1
+			category = helicopter
+		}
+		add_doctrine_cost_reduction = {
+			name = air_doc_bonus
+			cost_reduction = 0.50
+			uses = 1
+			category = air_parity
+		}
+		add_equipment_to_stockpile = {
+			type = early_helicopter
+			amount = 2000
+			producer = PRC
+		}
 		}
 	}
 	
@@ -2552,6 +2577,8 @@ shared_focus = {
 	}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional49"
+			custom_effect_tooltip = PRC_regional49.tt
+			custom_effect_tooltip = PRC_regional50_2.tt
 		}
 	}
 	
@@ -2573,6 +2600,9 @@ shared_focus = {
 	}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional50"
+			custom_effect_tooltip = PRC_regional50.tt
+			custom_effect_tooltip = PRC_regional50_2.tt
+			country_event = { id = PRC_regional.50 }
 		}
 	}
 	
@@ -2591,6 +2621,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional51"
+			country_event = { id = PRC.51 }
 		}
 	}
 	
@@ -2652,6 +2683,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional54"
+			TNO_improve_army_professionalism_high = yes
 		}
 	}
 	
@@ -2671,28 +2703,12 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional55"
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = air_base
-					level = 3
-					instant_build = yes
-				}
-			}
-			random_owned_controlled_state = {
-				add_building_construction = {
-					type = air_base
-					level = 3
-					instant_build = yes
-				}
-			}
-			add_tech_bonus = {
-				name = air_equipment
-				bonus = 1.0
-				uses = 2
-				category = air_equipment
-			}
-			set_temp_variable = { temp_econ_spending_amount = 0.075 }
-			econ_spend_money_once_effect_raw_money = yes
+			add_equipment_to_stockpile = {
+			type = attack_helicopter_equipment_1
+			amount = 2000
+			producer = PRC
+		}
+		
 		}
 	}
 	
@@ -2711,6 +2727,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional56"
+			country_event = { id = PRC.56 }
 		}
 	}
 	
@@ -2730,6 +2747,19 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional57"
+			random_army_leader = {
+				add_unit_leader_trait = old_guard
+				add_unit_leader_trait = war_hero
+			}
+			random_army_leader = {
+				add_unit_leader_trait = old_guard
+				add_unit_leader_trait = war_hero
+			}
+			random_army_leader = {
+				add_unit_leader_trait = old_guard
+				add_unit_leader_trait = war_hero
+			}
+			TNO_improve_army_professionalism_low = yes
 		}
 	}
 	
@@ -2769,6 +2799,9 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional59"
+		army_funding_minimal_increase_high = yes
+		army_funding_maximal_increase_low = yes
+		TNO_improve_conscription_policy_effectiveness_monthly_med = yes
 		}
 	}
 

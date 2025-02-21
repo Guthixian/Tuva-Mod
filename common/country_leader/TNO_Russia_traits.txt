@@ -224,7 +224,6 @@ leader_traits = {
 		stability_factor = -0.05
 		consumer_goods_use_modifier = -0.1
 		drift_defence_factor = 0.15
-			}
 	}
 
 	####################
@@ -320,4 +319,5 @@ leader_traits = {
 		gdp_growth_modifier = 0.15
 		research_speed_factor = 0.15
 	}
-}
+	
+	}

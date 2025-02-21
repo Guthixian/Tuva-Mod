@@ -118,6 +118,11 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC.40.d: "This is all placeholder text but look at my Brezhnev constitution IRL :goog: \n\nArticle 39 enabled the government to prohibit any activities it considered detrimental by stating that "Enjoyment of the rights and freedoms of citizens must not be to the detriment of the interests of society or the state." \n\nArticle 59 obliged citizens to obey the laws and comply with the standards of socialist society as determined by the Party. The government did not treat as inalienable those political and socioeconomic rights the Constitution granted to the people. Citizens enjoyed rights only when the exercise of those rights did not interfere with the interests of the state, and the CPSU alone had the power and authority to determine policies for the government and society."
  PRC.40.a: "Not to worry comrades, temporary measures!"
  
+ PRC_regional.4.t: "The Union on Unions"
+ PRC_regional.4.d: "TIL The Soviet Union was very anti trade union IRL, also this event is about considering forcing the trade unions under state control after the Kostin debacle"
+ PRC_regional.4.a: "The unions should fall in line."
+ PRC_regional.4.b: "Perhaps we can invest a little in them instead."
+ 
  ###Tooltips###
  
  PRC_Tomb_of_the_Union.tt: "§ROur Union§! will §GEndure§!..."
@@ -151,6 +156,11 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_regional22.tt: "We will transition from §RWar Communism§! to an economic system that mainly benefits the §WNomenklatura§! and the §WCircle§!."
  PRC_regional23.tt: "We will transition from §RWar Communism§! to an economic system that is §Wcompletely centrally planned§!, like in the §Rold Union§!."
  PRC_regional24.tt: "We will transition from §RWar Communism§! to an economic system that is mostly §Yworker-directed§!, as §RLenin§! would have wanted."
+ 
+ PRC_regional45.tt: "Completing this focus will temporarily reset the values of §YVasilevsky's Red Army§! to 0."
+ PRC_regional49.tt: "§YVasilevsky's Red Army§! will be reformed according to the vision of the §RFar Eastern§! veterans."
+ PRC_regional50.tt: "§YVasilevsky's Red Army§! will be reformed to incorporate the various doctrines of the conquered statelets of §BCentral Siberia§!."
+ PRC_regional50_2.tt: "§WTrials§! against the §BCentral Siberian§! generals will also begin."
  
  PRC_Tomb_of_the_Unionpartypop1.tt: "Change Paternalism popularity: §G+1.00%§!"
  PRC_Tomb_of_the_Unionpartypop2.tt: "Change Socialism popularity: §G+1.00%§!"

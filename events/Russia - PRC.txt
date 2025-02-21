@@ -3,6 +3,7 @@
 
 add_namespace = PRC
 add_namespace = PRC_expansion
+add_namespace = PRC_regional
 
 country_event = { #Intro Event
 	id = PRC.1
@@ -149,5 +150,59 @@ country_event = { #Load regional tree
 		remove_ideas = PRC_shadow_economy 
 		load_focus_tree = { tree = PRC_regional keep_completed = no }
 		}
+	}
+}
+
+country_event = { # The Union on Unions
+	id = PRC_regional.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_regional.4" }
+	title = PRC_regional.4.t
+	desc = PRC_regional.4.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC.regional_4.a
+		add_ideas =  tno_trade_unions_state_controlled
+		TNO_worsen_trade_unions_policy_effectiveness_low = yes
+			
+	}
+	option = {
+		name = PRC.regional_4.b
+		TNO_improve_trade_unions_policy_effectiveness_med = yes
+			
+	}
+}
+
+country_event = { # Pardoning Novosib Generals
+	id = PRC_regional.50
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_regional.50" }
+	title = PRC_regional.50.t
+	desc = PRC_regional.50.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = { # Yes
+		name = PRC.regional_50.a
+		NOV = {
+			every_unit_leader = {
+				set_nationality = PRC
+			}
+			}
+		KRS = {
+			every_unit_leader = {
+				set_nationality = PRC
+			}
+		}
+		
+		country_event = { id = PRC.regional.50_2 }
+			
+	}
+	option = { # No
+		name = PRC.regional_50.b
+		
+		
+		country_event = { id = PRC.regional.50_2 }
+			
 	}
 }
