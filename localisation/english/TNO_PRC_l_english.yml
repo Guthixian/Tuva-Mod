@@ -310,8 +310,8 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  
  ### Superregional
  PRC_superregional: "A Union Half Restored"
- PRC_superregional2: "Handing Out Spoils"
- PRC_superregional3: "Peacekeeping Operations"
+ PRC_superregional2: "Peacekeeping Operations"
+ PRC_superregional3: "Handing Out Spoils"
  PRC_superregional4: "Partisan Suppression"
  PRC_superregional5: "Rebuilding Factories"
  PRC_superregional6: "Repurposing The Port Of Magadan"
