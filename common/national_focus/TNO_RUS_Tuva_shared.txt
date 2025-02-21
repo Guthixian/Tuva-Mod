@@ -2896,9 +2896,9 @@ shared_focus = {
 		y = 1
 		relative_position_id = PRC_regional61
 		available = {
-		always = no
 		custom_trigger_tooltip = {
 			tooltip = PRC.unfinished.tt
+			has_country_flag = PRC_finishedGUI
 		}
 		}
 		ai_will_do = {
@@ -2933,9 +2933,6 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional63"
-			custom_effect_tooltip = WRS_zhukov_regional_eyes_straight_ahead_tt
-			WRS_zhukovregional_increase_ryzhkov_influence_med = yes
-			WRRFTangle_calcXY = yes
 		}
 	}
 	
