@@ -173,6 +173,8 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC.revoltcrushed.tt: "We have managed to put down a workers' uprising."
  PRC.eco_candoonlyone.tt: "We can only pick one of these focuses."
  
+ PRC.unfinished.tt: "The §WGUI§! for this is finished."
+ 
  ### Focus Tree ###
  
  ### Intro
@@ -288,20 +290,20 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_regional60: "Soviet Power Supreme"
  
  ### Foreign Policy
- PRC_regional61: "Foreign Policy Tree (regional)"
- PRC_regional62: ""Fourth World" Concept"
- PRC_regional63: "Returning to Socialist Internationalism"
- PRC_regional64: "WIP"
- PRC_regional65: "WIP"
- PRC_regional66: "WIP"
- PRC_regional67: "WIP"
- PRC_regional68: "WIP"
- PRC_regional69: "WIP"
- PRC_regional70: "WIP"
- PRC_regional71: "Found the Anti-Fascist Congress"
- PRC_regional72: "WIP"
- PRC_regional73: "WIP"
- PRC_regional74: "WIP"
- PRC_regional75: "WIP"
- PRC_regional76: "WIP"
- PRC_regional77: "Found the Comintern"
+ PRC_regional61: "The Union And The World"
+ PRC_regional62: "The Brezhnev Doctrine"
+ PRC_regional63: "Returning To Socialist Internationalism"
+ PRC_regional64: "Begin Our Outreach"
+ PRC_regional65: "Denounce American Capitalism"
+ PRC_regional66: "And German Nazism"
+ PRC_regional67: "Champion The Oppressed"
+ PRC_regional68: "And Japanese Imperialism"
+ PRC_regional69: "African Ambitions"
+ PRC_regional70: "Indian Inspirations"
+ PRC_regional71: "Found The Anti-Fascist Congress"
+ PRC_regional72: "Foreign Concessions"
+ PRC_regional73: "Rebuilding Legitimacy"
+ PRC_regional74: "Diaspora Contacts"
+ PRC_regional75: "Holdouts In Mongolia"
+ PRC_regional76: "Allies In Kazakhstan"
+ PRC_regional77: "Found The Comintern"
