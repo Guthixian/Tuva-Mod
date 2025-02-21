@@ -3222,7 +3222,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_superregional2
-		icon = GFX_focus_generic_technical_difficulties
+		icon = GFX_focus_generic_peace_after_violence
 		cost = 2.3
 		x = -1
 		y = 1
@@ -3242,7 +3242,7 @@ prerequisite = {
 	
 shared_focus = {
 		id = PRC_superregional3
-		icon = GFX_focus_generic_peace_after_violence
+		icon = GFX_focus_generic_common_contributions
 		cost = 2.3
 		x = 1
 		y = 1
@@ -3262,7 +3262,7 @@ prerequisite = {
 	
 shared_focus = {
 		id = PRC_superregional4
-		icon = GFX_focus_generic_technical_difficulties
+		icon = GFX_focus_UKS_soviet_streetfighters
 		cost = 2.3
 		x = 3
 		y = 1
@@ -3282,7 +3282,7 @@ prerequisite = {
 	
 shared_focus = {
 		id = PRC_superregional5
-		icon = GFX_focus_generic_technical_difficulties
+		icon = GFX_focus_RUS_siberian_factories
 		cost = 2.3
 		x = -3
 		y = 1
@@ -3355,7 +3355,7 @@ prerequisite = {
 	
 shared_focus = {
 		id = PRC_superregional8
-		icon = GFX_focus_generic_technical_difficulties
+		icon = GFX_focus_generic_welfare
 		cost = 2.3
 		x = 0
 		y = 2
@@ -3403,7 +3403,7 @@ prerequisite = {
 	}	
 shared_focus = {
 		id = PRC_superregional11
-		icon = GFX_focus_generic_technical_difficulties
+		icon = GFX_focus_generic_wrap_up_the_congress
 		cost = 2.3
 		x = 1
 		y = 1
@@ -3423,7 +3423,7 @@ prerequisite = {
 	
 shared_focus = {
 		id = PRC_superregional12
-		icon = GFX_focus_generic_technical_difficulties
+		icon = GFX_focus_generic_a_comfortable_barracks
 		cost = 2.3
 		x = -1
 		y = 1
@@ -3443,7 +3443,7 @@ prerequisite = {
 	
 shared_focus = {
 		id = PRC_superregional13
-		icon = GFX_focus_generic_technical_difficulties
+		icon = GFX_focus_generic_promote_consumption
 		cost = 2.3
 		x = -3
 		y = 1
@@ -3463,7 +3463,7 @@ prerequisite = {
 	
 shared_focus = {
 		id = PRC_superregional14
-		icon = GFX_focus_generic_technical_difficulties
+		icon = GFX_focus_generic_bribe_their_leaders
 		cost = 2.3
 		x = 3
 		y = 1
@@ -3483,7 +3483,7 @@ prerequisite = {
 	
 shared_focus = {
 		id = PRC_superregional10
-		icon = GFX_focus_generic_technical_difficulties
+		icon = GFX_focus_generic_reluctant_cooperation
 		cost = 2.3
 		x = 0
 		y = 2
@@ -3512,7 +3512,7 @@ prerequisite = {
 	
 shared_focus = {
 		id = PRC_superregional15
-		icon = GFX_focus_generic_technical_difficulties
+		icon = GFX_focus_generic_handshake_betrayal
 		cost = 2.3
 		x = 0
 		y = 1
