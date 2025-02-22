@@ -22,6 +22,10 @@ recruit_character = PRC_Pavel_Batitsky
 recruit_character = PRC_Leonid_Brezhnev
 recruit_character = PRC_Alexander_Oskin
 
+recruit_character = PRC_Frol_Kozlov
+recruit_character = PRC_Andrei_Kirilenko
+recruit_character = PRC_Semyon_Tsvigun
+
 recruit_character = KZR_Nikolai_Shchelokov
 
 oob = "PRC_1962"
@@ -37,10 +41,11 @@ add_ideas = {
 	PRC_factionalism
 	
 	### Ministers ###
-	PRC_Grigory_Shtern_hog
-	PRC_Ivan_Ivanov_for
-	PRC_Jambyn_Batmonkh_eco
-	PRC_Jamiyangiin_Lkhagvasuren_sec
+	PRC_Leonid_Brezhnev
+	PRC_Frol_Kozlov
+	PRC_Andrei_Kirilenko
+	PRC_Semyon_Tsvigun
+
 
 	### Political Laws ###
 	tno_political_parties_one_party_state
