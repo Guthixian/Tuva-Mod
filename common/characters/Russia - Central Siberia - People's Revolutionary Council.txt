@@ -28,6 +28,7 @@ characters = {
 			allowed = { has_government = communist }
 			traits = {
 				head_of_government
+				hog_backroom_backstabber
 			}
 			ledger = civilian
 			cost = -1
@@ -73,6 +74,7 @@ characters = {
 			allowed = { has_government = communist }
 			traits = {
 				foreign_minister
+				for_political_appointment
 			}
 			ledger = civilian
 			cost = -1
@@ -92,6 +94,7 @@ characters = {
 			allowed = { has_government = communist }
 			traits = {
 				economy_minister
+				eco_apolitical_technocrat
 			}
 			ledger = civilian
 			cost = -1
@@ -110,6 +113,7 @@ characters = {
 			allowed = { has_government = communist }
 			traits = {
 				security_minister
+				sec_crime_fighter
 			}
 			ledger = civilian
 			cost = -1
