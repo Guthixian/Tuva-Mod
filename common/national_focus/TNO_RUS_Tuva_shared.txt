@@ -2818,6 +2818,12 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional57"
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.75
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 	
@@ -3101,6 +3107,22 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional72"
+			tno_trade_laws_worsen = yes
+			set_temp_variable = { gdp_growth_temp = 2 } #decreased to 40% of previous power
+			econ_gdp_growth_change = yes
+			set_temp_variable = { inflation_temp = 1.2 }
+			econ_inflation_change = yes
+			set_temp_variable = { interest_rates_temp = -2 }
+			econ_interest_rates_change = yes
+			set_temp_variable = { income_tax_temp = -0.05 }
+			econ_income_tax_rate_change = yes
+			set_temp_variable = { business_tax_temp = -0.1 }
+			econ_business_tax_rate_change = yes
+			set_temp_variable = { econ_centralization_temp = -5 }
+			econ_centralization_change = yes
+			TNO_improve_trade_laws_policy_effectiveness_monthly_med = yes
+			set_temp_variable = { pus_temp = 2 }
+			econ_pus_change = yes
 		}
 	}
 	
@@ -3237,6 +3259,9 @@ prerequisite = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional2"
+			add_political_power = 35
+			RUS_integration_cost_days_decrease = yes
+			TNO_improve_admin_efficiency_med = yes
 		}
 	}
 	
