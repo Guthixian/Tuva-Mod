@@ -288,6 +288,15 @@ country_event = { # Character System Test
 				}
 			}
 			}
+			hidden_effect = {
+			set_country_leader_description = {
+				desc = 
+			}
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/PRC/Portrait_PRC_Leonid_Brezhnev_Anocracy.png"
+			}
+			TNO_russia_ending_screen = yes
+		}
 		hidden_effect = {
 		add_country_leader_role = {
 				character = KZR_Nikolai_Shchelokov
@@ -321,6 +330,15 @@ option = {
 				}
 			}
 			}
+			hidden_effect = {
+			set_country_leader_description = {
+				desc = 
+			}
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/PRC/Portrait_PRC_Leonid_Brezhnev_Social_Nationalism.png"
+			}
+			TNO_russia_ending_screen = yes
+		}
 		hidden_effect = {
 		add_country_leader_role = {
 				character = KZR_Nikolai_Shchelokov
@@ -354,6 +372,15 @@ option = {
 				}
 			}
 			}
+			hidden_effect = {
+			set_country_leader_description = {
+				desc = 
+			}
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/PRC/Portrait_PRC_Leonid_Brezhnev_Paternalistic_Developmentalism.png"
+			}
+			TNO_russia_ending_screen = yes
+		}
 		hidden_effect = {
 		add_country_leader_role = {
 				character = KZR_Nikolai_Shchelokov
@@ -388,6 +415,15 @@ option = {
 				}
 			}
 			}
+			hidden_effect = {
+			set_country_leader_description = {
+				desc = 
+			}
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/PRC/Portrait_PRC_Leonid_Brezhnev_Oligarchy.png"
+			}
+			TNO_russia_ending_screen = yes
+		}
 		hidden_effect = {
 		add_country_leader_role = {
 				character = KZR_Nikolai_Shchelokov
