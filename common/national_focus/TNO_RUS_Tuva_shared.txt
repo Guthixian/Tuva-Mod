@@ -2957,6 +2957,35 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional64"
+			custom_effect_tooltip = PRC_regional64.tt
+			hidden_effect = {
+				every_other_country = {
+					limit = {
+						OR = {
+							has_government = communist
+							has_government = socialist
+						}
+						comintern_disabled = no
+						NOT = {
+							has_idea = ZZZ_anarchy
+						}
+					}
+					country_event = {
+						id = socintern.6
+						days = 3
+					}
+				}
+				country_event = {
+					id = socintern.7
+					days = 7
+				}
+				every_country = {
+					news_event = {
+						id = WORLD.1917
+						days = 12
+					}
+				}
+			}
 		}
 	}
 	
@@ -3141,7 +3170,22 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional73"
-		}
+			custom_effect_tooltip = PRC_regional73.tt
+			
+		set_temp_variable = { temp_modifier = 20 }
+		every_other_country = {
+					limit = {
+						has_government = socialist
+						comintern_disabled = no
+						NOT = {
+							has_idea = ZZZ_anarchy
+						}
+					}
+					SIB = { add_to_trade_modifier_PREV = yes }
+				}
+			
+	}
+	
 	}
 	
 shared_focus = {
@@ -3195,6 +3239,12 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional76"
+			KAZ = {
+			set_temp_variable = { temp_modifier = 20 }
+			SIB = { add_to_trade_modifier_PREV = yes }
+		}
+		set_temp_variable = { temp_modifier = 20 }
+		KAZ = { add_to_trade_modifier_PREV = yes }
 		}
 	}
 	
@@ -3348,8 +3398,6 @@ prerequisite = {
 			TNO_improve_industrial_equipment_med = yes
 			set_temp_variable = { gdp_growth_temp = 0.5 }
 			econ_gdp_growth_change = yes
-			army_funding_minimal_increase_med = yes
-			army_funding_maximal_increase_med = yes
 			naval_funding_minimal_increase_med = yes
 			naval_funding_maximal_increase_med = yes
 		}
@@ -3375,6 +3423,22 @@ prerequisite = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional7"
+			add_political_power = 50
+		navy_experience = 25
+		add_tech_bonus = {
+			name = naval_equipment
+			bonus = 1
+			uses = 3
+			category = naval_equipment
+		}
+		add_equipment_to_stockpile = {
+			type = convoy
+			amount = 100
+			producer = PRC
+		}
+		TNO_improve_trade_laws_policy_effectiveness_monthly_high = yes
+		set_temp_variable = { gdp_growth_temp = 0.5 }
+		econ_gdp_growth_change = yes
 		}
 	}
 	
@@ -3463,6 +3527,10 @@ prerequisite = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional12"
+			set_temp_variable = { gdp_growth_temp = 0.5 }
+			econ_gdp_growth_change = yes
+			army_funding_minimal_increase_med = yes
+			army_funding_maximal_increase_med = yes
 		}
 	}
 	
@@ -3483,6 +3551,11 @@ prerequisite = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional13"
+		set_temp_variable = { temp_econ_GDP_boost_percentage = 0.03 }
+		econ_GDP_boost_once_percentage = yes
+		set_temp_variable = { money_reserves_temp = 0.8 }
+		econ_money_reserves_change_raw_money = yes
+		add_political_power = 50
 		}
 	}
 	

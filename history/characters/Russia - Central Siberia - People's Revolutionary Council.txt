@@ -164,6 +164,7 @@ characters = {
 		name = PRC_Leonid_Brezhnev
 		portraits = {
 			army = { large = "gfx/leaders/PRC/Portrait_PRC_Leonid_Brezhnev.png" }
+			civilian = { large = "gfx/leaders/PRC/Portrait_PRC_Leonid_Brezhnev.png" }
 		}
 		corps_commander = {
 			traits = { politically_connected panzer_leader }
@@ -178,6 +179,34 @@ characters = {
 			desc = "POLITICS_LEONID_BREZHNEV_DESC"
 			expire = "1999.1.1"
 			ideology = paternalism_1_subtype
+			traits = { }
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_LEONID_BREZHNEV_DESC"
+			expire = "1999.1.1"
+			ideology = paternalism_anocracy_subtype
+			traits = { }
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_LEONID_BREZHNEV_DESC"
+			expire = "1999.1.1"
+			ideology = paternalism_social_nationalism_subtype
+			traits = { }
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_LEONID_BREZHNEV_DESC"
+			expire = "1999.1.1"
+			ideology = paternalism_paternalistic_developmentalism_subtype
+			traits = { }
+			id = -1
+		}
+		country_leader = {
+			desc = "POLITICS_LEONID_BREZHNEV_DESC"
+			expire = "1999.1.1"
+			ideology = paternalism_oligarchy_subtype
 			traits = { }
 			id = -1
 		}

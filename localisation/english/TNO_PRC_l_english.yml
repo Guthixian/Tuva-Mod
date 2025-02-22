@@ -2,19 +2,21 @@
 
  ### Parties ###
  PRC_communist_party: "VKP(b)"
- PRC_communist_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
  PRC_socialist_party: "VKP(b)"
- PRC_socialist_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
  PRC_socialist_1_party: "VKP(b)"
- PRC_socialist_1_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
  PRC_paternalism_party: "VKP(b)"
- PRC_paternalism_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
  PRC_paternalism_1_party: "VKP(b)"
- PRC_paternalism_party_1_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
  PRC_paternalism_2_party: "VKP(b)"
- PRC_paternalism_2_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
+ PRC_socialist_2_party: "VKP(b)"
+ PRC_communist_1_party: "VKP(b)"
+ PRC_communist_2_party: "VKP(b)"
+ PRC_communist_3_party: "VKP(b)"
+ PRC_communist_4_party: "VKP(b)"
  
- ### Cosmetic Parties (unused for now)
+ PRC_paternalism_party_long: "Kommunisticheskaya Partiya Sovetskogo Soyuza (Bol'shevikov)"
+ 
+ 
+ ### Cosmetic Parties
  PRC_national_socialism_party: "VKP(b)"
  PRC_ultranationalism_party: "VKP(b)"
  PRC_liberalism_party: "VKP(b)"
@@ -123,6 +125,13 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_regional.4.a: "The unions should fall in line."
  PRC_regional.4.b: "Perhaps we can invest a little in them instead."
  
+ PRC_superregional.1975.t: "Pick Your Brezhnev"
+ PRC_superregional.1975.d: "Until the BoP and GUI are finished you just get to pick a subideology like this sorry!"
+ PRC_superregional.1975.a: "Anocracy"
+ PRC_superregional.1975.b: "Social Nationalism"
+ PRC_superregional.1975.c: "Dengism..."
+ PRC_superregional.1975.e: "Oligarchy"
+ 
  ###Tooltips###
  
  PRC_Tomb_of_the_Union.tt: "§ROur Union§! will §GEndure§!..."
@@ -162,6 +171,12 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_regional50.tt: "§YVasilevsky's Red Army§! will be reformed to incorporate the various doctrines of the conquered statelets of §BCentral Siberia§!."
  PRC_regional50_2.tt: "§WTrials§! against the §BCentral Siberian§! generals will also begin."
  
+ PRC_regional64.tt: "We will reach out to compatible §Rsocialist§! governments across the world to join our upcoming §Yalliance§!."
+ 
+ PRC_regional73.tt: "We will reach out to compatible §Rsocialist§! governments across the world to join our upcoming §Yalliance§!
+ 
+ PRC_superregional.1977.tt: "The politics chart will change to reflect the current balance of power within the All-Union Communist Party."
+ 
  PRC_Tomb_of_the_Unionpartypop1.tt: "Change Paternalism popularity: §G+1.00%§!"
  PRC_Tomb_of_the_Unionpartypop2.tt: "Change Socialism popularity: §G+1.00%§!"
  
@@ -174,6 +189,12 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC.eco_candoonlyone.tt: "We can only pick one of these focuses."
  
  PRC.unfinished.tt: "The §WGUI§! for this is finished."
+ 
+ PRC_fakeretire.tt: "§YNikolai Shchelokov§! retires."
+ PRC_superregional.1975.1.tt: "§YLeonid Brezhnev§! becomes leader for the §YPaternalism§! party, shifting the ideology of the §RAll-Union Communist Party§! towards §YAnocracy§!."
+ PRC_superregional.1975.2.tt: "§YLeonid Brezhnev§! becomes leader for the §YPaternalism§! party, shifting the ideology of the §RAll-Union Communist Party§! towards §YSocial Nationalism§!."
+ PRC_superregional.1975.3.tt: "§YLeonid Brezhnev§! becomes leader for the §YPaternalism§! party, shifting the ideology of the §RAll-Union Communist Party§! towards §YAuthoritarian Developmentalism§!."
+ PRC_superregional.1975.4.tt: "§YLeonid Brezhnev§! becomes leader for the §YPaternalism§! party, shifting the ideology of the §RAll-Union Communist Party§! towards §YOligarchy§!."
  
  ### Focus Tree ###
  

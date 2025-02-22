@@ -229,3 +229,178 @@ country_event = { # load superregional tree
 		}
 	}
 }
+
+country_event = { # Pre 2WRW BoP
+	id = PRC_superregional.1977
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_superregional.1977" }
+	title = PRC_superregional.1977.t
+	desc = PRC_superregional.1977.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC.superregional.1977.a
+		custom_effect_tooltip = PRC_superregional.1977.tt
+		hidden_effect = {
+	set_popularities = {
+	paternalism = 20
+	paternalism_1 = 20
+	paternalism_2 = 20
+	socialist = 5
+	socialist_1 = 5
+	socialist_2 = 5
+	communist = 5
+	communist_1 = 5
+	communist_2 = 5
+	communist_3 = 5
+	communist_4 = 5
+	
+}
+}
+	}
+}
+
+country_event = { # Character System Test
+	id = PRC_superregional.1975
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_superregional.1975" }
+	title = PRC_superregional.1975.t
+	desc = PRC_superregional.1975.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_report_event_RUS_soviet_symbol
+
+	option = {
+		name = PRC_superregional.1975.a
+		custom_effect_tooltip = PRC_fakeretire.tt
+		custom_effect_tooltip = PRC_superregional.1975.1.tt
+		hidden_effect = {
+		add_country_leader_role = {
+				character = PRC_Leonid_Brezhnev
+				promote_leader = yes
+				country_leader = {
+					desc = ""
+					expire = "1999.1.1"
+					ideology = paternalism_anocracy_subtype
+					traits = {
+
+					}
+				}
+			}
+			}
+		hidden_effect = {
+		add_country_leader_role = {
+				character = KZR_Nikolai_Shchelokov
+				promote_leader = yes
+				country_leader = {
+					desc = ""
+					expire = "1999.1.1"
+					ideology = paternalism_1_subtype
+					traits = {
+
+					}
+				}
+			}
+		}
+}
+option = {
+		name = PRC_superregional.1975.b
+		custom_effect_tooltip = PRC_fakeretire.tt
+		custom_effect_tooltip = PRC_superregional.1975.2.tt
+		hidden_effect = {
+		add_country_leader_role = {
+				character = PRC_Leonid_Brezhnev
+				promote_leader = yes
+				country_leader = {
+					desc = ""
+					expire = "1999.1.1"
+					ideology = paternalism_social_nationalism_subtype
+					traits = {
+
+					}
+				}
+			}
+			}
+		hidden_effect = {
+		add_country_leader_role = {
+				character = KZR_Nikolai_Shchelokov
+				promote_leader = yes
+				country_leader = {
+					desc = ""
+					expire = "1999.1.1"
+					ideology = paternalism_1_subtype
+					traits = {
+
+					}
+				}
+			}
+		}
+}
+option = {
+		name = PRC_superregional.1975.c
+		custom_effect_tooltip = PRC_fakeretire.tt
+		custom_effect_tooltip = PRC_superregional.1975.3.tt
+		hidden_effect = {
+		add_country_leader_role = {
+				character = PRC_Leonid_Brezhnev
+				promote_leader = yes
+				country_leader = {
+					desc = ""
+					expire = "1999.1.1"
+					ideology = paternalism_paternalistic_developmentalism_subtype
+					traits = {
+
+					}
+				}
+			}
+			}
+		hidden_effect = {
+		add_country_leader_role = {
+				character = KZR_Nikolai_Shchelokov
+				promote_leader = yes
+				country_leader = {
+					desc = ""
+					expire = "1999.1.1"
+					ideology = paternalism_1_subtype
+					traits = {
+
+					}
+				}
+			}
+		}
+}
+
+option = {
+		name = PRC_superregional.1975.e
+		custom_effect_tooltip = PRC_fakeretire.tt
+		custom_effect_tooltip = PRC_superregional.1975.4.tt
+		hidden_effect = {
+		add_country_leader_role = {
+				character = PRC_Leonid_Brezhnev
+				promote_leader = yes
+				country_leader = {
+					desc = ""
+					expire = "1999.1.1"
+					ideology = paternalism_oligarchy_subtype
+					traits = {
+
+					}
+				}
+			}
+			}
+		hidden_effect = {
+		add_country_leader_role = {
+				character = KZR_Nikolai_Shchelokov
+				promote_leader = yes
+				country_leader = {
+					desc = ""
+					expire = "1999.1.1"
+					ideology = paternalism_1_subtype
+					traits = {
+
+					}
+				}
+			}
+		}
+}
+	}
