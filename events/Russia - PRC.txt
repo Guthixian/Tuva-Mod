@@ -277,7 +277,7 @@ country_event = { # Pre 2WRW BoP
 	}
 }
 
-country_event = { # Character System Test
+country_event = { # Brezhnev Picker
 	id = PRC_superregional.1975
 	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_superregional.1975" }
 	title = PRC_superregional.1975.t
@@ -474,17 +474,8 @@ country_event = { # 70s & 2WRW Shchelokov portraits
 				set_portraits = {
 					civilian = { large = "gfx/leaders/PRC/Portrait_PRC_Nikolai_Shchelokov70s.png" }
 				}
-				add_country_leader_role = {
-					country_leader = {
-						desc = ""
-						expire = "1990.1.1"
-						ideology = paternalism_subtype
-						traits = {
-							popular_figurehead
-						}
-					}
-					promote_leader = yes
-				}
+				remove_country_leader_trait = controversial_populist
+				add_country_leader_trait = popular_figurehead
 			}
 			}
 	option = {
@@ -494,17 +485,28 @@ country_event = { # 70s & 2WRW Shchelokov portraits
 				set_portraits = {
 					civilian = { large = "gfx/leaders/PRC/Portrait_PRC_Nikolai_Shchelokov2WRW.png" }
 				}
-				add_country_leader_role = {
-					country_leader = {
-						desc = ""
-						expire = "1990.1.1"
-						ideology = paternalism_subtype
-						traits = {
-							popular_figurehead
-						}
-					}
-					promote_leader = yes
-				}
+				remove_country_leader_trait = controversial_populist
+				add_country_leader_trait = popular_figurehead
 			}
 	}
+}
+
+country_event = { # Stagnation Time
+	id = PRC_superregional.1980
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_superregional.1980" }
+	title = PRC_superregional.1980.t
+	desc = PRC_superregional.1980.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_report_event_RUS_soviet_symbol
+
+	option = {
+		name = PRC_superregional.1980.a
+		
+			set_country_leader_portrait = {
+				portrait = "gfx/leaders/PRC/Portrait_PRC_Leonid_Brezhnev_Stagnation.png"
+			}
+			add_country_leader_trait = unstable
+			
+		}
 }
