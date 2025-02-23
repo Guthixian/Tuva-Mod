@@ -24,6 +24,22 @@ country_event = { #Intro Event
 	}
 }
 
+country_event = { #Intro Event
+	id = PRC.9999
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.9999" }
+	title = PRC.9999.t
+	desc = PRC.9999.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC.9999.a
+		set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+					econ_subtype_change = yes
+		
+	}
+}
+
 country_event = { #Load expansion tree
 	id = PRC.2
 	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.2" }
@@ -117,7 +133,7 @@ country_event = { #Economic Outcome
 		ai_chance = { factor = 1 }
 		IF = {
 		limit = { has_completed_focus = PRC_regional22 }
-					set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Corporate_Oligopoly }
+					set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
 					econ_subtype_change = yes
 		}
 		ELSE_IF = {
@@ -440,3 +456,55 @@ option = {
 		}
 }
 	}
+	
+	
+country_event = { # 70s & 2WRW Shchelokov portraits
+	id = PRC_superregional.1972
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_superregional.1972" }
+	title = PRC_superregional.1972.t
+	desc = PRC_superregional.1972.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC.superregional.1972.a
+		custom_effect_tooltip = PRC_superregional.1972.tt
+		KZR_Nikolai_Shchelokov = {
+				set_portraits = {
+					civilian = { large = "gfx/leaders/PRC/Portrait_PRC_Nikolai_Shchelokov70s.png" }
+				}
+				add_country_leader_role = {
+					country_leader = {
+						desc = ""
+						expire = "1990.1.1"
+						ideology = paternalism_subtype
+						traits = {
+							popular_figurehead
+						}
+					}
+					promote_leader = yes
+				}
+			}
+			}
+	option = {
+		name = PRC.superregional.1972.b
+		custom_effect_tooltip = PRC_superregional.1972.tt
+		KZR_Nikolai_Shchelokov = {
+				set_portraits = {
+					civilian = { large = "gfx/leaders/PRC/Portrait_PRC_Nikolai_Shchelokov2WRW.png" }
+				}
+				add_country_leader_role = {
+					country_leader = {
+						desc = ""
+						expire = "1990.1.1"
+						ideology = paternalism_subtype
+						traits = {
+							popular_figurehead
+						}
+					}
+					promote_leader = yes
+				}
+			}
+	}
+}
