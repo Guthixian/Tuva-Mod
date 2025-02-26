@@ -5,7 +5,7 @@ tags={
 	"National Focuses"
 }
 dependencies={
-	"The New Order: Last Days of Europe"
+	"TNO: Second West Russian War"
 }
 name="Aтас! Shchelokov Tuva Submod (1.15)"
 picture="thumbnail.png"
