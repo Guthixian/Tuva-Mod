@@ -5,6 +5,7 @@ add_namespace = PRC
 add_namespace = PRC_expansion
 add_namespace = PRC_regional
 add_namespace = PRC_superregional
+add_namespace = PRC_vladivostok
 
 country_event = { #Intro Event
 	id = PRC.1
@@ -56,6 +57,23 @@ country_event = { #Load expansion tree
 		hidden_effect = {
 			load_focus_tree = { tree = PRC_expansion keep_completed = no }
 		}
+	}
+}
+
+country_event = { #Load 2WRW tree & set up flags
+	id = PRC.3000
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.3000" }
+	title = PRC.3000.t
+	desc = PRC.3000.desc
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #
+		name = PRC.3000.a
+		ai_chance = { factor = 1 }
+		SWRW_select_generic_focus_tree = yes
 	}
 }
 
@@ -381,7 +399,7 @@ option = {
 				country_leader = {
 					desc = ""
 					expire = "1999.1.1"
-					ideology = paternalism_paternalistic_developmentalism_subtype
+					ideology = paternalism_authoritarian_developmentalism_subtype
 					traits = {
 
 					}
@@ -509,4 +527,150 @@ country_event = { # Stagnation Time
 			add_country_leader_trait = unstable
 			
 		}
+}
+
+country_event = { # Haishenwai hype
+	id = PRC_vladivostok.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_vladivostok.1" }
+	title = PRC_vladivostok.1.t
+	desc = PRC_vladivostok.1.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC_vladivostok.1.a
+		ai_chance = { factor = 0.25 }
+		set_politics = {
+						ruling_party = conservatism
+						elections_allowed = yes
+						last_election = "1975.4.17"
+						election_frequency = 48
+					}
+					create_country_leader = {
+						name = "Dmitry Gagarov"
+						picture = "gfx/leaders/NOV_fail/NOV_Rytgev_Rytkheu.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = conservatism_goken_conservatism_subtype
+					}
+					set_popularities = {
+						conservatism = 50
+						liberalism = 10
+						progressivism = 10
+						communist = 10
+						national_socialism = 10
+						paternalism = 10
+					}
+					set_party_name = {
+						ideology = conservatism
+						long_name = "Hǎishēnwǎi Xiànfǎ Yǒuhǎo Xiéhuì"
+						name = "HXYX"
+					}
+					809 = {
+						set_state_name = STATE_809_chi
+					}
+					set_province_name = { id = 957 name = VICTORY_POINTS_957_chi }
+	}
+	option = {
+		name = PRC_vladivostok.1.b
+		ai_chance = { factor = 0.25 }
+		set_politics = {
+						ruling_party = fascism
+						elections_allowed = yes
+						last_election = "1975.4.17"
+						election_frequency = 48
+					}
+					create_country_leader = {
+						name = "Dmitry Gagarov"
+						picture = "gfx/leaders/NOV_fail/NOV_Rytgev_Rytkheu.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = fascism_reform_bureaucracy_subtype
+					}
+					set_popularities = {
+						fascism = 50
+						liberalism = 10
+						progressivism = 10
+						communist = 10
+						national_socialism = 10
+						paternalism = 10
+					}
+					set_party_name = {
+						ideology = fascism
+						long_name = "Hǎishēnwǎi Xiànfǎ Yǒuhǎo Xiéhuì"
+						name = "HXYX"
+					}
+					809 = {
+						set_state_name = STATE_809_chi
+					}
+					set_province_name = { id = 957 name = VICTORY_POINTS_957_chi }
+	}
+	option = {
+		name = PRC_vladivostok.1.c
+		ai_chance = { factor = 0.25 }
+		set_politics = {
+						ruling_party = progressivism
+						elections_allowed = yes
+						last_election = "1975.4.17"
+						election_frequency = 48
+					}
+					create_country_leader = {
+						name = "Dmitry Gagarov"
+						picture = "gfx/leaders/NOV_fail/NOV_Rytgev_Rytkheu.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = progressivism_liberal_socialism_subtype
+					}
+					set_popularities = {
+						conservatism = 10
+						liberalism = 10
+						progressivism = 50
+						communist = 10
+						national_socialism = 10
+						paternalism = 10
+					}
+					set_party_name = {
+						ideology = progressivism
+						long_name = "Hǎishēnwǎi Xiànfǎ Yǒuhǎo Xiéhuì"
+						name = "HXYX"
+					}
+					809 = {
+						set_state_name = STATE_809_chi
+					}
+					set_province_name = { id = 957 name = VICTORY_POINTS_957_chi }
+	}
+	option = {
+		name = PRC_vladivostok.1.e
+		ai_chance = { factor = 0.25 }
+		set_politics = {
+						ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1975.4.17"
+						election_frequency = 48
+					}
+					create_country_leader = {
+						name = "Dmitry Gagarov"
+						picture = "gfx/leaders/NOV_fail/NOV_Rytgev_Rytkheu.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_xunzheng_subtype
+					}
+					set_popularities = {
+						conservatism = 10
+						liberalism = 10
+						progressivism = 10
+						communist = 10
+						national_socialism = 10
+						paternalism = 50
+					}
+					set_party_name = {
+						ideology = paternalism
+						long_name = "Hǎishēnwǎi Xiànfǎ Yǒuhǎo Xiéhuì"
+						name = "HXYX"
+					}
+					809 = {
+						set_state_name = STATE_809_chi
+					}
+					set_province_name = { id = 957 name = VICTORY_POINTS_957_chi }
+	}
 }

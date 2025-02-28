@@ -1,0 +1,91 @@
+ideas = {
+	country = {
+		VLD_Pearl_of_RFE = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea VLD_Pearl_of_RFE" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = LAT_pearl_of_the_baltic_sea
+			modifier = {
+			political_power_factor = 1
+			misc_income_modifier = 1
+			}
+		}
+		VLD_Major_Trade_City = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea VLD_Major_Trade_City" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_sphere_trade
+			modifier = {
+		
+			}
+			targeted_modifier = {
+				tag = JAP
+				trade_cost_for_target_factor = -1.00
+				extra_trade_to_target_factor = 0.30
+			}
+			targeted_modifier = {
+				tag = RUS
+				trade_cost_for_target_factor = -1.00
+				extra_trade_to_target_factor = 0.30
+			}
+		}
+		VLD_Between_Three_Worlds = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea VLD_Between_Three_Worlds" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = SER_refugee_question
+			modifier = {
+			stability_weekly = -0.01
+			monthly_population = 0.05
+			national_socialism_drift = 0.03
+			communist_drift = 0.03
+			}
+		}
+		VLD_Trusteeship = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea VLD_Trusteeship" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_incoherent_bookkeepping
+			modifier = {
+				stability_weekly = 0.01
+				gdp_growth_modifier = 5.00
+			}
+		}
+		VLD_Profits = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea VLD_Profits" }
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_money_check
+			modifier = {
+				misc_income_modifier = 0.5
+			}
+		}
+		
+}
+
+}

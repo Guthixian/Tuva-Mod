@@ -144,7 +144,7 @@ shared_focus = {
 				}
 
 				defender = {
-					state = 567
+					state = 566
 					num_provinces = 4
 					on_win = raiding.6
 					on_lose = raiding.4
@@ -153,7 +153,7 @@ shared_focus = {
 			}
 			set_border_war_data = {
 				attacker = 329
-				defender = 567
+				defender = 566
 				combat_width = 20
 			}
 			}
