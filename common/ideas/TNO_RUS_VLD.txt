@@ -13,6 +13,7 @@ ideas = {
 			modifier = {
 			political_power_factor = 1
 			misc_income_modifier = 1
+			poverty_monthly_rate = 0.25
 			}
 		}
 		VLD_Major_Trade_City = {

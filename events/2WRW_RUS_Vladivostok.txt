@@ -233,11 +233,11 @@ country_event = {
 					}
 					set_popularities = {
 						paternalism = 50
-						conservatism = 15
-						liberalism = 3
-						progressivism = 3
-						communist = 12
-						national_socialism = 18
+						conservatism = 10
+						liberalism = 10
+						progressivism = 10
+						communist = 10
+						national_socialism = 10
 					}
 					set_party_name = {
 						ideology = paternalism
@@ -253,8 +253,9 @@ country_event = {
 					set_country_flag = RUS_cancel_all_ideas
 					add_ideas = VLD_Pearl_of_RFE
 					add_ideas = VLD_Major_Trade_City
-					add_ideas = VLD_Between_Three_Worlds
+					add_timed_idea = { idea = VLD_Between_Three_Worlds days = 3650 }
 					add_timed_idea = { idea = VLD_Trusteeship days = 36135 }
+					VLD_FixLaws = yes
 					set_capital = {
 						state = 809
 					}
@@ -262,6 +263,10 @@ country_event = {
 					809 = {
 						add_core_of = ALT
 						set_state_name = STATE_809_chi
+						add_resource = {
+							type = power
+							amount = 10
+						}
 					}
 					set_province_name = { id = 957 name = VICTORY_POINTS_957_chi }
 					econ_join_sphere_JAP = yes
@@ -271,6 +276,13 @@ country_event = {
 						id = PRC_Vladivostok.1
 						days = 365
 					}
+					remove_all_ministers = yes
+			add_ideas = {
+				ALT_Generic_Vacant_hog
+				ALT_Generic_Vacant_for
+				ALT_Generic_Vacant_eco
+				ALT_Generic_Vacant_sec
+			}
 					RUS = {
 					diplomatic_relation = {
 					country = ALT
@@ -368,7 +380,6 @@ country_event = {
 						limit = { 1364 = { NOT = { is_owned_by = RUS } } }
 						transfer_state = 1364
 					}
-					transfer_state = 409
 					transfer_state = 408
 					transfer_state = 657
 					transfer_state = 1644
@@ -500,10 +511,22 @@ country_event = {
 				}
 			}
 			MAN = {
+			if = {
+					limit = {
+						RUS = {
+							original_tag = PRC
+						}
+					}
+				remove_state_core = 657
+				remove_state_core = 408
+				remove_state_core = 809
+				}
+			else = {
 				remove_state_core = 657
 				remove_state_core = 409
 				remove_state_core = 408
 				remove_state_core = 809
+				}
 				remove_ideas = {
 					RUS_outer_manchurian_partisans_two
 				}
