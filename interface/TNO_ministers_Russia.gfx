@@ -1201,6 +1201,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ministers/PRC/PRC_minister_Semyon_Tsvigun.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_PRC_minister_Nikolai_Shchelokov"
+		texturefile = "gfx/interface/ideas/ministers/PRC/PRC_minister_Nikolai_Shchelokov70s.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_PRC_minister_Grigory_Shtern"
 		texturefile = "gfx/interface/ideas/ministers/PRC/PRC_minister_Grigory_Shtern.dds"
 	}

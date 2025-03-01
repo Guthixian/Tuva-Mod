@@ -20,6 +20,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/KZR/portrait_KZR_Nikolai_Shchelokov.png"
+				small = "GFX_idea_PRC_minister_Nikolai_Shchelokov"
 			}
 		}
 
@@ -29,6 +30,19 @@ characters = {
 			ideology = paternalism_right_wing_populism_subtype
 			traits = { patriotic_socialist }
 			id = -1
+		}
+		advisor = {
+			slot = security_minister
+			idea_token = PRC_Nikolai_Shchelokov
+			allowed = { has_government = communist }
+			traits = {
+				security_minister
+				sec_crime_fighter
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
 		}
 	}
 }

@@ -86,6 +86,8 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_Andrei_Kirilenko_desc: "§YEconomy Minister\nAuthoritarian Developmentalism§!\n--------------\n"
  PRC_Semyon_Tsvigun: "Semyon Tsvigun"
  PRC_Semyon_Tsvigun_desc: "§YHead of the NKVD's Fifth Directorate\nOligarchy§!\n--------------\n"
+ PRC_Nikolai_Shchelokov: "Nikolai Shchelokov"
+ PRC_Nikolai_Shchelokov_desc: "§YMinister of Public Order\nRight-Wing Populism§!\n--------------\n"
  
  
  PRC_Issa_Pliev: "Issa Pliev"

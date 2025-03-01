@@ -349,6 +349,37 @@ country_event = { # Brezhnev Picker
 					}
 				}
 			}
+			add_advisor_role = {
+				character = PRC_Generic_Vacant
+					advisor = {
+						slot = head_of_government
+						idea_token = PRC_Generic_Vacant_hog
+						traits = {
+							head_of_government
+						}
+						ledger = civilian
+						cost = -1
+						can_be_fired = no
+						ai_will_do = { factor = 0 }
+					}
+					activate = yes
+				}
+				add_advisor_role = {
+				character = KZR_Nikolai_Shchelokov
+					advisor = {
+						slot = security_minister
+						idea_token = PRC_Nikolai_Shchelokov
+						traits = {
+							security_minister
+							sec_crime_fighter
+						}
+						ledger = civilian
+						cost = -1
+						can_be_fired = no
+						ai_will_do = { factor = 0 }
+					}
+					activate = yes
+				}
 		}
 }
 option = {
@@ -391,6 +422,37 @@ option = {
 					}
 				}
 			}
+				add_advisor_role = {
+				character = PRC_Generic_Vacant
+					advisor = {
+						slot = head_of_government
+						idea_token = PRC_Generic_Vacant_hog
+						traits = {
+							head_of_government
+						}
+						ledger = civilian
+						cost = -1
+						can_be_fired = no
+						ai_will_do = { factor = 0 }
+					}
+					activate = yes
+				}
+				add_advisor_role = {
+				character = KZR_Nikolai_Shchelokov
+					advisor = {
+						slot = security_minister
+						idea_token = PRC_Nikolai_Shchelokov
+						traits = {
+							security_minister
+							sec_crime_fighter
+						}
+						ledger = civilian
+						cost = -1
+						can_be_fired = no
+						ai_will_do = { factor = 0 }
+					}
+					activate = yes
+				}
 		}
 }
 option = {
@@ -433,6 +495,37 @@ option = {
 					}
 				}
 			}
+			add_advisor_role = {
+				character = PRC_Generic_Vacant
+					advisor = {
+						slot = head_of_government
+						idea_token = PRC_Generic_Vacant_hog
+						traits = {
+							head_of_government
+						}
+						ledger = civilian
+						cost = -1
+						can_be_fired = no
+						ai_will_do = { factor = 0 }
+					}
+					activate = yes
+				}
+				add_advisor_role = {
+				character = KZR_Nikolai_Shchelokov
+					advisor = {
+						slot = security_minister
+						idea_token = PRC_Nikolai_Shchelokov
+						traits = {
+							security_minister
+							sec_crime_fighter
+						}
+						ledger = civilian
+						cost = -1
+						can_be_fired = no
+						ai_will_do = { factor = 0 }
+					}
+					activate = yes
+				}
 		}
 }
 
@@ -476,6 +569,37 @@ option = {
 					}
 				}
 			}
+			add_advisor_role = {
+				character = PRC_Generic_Vacant
+					advisor = {
+						slot = head_of_government
+						idea_token = PRC_Generic_Vacant_hog
+						traits = {
+							head_of_government
+						}
+						ledger = civilian
+						cost = -1
+						can_be_fired = no
+						ai_will_do = { factor = 0 }
+					}
+					activate = yes
+				}
+				add_advisor_role = {
+				character = KZR_Nikolai_Shchelokov
+					advisor = {
+						slot = security_minister
+						idea_token = PRC_Nikolai_Shchelokov
+						traits = {
+							security_minister
+							sec_crime_fighter
+						}
+						ledger = civilian
+						cost = -1
+						can_be_fired = no
+						ai_will_do = { factor = 0 }
+					}
+					activate = yes
+				}
 		}
 }
 	}
@@ -527,6 +651,65 @@ country_event = { # Stagnation Time
 				portrait = "gfx/leaders/PRC/Portrait_PRC_Leonid_Brezhnev_Stagnation.png"
 			}
 			add_country_leader_trait = unstable
+			
+		}
+}
+
+country_event = { # Death of Brezhnev
+	id = PRC_superregional.1982
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_superregional.1982" }
+	title = PRC_superregional.1982.t
+	desc = PRC_superregional.1982.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_report_event_RUS_soviet_symbol
+
+	option = {
+		name = PRC_superregional.1982.a
+		kill_country_leader = yes
+		set_politics = { ruling_party = despotism }
+		create_country_leader = {
+						name = "Presidium of the Supreme Soviet"
+						picture = "gfx/leaders/KOM/Portrait_Komi_Presidium_of_the_KPK.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = despotism_interim_government_subtype
+					}
+			
+		}
+}
+
+country_event = { # Brezhnev Successor Roulette
+	id = PRC_superregional.1985
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_superregional.1985" }
+	title = PRC_superregional.1985.t
+	desc = PRC_superregional.1985.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_report_event_RUS_soviet_symbol
+
+	option = {
+		name = PRC_superregional.1985.a #Sablin
+		set_politics = { ruling_party = paternalism }
+		create_country_leader = {
+						name = "Valery Sablin"
+						picture = "gfx/leaders/BRY/Portrait_Buryatia_Valery_Sablin_2wrw.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_social_nationalism_subtype
+					}
+			
+		}
+	option = {
+		name = PRC_superregional.1985.b #Brezhneva
+		set_politics = { ruling_party = paternalism }
+		create_country_leader = {
+						name = "Galina Brezhneva"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Galina_Brezhneva.png"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_oligarchy_subtype
+					}
 			
 		}
 }
@@ -670,6 +853,166 @@ country_event = { # Haishenwai hype
 						long_name = "Hǎishēnwǎi Xiànfǎ Yǒuhǎo Xiéhuì"
 						name = "HXYX"
 					}
+					809 = {
+						set_state_name = STATE_809_chi
+					}
+					set_province_name = { id = 957 name = VICTORY_POINTS_957_chi }
+	}
+}
+
+country_event = { # Big Trouble In Little Haishenwai
+	id = PRC_vladivostok.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_vladivostok.2" }
+	title = PRC_vladivostok.2.t
+	desc = PRC_vladivostok.2.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC_vladivostok.2.a
+		ai_chance = { factor = 0.10 }
+		set_politics = {
+						ruling_party = national_socialism
+						elections_allowed = no
+						last_election = "1979.4.17"
+					}
+					create_country_leader = {
+						name = "Vladimir Kibardin"
+						picture = "gfx/leaders/NOV_fail/NOV_vladimir_kibardin.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = national_socialism_clerical_fascism_subtype
+					}
+					set_popularities = {
+						national_socialism = 20
+						national_socialism_1 = 20
+						national_socialism_2 = 20
+						conservatism = 10
+						liberalism = 10
+						paternalism = 10
+						paternalism_1 = 10
+					}
+					set_party_name = {
+						ideology = national_socialism
+						long_name = "Vserossiyskaya Fashistskaya Partiya (Vladivostok)"
+						name = "VFP(v)"
+					}
+					set_party_name = {
+						ideology = national_socialism_1
+						long_name = "Vserossiyskaya Fashistskaya Partiya (Vladivostok)"
+						name = "VFP(v)"
+					}
+					set_party_name = {
+						ideology = national_socialism_2
+						long_name = "Vserossiyskaya Fashistskaya Partiya (Vladivostok)"
+						name = "VFP(v)"
+					}
+					set_party_name = {
+						ideology = national_socialism_3
+						long_name = "Vserossiyskaya Fashistskaya Partiya (Vladivostok)"
+						name = "VFP(v)"
+					}
+					set_party_name = {
+						ideology = national_socialism_4
+						long_name = "Vserossiyskaya Fashistskaya Partiya (Vladivostok)"
+						name = "VFP(v)"
+					}
+					809 = {
+						set_state_name = STATE_809_rus
+					}
+					set_province_name = { id = 957 name = VICTORY_POINTS_957_rus }
+					RUS = { news_event = { id = WORLD.41047 days = 1 } }
+					JAP = { news_event = { id = WORLD.41047 days = 1 } }
+					econ_leave_sphere = yes
+					remove_ideas = VLD_Between_Three_Worlds
+					set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Gelenkte_Wirtschaft }
+					econ_subtype_change = yes
+					JAP = {
+					diplomatic_relation = { country = ALT relation = guarantee active = no }
+					}
+					RUS = {
+					diplomatic_relation = { country = ALT relation = guarantee active = no }
+					}
+	}
+	option = {
+		name = PRC_vladivostok.1.b
+		ai_chance = { factor = 0.10 }
+		set_politics = {
+						ruling_party = communist
+						elections_allowed = no
+						last_election = "1979.4.17"
+					}
+					create_country_leader = {
+						name = "Mao Anqing"
+						picture = "gfx/leaders/KAZ/Portrait_Kazakhstan_Mao_Anying.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = communist_mao_zedong_thought_subtype
+					}
+					set_popularities = {
+						communist = 20
+						communist_1 = 20
+						communist_2 = 20
+						conservatism = 10
+						liberalism = 10
+						paternalism = 10
+						paternalism_1 = 10
+					}
+					set_party_name = {
+						ideology = communist
+						long_name = "Hǎishēnwǎi Gòngchǎndǎng"
+						name = "HGC"
+					}
+					set_party_name = {
+						ideology = communist_1
+						long_name = "Hǎishēnwǎi Gòngchǎndǎng"
+						name = "HGC"
+					}
+					set_party_name = {
+						ideology = communist_2
+						long_name = "Hǎishēnwǎi Gòngchǎndǎng"
+						name = "HGC"
+					}
+					set_party_name = {
+						ideology = communist_3
+						long_name = "Hǎishēnwǎi Gòngchǎndǎng"
+						name = "HGC"
+					}
+					set_party_name = {
+						ideology = communist_4
+						long_name = "Hǎishēnwǎi Gòngchǎndǎng"
+						name = "HGC"
+					}
+					809 = {
+						set_state_name = STATE_809_chi
+					}
+					set_province_name = { id = 957 name = VICTORY_POINTS_957_chi }
+					RUS = { news_event = { id = WORLD.41048 days = 1 } }
+					JAP = { news_event = { id = WORLD.41048 days = 1 } }
+					econ_leave_sphere = yes
+					remove_ideas = VLD_Between_Three_Worlds
+					set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Worker_Directed }
+					econ_subtype_change = yes
+					
+					JAP = {
+					diplomatic_relation = { country = ALT relation = guarantee active = no }
+					}
+					RUS = {
+					diplomatic_relation = { country = ALT relation = guarantee active = no }
+					}
+	}
+	option = {
+		name = PRC_vladivostok.1.c #nothing ever happens
+		ai_chance = { factor = 0.90 }
+		remove_ideas = VLD_Between_Three_Worlds
+		add_popularity = {
+				ideology = communist
+				popularity = -1
+			}
+		add_popularity = {
+				ideology = national_socialism
+				popularity = -1
+			}
 					809 = {
 						set_state_name = STATE_809_chi
 					}

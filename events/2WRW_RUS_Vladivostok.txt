@@ -276,6 +276,10 @@ country_event = {
 						id = PRC_Vladivostok.1
 						days = 365
 					}
+					country_event = {
+						id = PRC_Vladivostok.2
+						days = 1825
+					}
 					remove_all_ministers = yes
 			add_ideas = {
 				ALT_Generic_Vacant_hog
@@ -531,6 +535,18 @@ country_event = {
 					RUS_outer_manchurian_partisans_two
 				}
 			}
+			RUS = {
+			if = {
+					limit = {
+						RUS = {
+							original_tag = PRC
+						}
+					}
+					add_state_core = 408
+					add_state_core = 1644
+					add_state_core = 1645
+					}
+					}
 			RUS = {
 				RUS_end_vladivostok_conference = yes
 			}

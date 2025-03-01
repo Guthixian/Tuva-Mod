@@ -2232,9 +2232,6 @@ shared_focus = {
 			focus = PRC_regional37
 			focus = PRC_regional38
 		}
-		mutually_exclusive = {
-		focus = PRC_regional37
-	}
 		x = 1
 		y = 1
 		relative_position_id = PRC_regional37

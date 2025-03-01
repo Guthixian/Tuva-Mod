@@ -447,7 +447,7 @@ WRW_load_war_portraits = {
 	}
 	else_if = {
 		limit = { has_country_leader = { character = KZR_Nikolai_Shchelokov ruling_only = yes } }
-		set_country_leader_portrait = { portrait = "gfx/leaders/PRC/PPortrait_PRC_Nikolai_Shchelokov2WRW.dds" }
+		set_country_leader_portrait = { portrait = "gfx/leaders/PRC/Portrait_PRC_Nikolai_Shchelokov2WRW.png" }
 	}
 	WRW_load_war_portraits_army = yes
 }
