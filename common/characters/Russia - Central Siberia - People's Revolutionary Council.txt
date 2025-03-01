@@ -4,7 +4,7 @@ characters = {
 		name = PRC_Leonid_Brezhnev
 		portraits = {
 			army = { large = "gfx/leaders/PRC/Portrait_PRC_Leonid_Brezhnev.png" }
-			civilian = { small = "GFX_idea_PRC_minister_Leonid_Brezhnev" }
+			civilian = { small = "GFX_idea_PRC_minister_Leonid_Brezhnev" large = "gfx/leaders/PRC/Portrait_PRC_Leonid_Brezhnev_60s.png" }
 		}
 		corps_commander = {
 			traits = { politically_connected panzer_leader }

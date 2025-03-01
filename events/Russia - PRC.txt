@@ -25,7 +25,7 @@ country_event = { #Intro Event
 	}
 }
 
-country_event = { #Intro Event
+country_event = { #Eco Subtype Test
 	id = PRC.9999
 	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.9999" }
 	title = PRC.9999.t
@@ -252,6 +252,11 @@ country_event = { # load superregional tree
 	trigger = {
 	PRC = {
 		has_country_flag = RUS_superregional_stage
+		OR = {
+		has_completed_focus = PRC_regional71
+		has_completed_focus = PRC_regional77
+		}
+		date > 1971.5.1
 		}
 	}
 	picture = GFX_report_event_GNG_corruption_generic_2
@@ -484,6 +489,14 @@ country_event = { # 70s & 2WRW Shchelokov portraits
 	is_triggered_only = yes
 	fire_only_once = yes
 	picture = GFX_report_event_GNG_corruption_generic_2
+	trigger = {
+	PRC = {
+		has_country_flag = RUS_superregional_stage
+		has_completed_focus = PRC_superregional15
+		date > 1972.5.1
+		}
+	}
+	
 
 	option = {
 		name = PRC.superregional.1972.a
@@ -496,17 +509,6 @@ country_event = { # 70s & 2WRW Shchelokov portraits
 				add_country_leader_trait = popular_figurehead
 			}
 			}
-	option = {
-		name = PRC.superregional.1972.b
-		custom_effect_tooltip = PRC_superregional.1972.tt
-		KZR_Nikolai_Shchelokov = {
-				set_portraits = {
-					civilian = { large = "gfx/leaders/PRC/Portrait_PRC_Nikolai_Shchelokov2WRW.png" }
-				}
-				remove_country_leader_trait = controversial_populist
-				add_country_leader_trait = popular_figurehead
-			}
-	}
 }
 
 country_event = { # Stagnation Time

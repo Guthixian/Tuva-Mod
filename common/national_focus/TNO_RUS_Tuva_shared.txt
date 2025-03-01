@@ -1120,12 +1120,13 @@ shared_focus = {
 				id = PRC.156
 				days = 2
 			}
+			add_ideas = tno_slavery_work_programs
 			}
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional2"
 			add_political_power = 50
 			add_ideas = tno_penal_system_harsh_penal_code
-			add_ideas = tno_security_maintenance_of_order
-			add_ideas = tno_minimum_wage_collective_bargaining
+			add_ideas = tno_safety_acceptable_regulations
+			add_ideas = tno_minimum_wage_good_minimum_wage
 			RUS_decrease_administrative_strain = yes
 		}
 	}
@@ -1156,7 +1157,7 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional3"
 			add_political_power = 50
 			add_ideas = tno_penal_system_politicized_penal_system
-			add_ideas = tno_slavery_work_programs
+			add_ideas = tno_slavery_penal_labor
 			add_ideas = tno_unemployment_full_employment_policy
 			RUS_decrease_administrative_strain = yes
 		}
@@ -1266,7 +1267,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional7"
-			add_ideas = tno_immigration_ethnic_immigration
+			add_ideas = tno_immigration_skilled_labor_only
 			TNO_improve_immigration_policy_effectiveness_low = yes
 		}
 	}
@@ -1291,12 +1292,12 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus TYM_spiritual_and_political_flourishing"
 			add_political_power = 50
+			TNO_improve_security_policy_effectiveness_high = yes
 			hidden_effect = {
 			country_event = {
 				id = PRC.61
 				days = 1
 			}
-			TNO_improve_security_policy_effectiveness_high = yes
 			}
 			
 		}
@@ -1346,8 +1347,6 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional10"
-			custom_effect_tooltip = PRC.regional10.tt
-			add_war_support = 0.025
 			hidden_effect = {
 			country_event = {
 				id = PRC.63
@@ -1359,6 +1358,8 @@ shared_focus = {
 			add_ideas = tno_military_supervision_rules_of_engagement
 			add_ideas = tno_health_care_low_income_protections
 			}
+			custom_effect_tooltip = PRC.regional10.tt
+			add_war_support = 0.025
 			RUS_decrease_administrative_strain = yes
 
 		}
@@ -1450,7 +1451,7 @@ shared_focus = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional14"
-			add_ideas = tno_draft_exemptions_elite_exemptions
+			add_ideas = tno_draft_exemptions_generous_exemptions
 		}
 	}
 	
@@ -1693,7 +1694,7 @@ shared_focus = {
 		available = {
 		custom_trigger_tooltip = {
 		tooltip = PRC.revoltcrushed.tt
-			has_country_flag = CEN_SIB_crushed_revolt
+		has_country_flag = CEN_SIB_crushed_revolt
 			}
 			}
 		prerequisite = {
@@ -2203,7 +2204,7 @@ shared_focus = {
 	
 shared_focus = {
 		id = PRC_regional38
-		icon = GFX_focus_CAN_sickle_camera
+		icon = GFX_focus_generic_lights_camera
 		cost = 3.6
 		prerequisite = {
 			focus = PRC_regional26
@@ -2890,7 +2891,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional61"
 			add_political_power = 75
-			country_event = { id = zhukovregional.6 days = 1 }
+			country_event = { id = PRC.61 days = 1 }
 		}
 	}
 	
@@ -2958,34 +2959,6 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_regional64"
 			custom_effect_tooltip = PRC_regional64.tt
-			hidden_effect = {
-				every_other_country = {
-					limit = {
-						OR = {
-							has_government = communist
-							has_government = socialist
-						}
-						comintern_disabled = no
-						NOT = {
-							has_idea = ZZZ_anarchy
-						}
-					}
-					country_event = {
-						id = socintern.6
-						days = 3
-					}
-				}
-				country_event = {
-					id = socintern.7
-					days = 7
-				}
-				every_country = {
-					news_event = {
-						id = WORLD.1917
-						days = 12
-					}
-				}
-			}
 		}
 	}
 	

@@ -68,7 +68,7 @@ add_ideas = {
 	tno_education_public_education
 	tno_penal_system_military_justice
 	tno_gender_rights_women_in_the_workplace
-	tno_security_political_control
+	tno_security_oppressive_police
 	tno_regulations_token_regulations
 
 	### Economic Laws ###

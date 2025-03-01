@@ -122,6 +122,10 @@ country_event = { #Uprising 1 weak
 			}
 			
 		}
+		
+		CSB = {
+		set_country_flag = CEN_SIB_crushed_revolt
+		}
 	}
 }
 
@@ -148,6 +152,9 @@ country_event = { #Uprising 2 weak
 				load_oob = KAL_uprising_weak_2
 			}
 		}
+		CSB = {
+		set_country_flag = CEN_SIB_crushed_revolt
+		}
 	}
 }
 
@@ -173,6 +180,9 @@ country_event = { #uprising 3 weak
 			hidden_effect = {
 				load_oob = KAL_uprising_weak_3
 			}
+		}
+		CSB = {
+		set_country_flag = CEN_SIB_crushed_revolt
 		}
 	}
 }
@@ -202,6 +212,9 @@ country_event = { #uprising 1 med
 				load_oob = KAL_uprising_med_1
 			}
 		}
+		CSB = {
+		set_country_flag = CEN_SIB_crushed_revolt
+		}
 	}
 }
 
@@ -230,6 +243,9 @@ country_event = { #uprising 2 med
 				load_oob = KAL_uprising_med_2
 			}
 		}
+		CSB = {
+		set_country_flag = CEN_SIB_crushed_revolt
+		}
 	}
 }
 
@@ -257,6 +273,9 @@ country_event = { #uprising 3 med
 			hidden_effect = {
 				load_oob = KAL_uprising_med_3
 			}
+		}
+		CSB = {
+		set_country_flag = CEN_SIB_crushed_revolt
 		}
 	}
 }
@@ -288,6 +307,9 @@ country_event = { #uprising 1 strong
 				load_oob = KAL_uprising_strong_1
 			}
 		}
+		CSB = {
+		set_country_flag = CEN_SIB_crushed_revolt
+		}
 	}
 }
 
@@ -318,6 +340,9 @@ country_event = { #uprising 2 strong
 				load_oob = KAL_uprising_strong_2
 			}
 		}
+		CSB = {
+		set_country_flag = CEN_SIB_crushed_revolt
+		}
 	}
 }
 
@@ -347,6 +372,9 @@ country_event = { #uprising 3 strong
 			hidden_effect = {
 				load_oob = KAL_uprising_strong_3
 			}
+		}
+		CSB = {
+		set_country_flag = CEN_SIB_crushed_revolt
 		}
 	}
 }
