@@ -550,3 +550,43 @@
  URA_VLD_DEF: "the Haishenwai Trusteeship"
  URA_VLD_ADJ: "Haishenwain"
  
+ VLG_PRC: "Volgadeutsche ASSR"
+ VLG_PRC_DEF: "the Volga German Autonomous Soviet Socialist Republic"
+ URA_VLD_ADJ: "Volga German"
+ 
+ PET_PRC: "Leningrad"
+ PET_PRC_DEF: "the Leningrad Soviet"
+ PET_PRC_ADJ: "Leningrad"
+ 
+ CAU_PRC: "Transcaucasian SSR"
+ CAU_PRC_DEF: "the Transcaucasian Soviet Socialist Republic"
+ CAU_PRC_ADJ: "Transcaucasian"
+ 
+ UKR_PRC: "Ukranian SSR"
+ UKR_PRC_DEF: "the Ukranian Soviet Socialist Republic"
+ UKR_PRC_ADJ: "Ukranian"
+ 
+ CRI_PRC: "Krimdeutsche ASSR"
+ CRI_PRC_DEF: "the Crimean German Autonomous Soviet Socialist Republic"
+ CRI_PRC_ADJ: "Crimean German"
+ 
+ BLR_PRC: "Belarusian SSR"
+ BLR_PRC_DEF: "the Belarusian Soviet Socialist Republic"
+ BLR_PRC_ADJ: "Belarusian"
+ 
+ LIT_PRC: "Lithuanian SSR"
+ LIT_PRC_DEF: "the Lithuanian Soviet Socialist Republic"
+ LIT_PRC_ADJ: "Lithuanian"
+ 
+ LAT_PRC: "Latvian SSR"
+ LAT_PRC_DEF: "the Latvian Soviet Socialist Republic"
+ LAT_PRC_ADJ: "Latvian"
+ 
+ EST_PRC: "Estonian SSR"
+ EST_PRC_DEF: "the Estonian Soviet Socialist Republic"
+ EST_PRC_ADJ: "Estonian"
+ 
+ RIG_PRC: "Thälmannburg"
+ RIG_PRC_DEF: "the Thälmannburg Autonomous Soviet Socialist Republic"
+ RIG_PRC_ADJ: "Thälmannburger"
+ 

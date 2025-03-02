@@ -74,6 +74,7 @@ country_event = { #Load 2WRW tree & set up flags
 		name = PRC.3000.a
 		ai_chance = { factor = 1 }
 		SWRW_select_generic_focus_tree = yes
+		set_global_flag = PRC_shchelokov_unification
 	}
 }
 

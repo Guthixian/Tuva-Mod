@@ -1523,3 +1523,8 @@
  WORLD.41048.desc: "Red Sun in the Sky moment"
  WORLD.41048.a: "Curious, perhaps they can be reasoned with."
  
+ ### Tuva Wins 2WRW ###
+ WORLD.41049.t: "[Get_newspaper_header]The Union Triumphs over the Einheitspakt!"
+ WORLD.41049.desc: "Strike me down and I will become more corrupt than you can possibly imagine"
+ WORLD.41049.a: "Is communism here to stay this time?"
+ 

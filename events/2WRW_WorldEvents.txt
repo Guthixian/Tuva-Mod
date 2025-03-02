@@ -4665,3 +4665,19 @@ news_event = { #RFP Takeover Haishenwai
 		name = WORLD.41048.a
 	}
 }
+
+news_event = { #Shchelokov wins 2WRW
+	id = WORLD.41049
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.41049"}
+	title = WORLD.41049.t
+	desc = WORLD.41049.desc
+	picture = GFX_news_event_KZR_shchelokov_victory
+
+	is_triggered_only = yes
+	
+	
+
+	option ={
+		name = WORLD.41049.a
+	}
+}
