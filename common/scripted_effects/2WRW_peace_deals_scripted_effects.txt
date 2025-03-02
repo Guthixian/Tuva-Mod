@@ -7596,7 +7596,7 @@ PRC_shchelokov_baltic_occupation = {
 			set_party_name = {
 				ideology = paternalism 
 				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
-				name = "VKP(b) - Thällmanburg"
+				name = "VKP(b) - Thälmannburg"
 			}
 			set_party_name = {
 				ideology = paternalism_1
@@ -7728,8 +7728,8 @@ PRC_shchelokov_baltic_occupation = {
 				econ_type_change = yes
 				
 			}
-			1397 = { set_state_name = "Thällmanburg" }
-		set_province_name = { id = 9340 name = "Thällmanburg" }
+			1397 = { set_state_name = "Thälmannburg" }
+		set_province_name = { id = 9340 name = "Thälmannburg" }
 		EST = {
 			every_core_state = {
 				remove_core_of = OST
