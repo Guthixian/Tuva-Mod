@@ -7406,7 +7406,6 @@ PRC_shchelokov_baltic_occupation = {
 				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
 				name = "VKP(b)"
 			}
-				TNO_startup_nation = yes
 				set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
 				econ_type_change = yes
 			}
@@ -7428,9 +7427,6 @@ PRC_shchelokov_baltic_occupation = {
 				transfer_state = 943
 				transfer_state = 1402
 				transfer_state = 12
-			
-				TNO_startup_nation = yes
-				
 			
 				TNO_startup_nation = yes
 				
@@ -7528,11 +7524,8 @@ PRC_shchelokov_baltic_occupation = {
 				add_state_core = 1397
 				transfer_state = 1397
 				
-			
 				TNO_startup_nation = yes
-				
 			
-				TNO_startup_nation = yes
 				
 				set_capital = { state = 1397 }
 				add_ideas = {
@@ -8022,8 +8015,8 @@ PRC_shchelokov_ukraine_occupation = {
 				ruling_party = paternalism
 			}
 			create_country_leader = {
-						name = "Yury Hamretskyi"
-						picture = "gfx/leaders/UKS/Portrait_UKS_Yury_Hamretskyi.dds"
+						name = "Boris Shcherbina"
+						picture = "gfx/leaders/TYM/Portrait_Tyumen_Boris_Shcherbina.dds"
 						desc = ""
 						expire = "1999.3.4"
 						ideology = paternalism_oligarchy_subtype
