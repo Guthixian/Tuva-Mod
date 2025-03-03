@@ -555,7 +555,7 @@
  URA_VLD_ADJ: "Volga German"
  
  PET_PRC: "Leningrad"
- PET_PRC_DEF: "the Leningrad Soviet"
+ PET_PRC_DEF: "the Leningrad Soviet Socialist Oblast"
  PET_PRC_ADJ: "Leningrad"
  
  CAU_PRC: "Transcaucasian SSR"
@@ -587,6 +587,6 @@
  EST_PRC_ADJ: "Estonian"
  
  RIG_PRC: "Thälmannburg"
- RIG_PRC_DEF: "the Thälmannburg Autonomous Soviet Socialist Republic"
+ RIG_PRC_DEF: "the Thälmannburg Autonomous Soviet Socialist Oblast"
  RIG_PRC_ADJ: "Thälmannburger"
  
