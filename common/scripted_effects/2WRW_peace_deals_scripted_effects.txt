@@ -7040,13 +7040,10 @@ PRC_shchelokov_moskowien_occupation = {
 			target = ORL
 			autonomy_state = autonomy_assr
 		}
-		ORL = {
-		add_state_core = 260
-		add_state_core = 239
-		add_state_core = 217
-		add_state_core = 243
-		set_cosmetic_tag = VLG_PRC
-		RUS_Idea_Removal_Helper = yes
+		MCW = {
+			every_core_state = {
+				remove_core_of = MCW
+			}
 		}
 		RUS = {
 			transfer_state = 1442
@@ -7076,8 +7073,13 @@ PRC_shchelokov_moskowien_occupation = {
 			transfer_state = 244
 			
 			}
-			
-			ORL = {
+		ORL = {
+		add_state_core = 260
+		add_state_core = 239
+		add_state_core = 217
+		add_state_core = 243
+		set_cosmetic_tag = VLG_PRC
+		RUS_Idea_Removal_Helper = yes
 			transfer_state = 260
 			transfer_state = 217
 			transfer_state = 243
@@ -7192,12 +7194,6 @@ PRC_shchelokov_moskowien_occupation = {
 			TNO_improve_poverty_high = yes
 			TNO_improve_poverty_high = yes
 		}
-
-		MCW = {
-			every_core_state = {
-				remove_core_of = MCW
-			}
-		}
 		
 		every_country = { limit = { is_ai = no } news_event = { id = WORLD.41049 days = 1 } }
 	}
@@ -7290,6 +7286,12 @@ PRC_shchelokov_baltic_occupation = {
 	custom_effect_tooltip = PRC_shchelokov_baltic_occupation_tt
 	hidden_effect = {
 	
+	OST = {
+			every_core_state = {
+				remove_core_of = OST
+			}
+		}
+	
 		set_autonomy = {
 			target = EST
 			autonomy_state = autonomy_assr
@@ -7322,6 +7324,7 @@ PRC_shchelokov_baltic_occupation = {
 				transfer_state = 1396
 			
 				TNO_startup_nation = yes
+				set_country_flag = OST_LIBERATED
 				
 				add_ideas = {
 					EST_oil_shale_industry
@@ -7406,8 +7409,15 @@ PRC_shchelokov_baltic_occupation = {
 				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
 				name = "VKP(b)"
 			}
-				set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
-				econ_type_change = yes
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
+			
+			set_variable = { national_debt = 0 }
+			calculate_display_variables = yes
+			TNO_improve_poverty_high = yes
+			TNO_improve_poverty_high = yes
 			}
 			LAT = {
 				remove_all_ministers = yes
@@ -7429,6 +7439,7 @@ PRC_shchelokov_baltic_occupation = {
 				transfer_state = 12
 			
 				TNO_startup_nation = yes
+				set_country_flag = OST_LIBERATED
 				
 				set_capital = { state = 12 }
 				add_ideas = {
@@ -7514,8 +7525,16 @@ PRC_shchelokov_baltic_occupation = {
 				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
 				name = "VKP(b)"
 			}
-				set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
-				econ_type_change = yes
+			
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
+			
+			set_variable = { national_debt = 0 }
+			calculate_display_variables = yes
+			TNO_improve_poverty_high = yes
+			TNO_improve_poverty_high = yes
 				
 			}
 			UPO = {
@@ -7525,6 +7544,7 @@ PRC_shchelokov_baltic_occupation = {
 				transfer_state = 1397
 				
 				TNO_startup_nation = yes
+				set_country_flag = OST_LIBERATED
 			
 				
 				set_capital = { state = 1397 }
@@ -7611,8 +7631,15 @@ PRC_shchelokov_baltic_occupation = {
 				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
 				name = "VKP(b)"
 			}
-				set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
-				econ_type_change = yes
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
+			
+			set_variable = { national_debt = 0 }
+			calculate_display_variables = yes
+			TNO_improve_poverty_high = yes
+			TNO_improve_poverty_high = yes
 				
 			}
 			LIT = {
@@ -7631,6 +7658,7 @@ PRC_shchelokov_baltic_occupation = {
 				transfer_state = 96
 			
 				TNO_startup_nation = yes
+				set_country_flag = OST_LIBERATED
 				
 				set_capital = { state = 96 remember_old_capital = no}
 				add_ideas = {
@@ -7717,8 +7745,17 @@ PRC_shchelokov_baltic_occupation = {
 				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
 				name = "VKP(b)"
 			}
-				set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
-				econ_type_change = yes
+			
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
+			
+			
+			set_variable = { national_debt = 0 }
+			calculate_display_variables = yes
+			TNO_improve_poverty_high = yes
+			TNO_improve_poverty_high = yes
 				
 			}
 			1397 = { set_state_name = "Thälmannburg" }
@@ -7874,7 +7911,9 @@ PRC_shchelokov_caucasian_occupation = {
 			set_country_flag = CAU_LIBERATED
 			load_focus_tree = ZZZ_blank_focus
 			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
 			econ_type_change = yes
+			econ_subtype_change = yes
 
 			set_variable = { national_debt = 0 }
 			calculate_display_variables = yes
@@ -8103,7 +8142,9 @@ PRC_shchelokov_ukraine_occupation = {
 			}
 			load_focus_tree = ZZZ_blank_focus
 			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
 			econ_type_change = yes
+			econ_subtype_change = yes
 
 			set_variable = { national_debt = 0 }
 			calculate_display_variables = yes
@@ -8246,7 +8287,9 @@ PRC_shchelokov_ukraine_occupation = {
 			}
 			load_focus_tree = ZZZ_blank_focus
 			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
 			econ_type_change = yes
+			econ_subtype_change = yes
 
 			set_variable = { national_debt = 0 }
 			calculate_display_variables = yes
@@ -8355,7 +8398,9 @@ PRC_shchelokov_belarus_occupation = {
 				BLR_For_Ostland
 			}
 			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
 			econ_type_change = yes
+			econ_subtype_change = yes
 			load_focus_tree = ZZZ_blank_focus
 
 			set_variable = { national_debt = 0 }
