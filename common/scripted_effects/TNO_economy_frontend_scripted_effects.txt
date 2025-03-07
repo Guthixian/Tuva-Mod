@@ -3545,6 +3545,11 @@ econ_join_sphere_ARG = {
 	econ_join_sphere_target = yes
 }
 
+econ_join_sphere_PRC = {
+	set_temp_variable = { target = PRC }
+	econ_join_sphere_target = yes
+}
+
 econ_join_sphere_target = {
 	econ_leave_sphere = yes
 	custom_effect_tooltip = econ_join_sphere_target_tt

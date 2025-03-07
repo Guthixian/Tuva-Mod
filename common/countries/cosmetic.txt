@@ -3104,4 +3104,9 @@ RIG_PRC = {
 	color_ui = rgb { 112 21 16 }
 }
 
+GFA_PRC = {
+	color = rgb { 112 21 16 }
+	color_ui = rgb { 112 21 16 }
+}
+
 ### END 2WRW ###

@@ -7193,6 +7193,7 @@ PRC_shchelokov_moskowien_occupation = {
 			calculate_display_variables = yes
 			TNO_improve_poverty_high = yes
 			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
 		}
 		
 		every_country = { limit = { is_ai = no } news_event = { id = WORLD.41049 days = 1 } }
@@ -7278,6 +7279,7 @@ PRC_shchelokov_petrograd_occupation = {
 			calculate_display_variables = yes
 			TNO_improve_poverty_high = yes
 			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
 		}
 	}
 }
@@ -7418,6 +7420,7 @@ PRC_shchelokov_baltic_occupation = {
 			calculate_display_variables = yes
 			TNO_improve_poverty_high = yes
 			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
 			}
 			LAT = {
 				remove_all_ministers = yes
@@ -7535,6 +7538,7 @@ PRC_shchelokov_baltic_occupation = {
 			calculate_display_variables = yes
 			TNO_improve_poverty_high = yes
 			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
 				
 			}
 			UPO = {
@@ -7631,6 +7635,10 @@ PRC_shchelokov_baltic_occupation = {
 				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
 				name = "VKP(b)"
 			}
+			load_focus_tree = {
+					tree = load_focus_tree = ZZZ_blank_focus
+					keep_completed = no
+				}
 			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
 			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
 			econ_type_change = yes
@@ -7640,6 +7648,7 @@ PRC_shchelokov_baltic_occupation = {
 			calculate_display_variables = yes
 			TNO_improve_poverty_high = yes
 			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
 				
 			}
 			LIT = {
@@ -7756,6 +7765,7 @@ PRC_shchelokov_baltic_occupation = {
 			calculate_display_variables = yes
 			TNO_improve_poverty_high = yes
 			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
 				
 			}
 			1397 = { set_state_name = "Thälmannburg" }
@@ -7919,6 +7929,7 @@ PRC_shchelokov_caucasian_occupation = {
 			calculate_display_variables = yes
 			TNO_improve_poverty_high = yes
 			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
 		}
 	}
 }
@@ -8150,6 +8161,7 @@ PRC_shchelokov_ukraine_occupation = {
 			calculate_display_variables = yes
 			TNO_improve_poverty_high = yes
 			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
 			if = {
 				limit = {
 					UKR = { # Apparently this shouldn't happen during normal gameplay but whatever
@@ -8295,6 +8307,7 @@ PRC_shchelokov_ukraine_occupation = {
 			calculate_display_variables = yes
 			TNO_improve_poverty_high = yes
 			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
 		}
 		
 		1532 = { set_state_name = "Bukharinstadt" }
@@ -8407,6 +8420,7 @@ PRC_shchelokov_belarus_occupation = {
 			calculate_display_variables = yes
 			TNO_improve_poverty_high = yes
 			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
 		}
 	}
 }

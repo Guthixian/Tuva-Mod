@@ -534,7 +534,7 @@ WSR_WSB_is_compatible = {
 				OR = {
 					WSB = {
 						original_tag = SVR
-						has_government = despotism
+						has_government = paternalism
 					}
 					WSB = {
 						original_tag = TYM
@@ -551,7 +551,7 @@ WSR_WSB_is_compatible = {
 				OR = {
 					WSB = {
 						original_tag = SVR
-						has_government = despotism
+						has_government = paternalism
 					}
 					WSB = {
 						original_tag = TYM
@@ -582,7 +582,7 @@ WSR_WSB_is_compatible = {
 					WSB = {
 						AND = {
 							original_tag = SVR
-							has_government = despotism
+							has_government = paternalism
 						}
 					}
 				}
@@ -648,10 +648,6 @@ CSB_FST_is_compatible = {
 						ruling_only = yes
 					}
 					}
-						
-					}
-				
-			}
 					}
 				}
 			}
@@ -918,7 +914,7 @@ RWS_SIB_is_compatible = {
 			AND = {
 				RWS = {
 					original_tag = SVR
-					has_government = despotism
+					has_government = paternalism
 				}
 				OR = {
 					SIB = {
@@ -1357,7 +1353,7 @@ RUS_consider_communist_regime = {
 		}
 		AND = {
 			original_tag = SVR
-			has_government = despotism
+			has_government = paternalism
 		}
 	}
 }

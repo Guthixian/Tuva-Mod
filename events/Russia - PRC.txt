@@ -6,6 +6,7 @@ add_namespace = PRC_expansion
 add_namespace = PRC_regional
 add_namespace = PRC_superregional
 add_namespace = PRC_vladivostok
+add_namespace = PRC_afghanistan
 
 country_event = { #Intro Event
 	id = PRC.1
@@ -36,7 +37,143 @@ country_event = { #Eco Subtype Test
 	option = {
 		name = PRC.9999.a
 		set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
-					econ_subtype_change = yes
+		econ_subtype_change = yes
+		set_country_flag = HAS_ECON_SPHERE
+		set_variable = { ECON_SPHERE_LEADER = PRC }
+		econ_join_sphere_PRC = yes
+		
+	}
+	option = {
+		name = PRC.9999.b
+		econ_join_sphere_PRC = yes
+		
+		}
+}
+
+country_event = { #temporary Thalmannburg respawner
+	id = PRC.10000
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.10000" }
+	title = PRC.10000.t
+	desc = PRC.10000.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC.10000.a
+		set_autonomy = {
+			target = UPO
+			autonomy_state = autonomy_assr
+		}
+		UPO = {
+				remove_all_ministers = yes
+				set_cosmetic_tag = RIG_PRC
+				add_state_core = 1397
+				transfer_state = 1397
+				
+				TNO_startup_nation = yes
+				set_country_flag = OST_LIBERATED
+			
+				
+				set_capital = { state = 1397 }
+				add_ideas = {
+				LAT_pearl_of_the_baltic
+
+					### Political ###
+					tno_political_parties_multiparty_system
+					tno_religious_rights_secularism
+					tno_trade_unions_illegal
+					tno_immigration_encouraged_immigration
+					tno_slavery_outlawed
+					tno_public_meetings_regulated
+					tno_press_rights_censored_press
+					tno_vote_franchise_universal
+					tno_refugees_open
+
+					### Military ###
+					tno_conscription_limited_conscription
+					tno_women_noncombat_only
+					tno_military_supervision_rules_of_engagement
+					tno_training_basic_training
+					tno_racial_integration_integrated_military
+					tno_draft_exemptions_educational_deferment
+
+					### Economic ###
+					tno_trade_laws_export_focus
+					tno_income_taxation_flat_taxes
+					tno_minimum_wage_trinket_minimum_wage
+					tno_max_workhours_12_hour_work_day
+					tno_child_labor_illegal
+					tno_pensions_low_pensions
+					tno_unemployment_low_subsidies
+
+					### Social ###
+					tno_safety_minimal_regulations
+					tno_health_care_low_income_protections
+					tno_pollution_few_regulations
+					tno_education_public_education
+					tno_penal_system_incarceration
+					tno_lgbt_rights_lgbt_outlawed
+					tno_gender_rights_women_in_the_workplace
+					tno_minorities_equal_rights
+					tno_security_regulated_police
+				}
+				create_country_leader = {
+						name = "Erich Mielke"
+						picture = "gfx/leaders/GER/RPR_Erich_Mielke.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_authoritarian_developmentalism_subtype
+					}
+			
+			
+			set_popularities = {
+				paternalism = 33
+				paternalism_1 = 20
+				national_socialism = 15
+				despotism = 18
+				communist = 14
+			}
+			set_party_name = {
+				ideology = paternalism 
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b) - Thälmannburg"
+			}
+			set_party_name = {
+				ideology = paternalism_1
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = despotism
+				long_name = "Anti-Soviet Partisans"
+				name = "Anti-Soviet Partisans"
+			}
+			set_party_name = {
+				ideology = national_socialism
+				long_name = "Nationalsocialistsche Deutsche Arbeiterspartei - Auslands-Organisation"
+				name = "NSDAP/AO"
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			load_focus_tree = {
+					tree = load_focus_tree = ZZZ_blank_focus
+					keep_completed = no
+				}
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
+			
+			set_variable = { national_debt = 0 }
+			calculate_display_variables = yes
+			TNO_improve_poverty_high = yes
+			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
+				
+			}
 		
 	}
 }
@@ -382,6 +519,14 @@ country_event = { # Brezhnev Picker
 					activate = yes
 				}
 		}
+		hidden_effect = {
+		set_politics = {
+						ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1976.10.1"
+						election_frequency = 48
+					}
+		}
 }
 option = {
 		name = PRC_superregional.1975.b
@@ -454,6 +599,14 @@ option = {
 					}
 					activate = yes
 				}
+		}
+		hidden_effect = {
+		set_politics = {
+						ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1976.10.1"
+						election_frequency = 48
+					}
 		}
 }
 option = {
@@ -528,6 +681,14 @@ option = {
 					activate = yes
 				}
 		}
+		hidden_effect = {
+		set_politics = {
+						ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1976.10.1"
+						election_frequency = 48
+					}
+		}
 }
 
 option = {
@@ -601,6 +762,14 @@ option = {
 					}
 					activate = yes
 				}
+		}
+		hidden_effect = {
+		set_politics = {
+						ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1976.10.1"
+						election_frequency = 48
+					}
 		}
 }
 	}
@@ -691,7 +860,10 @@ country_event = { # Brezhnev Successor Roulette
 
 	option = {
 		name = PRC_superregional.1985.a #Sablin
-		set_politics = { ruling_party = paternalism }
+		set_politics = { ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1980.4.17"
+						election_frequency = 48 }
 		create_country_leader = {
 						name = "Valery Sablin"
 						picture = "gfx/leaders/BRY/Portrait_Buryatia_Valery_Sablin_2wrw.dds"
@@ -703,7 +875,10 @@ country_event = { # Brezhnev Successor Roulette
 		}
 	option = {
 		name = PRC_superregional.1985.b #Brezhneva
-		set_politics = { ruling_party = paternalism }
+		set_politics = { ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1980.4.17"
+						election_frequency = 48 }
 		create_country_leader = {
 						name = "Galina Brezhneva"
 						picture = "gfx/leaders/PRC/Portrait_PRC_Galina_Brezhneva.png"
@@ -1018,5 +1193,164 @@ country_event = { # Big Trouble In Little Haishenwai
 						set_state_name = STATE_809_chi
 					}
 					set_province_name = { id = 957 name = VICTORY_POINTS_957_chi }
+	}
+}
+
+country_event = { #Afghanistan tooser
+	id = PRC_afghanistan.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_afghanistan.1" }
+	title = PRC_afghanistan.1.t
+	desc = PRC_afghanistan.1.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC_afghanistan.1.a # initial
+		GFA = {
+				remove_all_ministers = yes
+				set_cosmetic_tag = GFA_PRC
+				add_state_core = 1471
+				add_state_core = 1470
+				add_state_core = 1884
+				add_state_core = 267
+				transfer_state = 1471
+				transfer_state = 1470
+				transfer_state = 1884
+				transfer_state = 267
+				
+				TNO_startup_nation = yes
+			
+				
+				set_capital = { state = 267 }
+				add_ideas = {
+
+					### Political ###
+					tno_political_parties_multiparty_system
+					tno_religious_rights_secularism
+					tno_trade_unions_illegal
+					tno_immigration_encouraged_immigration
+					tno_slavery_outlawed
+					tno_public_meetings_regulated
+					tno_press_rights_censored_press
+					tno_vote_franchise_universal
+					tno_refugees_open
+
+					### Military ###
+					tno_conscription_limited_conscription
+					tno_women_noncombat_only
+					tno_military_supervision_rules_of_engagement
+					tno_training_basic_training
+					tno_racial_integration_integrated_military
+					tno_draft_exemptions_educational_deferment
+
+					### Economic ###
+					tno_trade_laws_export_focus
+					tno_income_taxation_flat_taxes
+					tno_minimum_wage_trinket_minimum_wage
+					tno_max_workhours_12_hour_work_day
+					tno_child_labor_illegal
+					tno_pensions_low_pensions
+					tno_unemployment_low_subsidies
+
+					### Social ###
+					tno_safety_minimal_regulations
+					tno_health_care_low_income_protections
+					tno_pollution_few_regulations
+					tno_education_public_education
+					tno_penal_system_incarceration
+					tno_lgbt_rights_lgbt_outlawed
+					tno_gender_rights_women_in_the_workplace
+					tno_minorities_equal_rights
+					tno_security_regulated_police
+				}
+				create_country_leader = {
+						name = "Babrak Karmal"
+						picture = "gfx/leaders/PRC/Portrait_GFA_Babrak_Karmal.png"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_social_nationalism_subtype
+					}
+			
+			
+			set_popularities = {
+				paternalism = 33
+				despotism = 33
+				communist = 14
+				socialist = 10
+				ultranationalism = 10
+			}
+			set_party_name = {
+				ideology = paternalism 
+				long_name = "Hezb-e Watan"
+				name = "HW"
+			}
+			
+			set_party_name = {
+				ideology = despotism
+				long_name = "Anti-Soviet Partisans"
+				name = "Anti-Soviet Partisans"
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			load_focus_tree = {
+					tree = load_focus_tree = ZZZ_blank_focus
+					keep_completed = no
+				}
+			set_politics = {
+						ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1976.10.1"
+						election_frequency = 48
+					}
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
+			
+			set_variable = { national_debt = 0 }
+			calculate_display_variables = yes
+			TNO_improve_poverty_high = yes
+			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
+				
+			}
+			GFA = {
+			load_oob = "GFA_1979"
+			declare_war_on = {
+				target = AFG
+				type = annex_everything
+			}
+		}
+	}
+	option = {
+		name = PRC_afghanistan.1.b # cleanup
+		
+		GFA =  { annex_country = { target = AFG transfer_troops = no } }
+		GFA = {
+		every_owned_state = { set_demilitarized_zone = yes }
+		}
+		267 = { set_demilitarized_zone = no }
+		1884 = { set_demilitarized_zone = no }
+		1470 = { set_demilitarized_zone = no }
+		
+		set_autonomy = {
+				target = GFA
+				autonomy_state = autonomy_assr
+			}
+		GFA = {
+		set_popularities = {
+				paternalism = 33
+				despotism = 33
+				communist = 14
+				socialist = 10
+				ultranationalism = 10
+			}
+		}
+		IND =  { annex_country = { target = MFP transfer_troops = no } }
+		IND =  { annex_country = { target = KLT transfer_troops = no } }
+		
 	}
 }

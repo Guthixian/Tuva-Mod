@@ -1,0 +1,33 @@
+on_actions = {
+    on_startup = {
+            effect = {
+			
+				GFA = {
+                set_variable = { GDP = 0.287 } #in billions #already converted to billion.
+                set_variable = { GDP_growth = 1.2 }
+                set_variable = { income_tax_rate = 0.40 }
+                set_variable = { business_tax_rate = 0.55 }
+                set_variable = { poverty_rate = 88.3 }
+                set_variable = { misc_income = 0.5 }
+                set_variable = { base_inflation_rate = 0.9}
+                ### Credit Rating
+                set_temp_variable = { temp_credit_rating = 3 }
+                set_temp_variable = { temp_credit_rating_min = 2 }
+                set_temp_variable = { temp_credit_rating_max = 5 }
+                econ_initialize_credit_rating_system = yes
+
+                267 = { set_variable = { defined_state_value = 35.38 } }
+
+                initiate_display_vars = yes
+
+                calculate_total_inflation = yes
+                calculate_inflation_effect = yes
+                apply_inflation_effect_month = yes
+                calculate_deficit_effects_display = yes
+                apply_deficit_effects_monthly = yes
+                store_old_values = yes
+
+                }
+        }
+    }
+}
