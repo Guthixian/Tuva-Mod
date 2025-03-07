@@ -7,6 +7,7 @@ add_namespace = PRC_regional
 add_namespace = PRC_superregional
 add_namespace = PRC_vladivostok
 add_namespace = PRC_afghanistan
+add_namespace = PRC_failure
 
 country_event = { #Intro Event
 	id = PRC.1
@@ -1352,5 +1353,48 @@ country_event = { #Afghanistan tooser
 		IND =  { annex_country = { target = MFP transfer_troops = no } }
 		IND =  { annex_country = { target = KLT transfer_troops = no } }
 		
+	}
+}
+
+country_event = { # Yuri Vasilyevsky coup
+	id = PRC_failure.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_failure.1" }
+	title = PRC_failure.1.t
+	desc = PRC_failure.1.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC_failure.1.a
+		hidden_effect = {
+		create_country_leader = {
+						name = "Yuri Vasilevsky"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Yuri_Vasilevsky.dds"
+						traits = { marshall_and_chairman }
+						desc = "POLITICS_YURI_VASILEVSKY_LOSE_DESC"
+						expire = "1999.3.4"
+						ideology = despotism_personalistic_dictatorship_subtype
+					}
+		set_politics = {
+						ruling_party = despotism
+						elections_allowed = no
+						last_election = "1976.10.1"
+					}
+		set_popularities = {
+				despotism = 30
+				despotism_1 = 10
+				despotism_2 = 30
+				communist = 15
+				ultranationalism = 15
+			}
+		remove_all_ministers = yes
+			add_ideas = {
+				PRC_Generic_Vacant_hog
+				PRC_Generic_Vacant_for
+				PRC_Generic_Vacant_eco
+				PRC_Generic_Vacant_sec
+			}
+			}
+			set_capital = { state = 571 }
 	}
 }
