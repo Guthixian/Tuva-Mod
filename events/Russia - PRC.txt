@@ -818,7 +818,17 @@ country_event = { # temp name changer
 	option = {
 		name = PRC.superregional.1973.a
 		set_cosmetic_tag = PRC_postwar
+		create_faction = mutual_assistance_treaty
+		add_ideas = TMA_Leader_Of_The_Unfree_World
+		
+}
+   option = {
+		name = PRC.superregional.1973.b
 		set_faction_name = "Dogovor o Vzaimopomoshchi"
+		every_country = {
+		limit = { is_in_faction_with = PRC}
+		add_ideas = TMA_Member
+		}
 		
 }
 
