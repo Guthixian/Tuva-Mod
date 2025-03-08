@@ -10,7 +10,7 @@ bookmarks = {
 		desc = "THENEWORDER_DESC"
 		date = 1962.1.1.1
 		picture = "GFX_select_date_1939"
-		default_country = "PRC"
+		default_country = "PRC" ### 2WRW ###
 		default = yes
 
 		effect = {
@@ -50,35 +50,37 @@ bookmarks = {
 			}
 		}
 
-		"USA" = { #For random country select
-			history = "USA_THENEWORDER_DESC"
-			ideology = conservatism
+		### 2WRW ###
+		"PRC" = {
+			history = "PRC_THENEWORDER_DESC"
+			ideology = paternalism
 			ideas = {
-				USA_last_bastion_of_liberty
-				USA_the_american_depression_4
-				USA_jim_crow
+				PRC_factionalism
+				PRC_democratic_military
+				PRC_unclear_war_communism
 			}
 			focuses = {
-				USA_the_nixon_presidency
-				USA_the_civil_rights_dillema
-				USA_Boxing_In_the_Sphere
+				PRC_Tomb_of_the_Union
+				PRC_regional
+				PRC_superregional
 			}
 		}
 
-		"GER" = { #For random country select
-			history = "GER_THENEWORDER_DESC"
-			ideology = national_socialism
+		"KMC" = {
+			history = "KMC_THENEWORDER_DESC"
+			ideology = paternalism
 			ideas = {
-				to_banish_want
-				the_two_principles
-				endsieg
-			}
-			focuses = {
-				BOR_der_wilde_ritt
-				SGR_doppeldenken
-				HGR_victory_tree
+		        KMC_idea_secure_our_position
+				KMC_prof_dummy
+				KMC_efficient_repairs
+				}
+		    focuses = {
+		        KMC_the_plan
+		        KMC_appeal_to_america
+		        KMC_pirates_in_the_carribbean
 			}
 		}
+		### END 2WRW ###
 
 		"JAP" = {
 			history = "JAP_THENEWORDER_DESC"
@@ -134,8 +136,36 @@ bookmarks = {
 			}
 		}
 
-		"ZZZ" = { history = "" }
-		"ZZZ" = { history = "" }
+		### 2WRW ###
+		"OMS" = {
+			history = "OMS_THENEWORDER_DESC"
+			ideology = ultranationalism
+			ideas = {
+				OMS_fueled_by_revenge
+				OMS_nothing_left_to_lose
+				OMS_karbyshev_figurehead
+			}
+			focuses = {
+				OMS_initial_last_days_of_comrade_karbyshev
+				OMS_initial_against_the_old_guard
+				OMS_initial_the_shield_of_the_motherland
+			}
+		}
+		"WRS" = {
+			history = "WRS_THENEWORDER_DESC"
+			ideology = communist
+			ideas = {
+				RUS_terror_bombing
+				WRS_veterans_of_the_long_war
+				WRS_agricultural_insecurity
+			}
+			focuses = {
+				WRS_initial_enduring
+				WRS_the_red_bonaparte
+				WRS_the_peoples_marshal
+			}
+		}
+		### END 2WRW ###
 
 		"CHI" = {
 			history = "CHI_THENEWORDER_DESC"
@@ -179,8 +209,37 @@ bookmarks = {
 			ideology = fascism
 		}
 
-		"ZZZ" = { history = "" }
-		"ZZZ" = { history = "" }
+		### 2WRW ###
+		"MAG" = {
+			history = "MAG_THENEWORDER_DESC"
+			ideology = fascism
+			ideas = {
+				RUS_heirs_of_harbin
+				MAG_fascist_splitters
+				MAG_gateway_into_russia
+			}
+			focuses = {
+				MAG_the_true_heir_of_harbin
+				MAG_desperate_times
+				MAG_promise_to_reform
+			}
+		}
+
+		"SVR" = {
+			history = "SVR_THENEWORDER_DESC"
+			ideology = paternalism
+			ideas = {
+				SVR_notso_redarmy
+				SVR_black_league_influence_tier_1
+				SVR_revisionist_influence_tier_2
+			}
+			focuses = {
+				SVR_a_bastion_of_freedom
+				SVR_trust_the_marshal
+				SVR_cast_them_down
+			}
+		}
+		### END 2WRW ###
 
 		"MAN" = {
 			history = ""
@@ -273,20 +332,12 @@ bookmarks = {
 			}
 		}
 
-		"UKR" = {
+		"MCW" = {
 			minor = yes
-			history = "UKR_THENEWORDER_DESC"
+			history = ""
 			ideology = national_socialism
-			ideas = {
-				UKR_breadbasket_of_the_reich
-				UKR_land_of_contrasts
-				UKR_paradise_undone
-			}
-			focuses = {
-				UKR_the_melt_of_rot
-				FUK_the_new_hruchevsky
-				UKS_the_longest_war
-			}
+			ideas = {}
+			focuses = {}
 		}
 
 		"BRG" = {
@@ -304,42 +355,11 @@ bookmarks = {
 				BRG_the_last_hope_for_germania
 			}
 		}
-
 		## PAKT ##
 
 		## RUSSIA ##
-		"WRS" = {
-			minor = yes
-			history = "WRS_THENEWORDER_DESC"
-			ideology = communist
-			ideas = {
-				RUS_terror_bombing
-				WRS_veterans_of_the_long_war
-				WRS_agricultural_insecurity
-			}
-			focuses = {
-				WRS_initial_enduring
-				WRS_the_red_bonaparte
-				WRS_the_peoples_marshal
-			}
-		}
 
-		"SAM" = {
-			minor = yes
-			history = "SAM_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				SAM_Turncoat_General
-				SAM_german_bootlickers
-				SAM_The_Smolensk_Manifesto
-			}
-			focuses = {
-				SAM_Our_Guide
-				SAM_Our_Loyalty
-				SAM_Who_Shall_Stand_Beside_Vlasov
-			}
-		}
-
+		### 2WRW ###
 		"VYT" = {
 			minor = yes
 			history = "VYT_THENEWORDER_DESC"
@@ -355,6 +375,39 @@ bookmarks = {
 				VYT_the_eagle_flies_once_more
 			}
 		}
+
+		"TYM" = {
+			minor = yes
+			history = "TYM_THENEWORDER_DESC"
+			ideology = communist
+			ideas = {
+				TYM_revisionist_remnant
+				TYM_unorthodox_bolshevism
+				RUS_ural_automotive_plant
+			}
+			focuses = {
+				TYM_holding_out
+				TYM_on_the_clock
+				TYM_off_the_clock
+			}
+		}
+
+		"IRK" = {
+			minor = yes
+			history = "IRK_THENEWORDER_DESC"
+			ideology = communist
+			ideas = {
+				IRK_bitter_remnant
+				IRK_yagodas_paranoia
+				RUS_irkutsk_hydro_station
+			}
+			focuses = {
+				IRK_mutiny_the_response
+				IRK_mutiny_an_ironclad_union
+				IRK_mutiny_the_union_forever
+			}
+		}
+		### END 2WRW ###
 
 		"KOM" = {
 			minor = yes
@@ -372,37 +425,39 @@ bookmarks = {
 			}
 		}
 
-		"PRM" = {
+		### 2WRW ###
+		"BRY" = {
 			minor = yes
-			history = "PRM_THENEWORDER_DESC"
-			ideology = national_socialism
+			history = "BRY_THENEWORDER_DESC"
+			ideology = socialist
 			ideas = {
-				PRM_aryan_cult
-				PRM_aryan_control_3
-				PRM_aryan_schematics
+				BRY_uncertain_revolutionaries
+				BRY_ghost_of_bukharinism
 			}
 			focuses = {
-				PRM_AB_initial_beneath_cross
-				PRM_AB_initial_ubermensch
-				PRM_AB_initial_brotherhood
+				BRY_the_spark
+				BRY_the_dreams_of_those_before
+				BRY_that_burns_the_tyrant_down
 			}
 		}
 
-		"OMS" = {
+		"SBA" = {
 			minor = yes
-			history = "OMS_THENEWORDER_DESC"
-			ideology = ultranationalism
+			history = "SBA_THENEWORDER_DESC"
+			ideology = socialist
 			ideas = {
-				OMS_fueled_by_revenge
-				OMS_nothing_left_to_lose
-				OMS_karbyshev_figurehead
+				SBA_anarchist_refuge
+				SBA_militarized_society
+				SBA_black_army_administration_2
 			}
 			focuses = {
-				OMS_initial_last_days_of_comrade_karbyshev
-				OMS_initial_against_the_old_guard
-				OMS_initial_the_shield_of_the_motherland
+				SBA_intro_mother_anarchys_eldest_sons
+				SBA_intro_the_third_congress_of_tulun
+				SBA_intro_riding_on
 			}
 		}
+		### END 2WRW ###
+
 		## RUSSIA ##
 
 		## CPS ##
@@ -467,7 +522,175 @@ bookmarks = {
 		## OFN ##
 
 		## PAKT ##
+		"GGN" = {
+			minor = yes
+			history = ""
+			ideology = national_socialism
+			ideas = {}
+			focuses = {}
+		}
 
+		"UKR" = {
+			minor = yes
+			history = "UKR_THENEWORDER_DESC"
+			ideology = national_socialism
+			ideas = {
+				UKR_breadbasket_of_the_reich
+				UKR_land_of_contrasts
+				UKR_paradise_undone
+			}
+			focuses = {
+				UKR_the_melt_of_rot
+				FUK_the_new_hruchevsky
+				UKS_the_longest_war
+			}
+		}
+
+		"OST" = {
+			minor = yes
+			history = ""
+			ideology = national_socialism
+			ideas = {}
+			focuses = {}
+		}
+		## PAKT ##
+
+		## RUSSIA ##
+
+		### 2WRW ###
+		"TOM" = {
+			minor = yes
+			history = "TOM_THENEWORDER_DESC"
+			ideology = conservatism
+			ideas = {
+				TOM_formation_of_the_salons
+				TOM_warlord_of_the_city
+				TOM_provisional_government
+			}
+			focuses = {
+				TOM_the_first_draft
+				TOM_the_legacy_of_white_russia
+				TOM_the_death_of_the_author
+			}
+		}
+
+		"CHT" = {
+			minor = yes
+			history = "CHT_THENEWORDER_DESC"
+			ideology = despotism
+			ideas = {
+				RUS_heirs_of_harbin
+				CHT_uneasy_figurhead
+				CHT_sunset_of_white_chivalry
+			}
+			focuses = {
+				CHT_the_true_heirs_of_harbin
+				CHT_Military_investments
+				CHT_civilian_investments
+			}
+		}
+
+		"SAM" = {
+			minor = yes
+			history = "SAM_THENEWORDER_DESC"
+			ideology = despotism
+			ideas = {
+				SAM_Turncoat_General
+				SAM_german_bootlickers
+				SAM_The_Smolensk_Manifesto
+			}
+			focuses = {
+				SAM_Our_Guide
+				SAM_Our_Loyalty
+				SAM_Who_Shall_Stand_Beside_Vlasov
+			}
+		}
+		### END 2WRW ###
+
+		"KEM" = {
+			minor = yes
+			history = "KEM_THENEWORDER_DESC"
+			ideology = despotism
+			ideas = {
+				KEM_esoteric_kingdom
+				KEM_the_two_wolves
+				KEM_kings_unions
+			}
+			focuses = {
+				KEM_reign_of_the_mad_king
+				KEM_prince_yuriys_ideals
+				KEM_princess_lydias_pragmatism
+			}
+		}
+
+		### 2WRW ###
+		"AMR" = {
+			minor = yes
+			history = "AMR_THENEWORDER_DESC"
+			ideology = national_socialism
+			ideas = {
+				RUS_heirs_of_harbin
+				AMR_rusfascist_stronghold
+				AMR_paranoid_vozhd_1
+			}
+			focuses = {
+				AMR_the_true_heir_of_harbin
+				AMR_god_nation_labor
+				AMR_rodzaevskys_paranoia
+			}
+		}
+
+		"PRM" = {
+			minor = yes
+			history = "PRM_THENEWORDER_DESC"
+			ideology = national_socialism
+			ideas = {
+				PRM_aryan_cult
+				PRM_aryan_control_3
+				PRM_aryan_schematics
+			}
+			focuses = {
+				PRM_AB_initial_beneath_cross
+				PRM_AB_initial_ubermensch
+				PRM_AB_initial_brotherhood
+			}
+		}
+		### END 2WRW ###
+		## RUSSIA ##
+
+		## CPS ##
+		"ZZZ" = { minor = yes history = "" }
+
+		"ZZZ" = { minor = yes history = "" }
+
+		"ZZZ" = { minor = yes history = "" }
+		## CPS ##
+
+		## TRIUM ##
+		"ZZZ" = { minor = yes history = "" }
+
+		"ARG" = { minor = yes history = "ARG_THENEWORDER_DESC" }
+
+		"ZZZ" = { minor = yes history = "" }
+		## TRIUM ##
+
+		# Buffer
+		"ZZZ" = { minor = yes history = "" }
+		### ROW 2 ###
+
+		### ROW 3 ###
+		# Buffer
+		"ZZZ" = { minor = yes history = "" }
+
+		## OFN ##
+		"ZZZ" = { minor = yes history = "" }
+
+		"ZZZ" = { minor = yes history = "" }
+
+		"ZZZ" = { minor = yes history = "" }
+		## OFN ##
+
+		## PAKT ##
 		"ANG" = {
 			minor = yes
 			history = "ANG_THENEWORDER_DESC"
@@ -518,339 +741,25 @@ bookmarks = {
 				GRO_be_happy_or_else
 			}
 		}
-
 		## PAKT ##
 
 		## RUSSIA ##
 
-		"TYM" = {
-			minor = yes
-			history = "TYM_THENEWORDER_DESC"
-			ideology = communist
-			ideas = {
-				TYM_revisionist_remnant
-				TYM_unorthodox_bolshevism
-				RUS_ural_automotive_plant
-			}
-			focuses = {
-				TYM_holding_out
-				TYM_on_the_clock
-				TYM_off_the_clock
-			}
-		}
+		
 
-		"SVR" = {
-			minor = yes
-			history = "SVR_THENEWORDER_DESC"
-			ideology = paternalism
-			ideas = {
-				SVR_notso_redarmy
-				SVR_black_league_influence_tier_1
-				SVR_revisionist_influence_tier_2
-			}
-			focuses = {
-				SVR_a_bastion_of_freedom
-				SVR_trust_the_marshal
-				SVR_cast_them_down
-			}
-		}
-
-		"KEM" = {
-			minor = yes
-			history = "KEM_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				KEM_esoteric_kingdom
-				KEM_the_two_wolves
-				KEM_kings_unions
-			}
-			focuses = {
-				KEM_reign_of_the_mad_king
-				KEM_prince_yuriys_ideals
-				KEM_princess_lydias_pragmatism
-			}
-		}
-
-		"TOM" = {
-			minor = yes
-			history = "TOM_THENEWORDER_DESC"
-			ideology = conservatism
-			ideas = {
-				TOM_formation_of_the_salons
-				TOM_warlord_of_the_city
-				TOM_provisional_government
-			}
-			focuses = {
-				TOM_the_first_draft
-				TOM_the_legacy_of_white_russia
-				TOM_the_death_of_the_author
-			}
-		}
-
-		"SBA" = {
-			minor = yes
-			history = "SBA_THENEWORDER_DESC"
-			ideology = socialist
-			ideas = {
-				SBA_anarchist_refuge
-				SBA_militarized_society
-				SBA_black_army_administration_2
-			}
-			focuses = {
-				SBA_intro_mother_anarchys_eldest_sons
-				SBA_intro_the_third_congress_of_tulun
-				SBA_intro_riding_on
-			}
-		}
-
-		"NOV" = {
-			minor = yes
-			history = "NOV_THENEWORDER_DESC"
-			ideology = paternalism
-			ideas = {
-				NOV_Disproportionate_Population
-				NOV_The_All_Siberian_Army
-				RUS_novosibirsk_aircraft_plant
-			}
-			focuses = {
-				NOV_land_of_the_strong
-				NOV_the_champions_of_industry
-				NOV_the_soldiers_soviet
-			}
-		}
 		## RUSSIA ##
 
 		## CPS ##
-		"ZZZ" = { minor = yes history = "" }
 
-		"ZZZ" = { minor = yes history = "" }
-
-		"ZZZ" = { minor = yes history = "" }
 		## CPS ##
 
 		## TRIUM ##
-		"ZZZ" = { minor = yes history = "" }
 
-		"ARG" = { minor = yes history = "ARG_THENEWORDER_DESC" }
-
-		"ZZZ" = { minor = yes history = "" }
 		## TRIUM ##
 
 		# Buffer
-		"ZZZ" = { minor = yes history = "" }
-		### ROW 2 ###
 
 		### ROW 3 ###
-		# Buffer
-		"ZZZ" = { minor = yes history = "" }
-
-		## OFN ##
-		"AAC" = {
-			minor = yes
-			history = "AAC_THENEWORDER_DESC"
-			ideology = paternalism
-			ideas = {
-				Antarctica_Territory_Generic_Idea
-				AAC_Unrecognized_Antarctic_Claims
-				AAC_Jealous_Defence
-			}
-			focuses = {
-
-			}
-		}
-
-		"ZZZ" = { minor = yes history = "" }
-
-		"AAO" = {
-			minor = yes
-			history = "AAO_THENEWORDER_DESC"
-			ideology = paternalism
-			ideas = {
-				Antarctica_Territory_Generic_Idea
-				AAO_McMurdo_Station
-				AAO_OFN_Tensions
-			}
-			focuses = {
-
-			}
-		}
-		## OFN ##
-
-		## PAKT ##
-		"AAG" = {
-			minor = yes
-			history = "AAG_THENEWORDER_DESC"
-			ideology = national_socialism
-			ideas = {
-				Antarctica_Territory_Generic_Idea
-				AAG_Aircraft_Testing_Site
-				AAG_Precarious_Supply_Situation
-			}
-			focuses = {
-
-			}
-		}
-
-		"OST" = {
-			minor = yes
-			history = ""
-			ideology = national_socialism
-			ideas = {}
-			focuses = {}
-		}
-
-		"MCW" = {
-			minor = yes
-			history = ""
-			ideology = national_socialism
-			ideas = {}
-			focuses = {}
-		}
-		
-		## PAKT ##
-
-		## RUSSIA ##
-
-		"IRK" = {
-			minor = yes
-			history = "IRK_THENEWORDER_DESC"
-			ideology = communist
-			ideas = {
-				IRK_bitter_remnant
-				IRK_yagodas_paranoia
-				RUS_irkutsk_hydro_station
-			}
-			focuses = {
-				IRK_mutiny_the_response
-				IRK_mutiny_an_ironclad_union
-				IRK_mutiny_the_union_forever
-			}
-		}
-
-		"BRY" = {
-			minor = yes
-			history = "BRY_THENEWORDER_DESC"
-			ideology = socialist
-			ideas = {
-				BRY_uncertain_revolutionaries
-				BRY_ghost_of_bukharinism
-			}
-			focuses = {
-				BRY_the_spark
-				BRY_the_dreams_of_those_before
-				BRY_that_burns_the_tyrant_down
-			}
-		}
-
-		"CHT" = {
-			minor = yes
-			history = "CHT_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				RUS_heirs_of_harbin
-				CHT_uneasy_figurhead
-				CHT_sunset_of_white_chivalry
-			}
-			focuses = {
-				CHT_the_true_heirs_of_harbin
-				CHT_Military_investments
-				CHT_civilian_investments
-			}
-		}
-
-		"MAG" = {
-			minor = yes
-			history = "MAG_THENEWORDER_DESC"
-			ideology = fascism
-			ideas = {
-				RUS_heirs_of_harbin
-				MAG_fascist_splitters
-				MAG_gateway_into_russia
-			}
-			focuses = {
-				MAG_the_true_heir_of_harbin
-				MAG_desperate_times
-				MAG_promise_to_reform
-			}
-		}
-
-		"AMR" = {
-			minor = yes
-			history = "AMR_THENEWORDER_DESC"
-			ideology = national_socialism
-			ideas = {
-				RUS_heirs_of_harbin
-				AMR_rusfascist_stronghold
-				AMR_paranoid_vozhd_1
-			}
-			focuses = {
-				AMR_the_true_heir_of_harbin
-				AMR_god_nation_labor
-				AMR_rodzaevskys_paranoia
-			}
-		}
-		
-		"PRC" = {
-			minor = yes
-			history = "PRC_THENEWORDER_DESC"
-			ideology = paternalism
-			ideas = {
-	PRC_democratic_military
-	PRC_factionalism
-			}
-			focuses = {
-			PRC_Tomb_of_the_Union4
-				PRC_Tomb_of_the_Union16
-				PRC_Tomb_of_the_Union23
-			}
-		}
-
-		"ZZZ" = { minor = yes history = "" }
-		## RUSSIA ##
-
-		## CPS ##
-		"ZZZ" = { minor = yes history = "" }
-
-		"AAJ" = {
-			minor = yes
-			history = "AAJ_THENEWORDER_DESC"
-			ideology = despotism
-			ideas = {
-				Antarctica_Territory_Generic_Idea
-				AAJ_Nobu_Shirase_Land
-				AAJ_Nissui
-			}
-			focuses = {
-
-			}
-		}
-
-		"ZZZ" = { minor = yes history = "" }
-		## CPS ##
-
-		## TRIUM ##
-		"ZZZ" = { minor = yes history = "" }
-
-		"AAA" = {
-			minor = yes
-			history = "AAA_THENEWORDER_DESC"
-			ideology = paternalism
-			ideas = {
-				Antarctica_Territory_Generic_Idea
-				AAA_Dreams_Of_The_South_Pole
-				AAA_War_Legacy
-			}
-			focuses = {
-
-			}
-		}
-		
-		"ZZZ" = { minor = yes history = "" }
-		## TRIUM ##
-
-		# Buffer
-		"ZZZ" = { minor = yes history = "" }
-
-		### ROW 3 ###
+		#### MINORS ####
 	}
 }

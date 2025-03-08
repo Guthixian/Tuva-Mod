@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_texticon_bookmark_PRC"
+		texturefile = "gfx/texticons/bookmarks/texticon_bookmark_PRC.dds"
+		legacy_lazy_load = no
+	}
+}
