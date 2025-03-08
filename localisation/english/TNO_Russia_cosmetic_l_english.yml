@@ -194,6 +194,11 @@
  PRC_regional_unifier: "Provisionary Central Siberian Soviet Command"
  PRC_regional_unifier_DEF: "the Provisionary Central Siberian Soviet Command"
  PRC_regional_unifier_ADJ: "Soviet"
+ 
+ PRC_postwar: "Sovetskiy Soyuz"
+ PRC_postwar_DEF: "Soyuz Sovetskikh Sotsialisticheskikh Respublik"
+ PRC_postwar_ADJ: "Soviet"
+ 
 
  #Far East
  AMR_regional_unifier: "All-Russian Government of the Far East"

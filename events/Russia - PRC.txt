@@ -806,6 +806,24 @@ country_event = { # 70s & 2WRW Shchelokov portraits
 			}
 }
 
+country_event = { # temp name changer
+	id = PRC_superregional.1973
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_superregional.1973" }
+	title = PRC_superregional.1973.t
+	desc = PRC_superregional.1973.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC.superregional.1973.a
+		set_cosmetic_tag = PRC_postwar
+		set_faction_name = "Dogovor o Vzaimopomoshchi"
+		
+}
+
+}
+
 country_event = { # Stagnation Time
 	id = PRC_superregional.1980
 	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_superregional.1980" }
@@ -841,7 +859,7 @@ country_event = { # Death of Brezhnev
 		set_politics = { ruling_party = despotism }
 		create_country_leader = {
 						name = "Presidium of the Supreme Soviet"
-						picture = "gfx/leaders/KOM/Portrait_Komi_Presidium_of_the_KPK.dds"
+						picture = "gfx/leaders/WRS/Portrait_WRRF_Power_Vacuum.dds"
 						desc = ""
 						expire = "1999.3.4"
 						ideology = despotism_interim_government_subtype
@@ -886,6 +904,22 @@ country_event = { # Brezhnev Successor Roulette
 						desc = ""
 						expire = "1999.3.4"
 						ideology = paternalism_oligarchy_subtype
+					}
+			
+		}
+	option = {
+		name = PRC_superregional.1985.c #Vasilevsky
+		set_politics = { ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1980.4.17"
+						election_frequency = 48 }
+		create_country_leader = {
+						name = "Yuri Vasilevsky"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Yuri_Vasilevsky.png"
+						traits = { comrade_general }
+						desc = "POLITICS_YURI_VASILEVSKY_DESC"
+						expire = "1999.3.4"
+						ideology = paternalism_authoritarian_developmentalism_subtype
 					}
 			
 		}
