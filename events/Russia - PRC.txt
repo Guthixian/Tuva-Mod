@@ -1038,6 +1038,22 @@ country_event = { # Brezhnev Successor Roulette 2
 					}
 			
 		}
+	option = {
+		name = PRC_superregional.19852.e #Churbanov
+		set_politics = { ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1980.4.17"
+						election_frequency = 48 }
+		create_country_leader = {
+						name = "Yuri Churbanov"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Yuri_Churbanov.dds"
+						traits = { red_eminence }
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_anocracy_subtype
+					}
+			
+		}
 		
 }
 

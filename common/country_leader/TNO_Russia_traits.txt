@@ -231,6 +231,13 @@ leader_traits = {
 		experience_gain_army = 0.05
 		army_morale_factor = 0.05
 	}
+	red_eminence = { # Churbanov
+		random = no
+		political_power_factor = 0.1
+		foreign_subversive_activites = -0.1
+		paternalism_drift = 0.01
+		
+	}
 
 	####################
 	## |=={ Omsk }==| ##

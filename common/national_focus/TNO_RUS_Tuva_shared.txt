@@ -3602,7 +3602,7 @@ prerequisite = {
 #Reconstruction tree
 shared_focus = {
 	id = PRC_reconstruction
-	icon = GFX_focus_WRS_the_union_rises_again
+	icon = GFX_RUS_Barbarossa_Redeemed
 	cost = 3.00
 	available_if_capitulated = no
 	ai_will_do = { factor = 1 }
@@ -3611,5 +3611,307 @@ shared_focus = {
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction"
 		add_political_power = 50
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction2
+	icon = GFX_RUS_Moscow_Red_Once_More
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	available = {
+		has_completed_focus = PRC_reconstruction
+	}
+	prerequisite = {
+		focus = PRC_reconstruction
+	}
+	x = 6
+	y = 1
+	relative_position_id = PRC_reconstruction
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction2"
+		swap_ideas = {
+			remove_idea = tno_conscription_broadened_conscription
+			add_idea = tno_conscription_limited_conscription
+		}
+		hidden_effect = {
+			remove_ideas = NOV_they_are_broken_idea
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction3
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction2
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_reconstruction2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction3"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction4
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction2
+	}
+	x = -2
+	y = 1
+	relative_position_id = PRC_reconstruction2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction4"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction5
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction2
+	}
+	x = 2
+	y = 1
+	relative_position_id = PRC_reconstruction2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction5"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction6
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction3
+		}
+	prerequisite = {
+		focus = PRC_reconstruction4
+		}
+	prerequisite = {
+		focus = PRC_reconstruction5
+		}
+	
+	x = 0
+	y = 1
+	relative_position_id = PRC_reconstruction3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction6"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction7
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction6
+	}
+	x = -2
+	y = 4
+	relative_position_id = PRC_reconstruction6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction7"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction8
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction6
+	}
+	x = 0
+	y = 3
+	relative_position_id = PRC_reconstruction6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction8"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction9
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction6
+	}
+	x = 2
+	y = 2
+	relative_position_id = PRC_reconstruction6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction9"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction10
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction6
+	}
+	x = -1
+	y = 2
+	relative_position_id = PRC_reconstruction6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction10"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction11
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction6
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_reconstruction6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction11"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction12
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction9
+	}
+	prerequisite = {
+		focus = PRC_reconstruction11
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_reconstruction8
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction12"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction13
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction10
+	}
+	prerequisite = {
+		focus = PRC_reconstruction8
+	}
+	prerequisite = {
+		focus = PRC_reconstruction7
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_reconstruction7
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction13"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction14
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	
+	prerequisite = {
+		focus = PRC_reconstruction12
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_reconstruction12
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction14"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction15
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction13
+	}
+	prerequisite = {
+		focus = PRC_reconstruction14
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_reconstruction13
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction15"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction16
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction15
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_reconstruction15
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction16"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction17
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction16
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_reconstruction16
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction17"
 	}
 }
