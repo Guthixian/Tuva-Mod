@@ -54,3 +54,17 @@ focus_tree = {
 	shared_focus = RUS_SIB_nukes_into_the_atomic_age
 	
 }
+
+focus_tree = {
+	id = PRC_reconstruction
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	default = no
+	shared_focus = PRC_reconstruction
+	
+}

@@ -5,6 +5,7 @@ add_namespace = PRC
 add_namespace = PRC_expansion
 add_namespace = PRC_regional
 add_namespace = PRC_superregional
+add_namespace = PRC_reconstruction
 add_namespace = PRC_vladivostok
 add_namespace = PRC_afghanistan
 add_namespace = PRC_failure
@@ -159,7 +160,7 @@ country_event = { #temporary Thalmannburg respawner
 				name = "VKP(b)"
 			}
 			load_focus_tree = {
-					tree = load_focus_tree = ZZZ_blank_focus
+					tree = ZZZ_blank_focus
 					keep_completed = no
 				}
 			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
@@ -1445,7 +1446,7 @@ country_event = { #Afghanistan tooser
 				name = "VKP(b)"
 			}
 			load_focus_tree = {
-					tree = load_focus_tree = ZZZ_blank_focus
+					tree = ZZZ_blank_focus
 					keep_completed = no
 				}
 			set_politics = {
@@ -1544,5 +1545,23 @@ country_event = { # Yuri Vasilyevsky coup
 			}
 			}
 			set_capital = { state = 571 }
+	}
+}
+
+country_event = { #Load recon tree
+	id = PRC_reconstruction.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_reconstruction.1" }
+	title = PRC_reconstruction.1.t
+	desc = PRC_reconstruction.1.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC_reconstruction.1.a
+		load_focus_tree = {
+					tree = PRC_reconstruction
+					keep_completed = no
+				}
+
 	}
 }

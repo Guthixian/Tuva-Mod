@@ -7609,6 +7609,7 @@ PRC_shchelokov_moskowien_occupation = {
 			remove_state_core = 195
 
 			set_capital = { state = 1442 }
+			TNO_startup_nation = yes
 			
 			set_politics = {
 				ruling_party = paternalism
@@ -7730,6 +7731,8 @@ PRC_shchelokov_moskowien_occupation = {
 			transfer_state = 239
 
 			set_capital = { state = 243 }
+			
+			TNO_startup_nation = yes
 			
 			set_politics = {
 				ruling_party = paternalism
@@ -7967,6 +7970,8 @@ PRC_shchelokov_baltic_occupation = {
 				transfer_state = 191
 				transfer_state = 1395
 				transfer_state = 1396
+				
+				TNO_startup_nation = yes
 			
 				set_country_flag = OST_LIBERATED
 				
@@ -8064,6 +8069,7 @@ PRC_shchelokov_baltic_occupation = {
 			TNO_improve_poverty_high = yes
 			econ_join_sphere_CME = yes
 			}
+			
 			LAT = {
 				remove_all_ministers = yes
 				promote_character = LAT_Valdis_Birkavs
@@ -8084,6 +8090,7 @@ PRC_shchelokov_baltic_occupation = {
 				transfer_state = 12
 			
 				set_country_flag = OST_LIBERATED
+				TNO_startup_nation = yes
 				
 				set_capital = { state = 12 }
 				add_ideas = {
@@ -8182,6 +8189,7 @@ PRC_shchelokov_baltic_occupation = {
 			econ_join_sphere_CME = yes
 				
 			}
+			
 			UPO = {
 				remove_all_ministers = yes
 				set_cosmetic_tag = RIG_PRC
@@ -8189,6 +8197,7 @@ PRC_shchelokov_baltic_occupation = {
 				transfer_state = 1397
 				
 				set_country_flag = OST_LIBERATED
+				TNO_startup_nation = yes
 			
 				
 				set_capital = { state = 1397 }
@@ -8305,6 +8314,8 @@ PRC_shchelokov_baltic_occupation = {
 				transfer_state = 11
 				transfer_state = 189
 				transfer_state = 96
+				
+				TNO_startup_nation = yes
 			
 				set_country_flag = OST_LIBERATED
 				

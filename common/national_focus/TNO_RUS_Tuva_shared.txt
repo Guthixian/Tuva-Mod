@@ -3597,3 +3597,19 @@ prerequisite = {
 			log = "[GetDateText]: [Root.GetName]: Focus PRC_superregional15"
 		}
 	}
+	
+	
+#Reconstruction tree
+shared_focus = {
+	id = PRC_reconstruction
+	icon = GFX_focus_WRS_the_union_rises_again
+	cost = 3.00
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	x = 9
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction"
+		add_political_power = 50
+	}
+}

@@ -354,3 +354,7 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_superregional13: "Happy Citizens"
  PRC_superregional14: "Filled Pockets"
  PRC_superregional15: "Another Class Struggle Begins"
+ 
+ 
+ ### Reconstruction
+ PRC_reconstruction: "A Union Reborn"
