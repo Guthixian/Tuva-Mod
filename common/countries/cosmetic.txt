@@ -3109,4 +3109,34 @@ GFA_PRC = {
 	color_ui = rgb { 112 21 16 }
 }
 
+TUR_PRC = {
+	color = rgb { 112 21 16 }
+	color_ui = rgb { 112 21 16 }
+}
+
+UZB_PRC = {
+	color = rgb { 112 21 16 }
+	color_ui = rgb { 112 21 16 }
+}
+
+TAJ_PRC = {
+	color = rgb { 112 21 16 }
+	color_ui = rgb { 112 21 16 }
+}
+
+KYR_PRC = {
+	color = rgb { 112 21 16 }
+	color_ui = rgb { 112 21 16 }
+}
+
+TRK_PRC = {
+	color = rgb { 112 21 16 }
+	color_ui = rgb { 112 21 16 }
+}
+
+MSK_PRC = {
+	color = rgb { 112 21 16 }
+	color_ui = rgb { 112 21 16 }
+}
+
 ### END 2WRW ###

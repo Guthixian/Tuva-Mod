@@ -6506,6 +6506,534 @@ RUS_shukshin_central_asia_occupation = {
 	}
 }
 
+### Central Asia ###
+# Shchelokov #
+
+RUS_shchelokov_central_asia_occupation = {
+	custom_effect_tooltip = RUS_shchelokov_central_asia_occupation_tt
+	hidden_effect = {
+		PRC = {
+			set_autonomy = {
+				target = UZB
+				autonomous_state = autonomy_assr
+			}
+			set_autonomy = {
+				target = TRK
+				autonomous_state = autonomy_assr
+			}
+			set_autonomy = {
+				target = TAJ
+				autonomous_state = autonomy_assr
+			}
+			set_autonomy = {
+				target = KYR
+				autonomous_state = autonomy_assr
+			}
+		}
+		UZB = {
+			set_cosmetic_tag = UZB_PRC
+			
+			set_capital = { state = 1467 }
+			
+			transfer_state = 585
+			transfer_state = 750
+			transfer_state = 405
+			transfer_state = 1468
+			transfer_state = 1467
+			transfer_state = 1466
+			
+			add_state_core = 585
+			add_state_core = 750
+			add_state_core = 405
+			add_state_core = 1468
+			add_state_core = 1467
+			add_state_core = 1466
+			
+			set_politics = {
+				ruling_party = paternalism
+			}
+			
+			add_ideas = {
+
+					### Political ###
+					tno_political_parties_multiparty_system
+					tno_religious_rights_secularism
+					tno_trade_unions_illegal
+					tno_immigration_encouraged_immigration
+					tno_slavery_outlawed
+					tno_public_meetings_regulated
+					tno_press_rights_censored_press
+					tno_vote_franchise_universal
+					tno_refugees_open
+
+					### Military ###
+					tno_conscription_limited_conscription
+					tno_women_noncombat_only
+					tno_military_supervision_rules_of_engagement
+					tno_training_basic_training
+					tno_racial_integration_integrated_military
+					tno_draft_exemptions_educational_deferment
+
+					### Economic ###
+					tno_trade_laws_export_focus
+					tno_income_taxation_flat_taxes
+					tno_minimum_wage_trinket_minimum_wage
+					tno_max_workhours_12_hour_work_day
+					tno_child_labor_illegal
+					tno_pensions_low_pensions
+					tno_unemployment_low_subsidies
+
+					### Social ###
+					tno_safety_minimal_regulations
+					tno_health_care_low_income_protections
+					tno_pollution_few_regulations
+					tno_education_public_education
+					tno_penal_system_incarceration
+					tno_lgbt_rights_lgbt_outlawed
+					tno_gender_rights_women_in_the_workplace
+					tno_minorities_equal_rights
+					tno_security_regulated_police
+				}
+				create_country_leader = {
+						name = "Uzbek Soviet"
+						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_anocracy_subtype
+					}
+			
+			
+			set_popularities = {
+				paternalism = 33
+				paternalism_1 = 20
+				national_socialism = 15
+				despotism = 18
+				communist = 14
+			}
+			set_party_name = {
+				ideology = paternalism 
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = paternalism_1
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = despotism
+				long_name = "Anti-Soviet Partisans"
+				name = "Anti-Soviet Partisans"
+			}
+			set_party_name = {
+				ideology = national_socialism
+				long_name = "Nationalsocialistsche Deutsche Arbeiterspartei - Auslands-Organisation"
+				name = "NSDAP/AO"
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+
+			remove_ideas = {
+				UZB_Jadid
+				UZB_Rise_of_Discontent
+			}
+			TNO_Oil_Crisis_remove_modifier = yes
+
+			if = {
+				limit = {
+					has_idea = OFN_Observer
+				}
+				remove_ideas = OFN_Observer
+			}
+			else_if = {
+				limit = {
+					has_idea = Sphere_Observer
+				}
+				remove_ideas = Sphere_Observer
+			} #removes other faction ideas
+
+			econ_join_sphere_CME = yes
+			add_ideas = TMA_Member
+			remove_ideas = UZB_Jadid
+			remove_ideas = UZB_Rise_of_Discontent
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
+		}
+		TRK = {
+			set_cosmetic_tag = TRK_PRC
+			
+			transfer_state = 584
+			
+			add_ideas = {
+
+					### Political ###
+					tno_political_parties_multiparty_system
+					tno_religious_rights_secularism
+					tno_trade_unions_illegal
+					tno_immigration_encouraged_immigration
+					tno_slavery_outlawed
+					tno_public_meetings_regulated
+					tno_press_rights_censored_press
+					tno_vote_franchise_universal
+					tno_refugees_open
+
+					### Military ###
+					tno_conscription_limited_conscription
+					tno_women_noncombat_only
+					tno_military_supervision_rules_of_engagement
+					tno_training_basic_training
+					tno_racial_integration_integrated_military
+					tno_draft_exemptions_educational_deferment
+
+					### Economic ###
+					tno_trade_laws_export_focus
+					tno_income_taxation_flat_taxes
+					tno_minimum_wage_trinket_minimum_wage
+					tno_max_workhours_12_hour_work_day
+					tno_child_labor_illegal
+					tno_pensions_low_pensions
+					tno_unemployment_low_subsidies
+
+					### Social ###
+					tno_safety_minimal_regulations
+					tno_health_care_low_income_protections
+					tno_pollution_few_regulations
+					tno_education_public_education
+					tno_penal_system_incarceration
+					tno_lgbt_rights_lgbt_outlawed
+					tno_gender_rights_women_in_the_workplace
+					tno_minorities_equal_rights
+					tno_security_regulated_police
+				}
+				create_country_leader = {
+						name = "Turkmen Soviet"
+						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_anocracy_subtype
+					}
+			
+			
+			set_popularities = {
+				paternalism = 33
+				paternalism_1 = 20
+				national_socialism = 15
+				despotism = 18
+				communist = 14
+			}
+			set_party_name = {
+				ideology = paternalism 
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = paternalism_1
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = despotism
+				long_name = "Anti-Soviet Partisans"
+				name = "Anti-Soviet Partisans"
+			}
+			set_party_name = {
+				ideology = national_socialism
+				long_name = "Nationalsocialistsche Deutsche Arbeiterspartei - Auslands-Organisation"
+				name = "NSDAP/AO"
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+
+			set_politics = {
+				ruling_party = paternalism
+			}
+			econ_join_sphere_CME = yes
+			add_ideas = TMA_Member
+			remove_ideas = { 
+				TRK_Fragmented_Tribes
+				TRK_Question_Of_Identity
+				TRK_A_Modern_Silk_Road
+			}
+			TNO_Oil_Crisis_remove_modifier = yes
+
+			if = {
+				limit = {
+					has_idea = OFN_Observer
+				}
+				remove_ideas = OFN_Observer
+			}
+			else_if = {
+				limit = {
+					has_idea = Sphere_Observer
+				}
+				remove_ideas = Sphere_Observer
+			} 									#removes other faction ideas
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
+		}
+
+		TAJ = {
+			set_cosmetic_tag = TAJ_PRC
+			
+			transfer_state = 742
+			add_state_core = 742
+			
+			add_ideas = {
+
+					### Political ###
+					tno_political_parties_multiparty_system
+					tno_religious_rights_secularism
+					tno_trade_unions_illegal
+					tno_immigration_encouraged_immigration
+					tno_slavery_outlawed
+					tno_public_meetings_regulated
+					tno_press_rights_censored_press
+					tno_vote_franchise_universal
+					tno_refugees_open
+
+					### Military ###
+					tno_conscription_limited_conscription
+					tno_women_noncombat_only
+					tno_military_supervision_rules_of_engagement
+					tno_training_basic_training
+					tno_racial_integration_integrated_military
+					tno_draft_exemptions_educational_deferment
+
+					### Economic ###
+					tno_trade_laws_export_focus
+					tno_income_taxation_flat_taxes
+					tno_minimum_wage_trinket_minimum_wage
+					tno_max_workhours_12_hour_work_day
+					tno_child_labor_illegal
+					tno_pensions_low_pensions
+					tno_unemployment_low_subsidies
+
+					### Social ###
+					tno_safety_minimal_regulations
+					tno_health_care_low_income_protections
+					tno_pollution_few_regulations
+					tno_education_public_education
+					tno_penal_system_incarceration
+					tno_lgbt_rights_lgbt_outlawed
+					tno_gender_rights_women_in_the_workplace
+					tno_minorities_equal_rights
+					tno_security_regulated_police
+				}
+				create_country_leader = {
+						name = "Tajik Soviet"
+						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_anocracy_subtype
+					}
+			
+			
+			set_popularities = {
+				paternalism = 33
+				paternalism_1 = 20
+				national_socialism = 15
+				despotism = 18
+				communist = 14
+			}
+			set_party_name = {
+				ideology = paternalism 
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = paternalism_1
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = despotism
+				long_name = "Anti-Soviet Partisans"
+				name = "Anti-Soviet Partisans"
+			}
+			set_party_name = {
+				ideology = national_socialism
+				long_name = "Nationalsocialistsche Deutsche Arbeiterspartei - Auslands-Organisation"
+				name = "NSDAP/AO"
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+
+			set_politics = {
+				ruling_party = paternalism
+			}
+
+			remove_ideas = {
+				TAJ_fading_economy
+				TAJ_flooded_streets
+			}
+			TNO_Oil_Crisis_remove_modifier = yes
+
+			if = {
+				limit = {
+					has_idea = OFN_Observer
+				}
+				remove_ideas = OFN_Observer
+			}
+			else_if = {
+				limit = {
+					has_idea = Sphere_Observer
+				}
+				remove_ideas = Sphere_Observer
+			} 	
+
+			econ_join_sphere_CME = yes
+			add_ideas = TMA_Member
+			remove_ideas = TAJ_flooded_streets
+			remove_ideas = TAJ_fading_economy
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
+		}
+		KYR = {
+			set_cosmetic_tag = KYR_PRC
+			
+			transfer_state = 586
+			transfer_state = 732
+
+			add_state_core = 586
+			add_state_core = 732
+			
+			add_ideas = {
+
+					### Political ###
+					tno_political_parties_multiparty_system
+					tno_religious_rights_secularism
+					tno_trade_unions_illegal
+					tno_immigration_encouraged_immigration
+					tno_slavery_outlawed
+					tno_public_meetings_regulated
+					tno_press_rights_censored_press
+					tno_vote_franchise_universal
+					tno_refugees_open
+
+					### Military ###
+					tno_conscription_limited_conscription
+					tno_women_noncombat_only
+					tno_military_supervision_rules_of_engagement
+					tno_training_basic_training
+					tno_racial_integration_integrated_military
+					tno_draft_exemptions_educational_deferment
+
+					### Economic ###
+					tno_trade_laws_export_focus
+					tno_income_taxation_flat_taxes
+					tno_minimum_wage_trinket_minimum_wage
+					tno_max_workhours_12_hour_work_day
+					tno_child_labor_illegal
+					tno_pensions_low_pensions
+					tno_unemployment_low_subsidies
+
+					### Social ###
+					tno_safety_minimal_regulations
+					tno_health_care_low_income_protections
+					tno_pollution_few_regulations
+					tno_education_public_education
+					tno_penal_system_incarceration
+					tno_lgbt_rights_lgbt_outlawed
+					tno_gender_rights_women_in_the_workplace
+					tno_minorities_equal_rights
+					tno_security_regulated_police
+				}
+				create_country_leader = {
+						name = "Kyrgyz Soviet"
+						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_anocracy_subtype
+					}
+			
+			
+			set_popularities = {
+				paternalism = 33
+				paternalism_1 = 20
+				national_socialism = 15
+				despotism = 18
+				communist = 14
+			}
+			set_party_name = {
+				ideology = paternalism 
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = paternalism_1
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = despotism
+				long_name = "Anti-Soviet Partisans"
+				name = "Anti-Soviet Partisans"
+			}
+			set_party_name = {
+				ideology = national_socialism
+				long_name = "Nationalsocialistsche Deutsche Arbeiterspartei - Auslands-Organisation"
+				name = "NSDAP/AO"
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+
+			set_politics = {
+				ruling_party = paternalism
+			}
+			promote_character = KYR_RUS_Provisional_Government
+			econ_join_sphere_CME = yes
+
+			remove_ideas = {
+				KYR_Stabilization_Regime
+			}
+			TNO_Oil_Crisis_remove_modifier = yes
+
+			if = {
+				limit = {
+					has_idea = OFN_Observer
+				}
+				remove_ideas = OFN_Observer
+			}
+			else_if = {
+				limit = {
+					has_idea = Sphere_Observer
+				}
+				remove_ideas = Sphere_Observer
+			} 	
+
+			add_ideas = TMA_Member
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
+		}
+		PRC = {
+			add_to_faction = UZB
+			add_to_faction = TRK
+			add_to_faction = TAJ
+			add_to_faction = KYR
+		}
+	}
+}
+
 ## Loss peace deal
 
 RUS_lost_war = {
@@ -7037,6 +7565,10 @@ PRC_shchelokov_moskowien_occupation = {
 		RUS_end_2WRW_effects = yes
 		RUS_take_finnish_land_post_2wrw = yes
 		set_autonomy = {
+			target = POP
+			autonomy_state = autonomy_military_district
+		}
+		set_autonomy = {
 			target = ORL
 			autonomy_state = autonomy_assr
 		}
@@ -7045,7 +7577,10 @@ PRC_shchelokov_moskowien_occupation = {
 				remove_core_of = MCW
 			}
 		}
-		RUS = {
+		
+		POP = {
+			set_cosmetic_tag = MSK_PRC
+			RUS_Idea_Removal_Helper = yes
 			transfer_state = 1442
 			transfer_state = 219
 			transfer_state = 247
@@ -7067,12 +7602,121 @@ PRC_shchelokov_moskowien_occupation = {
 			transfer_state = 1436
 			transfer_state = 263
 			transfer_state = 245
-			transfer_state = 217
 			transfer_state = 224
 			transfer_state = 237
 			transfer_state = 244
+
+			remove_state_core = 195
+
+			set_capital = { state = 1442 }
 			
+			set_politics = {
+				ruling_party = paternalism
 			}
+				
+			set_popularities = {
+				paternalism = 30
+				paternalism_1 = 30
+				paternalism_2 = 10
+				national_socialism = 15
+				communist = 15
+				
+			}
+
+			add_ideas = {
+				### Political ###
+				tno_political_parties_controlled_opposition
+				tno_religious_rights_secularism
+				tno_trade_unions_illegal
+				tno_immigration_encouraged_immigration
+				tno_slavery_outlawed
+				tno_public_meetings_regulated
+				tno_press_rights_censored_press
+				tno_vote_franchise_elite_voting
+				tno_refugees_open
+
+				### Military ###
+				tno_conscription_limited_conscription
+				tno_women_noncombat_only
+				tno_military_supervision_rules_of_engagement
+				tno_training_basic_training
+				tno_racial_integration_integrated_military
+				tno_draft_exemptions_educational_deferment
+
+				### Economic ###
+				tno_trade_laws_export_focus
+				tno_income_taxation_flat_taxes
+				tno_minimum_wage_trinket_minimum_wage
+				tno_max_workhours_12_hour_work_day
+				tno_child_labor_illegal
+				tno_pensions_low_pensions
+				tno_unemployment_low_subsidies
+
+				### Social ###
+				tno_safety_minimal_regulations
+				tno_health_care_low_income_protections
+				tno_pollution_few_regulations
+				tno_education_public_education
+				tno_penal_system_incarceration
+				tno_lgbt_rights_lgbt_outlawed
+				tno_gender_rights_women_in_the_workplace
+				tno_minorities_equal_rights
+				tno_security_regulated_police
+
+				#Post-War Issues#
+				MOS_rural_state
+				MOS_language_problem_russia
+				MOS_war_torn_region
+			}
+			remove_ideas = {
+				MCW_Pakt_Commission
+				MCW_Russia_in_ruins
+			}
+			
+			create_country_leader = {
+						name = "Mikhail Gorbachev"
+						picture = "gfx/leaders/Moskowien/Portrait_MSK_Mikhail_Gorbachev_drip.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_anocracy_subtype
+					}
+			
+			set_party_name = { 
+				ideology = paternalism
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = { 
+				ideology = paternalism_1
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = { 
+				ideology = paternalism_2
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = { 
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = { 
+				ideology = national_socialism
+				long_name = "Aktionsgruppe 'Tsar Peter'"
+				name = "Aktionsgruppe 'Tsar Peter'"
+			}
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Military_Directed }
+			econ_type_change = yes
+			econ_subtype_change = yes
+			econ_join_sphere_CME = yes
+
+			set_variable = { national_debt = 0 }
+			calculate_display_variables = yes
+			TNO_improve_poverty_high = yes
+			TNO_improve_poverty_high = yes
+		}
 		ORL = {
 		add_state_core = 260
 		add_state_core = 239
@@ -7084,7 +7728,6 @@ PRC_shchelokov_moskowien_occupation = {
 			transfer_state = 217
 			transfer_state = 243
 			transfer_state = 239
-			TNO_startup_nation = yes
 
 			set_capital = { state = 243 }
 			
@@ -7308,7 +7951,7 @@ PRC_shchelokov_baltic_occupation = {
 		}
 		set_autonomy = {
 			target = UPO
-			autonomy_state = autonomy_military_district
+			autonomy_state = autonomy_assr
 		}
 		EST = {
 				remove_all_ministers = yes
@@ -7325,7 +7968,6 @@ PRC_shchelokov_baltic_occupation = {
 				transfer_state = 1395
 				transfer_state = 1396
 			
-				TNO_startup_nation = yes
 				set_country_flag = OST_LIBERATED
 				
 				add_ideas = {
@@ -7441,7 +8083,6 @@ PRC_shchelokov_baltic_occupation = {
 				transfer_state = 1402
 				transfer_state = 12
 			
-				TNO_startup_nation = yes
 				set_country_flag = OST_LIBERATED
 				
 				set_capital = { state = 12 }
@@ -7547,7 +8188,6 @@ PRC_shchelokov_baltic_occupation = {
 				add_state_core = 1397
 				transfer_state = 1397
 				
-				TNO_startup_nation = yes
 				set_country_flag = OST_LIBERATED
 			
 				
@@ -7666,7 +8306,6 @@ PRC_shchelokov_baltic_occupation = {
 				transfer_state = 189
 				transfer_state = 96
 			
-				TNO_startup_nation = yes
 				set_country_flag = OST_LIBERATED
 				
 				set_capital = { state = 96 remember_old_capital = no}

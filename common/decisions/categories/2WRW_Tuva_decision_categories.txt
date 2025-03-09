@@ -1,0 +1,36 @@
+# Debug
+
+
+# In-Game
+PRC_deport_germans_decision_category = {
+	icon = GFX_decision_category_generic_formable_nations
+	picture = GFX_decision_NPL_new_homeland
+	allowed = {
+		original_tag = PRC
+	}
+	visible = {
+		AND = {
+			original_tag = PRC
+			has_global_flag = PRC_shchelokov_unification
+		}
+	}
+	visible_when_empty = no
+	priority = 100
+}
+
+2WRW_tuva_misc_category = {
+	#icon = GFX_decision_category_infiltration
+	#picture = GFX_BRG_decision_Adler
+	
+	allowed = {
+		original_tag = PRC
+	}
+	visible = {
+		AND = {
+			original_tag = PRC
+			has_global_flag = PRC_shchelokov_unification
+		}
+	}
+	visible_when_empty = no
+	priority = 250
+}

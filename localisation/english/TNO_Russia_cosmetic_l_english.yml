@@ -595,3 +595,23 @@
  RIG_PRC_DEF: "the Thälmannburg Autonomous Soviet Socialist Oblast"
  RIG_PRC_ADJ: "Thälmannburger"
  
+ TRK_PRC: "Turkmen SSR"
+ TRK_PRC_DEF: "the Turkmen Soviet Socialist Republic"
+ TRK_PRC_ADJ: "Turkmen"
+ 
+ UZB_PRC: "Uzbek SSR"
+ UZB_PRC_DEF: "the Uzbek Soviet Socialist Republic"
+ UZB_PRC_ADJ: "Uzbek"
+ 
+ TAJ_PRC: "Tajik SSR"
+ TAJ_PRC_DEF: "the Tajik Soviet Socialist Republic"
+ TAJ_PRC_ADJ: "Tajik"
+ 
+ KYR_PRC: "Kyrgyz SSR"
+ KYR_PRC_DEF: "the Kyrgyz Soviet Socialist Republic"
+ KYR_PRC_ADJ: "Kyrgyz"
+ 
+ MSK_PRC: "Muscovite Reconstruction Authority"
+ MSK_PRC_DEF: "the Muscovite Reconstruction Authority"
+ MSK_PRC_ADJ: "Muscovite"
+ 

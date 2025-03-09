@@ -1,0 +1,209 @@
+PRC_deport_germans_decision_category = {
+
+	PRC_fate_of_petrograd = {
+		icon = GFX_decision_revolt
+		
+		allowed = {
+			tag = PRC
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		visible = {
+			195 = { is_owned_by = OKB }
+			OKB = {
+				is_puppet_of = RUS
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			country_event = NOV_postwar.11
+			custom_effect_tooltip = NOV_fate_of_petrograd_tt
+		}
+	}
+	
+	PRC_fate_of_moskowien = {
+		icon = GFX_decision_revolt
+		
+		allowed = {
+			tag = PRC
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		visible = {
+			1442 = { is_owned_by = POP }
+			POP = {
+				is_puppet_of = RUS
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			country_event = NOV_postwar.11
+			custom_effect_tooltip = NOV_fate_of_petrograd_tt
+		}
+	}
+	
+	PRC_deport_the_petrograd_germans = {
+
+		icon = GFX_decision_revolt
+
+		allowed = {
+			tag = PRC
+		}
+
+		visible = {
+			has_country_flag = petrograd_germans_deported
+		}
+
+		cost = 50
+		ai_will_do = {
+			factor = 2
+		}
+		days_remove = 80
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision Timeout NOV_deport_the_petrograd_germans"
+			195 = {
+				set_variable = { 195.nationality = 151 }
+				add_manpower = -250000
+				set_temp_variable = { state_value_multiplier_temp = 0.66 }
+				econ_state_value_change_multiply = yes
+			}
+			custom_effect_tooltip = NOV_deport_the_petrograd_germans_tt
+			clr_country_flag = petrograd_germans_deported
+		}
+	}
+	
+	PRC_fate_of_gotenland = {
+		icon = GFX_decision_diplo_ukraine
+		
+		allowed = {
+			tag = PRC
+		}
+		
+		visible = {
+			200 = { is_owned_by = FUK }
+			UKS = {
+				is_subject_of = RUS
+			}
+		}
+		ai_will_do = {
+			factor = 2
+		}
+		fire_only_once = yes
+		
+		complete_effect = {
+			country_event = NOV_postwar.24
+			
+			set_country_flag = fate_of_gotenland_decided
+			custom_effect_tooltip = NOV_fate_of_gotenland_tt
+		}
+	}
+	
+	}
+
+2WRW_tuva_misc_category = {
+
+	PRC_fate_of_armenia = {
+	
+		icon = GFX_decision_diplo_kaukasien
+		
+		visible = {
+			original_tag = PRC
+			ARM = { is_in_faction_with = RUS }
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: NOV_fate_of_armenia"
+			country_event = NOV_postwar.100
+		}
+	}
+	PRC_shchelokov_reorganise_central_asia = {
+		icon = GFX_decision_generic_document
+
+		allowed = {
+			original_tag = PRC
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+
+		visible = {
+			AND = {
+				586 = {
+					is_owned_by = RUS
+				}
+				732 = {
+					is_owned_by = RUS
+				}
+				742 = {
+					is_owned_by = RUS
+				}
+				585 = {
+					is_owned_by = RUS
+				}
+				405 = {
+					is_owned_by = RUS
+				}
+				750 = {
+					is_owned_by = RUS
+				}
+				564 = {
+					is_owned_by = RUS
+				}
+				original_tag = PRC
+				has_global_flag = PRC_shchelokov_unification
+			}
+		}
+
+		available = {
+			has_war = no
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = RUS_CENTRAL_ASIA_FATE
+					option = RUS_CENTRAL_ASIA_FATE_ANNEX
+				}
+			}
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Reorganise Central Asia"
+			hidden_effect = {
+				TRK = {
+					remove_ideas = ZZZ_anarchy
+				}
+			}
+			clr_global_flag = TNO_rip_turkmenistan
+			RUS_shchelokov_central_asia_occupation = yes
+			hidden_effect = {
+				every_country = {
+					limit = { has_idea = CA_Turkes_Kenes_Apathy }
+					remove_ideas = CA_Turkes_Kenes_Apathy
+				}
+			}
+		}
+	}
+}
+
+}

@@ -71,7 +71,6 @@ country_event = { #temporary Thalmannburg respawner
 				add_state_core = 1397
 				transfer_state = 1397
 				
-				TNO_startup_nation = yes
 				set_country_flag = OST_LIBERATED
 			
 				
@@ -213,6 +212,23 @@ country_event = { #Load 2WRW tree & set up flags
 		ai_chance = { factor = 1 }
 		SWRW_select_generic_focus_tree = yes
 		set_global_flag = PRC_shchelokov_unification
+	}
+}
+
+country_event = { #Stans test
+	id = PRC.4000
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC.4000" }
+	title = PRC.4000.t
+	desc = PRC.4000.desc
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #
+		name = PRC.4000.a
+		ai_chance = { factor = 1 }
+		RUS_shchelokov_central_asia_occupation = yes
 	}
 }
 
@@ -878,7 +894,7 @@ country_event = { # Death of Brezhnev
 		}
 }
 
-country_event = { # Brezhnev Successor Roulette
+country_event = { # Brezhnev Successor Roulette 1
 	id = PRC_superregional.1985
 	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_superregional.1985" }
 	title = PRC_superregional.1985.t
@@ -933,6 +949,95 @@ country_event = { # Brezhnev Successor Roulette
 					}
 			
 		}
+	option = {
+		name = PRC_superregional.1985.e #Bukharina
+		set_politics = { ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1980.4.17"
+						election_frequency = 48 }
+		create_country_leader = {
+						name = "Svetlana Bukharina"
+						picture = "gfx/leaders/KOM/Portrait_Komi_Svetlana_Bukharina_2wrw.dds"
+						traits = { }
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_social_nationalism_subtype
+					}
+			
+		}
+	option = {
+		name = PRC_superregional.1985.f #Kardashev
+		set_politics = { ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1980.4.17"
+						election_frequency = 48 }
+		create_country_leader = {
+						name = "Nikolai Kardashev"
+						picture = "gfx/leaders/KOM/Portrait_Komi_Nikolai_Kardashev_2wrw.dds"
+						traits = { }
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_social_nationalism_subtype
+					}
+			
+		}
+}
+
+country_event = { # Brezhnev Successor Roulette 2
+	id = PRC_superregional.19852
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_superregional.19852" }
+	title = PRC_superregional.19852.t
+	desc = PRC_superregional.19852.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_report_event_RUS_soviet_symbol
+
+	option = {
+		name = PRC_superregional.19852.a #Gorby
+		set_politics = { ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1980.4.17"
+						election_frequency = 48 }
+		create_country_leader = {
+						name = "Mikhail Gorbachev"
+						picture = "gfx/leaders/Moskowien/Portrait_MSK_Mikhail_Gorbachev_drip.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_transitioning_democracy_subtype
+					}
+			
+		}
+	option = {
+		name = PRC_superregional.19852.b #Gorby post reforms
+		set_politics = { ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1980.4.17"
+						election_frequency = 48 }
+		create_country_leader = {
+						name = "Mikhail Gorbachev"
+						picture = "gfx/leaders/Moskowien/Portrait_MSK_Mikhail_Gorbachev_drip.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_dominant_party_democracy_subtype
+					}
+			
+		}
+	option = {
+		name = PRC_superregional.19852.c #Shcherbina
+		set_politics = { ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1980.4.17"
+						election_frequency = 48 }
+		create_country_leader = {
+						name = "Boris Shcherbina"
+						picture = "gfx/leaders/TYM/Portrait_Tyumen_Boris_Shcherbina.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_authoritarian_developmentalism_subtype
+					}
+			
+		}
+		
 }
 
 country_event = { # Haishenwai hype
@@ -1263,7 +1368,6 @@ country_event = { #Afghanistan tooser
 				transfer_state = 1884
 				transfer_state = 267
 				
-				TNO_startup_nation = yes
 			
 				
 				set_capital = { state = 267 }
