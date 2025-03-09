@@ -238,6 +238,13 @@ leader_traits = {
 		paternalism_drift = 0.01
 		
 	}
+	foreman = { # Kostin
+		random = no
+		local_resources_factor = 0.1
+		production_factory_efficiency_gain_factor = 0.1
+		fuel_gain_factor_from_states = 0.1
+		
+	}
 
 	####################
 	## |=={ Omsk }==| ##

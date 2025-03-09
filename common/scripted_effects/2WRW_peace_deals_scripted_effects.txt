@@ -8245,7 +8245,7 @@ PRC_shchelokov_baltic_occupation = {
 				}
 				create_country_leader = {
 						name = "Erich Mielke"
-						picture = "gfx/leaders/GER/RPR_Erich_Mielke.dds"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Erich_Mielke.dds"
 						desc = ""
 						expire = "1999.3.4"
 						ideology = paternalism_authoritarian_developmentalism_subtype

@@ -141,3 +141,5 @@ add_ideas = {
 	tno_army_professionalism_cronyism
 	
 }
+
+TNO_startup_nation = yes

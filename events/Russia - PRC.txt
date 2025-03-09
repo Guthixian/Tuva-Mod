@@ -120,7 +120,7 @@ country_event = { #temporary Thalmannburg respawner
 				}
 				create_country_leader = {
 						name = "Erich Mielke"
-						picture = "gfx/leaders/GER/RPR_Erich_Mielke.dds"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Erich_Mielke.dds"
 						desc = ""
 						expire = "1999.3.4"
 						ideology = paternalism_authoritarian_developmentalism_subtype
@@ -1051,6 +1051,22 @@ country_event = { # Brezhnev Successor Roulette 2
 						desc = ""
 						expire = "1999.3.4"
 						ideology = paternalism_anocracy_subtype
+					}
+			
+		}
+	option = {
+		name = PRC_superregional.19852.e #Kostin
+		set_politics = { ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1980.4.17"
+						election_frequency = 48 }
+		create_country_leader = {
+						name = "Vitaly Kostin"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Vitaly_Kostin.dds"
+						traits = { foreman }
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_social_nationalism_subtype
 					}
 			
 		}
