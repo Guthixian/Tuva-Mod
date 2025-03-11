@@ -226,7 +226,7 @@ country_event = {
 					}
 					create_country_leader = {
 						name = "Dmitry Gagarov"
-						picture = "gfx/leaders/NOV_fail/NOV_Rytgev_Rytkheu.dds"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Dmitry_Gagarov.dds"
 						desc = ""
 						expire = "1999.3.4"
 						ideology = paternalism_provisional_government_subtype

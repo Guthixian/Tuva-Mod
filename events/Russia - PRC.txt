@@ -1092,7 +1092,7 @@ country_event = { # Haishenwai hype
 					}
 					create_country_leader = {
 						name = "Dmitry Gagarov"
-						picture = "gfx/leaders/NOV_fail/NOV_Rytgev_Rytkheu.dds"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Dmitry_Gagarov.dds"
 						desc = ""
 						expire = "1999.3.4"
 						ideology = conservatism_goken_conservatism_subtype
@@ -1126,7 +1126,7 @@ country_event = { # Haishenwai hype
 					}
 					create_country_leader = {
 						name = "Dmitry Gagarov"
-						picture = "gfx/leaders/NOV_fail/NOV_Rytgev_Rytkheu.dds"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Dmitry_Gagarov.dds"
 						desc = ""
 						expire = "1999.3.4"
 						ideology = fascism_reform_bureaucracy_subtype
@@ -1160,7 +1160,7 @@ country_event = { # Haishenwai hype
 					}
 					create_country_leader = {
 						name = "Dmitry Gagarov"
-						picture = "gfx/leaders/NOV_fail/NOV_Rytgev_Rytkheu.dds"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Dmitry_Gagarov.dds"
 						desc = ""
 						expire = "1999.3.4"
 						ideology = progressivism_liberal_socialism_subtype
@@ -1194,7 +1194,7 @@ country_event = { # Haishenwai hype
 					}
 					create_country_leader = {
 						name = "Dmitry Gagarov"
-						picture = "gfx/leaders/NOV_fail/NOV_Rytgev_Rytkheu.dds"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Dmitry_Gagarov.dds"
 						desc = ""
 						expire = "1999.3.4"
 						ideology = paternalism_xunzheng_subtype
