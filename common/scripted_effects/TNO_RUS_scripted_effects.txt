@@ -7203,15 +7203,8 @@ RUS_select_superregional_focus_tree = {
 			}
 		}
 		
-		if = {
-		limit = {
-			original_tag = PRC
-		}
-		hidden_effect = {
-			load_focus_tree = { tree = PRC_superregional keep_completed = no }
-		}
 	}
-	}
+	
 	#if = {
 	#	limit = {
 	#		original_tag = OMO
@@ -7231,6 +7224,15 @@ RUS_select_superregional_focus_tree = {
 			load_focus_tree = OMO_april_fools_superregional
 		}
 	}
+	
+	if = {
+		limit = {
+			original_tag = PRC
+		}
+		hidden_effect = {
+			load_focus_tree = { tree = PRC_superregional keep_completed = no }
+		}
+		}
 }
 
 RUS_select_final_news_event = {

@@ -31,7 +31,7 @@ SWRW_select_generic_focus_tree = {
 			original_tag = PRC
 		}
 		set_country_flag = RUS_generic_communist_unifier
-		set_global_flag = RUS_generic_communist_unifier_global
+		set_global_flag = PRC_shchelokov_unification
 		load_focus_tree = RUS_WRW_Generic_Communist_tree
 	}
 	else_if = {
