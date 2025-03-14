@@ -199,6 +199,10 @@
  PRC_postwar_DEF: "Soyuz Sovetskikh Sotsialisticheskikh Respublik"
  PRC_postwar_ADJ: "Soviet"
  
+ PRC_Gorbachev: "Sovetskiy Soyuz"
+ PRC_Gorbachev_DEF: "Soyuz Sovetskikh Suverennykh Respublik"
+ PRC_Gorbachev_ADJ: "Soviet"
+ 
 
  #Far East
  AMR_regional_unifier: "All-Russian Government of the Far East"
