@@ -9,6 +9,7 @@ add_namespace = PRC_reconstruction
 add_namespace = PRC_vladivostok
 add_namespace = PRC_afghanistan
 add_namespace = PRC_failure
+add_namespace = PRC_postwar
 
 country_event = { #Intro Event
 	id = PRC.1
@@ -1607,6 +1608,25 @@ country_event = { #Load recon tree
 		name = PRC_reconstruction.1.a
 		load_focus_tree = {
 					tree = PRC_reconstruction
+					keep_completed = no
+				}
+
+	}
+}
+
+
+country_event = { #Load postwar tree
+	id = PRC_postwar.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_postwar.1" }
+	title = PRC_postwar.1.t
+	desc = PRC_postwar.1.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC_postwar.1.a
+		load_focus_tree = {
+					tree = PRC_postwar
 					keep_completed = no
 				}
 

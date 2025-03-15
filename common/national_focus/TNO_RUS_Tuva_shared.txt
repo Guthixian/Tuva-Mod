@@ -3915,3 +3915,812 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction17"
 	}
 }
+
+shared_focus = {
+		id = PRC_the_keyword_premier
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 10
+		y = 0
+		cost = 5
+		
+	}
+	
+shared_focus = {
+		id = PRC_postwar1
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 5
+		y = 1
+		cost = 5
+		
+		prerequisite = { focus = PRC_the_keyword_premier  }
+	}
+
+shared_focus = {
+		id = PRC_postwar2
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 10
+		y = 1
+		cost = 5
+		
+		prerequisite = { focus = PRC_the_keyword_premier  }
+	}
+
+shared_focus = {
+		id = PRC_postwar3
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 15
+		y = 1
+		cost = 5
+		
+		prerequisite = { focus = PRC_the_keyword_premier  }
+	}
+
+shared_focus = {
+		id = PRC_postwar4
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 4
+		y = 2
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar1  }
+	}
+
+shared_focus = {
+		id = PRC_postwar5
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 6
+		y = 2
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar1  }
+	}
+
+shared_focus = {
+		id = PRC_postwar6
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 5
+		y = 3
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar1  }
+	}
+
+shared_focus = {
+		id = PRC_postwar7
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 6
+		y = 4
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar6  } prerequisite = { focus = PRC_postwar9  }
+	}
+
+shared_focus = {
+		id = PRC_postwar8
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 3
+		y = 3
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar1  }
+	}
+
+shared_focus = {
+		id = PRC_postwar9
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 7
+		y = 3
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar5  }
+	}
+	
+shared_focus = {
+		id = PRC_postwar10
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 4
+		y = 4
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar4  } prerequisite = { focus = PRC_postwar8  }
+	}
+
+shared_focus = {
+		id = PRC_postwar17
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 17
+		y = 2
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar3  }
+	}
+
+shared_focus = {
+		id = PRC_postwar11
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 9
+		y = 3
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar2  }
+	}
+
+shared_focus = {
+		id = PRC_postwar12
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 11
+		y = 3
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar2  }
+	}
+
+shared_focus = {
+		id = PRC_postwar13
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 10
+		y = 4
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar2  }
+	}
+
+shared_focus = {
+		id = PRC_postwar14
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 11
+		y = 5
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar12  } prerequisite = { focus = PRC_postwar13  }
+	}
+
+shared_focus = {
+		id = PRC_postwar15
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 8
+		y = 5
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar11  } prerequisite = { focus = PRC_postwar13  }
+	}
+
+shared_focus = {
+		id = PRC_postwar16
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 14
+		y = 2
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar3  }
+	}
+
+shared_focus = {
+		id = PRC_postwar18
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 16
+		y = 3
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar3  }
+	}
+
+shared_focus = {
+		id = PRC_postwar19
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 15
+		y = 4
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar16  } prerequisite = { focus = PRC_postwar18  }
+	}
+
+shared_focus = {
+		id = PRC_postwar20
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 13
+		y = 3
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar3  }
+	}
+
+shared_focus = {
+		id = PRC_postwar21
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 14
+		y = 5
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar19  } prerequisite = { focus = PRC_postwar20  }
+	}
+
+shared_focus = {
+		id = PRC_postwar22
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 5
+		y = 5
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar7  } prerequisite = { focus = PRC_postwar10  }
+	}
+
+shared_focus = {
+		id = PRC_postwar23
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 17
+		y = 5
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar17  } prerequisite = { focus = PRC_postwar18  }
+	}
+
+shared_focus = {
+		id = PRC_postwar24
+		icon = GFX_focus_generic_technical_difficulties
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		x = 10
+		y = 6
+		cost = 5
+		
+		prerequisite = { focus = PRC_postwar22  } prerequisite = { focus = PRC_postwar14  } prerequisite = { focus = PRC_postwar15  } prerequisite = { focus = PRC_postwar21  } prerequisite = { focus = PRC_postwar23  }
+	}
+	
+shared_focus = {
+		id = PRC_postwar28
+		icon = GFX_focus_generic_technical_difficulties
+		x = 15
+		y = 7
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar24  }
+		mutually_exclusive = { focus = PRC_postwar25  } mutually_exclusive = { focus = PRC_postwar26  } mutually_exclusive = { focus = PRC_postwar27  }
+	}
+
+shared_focus = {
+		id = PRC_postwar29
+		icon = GFX_focus_generic_technical_difficulties
+		x = 7
+		y = 10
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar25  focus = PRC_postwar27  }
+	}
+	
+
+shared_focus = {
+		id = PRC_postwar25
+		icon = GFX_focus_generic_technical_difficulties
+		x = 5
+		y = 7
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar24  }
+		mutually_exclusive = { focus = PRC_postwar26  } mutually_exclusive = { focus = PRC_postwar27  } mutually_exclusive = { focus = PRC_postwar28  }
+	}
+
+shared_focus = {
+		id = PRC_postwar26
+		icon = GFX_focus_generic_technical_difficulties
+		x = 12
+		y = 7
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar24  }
+		mutually_exclusive = { focus = PRC_postwar25  } mutually_exclusive = { focus = PRC_postwar27  } mutually_exclusive = { focus = PRC_postwar28  }
+	}
+
+shared_focus = {
+		id = PRC_postwar27
+		icon = GFX_focus_generic_technical_difficulties
+		x = 8
+		y = 7
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar24  }
+		mutually_exclusive = { focus = PRC_postwar25  } mutually_exclusive = { focus = PRC_postwar26  } mutually_exclusive = { focus = PRC_postwar28  }
+	}
+
+shared_focus = {
+		id = PRC_postwar30
+		icon = GFX_focus_generic_technical_difficulties
+		x = 6
+		y = 9
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar25  focus = PRC_postwar27  }
+	}
+
+shared_focus = {
+		id = PRC_postwar31
+		icon = GFX_focus_generic_technical_difficulties
+		x = 9
+		y = 9
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar27  focus = PRC_postwar26  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar32
+		icon = GFX_focus_generic_technical_difficulties
+		x = 10
+		y = 8
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar27  focus = PRC_postwar26  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar33
+		icon = GFX_focus_generic_technical_difficulties
+		x = 11
+		y = 9
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar27  focus = PRC_postwar26  }
+	}
+
+shared_focus = {
+		id = PRC_postwar34
+		icon = GFX_focus_generic_technical_difficulties
+		x = 13
+		y = 10
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar26  focus = PRC_postwar28  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar35
+		icon = GFX_focus_generic_technical_difficulties
+		x = 14
+		y = 9
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar26  focus = PRC_postwar28  }
+	}
+	
+shared_focus = {
+		id = PRC_postwar36
+		icon = GFX_focus_generic_technical_difficulties
+		x = 6
+		y = 11
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar29 } prerequisite = { focus = PRC_postwar30 }
+	}
+	
+shared_focus = {
+		id = PRC_postwar37
+		icon = GFX_focus_generic_technical_difficulties
+		x = 10
+		y = 11
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar31 } prerequisite = { focus = PRC_postwar32 } prerequisite = { focus = PRC_postwar33 }
+	}
+	
+shared_focus = {
+		id = PRC_postwar38
+		icon = GFX_focus_generic_technical_difficulties
+		x = 14
+		y = 11
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		
+		prerequisite = { focus = PRC_postwar34 } prerequisite = { focus = PRC_postwar35 }
+	}
+	
+shared_focus = {
+		id = PRC_postwar39
+		icon = GFX_focus_generic_technical_difficulties
+		x = 28
+		y = 0
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		available = {
+		OR = {
+			has_completed_focus = PRC_postwar36
+			has_completed_focus = PRC_postwar37
+			has_completed_focus = PRC_postwar38
+			}
+		}
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+	}
+	
+
+shared_focus = {
+		id = PRC_postwar42
+		icon = GFX_focus_generic_technical_difficulties
+		x = 22
+		y = 4
+		cost = 5
+		available_if_capitulated = no
+		ai_will_do = { factor = 1 }
+		prerequisite = { focus = PRC_postwar41  }
+	}
+	
+
+shared_focus = {
+		id = PRC_postwar51
+		icon = GFX_focus_generic_technical_difficulties
+		x = 25
+		y = 9
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar45  } prerequisite = { focus = PRC_postwar46  } prerequisite = { focus = PRC_postwar50  }
+		mutually_exclusive = { focus = PRC_postwar51  } mutually_exclusive = { focus = PRC_postwar53  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar40
+		icon = GFX_focus_generic_technical_difficulties
+		x = 32
+		y = 2
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar39  }
+		mutually_exclusive = { focus = PRC_postwar41  }
+	}
+
+shared_focus = {
+		id = PRC_postwar43
+		icon = GFX_focus_generic_technical_difficulties
+		x = 25
+		y = 4
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar41  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar50
+		icon = GFX_focus_generic_technical_difficulties
+		x = 24
+		y = 7
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar44  } prerequisite = { focus = PRC_postwar45  } prerequisite = { focus = PRC_postwar47  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar49
+		icon = GFX_focus_generic_technical_difficulties
+		x = 21
+		y = 5
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar42  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar48
+		icon = GFX_focus_generic_technical_difficulties
+		x = 22
+		y = 7
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar42  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar45
+		icon = GFX_focus_generic_technical_difficulties
+		x = 25
+		y = 6
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar43  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar46
+		icon = GFX_focus_generic_technical_difficulties
+		x = 26
+		y = 7
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar43  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar41
+		icon = GFX_focus_generic_technical_difficulties
+		x = 24
+		y = 2
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar39  }
+		mutually_exclusive = { focus = PRC_postwar40  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar44
+		icon = GFX_focus_generic_technical_difficulties
+		x = 24
+		y = 5
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar43  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar47
+		icon = GFX_focus_generic_technical_difficulties
+		x = 23
+		y = 6
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar42  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar52
+		icon = GFX_focus_generic_technical_difficulties
+		x = 23
+		y = 9
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar47  } prerequisite = { focus = PRC_postwar48  } prerequisite = { focus = PRC_postwar50  }
+		mutually_exclusive = { focus = PRC_postwar51  } mutually_exclusive = { focus = PRC_postwar53  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar53
+		icon = GFX_focus_generic_technical_difficulties
+		x = 21
+		y = 9
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar48  } prerequisite = { focus = PRC_postwar49  }
+		mutually_exclusive = { focus = PRC_postwar51  } mutually_exclusive = { focus = PRC_postwar52  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar54
+		icon = GFX_focus_generic_technical_difficulties
+		x = 23
+		y = 11
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar51  focus = PRC_postwar52  focus = PRC_postwar53  }
+	}
+
+	
+shared_focus = {
+		id = PRC_postwar55
+		icon = GFX_focus_generic_technical_difficulties
+		x = 29
+		y = 4
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar40  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar56
+		icon = GFX_focus_generic_technical_difficulties
+		x = 34
+		y = 4
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar40  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar57
+		icon = GFX_focus_generic_technical_difficulties
+		x = 28
+		y = 5
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar55  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar58
+		icon = GFX_focus_generic_technical_difficulties
+		x = 29
+		y = 6
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar55  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar59
+		icon = GFX_focus_generic_technical_difficulties
+		x = 30
+		y = 7
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar55  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar60
+		icon = GFX_focus_generic_technical_difficulties
+		x = 33
+		y = 6
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar56  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar61
+		icon = GFX_focus_generic_technical_difficulties
+		x = 34
+		y = 7
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar56  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar63
+		icon = GFX_focus_generic_technical_difficulties
+		x = 35
+		y = 5
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar56  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar62
+		icon = GFX_focus_generic_technical_difficulties
+		x = 31
+		y = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar55  } prerequisite = { focus = PRC_postwar56  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar64
+		icon = GFX_focus_generic_technical_difficulties
+		x = 32
+		y = 9
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar57  } prerequisite = { focus = PRC_postwar58  } prerequisite = { focus = PRC_postwar59  } prerequisite = { focus = PRC_postwar60  } prerequisite = { focus = PRC_postwar61  } prerequisite = { focus = PRC_postwar63  } prerequisite = { focus = PRC_postwar62  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar65
+		icon = GFX_focus_generic_technical_difficulties
+		x = 30
+		y = 11
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar64  }
+		mutually_exclusive = { focus = PRC_postwar66  } mutually_exclusive = { focus = PRC_postwar67  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar66
+		icon = GFX_focus_generic_technical_difficulties
+		x = 32
+		y = 11
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar64  }
+		mutually_exclusive = { focus = PRC_postwar65  } mutually_exclusive = { focus = PRC_postwar67  }
+	}
+
+
+shared_focus = {
+		id = PRC_postwar67
+		icon = GFX_focus_generic_technical_difficulties
+		x = 34
+		y = 11
+		cost = 5
+		available_if_capitulated = no
+		prerequisite = { focus = PRC_postwar64  }
+		mutually_exclusive = { focus = PRC_postwar65  } mutually_exclusive = { focus = PRC_postwar66  }
+	}

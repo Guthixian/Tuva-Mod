@@ -68,3 +68,18 @@ focus_tree = {
 	shared_focus = PRC_reconstruction
 	
 }
+
+focus_tree = {
+	id = PRC_postwar
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	default = no
+	shared_focus = PRC_the_keyword_premier
+	shared_focus = PRC_postwar39
+	
+}
