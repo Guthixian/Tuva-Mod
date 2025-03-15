@@ -4431,7 +4431,7 @@ shared_focus = {
 		cost = 5
 		available_if_capitulated = no
 		prerequisite = { focus = PRC_postwar45  } prerequisite = { focus = PRC_postwar46  } prerequisite = { focus = PRC_postwar50  }
-		mutually_exclusive = { focus = PRC_postwar51  } mutually_exclusive = { focus = PRC_postwar53  }
+		mutually_exclusive = { focus = PRC_postwar52  } mutually_exclusive = { focus = PRC_postwar53  }
 	}
 
 

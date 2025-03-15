@@ -27,7 +27,7 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_NIKOLAI_SHCHELOKOV_DESC"
 			expire = "1999.1.1.1"
-			ideology = paternalism_right_wing_populism_subtype
+			ideology = paternalism_idiosyncratic_communism_subtype
 			traits = { patriotic_socialist }
 			id = -1
 		}

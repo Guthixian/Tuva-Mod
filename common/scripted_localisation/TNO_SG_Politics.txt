@@ -525,6 +525,10 @@ defined_text = {
 		trigger = { has_country_leader_ideology = paternalism_peoples_democracy_subtype }
 		localization_key = paternalism_peoples_democracy_subtype
 	}
+	text = {
+		trigger = { has_country_leader_ideology = paternalism_idiosyncratic_communism_subtype }
+		localization_key = paternalism_idiosyncratic_communism_subtype
+	}
 	### END 2WRW ###
 	text = {
 		localization_key = paternalism

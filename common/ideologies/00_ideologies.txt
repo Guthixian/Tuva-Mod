@@ -251,6 +251,7 @@ ideologies = {
 			paternalism_antarctic_administration_subtype = { can_be_randomly_selected = no }
 			paternalism_thalassocracy_subtype = { can_be_randomly_selected = no }
 			paternalism_peoples_democracy_subtype = { can_be_randomly_selected = no }
+			paternalism_idiosyncratic_communism_subtype = { can_be_randomly_selected = no }
 			### END 2WRW ###
 
 			paternalism_herrerism_subtype = { can_be_randomly_selected = no }
