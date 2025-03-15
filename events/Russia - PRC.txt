@@ -821,6 +821,17 @@ country_event = { # 70s & 2WRW Shchelokov portraits
 				add_country_leader_trait = popular_figurehead
 			}
 			}
+	option = {
+		name = PRC.superregional.1972.b
+		custom_effect_tooltip = PRC_superregional.1972.tt
+		KZR_Nikolai_Shchelokov = {
+				set_portraits = {
+					civilian = { large = "gfx/leaders/PRC/Portrait_PRC_Nikolai_Shchelokov_Reconstruction.png" }
+				}
+				remove_country_leader_trait = controversial_populist
+				add_country_leader_trait = popular_figurehead
+			}
+			}
 }
 
 country_event = { # temp name changer
@@ -1066,7 +1077,7 @@ country_event = { # Brezhnev Successor Roulette 2
 						traits = { red_eminence }
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_anocracy_subtype
+						ideology = paternalism_idiosyncratic_communism_subtype
 					}
 			
 		}
