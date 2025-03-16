@@ -3139,4 +3139,23 @@ MSK_PRC = {
 	color_ui = rgb { 112 21 16 }
 }
 
+KZR_PRC = {
+	color = rgb { 112 21 16 }
+	color_ui = rgb { 112 21 16 }
+}
+
+GEO_PRC = {
+	color = rgb { 112 21 16 }
+	color_ui = rgb { 112 21 16 }
+}
+
+AZR_PRC = {
+	color = rgb { 112 21 16 }
+	color_ui = rgb { 112 21 16 }
+}
+
+NRS_PRC = {
+	color = rgb { 112 21 16 }
+	color_ui = rgb { 112 21 16 }
+}
 ### END 2WRW ###

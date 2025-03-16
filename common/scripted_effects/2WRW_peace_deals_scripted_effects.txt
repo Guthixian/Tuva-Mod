@@ -6529,6 +6529,166 @@ RUS_shchelokov_central_asia_occupation = {
 				target = KYR
 				autonomous_state = autonomy_assr
 			}
+			set_autonomy = {
+				target = KZR
+				autonomous_state = autonomy_assr
+			}
+		}
+		
+		KZR = {
+		    add_state_core = 404
+			add_state_core = 402
+			add_state_core = 406
+			add_state_core = 1802
+			add_state_core = 587
+			add_state_core = 589
+			add_state_core = 1803
+			add_state_core = 1804
+			add_state_core = 1805
+			add_state_core = 1806
+			add_state_core = 583
+			add_state_core = 1808
+			add_state_core = 590
+			add_state_core = 1807
+			add_state_core = 588
+			add_state_core = 407
+		}
+		KZR = {
+			set_cosmetic_tag = KZR_PRC
+			
+			set_capital = { state = 589 remember_old_capital = no }
+			
+			transfer_state = 404
+			transfer_state = 406
+			transfer_state = 402
+			transfer_state = 1802
+			transfer_state = 587
+			transfer_state = 589
+			transfer_state = 1803
+			transfer_state = 1804
+			transfer_state = 1805
+			transfer_state = 1806
+			transfer_state = 583
+			transfer_state = 1808
+			transfer_state = 590
+			transfer_state = 1807
+			transfer_state = 588
+			transfer_state = 407
+			
+			set_politics = {
+				ruling_party = paternalism
+			}
+			
+			add_ideas = {
+
+					### Political ###
+					tno_political_parties_multiparty_system
+					tno_religious_rights_secularism
+					tno_trade_unions_illegal
+					tno_immigration_encouraged_immigration
+					tno_slavery_outlawed
+					tno_public_meetings_regulated
+					tno_press_rights_censored_press
+					tno_vote_franchise_universal
+					tno_refugees_open
+
+					### Military ###
+					tno_conscription_limited_conscription
+					tno_women_noncombat_only
+					tno_military_supervision_rules_of_engagement
+					tno_training_basic_training
+					tno_racial_integration_integrated_military
+					tno_draft_exemptions_educational_deferment
+
+					### Economic ###
+					tno_trade_laws_export_focus
+					tno_income_taxation_flat_taxes
+					tno_minimum_wage_trinket_minimum_wage
+					tno_max_workhours_12_hour_work_day
+					tno_child_labor_illegal
+					tno_pensions_low_pensions
+					tno_unemployment_low_subsidies
+
+					### Social ###
+					tno_safety_minimal_regulations
+					tno_health_care_low_income_protections
+					tno_pollution_few_regulations
+					tno_education_public_education
+					tno_penal_system_incarceration
+					tno_lgbt_rights_lgbt_outlawed
+					tno_gender_rights_women_in_the_workplace
+					tno_minorities_equal_rights
+					tno_security_regulated_police
+				}
+				create_country_leader = {
+						name = "Kazakh Soviet"
+						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_anocracy_communist_subtype
+					}
+			
+			
+			set_popularities = {
+				paternalism = 33
+				paternalism_1 = 20
+				national_socialism = 15
+				despotism = 18
+				communist = 14
+			}
+			set_party_name = {
+				ideology = paternalism 
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = paternalism_1
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = despotism
+				long_name = "Anti-Soviet Partisans"
+				name = "Anti-Soviet Partisans"
+			}
+			set_party_name = {
+				ideology = national_socialism
+				long_name = "Nationalsocialistsche Deutsche Arbeiterspartei - Auslands-Organisation"
+				name = "NSDAP/AO"
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+
+			remove_ideas = {
+				UZB_Jadid
+				UZB_Rise_of_Discontent
+			}
+			TNO_Oil_Crisis_remove_modifier = yes
+
+			if = {
+				limit = {
+					has_idea = OFN_Observer
+				}
+				remove_ideas = OFN_Observer
+			}
+			else_if = {
+				limit = {
+					has_idea = Sphere_Observer
+				}
+				remove_ideas = Sphere_Observer
+			} #removes other faction ideas
+
+			econ_join_sphere_CME = yes
+			add_ideas = TMA_Member
+			remove_ideas = UZB_Jadid
+			remove_ideas = UZB_Rise_of_Discontent
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
 		}
 		UZB = {
 			set_cosmetic_tag = UZB_PRC
@@ -8453,16 +8613,46 @@ PRC_shchelokov_caucasian_occupation = {
 		CAU = {
 			every_core_state = {
 				remove_core_of = CAU
-				add_core_of = ADY
 			}
+		}
+		
+		ADY = {
+		    add_state_core = 234
+			add_state_core = 235
+			add_state_core = 1558
+			add_state_core = 1559
+			add_state_core = 1560
+			add_state_core = 1561
+			add_state_core = 232
+			add_state_core = 1564
+			add_state_core = 1556
+			add_state_core = 1554
+			add_state_core = 229
+			add_state_core = 1552
+		
+		}
+		GEO = {
+		add_state_core = 231
+		}
+		AZR = {
+		add_state_core = 229
+		add_state_core = 1552
 		}
 		set_autonomy = {
 			target = ADY
+			autonomy_state = autonomy_military_district
+		}
+		set_autonomy = {
+			target = GEO
+			autonomy_state = autonomy_assr
+		}
+		set_autonomy = {
+			target = AZR
 			autonomy_state = autonomy_assr
 		}
 		ADY = {
-			set_capital = {state = 231 remember_old_capital = no}
-			set_cosmetic_tag = CAU_PRC
+			set_capital = {state = 234 remember_old_capital = no}
+			set_cosmetic_tag = NRS_PRC
 			RUS_Idea_Removal_Helper = yes
 			transfer_state = 234
 			transfer_state = 235
@@ -8472,11 +8662,121 @@ PRC_shchelokov_caucasian_occupation = {
 			transfer_state = 1561
 			transfer_state = 232
 			transfer_state = 1564
-			transfer_state = 231
 			transfer_state = 1556
 			transfer_state = 1554
 			transfer_state = 229
 			transfer_state = 1552
+			
+			TNO_startup_nation = yes
+
+			set_politics = {
+				ruling_party = paternalism
+			}
+			
+			create_country_leader = {
+						name = "Novorossiyan Soviet"
+						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_idiosyncratic_communism_postwar_subtype
+					}
+			
+			
+			set_popularities = {
+				paternalism = 33
+				paternalism_1 = 20
+				national_socialism = 15
+				despotism = 18
+				communist = 14
+			}
+			set_party_name = {
+				ideology = paternalism 
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = paternalism_1
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = despotism
+				long_name = "Anti-Soviet Partisans"
+				name = "Anti-Soviet Partisans"
+			}
+			set_party_name = {
+				ideology = national_socialism
+				long_name = "Nationalsocialistsche Deutsche Arbeiterspartei - Auslands-Organisation"
+				name = "NSDAP/AO"
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			add_ideas = {
+				CAU_echoes_of_kaukasia
+				CAU_waning_stratification
+
+				### Political ###
+				tno_political_parties_controlled_opposition
+				tno_religious_rights_secularism
+				tno_trade_unions_illegal
+				tno_immigration_encouraged_immigration
+				tno_slavery_outlawed
+				tno_public_meetings_regulated
+				tno_press_rights_censored_press
+				tno_vote_franchise_elite_voting
+				tno_refugees_open
+
+				### Military ###
+				tno_conscription_limited_conscription
+				tno_women_noncombat_only
+				tno_military_supervision_rules_of_engagement
+				tno_training_basic_training
+				tno_racial_integration_integrated_military
+				tno_draft_exemptions_educational_deferment
+
+				### Economic ###
+				tno_trade_laws_export_focus
+				tno_income_taxation_flat_taxes
+				tno_minimum_wage_trinket_minimum_wage
+				tno_max_workhours_12_hour_work_day
+				tno_child_labor_illegal
+				tno_pensions_low_pensions
+				tno_unemployment_low_subsidies
+
+				### Social ###
+				tno_safety_minimal_regulations
+				tno_health_care_low_income_protections
+				tno_pollution_few_regulations
+				tno_education_public_education
+				tno_penal_system_incarceration
+				tno_lgbt_rights_lgbt_outlawed
+				tno_gender_rights_women_in_the_workplace
+				tno_minorities_equal_rights
+				tno_security_regulated_police
+			}
+			
+			set_country_flag = CAU_LIBERATED
+			load_focus_tree = ZZZ_blank_focus
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
+
+			set_variable = { national_debt = 0 }
+			calculate_display_variables = yes
+			TNO_improve_poverty_high = yes
+			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
+		}
+		
+		GEO = {
+			set_capital = {state = 231 remember_old_capital = no}
+			set_cosmetic_tag = GEO_PRC
+			RUS_Idea_Removal_Helper = yes
+			transfer_state = 231
 			
 			TNO_startup_nation = yes
 
@@ -8489,6 +8789,117 @@ PRC_shchelokov_caucasian_occupation = {
 						desc = ""
 						expire = "1999.3.4"
 						ideology = paternalism_anocracy_communist_subtype
+					}
+					
+			set_popularities = {
+				paternalism = 33
+				paternalism_1 = 20
+				national_socialism = 15
+				despotism = 18
+				communist = 14
+			}
+			set_party_name = {
+				ideology = paternalism 
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = paternalism_1
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			set_party_name = {
+				ideology = despotism
+				long_name = "Anti-Soviet Partisans"
+				name = "Anti-Soviet Partisans"
+			}
+			set_party_name = {
+				ideology = national_socialism
+				long_name = "Nationalsocialistsche Deutsche Arbeiterspartei - Auslands-Organisation"
+				name = "NSDAP/AO"
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			add_ideas = {
+				CAU_echoes_of_kaukasia
+				CAU_waning_stratification
+
+				### Political ###
+				tno_political_parties_controlled_opposition
+				tno_religious_rights_secularism
+				tno_trade_unions_illegal
+				tno_immigration_encouraged_immigration
+				tno_slavery_outlawed
+				tno_public_meetings_regulated
+				tno_press_rights_censored_press
+				tno_vote_franchise_elite_voting
+				tno_refugees_open
+
+				### Military ###
+				tno_conscription_limited_conscription
+				tno_women_noncombat_only
+				tno_military_supervision_rules_of_engagement
+				tno_training_basic_training
+				tno_racial_integration_integrated_military
+				tno_draft_exemptions_educational_deferment
+
+				### Economic ###
+				tno_trade_laws_export_focus
+				tno_income_taxation_flat_taxes
+				tno_minimum_wage_trinket_minimum_wage
+				tno_max_workhours_12_hour_work_day
+				tno_child_labor_illegal
+				tno_pensions_low_pensions
+				tno_unemployment_low_subsidies
+
+				### Social ###
+				tno_safety_minimal_regulations
+				tno_health_care_low_income_protections
+				tno_pollution_few_regulations
+				tno_education_public_education
+				tno_penal_system_incarceration
+				tno_lgbt_rights_lgbt_outlawed
+				tno_gender_rights_women_in_the_workplace
+				tno_minorities_equal_rights
+				tno_security_regulated_police
+			}
+			
+			set_country_flag = CAU_LIBERATED
+			load_focus_tree = ZZZ_blank_focus
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Bureaucratic_Collectivism }
+			econ_type_change = yes
+			econ_subtype_change = yes
+
+			set_variable = { national_debt = 0 }
+			calculate_display_variables = yes
+			TNO_improve_poverty_high = yes
+			TNO_improve_poverty_high = yes
+			econ_join_sphere_CME = yes
+		}
+		
+		AZR = {
+			set_capital = {state = 1552 remember_old_capital = no}
+			set_cosmetic_tag = AZR_PRC
+			RUS_Idea_Removal_Helper = yes
+			transfer_state = 229
+			transfer_state = 1552
+			
+			TNO_startup_nation = yes
+
+			set_politics = {
+				ruling_party = paternalism
+			}
+			
+			create_country_leader = {
+						name = "Azeri Soviet"
+						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_authoritarian_developmentalism_communist_subtype
 					}
 			
 			

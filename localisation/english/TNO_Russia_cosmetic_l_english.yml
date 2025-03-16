@@ -615,6 +615,22 @@
  KYR_PRC_DEF: "the Kyrgyz Soviet Socialist Republic"
  KYR_PRC_ADJ: "Kyrgyz"
  
+ KZR_PRC: "Kazakh SSR"
+ KZR_PRC_DEF: "the Kazakh Soviet Socialist Republic"
+ KZR_PRC_ADJ: "Kazakh"
+ 
+ GEO_PRC: "Georgian SSR"
+ GEO_PRC_DEF: "the Georgian Soviet Socialist Republic"
+ GEO_PRC_ADJ: "Georgian"
+ 
+ AZR_PRC: "Azeri SSR"
+ AZR_PRC_DEF: "the Azeri Soviet Socialist Republic"
+ AZR_PRC_ADJ: "Azeri"
+ 
+ NRS_PRC: "Transcaucasian Reconstruction Authority"
+ NRS_PRC_DEF: "the Transcaucasian Reconstruction Authority"
+ NRS_PRC_ADJ: "Transcaucasian"
+ 
  MSK_PRC: "Muscovite Reconstruction Authority"
  MSK_PRC_DEF: "the Muscovite Reconstruction Authority"
  MSK_PRC_ADJ: "Muscovite"
