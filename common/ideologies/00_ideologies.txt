@@ -252,6 +252,10 @@ ideologies = {
 			paternalism_thalassocracy_subtype = { can_be_randomly_selected = no }
 			paternalism_peoples_democracy_subtype = { can_be_randomly_selected = no }
 			paternalism_idiosyncratic_communism_subtype = { can_be_randomly_selected = no }
+			paternalism_idiosyncratic_communism_postwar_subtype = { can_be_randomly_selected = no }
+			paternalism_anocracy_communist_subtype = { can_be_randomly_selected = no }
+			paternalism_authoritarian_developmentalism_communist_subtype = { can_be_randomly_selected = no }
+			paternalism_technocratic_communism_subtype = { can_be_randomly_selected = no }
 			### END 2WRW ###
 
 			paternalism_herrerism_subtype = { can_be_randomly_selected = no }

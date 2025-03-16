@@ -6599,7 +6599,7 @@ RUS_shchelokov_central_asia_occupation = {
 						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_anocracy_subtype
+						ideology = paternalism_anocracy_communist_subtype
 					}
 			
 			
@@ -6715,7 +6715,7 @@ RUS_shchelokov_central_asia_occupation = {
 						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_anocracy_subtype
+						ideology = paternalism_anocracy_communist_subtype
 					}
 			
 			
@@ -6834,7 +6834,7 @@ RUS_shchelokov_central_asia_occupation = {
 						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_anocracy_subtype
+						ideology = paternalism_anocracy_communist_subtype
 					}
 			
 			
@@ -6958,7 +6958,7 @@ RUS_shchelokov_central_asia_occupation = {
 						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_anocracy_subtype
+						ideology = paternalism_anocracy_communist_subtype
 					}
 			
 			
@@ -7679,7 +7679,7 @@ PRC_shchelokov_moskowien_occupation = {
 						picture = "gfx/leaders/Moskowien/Portrait_MSK_Mikhail_Gorbachev_drip.dds"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_anocracy_subtype
+						ideology = paternalism_anocracy_communist_subtype
 					}
 			
 			set_party_name = { 
@@ -7801,7 +7801,7 @@ PRC_shchelokov_moskowien_occupation = {
 						picture = "gfx/leaders/PRC/Portrait_PRC_VLG_Boris_Rauschenbach.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_authoritarian_developmentalism_subtype
+						ideology = paternalism_technocratic_communism_subtype
 					}
 			
 			set_party_name = { 
@@ -7874,7 +7874,7 @@ PRC_shchelokov_petrograd_occupation = {
 						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_anocracy_subtype
+						ideology = paternalism_anocracy_communist_subtype
 					}
 			
 			
@@ -8022,7 +8022,7 @@ PRC_shchelokov_baltic_occupation = {
 						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_anocracy_subtype
+						ideology = paternalism_anocracy_communist_subtype
 					}
 			
 			
@@ -8140,7 +8140,7 @@ PRC_shchelokov_baltic_occupation = {
 						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_anocracy_subtype
+						ideology = paternalism_anocracy_communist_subtype
 					}
 			
 			
@@ -8248,7 +8248,7 @@ PRC_shchelokov_baltic_occupation = {
 						picture = "gfx/leaders/PRC/Portrait_PRC_Erich_Mielke.dds"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_authoritarian_developmentalism_subtype
+						ideology = paternalism_authoritarian_developmentalism_communist_subtype
 					}
 			
 			
@@ -8368,7 +8368,7 @@ PRC_shchelokov_baltic_occupation = {
 						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_anocracy_subtype
+						ideology = paternalism_anocracy_communist_subtype
 					}
 			
 			
@@ -8488,7 +8488,7 @@ PRC_shchelokov_caucasian_occupation = {
 						picture = "gfx/leaders/GEO/Portrait_Georgia_Givi_Javakhishvili.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_anocracy_subtype
+						ideology = paternalism_anocracy_communist_subtype
 					}
 			
 			
@@ -8719,7 +8719,7 @@ PRC_shchelokov_ukraine_occupation = {
 						picture = "gfx/leaders/TYM/Portrait_Tyumen_Boris_Shcherbina.dds"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_oligarchy_subtype
+						ideology = paternalism_idiosyncratic_communism_postwar_subtype
 					}
 			
 			
@@ -8868,7 +8868,7 @@ PRC_shchelokov_ukraine_occupation = {
 						picture = "gfx/leaders/CRI/Portrait_Gotland_Karl-Gunter_von_Hase.dds"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_authoritarian_developmentalism_subtype
+						ideology = paternalism_authoritarian_developmentalism_communist_subtype
 					}
 			
 			

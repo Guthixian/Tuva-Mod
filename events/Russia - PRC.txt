@@ -476,7 +476,7 @@ country_event = { # Brezhnev Picker
 				country_leader = {
 					desc = ""
 					expire = "1999.1.1"
-					ideology = paternalism_anocracy_subtype
+					ideology = paternalism_anocracy_communist_subtype
 					traits = {
 
 					}
@@ -638,7 +638,7 @@ option = {
 				country_leader = {
 					desc = ""
 					expire = "1999.1.1"
-					ideology = paternalism_authoritarian_developmentalism_subtype
+					ideology = paternalism_authoritarian_developmentalism_communist_subtype
 					traits = {
 
 					}
@@ -720,7 +720,7 @@ option = {
 				country_leader = {
 					desc = ""
 					expire = "1999.1.1"
-					ideology = paternalism_oligarchy_subtype
+					ideology = paternalism_idiosyncratic_communism_postwar_subtype
 					traits = {
 
 					}
@@ -941,7 +941,7 @@ country_event = { # Brezhnev Successor Roulette 1
 						picture = "gfx/leaders/PRC/Portrait_PRC_Galina_Brezhneva.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_oligarchy_subtype
+						ideology = paternalism_idiosyncratic_communism_postwar_subtype
 					}
 			
 		}
@@ -957,7 +957,7 @@ country_event = { # Brezhnev Successor Roulette 1
 						traits = { comrade_general }
 						desc = "POLITICS_YURI_VASILEVSKY_DESC"
 						expire = "1999.3.4"
-						ideology = paternalism_authoritarian_developmentalism_subtype
+						ideology = paternalism_authoritarian_developmentalism_communist_subtype
 					}
 			
 		}
@@ -989,7 +989,7 @@ country_event = { # Brezhnev Successor Roulette 1
 						traits = { }
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_social_nationalism_subtype
+						ideology = paternalism_technocratic_communism_subtype
 					}
 			
 		}
@@ -1061,7 +1061,7 @@ country_event = { # Brezhnev Successor Roulette 2
 						picture = "gfx/leaders/TYM/Portrait_Tyumen_Boris_Shcherbina.dds"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_authoritarian_developmentalism_subtype
+						ideology = paternalism_authoritarian_developmentalism_communist_subtype
 					}
 			
 		}
@@ -1077,7 +1077,7 @@ country_event = { # Brezhnev Successor Roulette 2
 						traits = { red_eminence }
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_idiosyncratic_communism_subtype
+						ideology = paternalism_idiosyncratic_communism_postwar_subtype
 					}
 			
 		}
@@ -1477,7 +1477,7 @@ country_event = { #Afghanistan tooser
 						picture = "gfx/leaders/PRC/Portrait_GFA_Babrak_Karmal.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_social_nationalism_subtype
+						ideology = paternalism_anocracy_communist_subtype
 					}
 			
 			

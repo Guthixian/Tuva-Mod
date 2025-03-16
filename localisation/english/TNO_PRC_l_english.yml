@@ -83,15 +83,15 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
 
  ### Characters ###
  PRC_Leonid_Brezhnev: "Leonid Brezhnev"
- PRC_Leonid_Brezhnev_desc: "§YPremier of the USSR\nAnocracy§!\n--------------\n"
+ PRC_Leonid_Brezhnev_desc: "§YPremier of the USSR\nDeveloped Socialism§!\n--------------\n"
  PRC_Frol_Kozlov: "Frol Kozlov"
- PRC_Frol_Kozlov_desc: "§YForeign Minister\nSocial Nationalism§!\n--------------\n"
+ PRC_Frol_Kozlov_desc: "§YForeign Minister\nDeveloped Socialism (Social Nationalism)§!\n--------------\n"
  PRC_Andrei_Kirilenko: "Andrei Kirilenko"
- PRC_Andrei_Kirilenko_desc: "§YEconomy Minister\nAuthoritarian Developmentalism§!\n--------------\n"
+ PRC_Andrei_Kirilenko_desc: "§YEconomy Minister\nDeveloped Socialism (Authoritarian Developmentalism)§!\n--------------\n"
  PRC_Semyon_Tsvigun: "Semyon Tsvigun"
- PRC_Semyon_Tsvigun_desc: "§YHead of the NKVD's Fifth Directorate\nOligarchy§!\n--------------\n"
+ PRC_Semyon_Tsvigun_desc: "§YHead of the NKVD's Fifth Directorate\nDeveloped Socialism (Oligarchy)§!\n--------------\n"
  PRC_Nikolai_Shchelokov: "Nikolai Shchelokov"
- PRC_Nikolai_Shchelokov_desc: "§YMinister of Public Order\nRight-Wing Populism§!\n--------------\n"
+ PRC_Nikolai_Shchelokov_desc: "§YMinister of Public Order\nDeveloped Socialism (Idiosyncratic Communism)§!\n--------------\n"
  
  
  PRC_Issa_Pliev: "Issa Pliev"

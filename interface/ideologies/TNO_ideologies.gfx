@@ -97,6 +97,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/paternalism_idiosyncratic_communism_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_paternalism_idiosyncratic_communism_postwar_subtype"
+		texturefile = "gfx/interface/ideologies/paternalism_idiosyncratic_communism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_paternalism_technocratic_communism_subtype"
+		texturefile = "gfx/interface/ideologies/paternalism_technocratic_communism_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_paternalism_authoritarian_developmentalism_communist_subtype"
+		texturefile = "gfx/interface/ideologies/paternalism_authoritarian_developmentalism_communist_subtype.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_paternalism_anocracy_communist_subtype"
+		texturefile = "gfx/interface/ideologies/paternalism_anocracy_communist_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_fascism_reform_bureaucracy_subtype"
 		texturefile = "gfx/interface/ideologies/fascism_reform_bureaucracy_subtype.dds"
 	}
