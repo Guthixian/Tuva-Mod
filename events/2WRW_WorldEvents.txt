@@ -4679,5 +4679,11 @@ news_event = { #Shchelokov wins 2WRW
 
 	option ={
 		name = WORLD.41049.a
+		hidden_effect = {
+		if = {
+		original_tag = PRC
+		load_focus_tree = PRC_reconstruction
+		}
+		}
 	}
 }

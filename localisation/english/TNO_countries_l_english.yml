@@ -437,6 +437,19 @@
  MZB: "East Africa"
  MZB_DEF: "East Africa"
  MZB_ADJ: "East African"
+ 
+ DAG: "Dagestan"
+ DAG_DEF: "Dagestan"
+ DAG_ADJ: "Dagestani"
+ 
+ CYA: "Chechnya"
+ CYA_DEF: "Chechnya"
+ CYA_ADJ: "Chechnyan"
+ 
+ KRB: "Kabardia-Balkaria"
+ KRB_DEF: "Kabardia-Balkaria"
+ KRB_ADJ: "Kabardino-Balkarian"
+ 
 
  # N
  NIC: "Nicaragua"

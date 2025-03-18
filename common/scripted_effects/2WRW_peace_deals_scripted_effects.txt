@@ -8895,11 +8895,11 @@ PRC_shchelokov_caucasian_occupation = {
 			}
 			
 			create_country_leader = {
-						name = "Azeri Soviet"
-						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
+						name = "Heydar Aliyev"
+						picture = "gfx/leaders/AZR/Portrait_Heydar_Aliyev.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_authoritarian_developmentalism_communist_subtype
+						ideology = paternalism_anocracy_communist_subtype
 					}
 			
 			

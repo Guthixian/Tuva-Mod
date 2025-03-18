@@ -13,4 +13,6 @@ HUD = "countries/East Europe - Pakt.txt"		# Republic of Hungary
 HUS = "countries/East Europe - Pakt.txt"		# Hungarian People's Republic
 MON = "countries/China.txt"						# Mongolia
 GFA = "countries/Central Siberia.txt"			# Afghan People's Republic
+CYA = "countries/East Europe - Former RK.txt"   # Chechnya
+KRB = "countries/East Europe - Former RK.txt"   # Kabardia-Balkaria
 XXX = "countries/West Europe.txt"				# Character Storage

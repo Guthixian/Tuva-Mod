@@ -141,6 +141,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/despotism_corporatocracy_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_despotism_islamic_nationalism_subtype"
+		texturefile = "gfx/interface/ideologies/despotism_islamic_nationalism_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_despotism_warlordism_subtype"
 		texturefile = "gfx/interface/ideologies/despotism_warlordism_subtype.dds"
 	}

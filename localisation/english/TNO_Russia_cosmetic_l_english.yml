@@ -631,6 +631,10 @@
  NRS_PRC_DEF: "the Transcaucasian Reconstruction Authority"
  NRS_PRC_ADJ: "Transcaucasian"
  
+ DAG_WAR: "Dagestan"
+ DAG_WAR_DEF: "Dagestan"
+ DAG_WAR_ADJ: "Dagestani"
+ 
  MSK_PRC: "Muscovite Reconstruction Authority"
  MSK_PRC_DEF: "the Muscovite Reconstruction Authority"
  MSK_PRC_ADJ: "Muscovite"

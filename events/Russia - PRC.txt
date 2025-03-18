@@ -1625,6 +1625,219 @@ country_event = { #Load recon tree
 	}
 }
 
+country_event = { #Caucasus War event
+	id = PRC_reconstruction.1974
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_reconstruction.1974" }
+	title = PRC_reconstruction.1974.t
+	desc = PRC_reconstruction.1974.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC_reconstruction.1974.a
+		DAG = { add_state_core = 1564 transfer_state = 1564 set_cosmetic_tag = DAG_WAR }
+		CYA = { add_state_core = 232 transfer_state = 232 }
+		KRB = { add_state_core = 1560 transfer_state = 1560 }
+		CYA = { create_faction = "Altamarud Alqawqaziu" }
+		CYA = { add_to_faction = DAG add_to_faction = KRB }
+		
+		DAG = {
+		create_country_leader = {
+						name = "Placeholder Man"
+						picture = "gfx/leaders/MTN/Portrait_Mr_Placeholder_the_Third.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = despotism_islamic_nationalism_subtype
+					}
+			
+			
+			set_popularities = {
+				despotism = 12
+				despotism_1 = 13
+				despotism_2 = 11
+				despotism_3 = 19
+				despotism_4 = 15
+				ultranationalism = 23
+				national_socialism = 7
+			}
+			set_party_name = {
+				ideology = paternalism 
+				long_name = "Hezb-e Watan"
+				name = "HW"
+			}
+			
+			set_party_name = {
+				ideology = despotism
+				long_name = "Almujahidun Aldaaghistanyuwn"
+				name = "AA"
+			}
+			set_party_name = {
+				ideology = ultranationalism
+				long_name = "Almujahidun Aldaaghistanyuwn"
+				name = "Almujahidun Aldaaghistanyuwn"
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			load_focus_tree = {
+					tree = ZZZ_blank_focus
+					keep_completed = no
+				}
+			set_politics = {
+						ruling_party = despotism
+						elections_allowed = no
+						last_election = "1976.10.1"
+						election_frequency = 48
+					}
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Banditry }
+			econ_type_change = yes
+			econ_subtype_change = yes
+			
+			set_variable = { national_debt = 0 }
+			calculate_display_variables = yes
+			set_capital = {
+				state = 1564
+				remember_old_capital = no
+			}
+		}
+		
+		CYA = {
+		create_country_leader = {
+						name = "Abdurakhman Avtorkhanov"
+						picture = "gfx/leaders/MTN/Portrait_Mr_Placeholder_the_Third.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = conservatism_islamic_conservatism_subtype
+					}
+			
+			
+			set_popularities = {
+				conservatism = 25
+				conservatism = 8
+				liberal_conservatism = 2
+				despotism = 13
+				despotism_1 = 7
+				national_socialism = 6
+				national_socialism_2 = 4
+				ultranationalism = 35
+				
+			}
+			set_party_name = {
+				ideology = conservatism
+				long_name = "Partiya Natsional'noy Nezavisimosti"
+				name = "PNN"
+			}
+			
+			set_party_name = {
+				ideology = despotism
+				long_name = "Anti-Soviet Partisans"
+				name = "Anti-Soviet Partisans"
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			load_focus_tree = {
+					tree = ZZZ_blank_focus
+					keep_completed = no
+				}
+			set_politics = {
+						ruling_party = conservatism
+						elections_allowed = yes
+						last_election = "1972.10.1"
+						election_frequency = 48
+					}
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Dirigisme }
+			econ_type_change = yes
+			econ_subtype_change = yes
+			
+			set_variable = { national_debt = 0 }
+			calculate_display_variables = yes
+		}
+		
+		KRB = {
+		
+		create_country_leader = {
+						name = "Timbora Malbakhov"
+						picture = "gfx/leaders/MTN/Portrait_Mr_Placeholder_the_Third.dds"
+						desc = ""
+						expire = "1999.3.4"
+						ideology = socialist_islamic_socialism_subtype
+					}
+			
+			
+			set_popularities = {
+				socialist = 23
+				socialist_1 = 7
+				socialist_2 = 7
+				communist = 3
+				despotism = 11
+				despotism_1 = 9
+				despotism_2 = 13
+				conservatism = 12
+				conservatism_1 = 6
+				liberal_conservatism = 2
+				ultranationalism = 7
+			}
+			set_party_name = {
+				ideology = socialist
+				long_name = "Kabardino-Balkarskaya Kommunisticheskaya Partiya"
+				name = "K-B KP"
+			}
+			
+			set_party_name = {
+				ideology = despotism
+				long_name = "Anti-Soviet Partisans"
+				name = "Anti-Soviet Partisans"
+			}
+			set_party_name = {
+				ideology = communist
+				long_name = "Vsesoyuznaya Kommunisticheskaya Partiya"
+				name = "VKP(b)"
+			}
+			load_focus_tree = {
+					tree = ZZZ_blank_focus
+					keep_completed = no
+				}
+			set_politics = {
+						ruling_party = socialist
+						elections_allowed = yes
+						last_election = "1972.10.1"
+						election_frequency = 48
+					}
+			set_temp_variable = { TNO_economy_type_temp = token:Econ_Type_Planned }
+			set_temp_variable = { TNO_economy_subtype_temp = token:Econ_Subtype_Worker_Directed }
+			econ_type_change = yes
+			econ_subtype_change = yes
+			
+			set_variable = { national_debt = 0 }
+			calculate_display_variables = yes
+		
+		}
+		
+		ADY = {
+			declare_war_on = {
+				target = CYA
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = DAG
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KRB
+				type = annex_everything
+			}
+			}
+
+	}
+}
+
 
 country_event = { #Load postwar tree
 	id = PRC_postwar.1
