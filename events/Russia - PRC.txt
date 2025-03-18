@@ -1643,7 +1643,7 @@ country_event = { #Caucasus War event
 		
 		DAG = {
 		create_country_leader = {
-						name = "Placeholder Man"
+						name = "Gaadallo Achilazul"
 						picture = "gfx/leaders/MTN/Portrait_Mr_Placeholder_the_Third.dds"
 						desc = ""
 						expire = "1999.3.4"
@@ -1707,7 +1707,7 @@ country_event = { #Caucasus War event
 		CYA = {
 		create_country_leader = {
 						name = "Abdurakhman Avtorkhanov"
-						picture = "gfx/leaders/MTN/Portrait_Mr_Placeholder_the_Third.dds"
+						picture = "gfx/leaders/MTN/CYA_Abdurakhman_Avtorkhanov.dds"
 						desc = ""
 						expire = "1999.3.4"
 						ideology = conservatism_islamic_conservatism_subtype
