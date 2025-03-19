@@ -3913,6 +3913,9 @@ shared_focus = {
 	relative_position_id = PRC_reconstruction16
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction17"
+		hidden_effect = {
+			country_event = { id = PRC_superregional.1975 days = 3 }
+		}
 	}
 }
 

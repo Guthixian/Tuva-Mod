@@ -2298,6 +2298,11 @@ CYA = {
 	color_ui = rgb { 117 145 22 }
 }
 
+CHR = {
+	color = rgb { 79 121 66 }
+	color_ui = rgb { 79 121 66 }
+}
+
 KRB = {
 	color = rgb { 0 146 63 }
 	color_ui = rgb { 0 146 63 }

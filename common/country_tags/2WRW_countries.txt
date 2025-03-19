@@ -15,4 +15,5 @@ MON = "countries/China.txt"						# Mongolia
 GFA = "countries/Central Siberia.txt"			# Afghan People's Republic
 CYA = "countries/East Europe - Former RK.txt"   # Chechnya
 KRB = "countries/East Europe - Former RK.txt"   # Kabardia-Balkaria
+CHR = "countries/East Europe - Former RK.txt"   # Karachay-Cherkessia
 XXX = "countries/West Europe.txt"				# Character Storage
