@@ -4225,7 +4225,6 @@ shared_focus = {
 		ai_will_do = { factor = 1 }
 		
 		prerequisite = { focus = PRC_postwar24  }
-		mutually_exclusive = { focus = PRC_postwar25  } mutually_exclusive = { focus = PRC_postwar26  } mutually_exclusive = { focus = PRC_postwar27  }
 	}
 
 shared_focus = {
@@ -4250,8 +4249,7 @@ shared_focus = {
 		available_if_capitulated = no
 		ai_will_do = { factor = 1 }
 		
-		prerequisite = { focus = PRC_postwar24  }
-		mutually_exclusive = { focus = PRC_postwar26  } mutually_exclusive = { focus = PRC_postwar27  } mutually_exclusive = { focus = PRC_postwar28  }
+		prerequisite = { focus = PRC_postwar24  }	
 	}
 
 shared_focus = {
@@ -4263,8 +4261,7 @@ shared_focus = {
 		available_if_capitulated = no
 		ai_will_do = { factor = 1 }
 		
-		prerequisite = { focus = PRC_postwar24  }
-		mutually_exclusive = { focus = PRC_postwar25  } mutually_exclusive = { focus = PRC_postwar27  } mutually_exclusive = { focus = PRC_postwar28  }
+		prerequisite = { focus = PRC_postwar24  }	
 	}
 
 shared_focus = {
@@ -4277,7 +4274,6 @@ shared_focus = {
 		ai_will_do = { factor = 1 }
 		
 		prerequisite = { focus = PRC_postwar24  }
-		mutually_exclusive = { focus = PRC_postwar25  } mutually_exclusive = { focus = PRC_postwar26  } mutually_exclusive = { focus = PRC_postwar28  }
 	}
 
 shared_focus = {
@@ -4375,6 +4371,10 @@ shared_focus = {
 		cost = 5
 		available_if_capitulated = no
 		ai_will_do = { factor = 1 }
+		available = {
+			has_completed_focus = PRC_postwar36
+			has_completed_focus = PRC_postwar38
+		}
 		
 		prerequisite = { focus = PRC_postwar31 } prerequisite = { focus = PRC_postwar32 } prerequisite = { focus = PRC_postwar33 }
 	}
@@ -4400,11 +4400,7 @@ shared_focus = {
 		available_if_capitulated = no
 		ai_will_do = { factor = 1 }
 		available = {
-		OR = {
-			has_completed_focus = PRC_postwar36
 			has_completed_focus = PRC_postwar37
-			has_completed_focus = PRC_postwar38
-			}
 		}
 		available_if_capitulated = no
 		ai_will_do = { factor = 1 }
