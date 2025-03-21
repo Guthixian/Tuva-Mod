@@ -1723,20 +1723,20 @@ country_event = { #Caucasus War event
 		
 		CHR = {
 		create_country_leader = {
-						name = "Vladimir Khubiylan"
+						name = "Abdel-Karim Showabzoqa"
 						picture = "gfx/leaders/MTN/Portrait_Mr_Placeholder_the_Third.dds"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = liberal_conservatism_islamic_modernism_subtype
+						ideology = fascism_revolutionary_nationalism_subtype
 					}
 			
 			
 			set_popularities = {
 				national_socialism_1 = 12
 				national_socialism_2 = 13
-				conservatism_2 = 11
-				liberal_conservatism = 19
-				national_socialism_4 = 15
+				fascism_2 = 11
+				fascism = 19
+				fascism_3 = 15
 				ultranationalism = 23
 				despotism = 7
 			}
@@ -1752,7 +1752,7 @@ country_event = { #Caucasus War event
 				name = "AA"
 			}
 			set_party_name = {
-				ideology = liberal_conservatism
+				ideology = fascism
 				long_name = "Karachayevskaya Narodnaya Partiya"
 				name = "KNP"
 			}
@@ -1776,8 +1776,8 @@ country_event = { #Caucasus War event
 					keep_completed = no
 				}
 			set_politics = {
-						ruling_party = liberal_conservatism
-						elections_allowed = yes
+						ruling_party = fascism
+						elections_allowed = no
 						last_election = "1976.10.1"
 						election_frequency = 48
 					}
