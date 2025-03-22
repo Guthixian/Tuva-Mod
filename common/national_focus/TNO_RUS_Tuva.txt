@@ -56,6 +56,21 @@ focus_tree = {
 }
 
 focus_tree = {
+	id = PRC_warprep
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	default = no
+	shared_focus = PRC_warprep
+}
+
+
+
+focus_tree = {
 	id = PRC_reconstruction
 	country = {
 		factor = 0

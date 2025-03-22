@@ -355,6 +355,20 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_superregional14: "Filled Pockets"
  PRC_superregional15: "Another Class Struggle Begins"
  
+ ### War Preparation
+ PRC_warprep: "Summon The Stavka"
+ PRC_warprep2: "WIP"
+ PRC_warprep3: "WIP"
+ PRC_warprep4: "WIP"
+ PRC_warprep5: "WIP"
+ PRC_warprep6: "WIP"
+ PRC_warprep7: "WIP"
+ PRC_warprep8: "WIP"
+ PRC_warprep9: "WIP"
+ PRC_warprep10: "Warn The World"
+ PRC_warprep11: "WIP"
+ PRC_warprep12: "WIP"
+ PRC_warprep13: "The Second Great Patriotic War"
  
  ### Reconstruction
  PRC_reconstruction: "A Union Reborn"

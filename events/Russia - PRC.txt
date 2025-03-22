@@ -5,6 +5,7 @@ add_namespace = PRC
 add_namespace = PRC_expansion
 add_namespace = PRC_regional
 add_namespace = PRC_superregional
+add_namespace = PRC_warprep
 add_namespace = PRC_reconstruction
 add_namespace = PRC_vladivostok
 add_namespace = PRC_afghanistan
@@ -1635,6 +1636,24 @@ country_event = { #Load recon tree
 		name = PRC_reconstruction.1.a
 		load_focus_tree = {
 					tree = PRC_reconstruction
+					keep_completed = no
+				}
+
+	}
+}
+
+country_event = { #Load warprep tree
+	id = PRC_warprep.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_warprep.1" }
+	title = PRC_warprep.1.t
+	desc = PRC_warprep.1.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC_reconstruction.1.a
+		load_focus_tree = {
+					tree = PRC_warprep
 					keep_completed = no
 				}
 

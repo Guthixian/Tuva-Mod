@@ -3598,6 +3598,816 @@ prerequisite = {
 		}
 	}
 	
+#2WRW preparation tree
+shared_focus = {
+	id = PRC_warprep
+	icon = GFX_NOV_the_plan
+	cost = 1.5
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	x = 8
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus NOV_meet_with_pokryshkin"
+		country_event = {
+			id = NOV_reunification.24
+			days = 1
+		}
+		custom_effect_tooltip = NOV_our_eyes_on_moskowien_tt
+		hidden_effect = {
+			country_event = {
+				id = NOV_reunification.42
+				days = 12
+			}
+			RUS_claim_moskowien_cores = yes
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_warprep2
+	icon = GFX_NOV_sluzhba_bezopasnosti
+	cost = 1.5
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_warprep
+	}
+	x = -2
+	y = 1
+	relative_position_id = PRC_warprep
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_warprep2"
+		if = {
+			limit = {
+				has_dlc = "La Resistance"
+			}
+			add_ideas = NOV_send_in_the_sluzhba_bezopasnosti_lr
+		}
+		else = {
+			add_ideas = NOV_send_in_the_sluzhba_bezopasnosti
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_warprep3
+	icon = GFX_focus_generic_government_purge
+	cost = 2.6
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_warprep2
+	}
+	x = 1
+	y = 1
+	relative_position_id = NOV_send_in_the_spies
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_warprep3"
+		MCW = {
+			add_stability = -0.25
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_warprep4
+	icon = GFX_focus_generic_computer_assisted_design
+	cost = 2.9
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_warprep2
+	}
+	x = -1
+	y = 1
+	relative_position_id = PRC_warprep2
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_warprep4"
+		country_event = {
+			id = NOV_reunification.53
+			days = 1
+		}
+		if = {
+			limit = { has_dlc = "La Resistance" }
+			add_decryption = {
+				target = MCW
+				ratio = 0.8
+			}
+		}
+		else = {
+			MCW = {
+				add_stability = -0.25
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_warprep5
+	icon = GFX_NOV_they_are_broken
+	cost = 3.5
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_warprep3
+	}
+	prerequisite = {
+		focus = PRC_warprep4
+	}
+	x = -1
+	y = 1
+	relative_position_id = PRC_warprep3
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_warprep5"
+		country_event = {
+			id = NOV_reunification.48
+			days = 1
+		}
+		if = {
+			limit = {
+				has_dlc = "La Resistance"
+			}
+			swap_ideas = {
+				remove_idea = NOV_send_in_the_sluzhba_bezopasnosti_lr
+				add_idea = NOV_send_in_the_sluzhba_bezopasnosti_one_lr
+			}
+		}
+		else = {
+			swap_ideas = {
+				remove_idea = NOV_send_in_the_sluzhba_bezopasnosti
+				add_idea = NOV_send_in_the_sluzhba_bezopasnosti_one
+			}
+		}
+		MCW = {
+			add_ideas = NOV_they_are_broken_idea
+		}
+	}
+}
+
+# Defences
+shared_focus = {
+	id = PRC_warprep6
+	icon = GFX_NOV_prepare_western_defences
+	cost = 2.2
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_warprep
+	}
+	x = 2
+	y = 1
+	relative_position_id = PRC_warprep
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_warprep6"
+		country_event = {
+			id = NOV_reunification.56
+			days = 1
+		}
+		custom_effect_tooltip = NOV_fortify_frontline_tt
+		hidden_effect = {
+			216 = {
+				add_building_construction = {
+					type = bunker
+					province = 11153
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9190
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3142
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6169
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 13340
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 60
+					level = 3
+				}
+			}
+			858 = {
+				add_building_construction = {
+					type = bunker
+					province = 3160
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11103
+					level = 3
+				}
+			}
+			859 = {
+				add_building_construction = {
+					type = bunker
+					province = 11153
+					level = 3
+				}
+			}
+			861 = {
+				add_building_construction = {
+					type = bunker
+					province = 11153
+					level = 3
+				}
+			}
+			857 = {
+				add_building_construction = {
+					type = bunker
+					province = 3157
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6097
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11189
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11213
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11107
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9168
+					level = 3
+				}
+			}
+			856 = {
+				add_building_construction = {
+					type = bunker
+					province = 3056
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 62
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 164
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3190
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6215
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9159
+					level = 3
+				}
+			}
+			855 = {
+				add_building_construction = {
+					type = bunker
+					province = 9033
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9358
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9291
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9368
+					level = 3
+				}
+			}
+			252 = {
+				add_building_construction = {
+					type = bunker
+					province = 11375
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6299
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9360
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9298
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11344
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11277
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 297
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3285
+					level = 3
+				}
+			}
+			250 = {
+				add_building_construction = {
+					type = bunker
+					province = 345
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3269
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11373
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 286
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 257
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3196
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3246
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6394
+					level = 3
+				}
+			}
+			251 = {
+				add_building_construction = {
+					type = bunker
+					province = 9365
+					level = 3
+				}
+			}
+			755 = {
+				add_building_construction = {
+					type = bunker
+					province = 6339
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6502
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 452
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9473
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 13290
+					level = 3
+				}
+			}
+			407 = {
+				add_building_construction = {
+					type = bunker
+					province = 9549
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9487
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 470
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6430
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9447
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3406
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11538
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 545
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6525
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11457
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 468
+					level = 3
+				}
+			}
+			406 = {
+				add_building_construction = {
+					type = bunker
+					province = 477
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3459
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3622
+					level = 3
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_warprep7
+	icon = GFX_NOV_build_russian_airfields
+	cost = 2.9
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_warprep6
+	}
+	x = -1
+	y = 1
+	relative_position_id = NOV_prepare_western_defences
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_warprep7"
+		country_event = {
+			id = NOV_reunification.49
+			days = 1
+		}
+		custom_effect_tooltip = NOV_build_up_airbases_tt
+		hidden_effect = {
+			850 = {
+				add_building_construction = {
+					type = air_base
+					level = 5
+				}
+			}
+			400 = {
+				add_building_construction = {
+					type = air_base
+					level = 5
+				}
+			}
+			214 = {
+				add_building_construction = {
+					type = air_base
+					level = 5
+				}
+			}
+			753 = {
+				add_building_construction = {
+					type = air_base
+					level = 5
+				}
+			}
+			249 = {
+				add_building_construction = {
+					type = air_base
+					level = 5
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_warprep8
+	icon = GFX_NOV_fortify_the_north
+	cost = 3.6
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_warprep6
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_warprep6
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_warprep8"
+		country_event = {
+			id = NOV_reunification.54
+			days = 1
+		}
+		custom_effect_tooltip = NOV_watch_the_barents_sea_tt
+		hidden_effect = {
+			country_event = {
+				id = NOV_reunification.26
+				days = 5
+			}
+			214 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+				}
+				add_building_construction = {
+					type = naval_base
+					province = 3338
+					level = 3
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 3338
+					level = 3
+				}
+			}
+			1359 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+				}
+				add_building_construction = {
+					type = naval_base
+					province = 3134
+					level = 5
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 3134
+					level = 3
+				}
+			}
+			722 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 9140
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9140
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11142
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6183
+					level = 3
+				}
+			}
+			863 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 198
+					level = 3
+				}
+			}
+			262 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 12530
+					level = 3
+				}
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_warprep9
+	icon = GFX_focus_WRS_the_failures_of_barbarossa
+	cost = 2.4
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_warprep7
+	}
+	prerequisite = {
+		focus = PRC_warprep8
+	}
+	x = 1
+	y = 1
+	relative_position_id = NOV_build_up_airbases
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_warprep9"
+		country_event = {
+			id = NOV_reunification.50
+			days = 1
+		}
+		add_timed_idea = {
+			idea = NOV_lessons_of_barbarossa_idea
+			days = 360
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_warprep10
+	icon = GFX_focus_UPO_a_gift_to_germany
+	cost = 0.8
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_warprep5
+	}
+	prerequisite = {
+		focus = PRC_warprep9
+	}
+	x = -2
+	y = 1
+	relative_position_id = NOV_lessons_of_barbarossa
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_warprep10"
+		country_event = {
+			id = NOV_reunification.25
+			days = 1
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_warprep11
+	icon = GFX_NOV_mobilise_the_federation
+	cost = 1.8
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_warprep10
+	}
+	x = -1
+	y = 1
+	relative_position_id = PRC_warprep10
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_warprep11"
+		country_event = {
+			id = NOV_reunification.55
+			days = 1
+		}
+		add_war_support = 0.1
+	}
+}
+
+shared_focus = {
+	id = PRC_warprep12
+	icon = GFX_NOV_blitzkrieg_of_our_own
+	cost = 1.5
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_warprep10
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_warprep10
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_warprep12"
+		country_event = {
+			id = NOV_reunification.52
+			days = 1
+		}
+		add_timed_idea = {
+			idea = NOV_blitzkreig_of_our_own
+			days = 180
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_warprep13
+	icon = GFX_NOV_liberation_of_russia
+	cost = 1.5
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_warprep11
+	}
+	prerequisite = {
+		focus = PRC_warprep12
+	}
+	will_lead_to_war_with = GER
+	x = 1
+	y = 1
+	relative_position_id = PRC_warprep11
+	select_effect = {
+		country_event = {
+			id = NOV_war.2
+			days = 9
+		}
+	}
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_warprep13"
+		custom_effect_tooltip = NOV_invade_the_reich_tt
+		hidden_effect = {
+			load_focus_tree = PRC_tuva_second_west_russian_war_shchelokov
+			every_country = { limit = { is_ai = no } news_event = { id = War_Declaration.26 days = 1 } }
+			SWRW_initiate = yes
+			WRW_load_war_portraits_army = yes
+			set_global_flag = SECOND_WRW_HAS_BEGUN
+			hidden_effect = {
+				if = {
+					limit = {
+						has_global_flag = german_civil_war_bormannvic
+						NOT = {
+							GER = {
+								has_country_flag = bormann_dead_trigger_met
+							}
+						}
+					}
+					GER = {
+						country_event = {
+							id = swrw_misc.5
+							days = 15
+						}
+					}
+				}
+			}
+		}
+	}
+}
+	
 	
 #Reconstruction tree
 shared_focus = {
