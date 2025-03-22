@@ -141,6 +141,14 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_superregional.1975.c: "Dengism..."
  PRC_superregional.1975.e: "Oligarchy"
  
+ ###Decisions###
+ PRC_intervention_category: "Soviet Global Intervention"
+ PRC_ally_kazakhstan: "Ally Kazakhstan"
+ PRC_invade_kazakhstan: "Invade Kazakhstan"
+ PRC_negotiate_for_vladivostok: "Negotiate for Outer Manchuria"
+ PRC_invade_finland: "Invade Finland"
+ 
+ 
  ###Tooltips###
  
  PRC_Tomb_of_the_Union.tt: "§ROur Union§! will §GEndure§!..."
