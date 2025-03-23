@@ -1,0 +1,105 @@
+defined_text = {
+    name = GetPRC_gallery_1
+    text = {
+        trigger = {
+            has_global_flag = PRC_shchelokov_alive
+            has_global_flag = PRC_shchelokov_active
+        }
+        localization_key = "PRC_shchelokov_gallery"
+    }
+}
+
+defined_text = {
+    name = GetPRC_gallery_2
+    text = {
+        trigger = {
+            has_global_flag = PRC_brezhnev_alive
+            has_global_flag = PRC_brezhnev_active
+        }
+        localization_key = "PRC_brezhnev_gallery"
+    }
+}
+defined_text = {
+    name = GetPRC_gallery_3
+    text = {
+        trigger = {
+            has_global_flag = PRC_toka_alive
+            has_global_flag = PRC_toka_active
+        }
+        localization_key = "PRC_toka_gallery"
+    }
+}
+
+defined_text = {
+    name = GetPRC_gallery_4
+    text = {
+        trigger = {
+            has_global_flag = PRC_vasilevsky_alive
+            has_global_flag = PRC_vasilevsky_active
+        }
+        localization_key = "PRC_vasilevsky_gallery"
+    }
+}
+#defined_text = {
+#    name = GetPRC_gallery_5
+#    text = {
+#        trigger = {
+#            has_global_flag = PRC_shchelokov_alive
+#            has_global_flag = PRC_shchelokov_active
+#        }
+#        localization_key = "PRC_shchelokov_gallery"
+#    }
+#}
+#
+#defined_text = {
+#    name = GetPRC_gallery_6
+#    text = {
+#        trigger = {
+#            has_global_flag = PRC_brezhnev_alive
+#            has_global_flag = PRC_brezhnev_active
+#        }
+#        localization_key = "PRC_brezhnev_gallery"
+#    }
+#}
+#defined_text = {
+#    name = GetPRC_gallery_7
+#    text = {
+#        trigger = {
+#            has_global_flag = PRC_shchelokov_alive
+#            has_global_flag = PRC_shchelokov_active
+#        }
+#        localization_key = "PRC_shchelokov_gallery"
+#    }
+#}
+#
+#defined_text = {
+#    name = GetPRC_gallery_8
+#    text = {
+#        trigger = {
+#            has_global_flag = PRC_brezhnev_alive
+#            has_global_flag = PRC_brezhnev_active
+#        }
+#        localization_key = "PRC_brezhnev_gallery"
+#    }
+#}
+#defined_text = {
+#    name = GetPRC_gallery_9
+#    text = {
+#        trigger = {
+#            has_global_flag = PRC_shchelokov_alive
+#            has_global_flag = PRC_shchelokov_active
+#        }
+#        localization_key = "PRC_shchelokov_gallery"
+#    }
+#}
+#
+#defined_text = {
+#    name = GetPRC_gallery_10
+#    text = {
+#        trigger = {
+#            has_global_flag = PRC_brezhnev_alive
+#            has_global_flag = PRC_brezhnev_active
+#        }
+#        localization_key = "PRC_brezhnev_gallery"
+#    }
+#}

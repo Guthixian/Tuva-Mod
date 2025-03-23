@@ -148,7 +148,22 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_negotiate_for_vladivostok: "Negotiate for Outer Manchuria"
  PRC_invade_finland: "Invade Finland"
  
+ ###GUIs###
+ ###gallery of communism###
+ ### TEMPLATE:
+ ### "\n\n\n\n\n\n\n     £GFX_gallery_shchelekov      Nikolai Shchelokov\n\n\n\n\n"
+ ###
+
+
+ PRC_rogues_gallery_communism_category: "Rogues' Gallery of Communism"
+ PRC_rogues_gallery_communism_category_desc: "[GetPRC_gallery_1][GetPRC_gallery_2][GetPRC_gallery_3][GetPRC_gallery_4]"
+#[GetPRC_gallery_5][GetPRC_gallery_6][GetPRC_gallery_7][GetPRC_gallery_8][GetPRC_gallery_9][GetPRC_gallery_10]"
  
+ PRC_shchelokov_gallery: "\n\n\n\n\n\n\n     £GFX_gallery_shchelekov      Nikolai Shchelokov\n\n\n\n\n"
+ PRC_brezhnev_gallery: "\n\n\n\n\n\n\n     £GFX_gallery_brezhnev      Leonid Brezhnev\n\n\n\n\n"
+ PRC_toka_gallery: "\n\n\n\n\n\n\n     £GFX_gallery_toka      Salchak Toka\n\n\n\n\n"
+ PRC_vasilevsky_gallery: "\n\n\n\n\n\n\n     £GFX_gallery_vasilevsky      Yuri Vasilevsky\n\n\n\n\n"
+
  ###Tooltips###
  
  PRC_Tomb_of_the_Union.tt: "§ROur Union§! will §GEndure§!..."
