@@ -865,6 +865,7 @@ country_event = { # temp name changer
 		set_cosmetic_tag = PRC_postwar
 		create_faction = mutual_assistance_treaty
 		add_ideas = TMA_Leader_Of_The_Unfree_World
+		econ_join_sphere_CME = yes
 		
 }
    option = {
@@ -1032,7 +1033,7 @@ country_event = { # Brezhnev Successor Roulette 2
 						picture = "gfx/leaders/Moskowien/Portrait_MSK_Mikhail_Gorbachev_drip.dds"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_transitioning_democracy_subtype
+						ideology = paternalism_right_communism_subtype
 					}
 			
 		}
@@ -1047,7 +1048,7 @@ country_event = { # Brezhnev Successor Roulette 2
 						picture = "gfx/leaders/Moskowien/Portrait_MSK_Mikhail_Gorbachev_drip.dds"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_peoples_democracy_subtype
+						ideology = paternalism_right_communism_subtype
 					}
 					set_party_name = {
 						ideology = paternalism

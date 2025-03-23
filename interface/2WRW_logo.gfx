@@ -466,8 +466,8 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
-		name = "GFX_ideology_paternalism_peoples_democracy_bar"
-		textureFile = "gfx/interface/ideologies/ideology_bars/Paternalism/PeoplesDemocracy.png"
+		name = "GFX_ideology_paternalism_right_communism_bar"
+		textureFile = "gfx/interface/ideologies/ideology_bars/Paternalism/RightCommunism.png"
 		legacy_lazy_load = no
 	}
 	spriteType = {

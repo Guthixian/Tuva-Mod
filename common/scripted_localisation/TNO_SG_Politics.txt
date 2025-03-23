@@ -522,8 +522,8 @@ defined_text = {
 		localization_key = paternalism_thalassocracy_subtype
 	}
 	text = {
-		trigger = { has_country_leader_ideology = paternalism_peoples_democracy_subtype }
-		localization_key = paternalism_peoples_democracy_subtype
+		trigger = { has_country_leader_ideology = paternalism_right_communism_subtype }
+		localization_key = paternalism_right_communism_subtype
 	}
 	text = {
 		trigger = { has_country_leader_ideology = paternalism_idiosyncratic_communism_subtype }

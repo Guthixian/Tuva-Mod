@@ -89,8 +89,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/paternalism_semi_constitutional_monarchy_subtype.dds"
 	}
 	spriteType = {
-		name = "GFX_ideology_paternalism_peoples_democracy_subtype"
-		texturefile = "gfx/interface/ideologies/paternalism_peoples_democracy_subtype.dds"
+		name = "GFX_ideology_paternalism_right_communism_subtype"
+		texturefile = "gfx/interface/ideologies/paternalism_right_communism_subtype.dds"
 	}
 	spriteType = {
 		name = "GFX_ideology_paternalism_idiosyncratic_communism_subtype"
