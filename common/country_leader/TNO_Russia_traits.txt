@@ -245,6 +245,13 @@ leader_traits = {
 		fuel_gain_factor_from_states = 0.1
 		
 	}
+	
+	glasnost_and_perestroika = { # Gorbachev
+		random = no
+		drift_defence_factor = -0.1
+		foreign_subversive_activites = 0.1
+		gdp_growth_modifier = 1
+	}
 
 	####################
 	## |=={ Omsk }==| ##

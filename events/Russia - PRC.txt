@@ -1031,11 +1031,17 @@ country_event = { # Brezhnev Successor Roulette 2
 		create_country_leader = {
 						name = "Mikhail Gorbachev"
 						picture = "gfx/leaders/Moskowien/Portrait_MSK_Mikhail_Gorbachev_drip.dds"
-						desc = ""
+						traits = { glasnost_and_perestroika }
+						desc = "POLITICS_MIKHAIL_GORBACHEV_DESC"
 						expire = "1999.3.4"
 						ideology = paternalism_right_communism_subtype
 					}
-			
+		hidden_effect = {
+		add_country_leader_trait = glasnost_and_perestroika
+		set_country_leader_description = {
+				desc = "POLITICS_MIKHAIL_GORBACHEV_DESC"
+			}
+			}
 		}
 	option = {
 		name = PRC_superregional.19852.b #Gorby post reforms
@@ -1046,7 +1052,8 @@ country_event = { # Brezhnev Successor Roulette 2
 		create_country_leader = {
 						name = "Mikhail Gorbachev"
 						picture = "gfx/leaders/Moskowien/Portrait_MSK_Mikhail_Gorbachev_drip.dds"
-						desc = ""
+						traits = { glasnost_and_perestroika}
+						desc = "POLITICS_MIKHAIL_GORBACHEV_POSTREFORM_DESC"
 						expire = "1999.3.4"
 						ideology = paternalism_right_communism_subtype
 					}
