@@ -9429,7 +9429,7 @@ PRC_shchelokov_belarus_occupation = {
 						picture = "gfx/leaders/BLR/Portrait_Pyotr_Masherov.dds"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_social_nationalism_subtype
+						ideology = paternalism_social_nationalism_communist_subtype
 					}
 			
 			

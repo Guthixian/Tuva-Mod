@@ -542,6 +542,10 @@ defined_text = {
 		localization_key = paternalism_anocracy_communist_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = paternalism_social_nationalism_communist_subtype }
+		localization_key = paternalism_social_nationalism_communist_subtype
+	}
+	text = {
 		trigger = { has_country_leader_ideology = paternalism_authoritarian_developmentalism_communist_subtype }
 		localization_key = paternalism_authoritarian_developmentalism_communist_subtype
 	}

@@ -113,6 +113,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/paternalism_anocracy_communist_subtype.dds"
 	}
 	spriteType = {
+		name = "GFX_ideology_paternalism_social_nationalism_communist_subtype"
+		texturefile = "gfx/interface/ideologies/paternalism_social_nationalism_communist_subtype.dds"
+	}
+	spriteType = {
 		name = "GFX_ideology_fascism_reform_bureaucracy_subtype"
 		texturefile = "gfx/interface/ideologies/fascism_reform_bureaucracy_subtype.dds"
 	}
