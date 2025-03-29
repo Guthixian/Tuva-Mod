@@ -149,6 +149,33 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC_invade_kazakhstan: "Invade Kazakhstan"
  PRC_negotiate_for_vladivostok: "Negotiate for Outer Manchuria"
  PRC_invade_finland: "Invade Finland"
+ PRC_rebuilding_Moskowien: "Rebuild the Moscow Region"
+ PRC_rebuilding_Ukraine: "Rebuild the Ukranian SSR"
+ PRC_rebuilding_Belarus: "Rebuild the Belarussian SSR"
+ PRC_rebuilding_Caucasus: "Rebuild the Caucasus region's SSRs"
+ PRC_rebuilding_Georgia: "Rebuild the Georgian SSR"
+ PRC_rebuilding_Azerbaijan: "Rebuild the Azeri SSR"
+ PRC_rebuilding_Lithuania: "Rebuild the Lithuanian SSR"
+ PRC_rebuilding_Estonia: "Rebuild the Estonian SSR"
+ PRC_rebuilding_Latvia: "Rebuild the Latvian SSR"
+ PRC_rebuilding_Kazakhstan: "Rebuild the Kazakh SSR"
+ PRC_rebuilding_Turkmenistan: "Rebuild the Turkmen SSR"
+ PRC_rebuilding_Tajikistan: "Rebuild the Tajik SSR"
+ PRC_rebuilding_Uzbekistan: "Rebuild the Uzbek SSR"
+ PRC_rebuilding_Kyrgyzistan: "Rebuild the Kyrgyz SSR"
+ PRC_rebuilding_Crimea: "Rebuild the Crimean German ASSR"
+ PRC_rebuilding_Volga: "Rebuild the Volga German ASSR"
+ PRC_rebuilding_Riga: "Rebuild the Thälmannburg ASSR"
+ 
+ 2WRW_tuva_reconstruction_EE_category: "Rebuilding Eastern Europe"
+ 2WRW_tuva_reconstruction_KAZ_category: "Rebuilding Central Asia"
+ PRC_deport_germans_decision_category: "Status of the German Settlers"
+ 
+ PRC_fate_of_petrograd: "Status of the Leningrad Germans"
+ PRC_fate_of_moskowien: "Status of the Moskowien Germans"
+ PRC_fate_of_gotenland: "Status of the Crimean Germans"
+ 
+ 
  
  ###GUIs###
  ###gallery of communism###

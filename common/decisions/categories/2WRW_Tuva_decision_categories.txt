@@ -82,3 +82,37 @@ PRC_intervention_category = {
 	priority = 250
 }
 
+2WRW_tuva_reconstruction_EE_category = {
+	#icon = GFX_decision_category_infiltration
+	#picture = GFX_BRG_decision_Adler
+	
+	allowed = {
+		original_tag = PRC
+	}
+	visible = {
+		AND = {
+			original_tag = PRC
+			has_global_flag = PRC_shchelokov_unification
+		}
+	}
+	visible_when_empty = no
+	priority = 250
+}
+
+2WRW_tuva_reconstruction_KAZ_category = {
+	#icon = GFX_decision_category_infiltration
+	#picture = GFX_BRG_decision_Adler
+	
+	allowed = {
+		original_tag = PRC
+	}
+	visible = {
+		AND = {
+			original_tag = PRC
+			has_global_flag = PRC_shchelokov_unification
+		}
+	}
+	visible_when_empty = no
+	priority = 250
+}
+

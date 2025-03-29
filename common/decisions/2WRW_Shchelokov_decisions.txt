@@ -91,9 +91,355 @@ PRC_bring_st_petersburg_back_into_the_fold = {
 			}
 		}
 	}
-
-}
-
+	
+	}
+	2WRW_tuva_reconstruction_EE_category = {
+	
+	PRC_rebuilding_Moskowien = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			POP =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 45
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Moskowien"
+			POP = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Volga = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			ORL =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 45
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Volga"
+			ORL = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Riga = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			UPO =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 45
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Riga"
+			UPO = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Ukraine = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			FUK =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 45
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Ukraine"
+			FUK = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Belarus = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			BLR =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 45
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Belarus"
+			BLR = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Caucasus = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			ADY =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 45
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Caucasus"
+			ADY = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Georgia = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			ADY =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 45
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Georgia"
+			GEO = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Azerbaijan = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			ADY =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 45
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Azerbaijan"
+			AZR = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Crimea = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			UKS =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 45
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Crimea"
+			UKS = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Estonia = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			EST =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 45
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Estonia"
+			EST = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Latvia = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			LAT =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 45
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Latvia"
+			LAT = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Lithuania = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			LIT =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 45
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Lithuania"
+			LIT = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	}
+	2WRW_tuva_reconstruction_KAZ_category = {
+	
+	PRC_rebuilding_Kazakhstan = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			KZR =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 25
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Kazakhstan"
+			KZR = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Turkmenistan = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			TRK =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 25
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Turkmenistan"
+			TRK = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Uzbekistan = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			UZB =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 25
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Uzbekistan"
+			UZB = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Kyrgyzistan = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			KYR =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 25
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Kyrgyzistan"
+			KYR = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	PRC_rebuilding_Tajikistan = {
+		icon = GFX_decision_generic_industry_indent
+		visible = {
+			TAJ =  is_subject_of = RUS 
+		}
+		fire_only_once = no
+		days_re_enable = 90
+		days_remove = 90
+		cost = 25
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision PRC_rebuilding_Tajikistan"
+			TAJ = {
+			set_temp_variable = { temp_econ_GDP_boost_flat = 1 }
+			econ_GDP_boost_once_flat = yes
+			}
+		set_temp_variable = { debt_temp = 1 }
+		econ_national_debt_change = yes
+		}
+	}
+	
+	
+	}
 
 PRC_deport_germans_decision_category = {
 
