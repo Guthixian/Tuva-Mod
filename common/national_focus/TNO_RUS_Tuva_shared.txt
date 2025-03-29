@@ -4425,6 +4425,390 @@ shared_focus = {
 }
 
 shared_focus = {
+	id = PRC_reconstruction18
+	icon = GFX_NOV_rebuilding_caucasian_cities
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction
+	}
+	x = -6
+	y = 1
+	relative_position_id = PRC_reconstruction
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction18"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction27
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction18
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_reconstruction18
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction27"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction28
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction18
+	}
+	x = -2
+	y = 1
+	relative_position_id = PRC_reconstruction18
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction28"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction29
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction18
+	}
+	x = 2
+	y = 1
+	relative_position_id = PRC_reconstruction18
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction29"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction30
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction27
+	}
+	prerequisite = {
+		focus = PRC_reconstruction28
+	}
+	prerequisite = {
+		focus = PRC_reconstruction29
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_reconstruction27
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction29"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction31
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction30
+	}
+	x = -2
+	y = 1
+	relative_position_id = PRC_reconstruction30
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction31"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction32
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction30
+	}
+	x = 0
+	y = 2
+	relative_position_id = PRC_reconstruction30
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction32"
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction33
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction30
+	}
+	x = 2
+	y = 1
+	relative_position_id = PRC_reconstruction30
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction33"
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction34
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction31
+	}
+	prerequisite = {
+		focus = PRC_reconstruction35
+	}
+	x = -1
+	y = 3
+	relative_position_id = PRC_reconstruction30
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction34"
+
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction35
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction30
+	}
+	x = 0
+	y = 2
+	relative_position_id = PRC_reconstruction30
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction35"
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction36
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction35
+	}
+	prerequisite = {
+		focus = PRC_reconstruction33
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_reconstruction32
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction36"
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction37
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction34
+	}
+	prerequisite = {
+		focus = PRC_reconstruction36
+	}
+	x = 0
+	y = 2
+	relative_position_id = PRC_reconstruction35
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction37"
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction38
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	
+	prerequisite = {
+		focus = PRC_reconstruction31
+	}
+	prerequisite = {
+		focus = PRC_reconstruction37
+	}
+	x = -1
+	y = 1
+	relative_position_id = PRC_reconstruction37
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction37"
+		
+		country_event = PRC_reconstruction.1974
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction19
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_reconstruction
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction19"
+		add_ideas = RUS_nazi_werewolves
+		set_country_flag = NOV_nazi_partisans_decisions
+		custom_effect_tooltip = RUS_fight_nazi_partisans_tt
+		set_variable = {
+			NOV_nazi_partisan_strength = 100
+		}
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction20
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction19
+	}
+	x = -2
+	y = 1
+	relative_position_id = PRC_reconstruction19
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction20"
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction21
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction19
+	}
+	x = 2
+	y = 1
+	relative_position_id = PRC_reconstruction19
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction21"
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction23
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction19
+	}
+	x = 0
+	y = 2
+	relative_position_id = PRC_reconstruction19
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction23"
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction24
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction21
+	}
+	x = 1
+	y = 1
+	relative_position_id = PRC_reconstruction21
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction24"
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction25
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction20
+	}
+	x = -1
+	y = 1
+	relative_position_id = PRC_reconstruction20
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction25"
+		
+	}
+}
+
+shared_focus = {
+	id = PRC_reconstruction26
+	icon = GFX_focus_generic_technical_difficulties
+	cost = 1
+	available_if_capitulated = no
+	ai_will_do = { factor = 1 }
+	prerequisite = {
+		focus = PRC_reconstruction23
+	}
+	prerequisite = {
+		focus = PRC_reconstruction24
+	}
+	prerequisite = {
+		focus = PRC_reconstruction25
+	}
+	x = 0
+	y = 1
+	relative_position_id = PRC_reconstruction23
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction26"
+		
+	}
+}
+
+shared_focus = {
 	id = PRC_reconstruction2
 	icon = GFX_RUS_Moscow_Red_Once_More
 	cost = 1
@@ -4557,6 +4941,13 @@ shared_focus = {
 	relative_position_id = PRC_reconstruction6
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction8"
+		POP = {
+			remove_ideas = MOS_war_torn_region
+			set_temp_variable = {
+				gdp_growth_temp = 2
+			}
+			econ_gdp_growth_change = yes
+		}
 	}
 }
 
@@ -4574,6 +4965,11 @@ shared_focus = {
 	relative_position_id = PRC_reconstruction6
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction9"
+		POP = {
+			remove_ideas = MOS_language_problem_russia
+			TNO_improve_research_facilities_low = yes
+			TNO_improve_academic_base_low = yes
+		}
 	}
 }
 
@@ -4591,6 +4987,18 @@ shared_focus = {
 	relative_position_id = PRC_reconstruction6
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction10"
+		POP = {
+			remove_ideas = MOS_rural_state
+			TNO_improve_poverty_med = yes
+			set_temp_variable = {
+				temp_econ_GDP_boost_percentage = 0.05
+			}
+			econ_GDP_boost_once_percentage = yes
+			set_temp_variable = {
+				pus_temp = 3
+			}
+			econ_pus_change = yes
+		}
 	}
 }
 
@@ -4760,6 +5168,17 @@ shared_focus = {
 	relative_position_id = PRC_reconstruction13
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction15"
+		annex_country = {
+			target = POP
+			transfer_troops = no
+		}
+		hidden_effect = {
+			POP = {
+				every_core_state = {
+					remove_core_of = POP
+				}
+			}
+		}
 	}
 }
 
@@ -4769,12 +5188,13 @@ shared_focus = {
 	cost = 1
 	available_if_capitulated = no
 	ai_will_do = { factor = 1 }
-	prerequisite = {
-		focus = PRC_reconstruction15
-	}
+	available = {
+			has_completed_focus = PRC_reconstruction15
+			has_completed_focus = PRC_reconstruction38
+		}
 	x = 0
-	y = 1
-	relative_position_id = PRC_reconstruction15
+	y = 2
+	relative_position_id = PRC_reconstruction26
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction16"
 	}

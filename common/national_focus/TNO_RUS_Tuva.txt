@@ -81,6 +81,7 @@ focus_tree = {
 	}
 	default = no
 	shared_focus = PRC_reconstruction
+	shared_focus = PRC_reconstruction16
 	
 }
 
