@@ -4656,7 +4656,7 @@ shared_focus = {
 	ai_will_do = { factor = 1 }
 	
 	prerequisite = {
-		focus = PRC_reconstruction31
+		focus = PRC_reconstruction34
 	}
 	prerequisite = {
 		focus = PRC_reconstruction37
@@ -4762,6 +4762,10 @@ shared_focus = {
 	relative_position_id = PRC_reconstruction21
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction24"
+		swap_ideas = {
+			remove_idea = RUS_nazi_werewolves
+			add_idea = RUS_nazi_werewolves_two
+		}
 		
 	}
 }
@@ -4804,7 +4808,7 @@ shared_focus = {
 	relative_position_id = PRC_reconstruction23
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction26"
-		
+		custom_effect_tooltip = NOV_the_final_strike_focus_tt
 	}
 }
 
@@ -4907,6 +4911,23 @@ shared_focus = {
 	relative_position_id = PRC_reconstruction3
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus PRC_reconstruction6"
+		custom_effect_tooltip = NOV_rebuilding_moscow_tt
+		set_temp_variable = {
+			temp_econ_spending_amount = 0.05
+		}
+		econ_spend_money_once_effect_raw_money = yes
+		1442 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+			}
+		}
+		219 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+			}
+		}
 	}
 }
 
@@ -5217,6 +5238,13 @@ shared_focus = {
 		hidden_effect = {
 			country_event = { id = PRC_superregional.1975 days = 3 }
 		}
+		set_country_flag = PRC_Finished_Reconstruction
+		set_temp_variable = {
+			gdp_growth_temp = 0.5
+		}
+		econ_gdp_growth_change = yes
+		
+		remove_ideas = RUS_reconstruction_era
 	}
 }
 
