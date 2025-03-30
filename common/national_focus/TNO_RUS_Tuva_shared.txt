@@ -4433,6 +4433,9 @@ shared_focus = {
 	prerequisite = {
 		focus = PRC_reconstruction
 	}
+	available = {
+			has_subject = ADY
+		}
 	x = -6
 	y = 1
 	relative_position_id = PRC_reconstruction
@@ -4819,7 +4822,7 @@ shared_focus = {
 	available_if_capitulated = no
 	ai_will_do = { factor = 1 }
 	available = {
-		has_completed_focus = PRC_reconstruction
+		has_subject = POP
 	}
 	prerequisite = {
 		focus = PRC_reconstruction
