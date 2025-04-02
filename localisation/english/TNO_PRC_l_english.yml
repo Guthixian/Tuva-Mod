@@ -25,6 +25,7 @@
  PRC_despotism_party: "VKP(b)"
  PRC_despotism_1_party: "VKP(b)"
  PRC_despotism_2_party: "VKP(b)"
+ PRC_fascism_party: "VKP(b)"
  
  ### Leader Desc ###
  PRC_Aleksandr_Vasilevsky: "Aleksandr Vasilevsky" 

@@ -1,0 +1,30 @@
+### Shitpost delete later
+
+add_namespace = Guthixian
+
+
+country_event = { # Brezhnev Successor Roulette 1
+	id = Guthixian.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event Guthixian.1" }
+	title = Guthixian.1.t
+	desc = Guthixian.1.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_report_event_RUS_soviet_symbol
+
+	option = {
+		name = Guthixian.1.a #This is dumb
+		set_politics = { ruling_party = paternalism
+						elections_allowed = yes
+						last_election = "1980.4.17"
+						election_frequency = 48 }
+		create_country_leader = {
+						name = "Vhaldez Candatius"
+						picture = "gfx/leaders/GUT/Guthixian.png"
+						traits = { guthixian }
+						desc = ""
+						expire = "1999.3.4"
+						ideology = paternalism_authoritarian_developmentalism_communist_subtype
+					}
+			
+		}
