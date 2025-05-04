@@ -639,3 +639,7 @@
  MSK_PRC_DEF: "the Muscovite Reconstruction Authority"
  MSK_PRC_ADJ: "Muscovite"
  
+ MAG_tsardom: "Tsardom of Russia"
+ MAG_tsardom_DEF: "the Tsardom of Russia"
+ MAG_tsardom_ADJ: "Russian"
+ 
