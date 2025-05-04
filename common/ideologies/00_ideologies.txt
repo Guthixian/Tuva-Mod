@@ -28,6 +28,7 @@ ideologies = {
 	national_socialism = {
 		types = {
 			national_socialism_subtype = {}
+			national_socialism_populist_nazism_subtype = {}
 			national_socialism_naturalised_nazism_subtype = { can_be_randomly_selected = no } # Credits to the FtA team
 			national_socialism_rosenbergite_tendency_subtype = { can_be_randomly_selected = no }
 			national_socialism_reformed_national_socialism_subtype = { can_be_randomly_selected = no }

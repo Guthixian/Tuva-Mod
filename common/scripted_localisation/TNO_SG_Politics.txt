@@ -777,6 +777,10 @@ defined_text = {
 		localization_key = national_socialism_naturalised_nazism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = national_socialism_populist_nazism_subtype }
+		localization_key = national_socialism_populist_nazism_subtype
+	}
+	text = {
 		trigger = { has_country_leader_ideology = national_socialism_idiosyncratic_nazism_subtype }
 		localization_key = national_socialism_idiosyncratic_nazism_subtype
 	}
