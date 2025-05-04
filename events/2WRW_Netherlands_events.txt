@@ -403,12 +403,22 @@ country_event = { #counter-coup
 			ruling_party = despotism
 			elections_allowed = no
 		}
-		add_popularity = {
-			ideology = despotism
-			popularity = 1
-		}
+		set_popularities = {
+				despotism = 52
+				conservatism = 4
+				national_socialism = 13
+				fascism = 16
+				liberalism = 4
+				paternalism = 10
+				progressivism = 1
+			}
 		set_party_name = {
 						ideology = despotism
+						long_name = "Nationaal-Socialistische Beweging"
+						name = "NSB"
+					}
+		set_party_name = {
+						ideology = paternalism
 						long_name = "Nationaal-Socialistische Beweging"
 						name = "NSB"
 					}
