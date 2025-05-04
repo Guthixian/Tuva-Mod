@@ -409,8 +409,8 @@ country_event = { #counter-coup
 		}
 		set_party_name = {
 						ideology = despotism
-						long_name = "Nederlandse Volksbeweging"
-						name = "NVB"
+						long_name = "Nationaal-Socialistische Beweging"
+						name = "NSB"
 					}
 		create_country_leader = {
 				name = "Hans Wiegel"
