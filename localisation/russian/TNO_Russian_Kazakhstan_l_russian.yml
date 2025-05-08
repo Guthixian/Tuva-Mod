@@ -1,0 +1,47 @@
+﻿l_english:
+ ### Country Names ###
+ KZR: "Российский Казахстан"
+ KZR_DEF: "Российский Казахстан"
+ KZR_ADJ: "Российский"
+
+ ### Parties ###
+ KZR_communist_party: "КПК"
+ KZR_communist_party_long: "Коммунистическая Партия Казахстана"
+ KZR_socialist_party: ""
+ KZR_socialist_party_long: ""
+ KZR_progressivism_party: ""
+ KZR_progressivism_party_long: ""
+ KZR_liberalism_party: "Казахские Остатки"
+ KZR_liberalism_party_long: "Казахские Остатки"
+ KZR_conservatism_party: ""
+ KZR_conservatism_party_long: ""
+ KZR_paternalism_party: "Российское Лидерство"
+ KZR_paternalism_party_long: "Российское Лидерство"
+ KZR_despotism_party: ""
+ KZR_despotism_party_long: ""
+ KZR_ultranationalism: ""
+ KZR_ultranationalism_long: ""
+ KZR_fascism_party: ""
+ KZR_fascism_party_long: ""
+ KZR_national_socialism_party: ""
+ KZR_national_socialism_party_long: ""
+ 
+ ### Shchelokov Parties ###
+ KZR_communist_party_shchelokov: "КПК"
+ KZR_communist_party_shchelokov_long: "Коммунистическая Партия Казахстана"
+ KZR_liberalism_party_shchelokov: "Казахские Остатки"
+ KZR_liberalism_party_shchelokov_long: "Казахские Остатки"
+ KZR_paternalism_party_shchelokov: "Организация за Сохранение СССР"
+ KZR_paternalism_party_shchelokov_long: "Организация за Сохранение СССР"
+ KZR_despotism_party_shchelokov: "Военное Лидерство"
+ KZR_despotism_party_shchelokov_long: "Военное Лидерство"
+ KZR_fascism_party_shchelokov: "Защитники Руси"
+ KZR_fascism_party_shchelokov_long: "Защитники Руси"
+ 
+ ### Solomentsev Parties ###
+ KZR_communist_party_solomentsev: "KPK"
+ KZR_communist_party_solomentsev_long: "Коммунистическая Партия Казахстана"
+ KZR_paternalism_party_solomentsev: "Российское Лидерство"
+ KZR_paternalism_party_solomentsev_long: "Российское Лидерство"
+ KZR_liberalism_party_solomentsev: "Казахские Остатки"
+ KZR_liberalism_party_solomentsev_long: "Казахские Остатки"
