@@ -1,0 +1,995 @@
+﻿l_russian:
+ APF_CZECH: "Командование Ваффен-СС Богемия-Моравия"
+ APF_CZECH_DEF: "Командование Ваффен-СС Богемия-Моравия"
+ APF_CZECH_ADJ: "Богемск"
+ 
+ GER_COG_int: "Комиссия Пакта Единства по делам Конго"
+ GER_COG_int_DEF: "Комиссия Пакта Единства по делам Конго"
+ GER_COG_int_ADJ: "Конголезск"
+ 
+ COG_USA_paternalism: "Временное правительство Конго"
+ COG_USA_paternalism_DEF: "Временное правительство Конго"
+ 
+ USA_CAR_paternalism: "Центральноафриканская Республика"
+ USA_CAR_paternalism_DEF: "Центральноафриканская Республика"
+ 
+ MZB_USA_paternalism: "Временное правительство Восточноафриканского Единства"
+ MZB_USA_paternalism_DEF: "Временное правительство Восточноафриканского Единства"
+ 
+ ANG_USA_paternalism: "Коалиционное правительство Анголы"
+ ANG_USA_paternalism_DEF: "Коалиционное правительство Анголы"
+ 
+ #TRZ_iberian_war: "Исламская Республика Мавритания"
+ #TRZ_iberian_war_DEF: "Исламская Республика Мавритания"
+ #TRZ_iberian_war_ADJ: "Мавританск."
+ 
+ #MAD_USA_paternalism: "Временная администрация Мадагаскара"
+ #MAD_USA_paternalism_DEF: "Временная администрация Мадагаскара"
+
+ #KAZ_NPL_progressivism: "Республика Казахстан"
+ #ARL_NPL_paternalism: "Республика Актобе"
+ #KAZ_NPL_progressivism_DEF: "Республика Казахстан"
+ #ARL_NPL_paternalism_DEF: "Республика Актобе"
+ #KAZ_NPL_progressivism_ADJ: "Казахск."
+ #ARL_NPL_paternalism_ADJ: "Актоб."
+
+ DEN_RK_paternalism: "Рейхскомиссариат Дания"
+ DEN_RK_paternalism_DEF: "Рейхскомиссариат Дания"
+ DEN_RK_despotism: "Рейхскомиссариат Дания"
+ DEN_RK_despotism_DEF: "Рейхскомиссариат Дания"
+ DEN_RK_fascism: "Рейхскомиссариат Дания"
+ DEN_RK_fascism_DEF: "Рейхскомиссариат Дания"
+ DEN_RK_national_socialism: "Рейхскомиссариат Дания"
+ DEN_RK_national_socialism_DEF: "Рейхскомиссариат Дания"
+
+ UKR_autonomy_reichsprotektorat: "Рейхспротекторат Украина"
+ UKR_autonomy_reichsprotektorat_DEF: "Рейхспротекторат Украина"
+ UKR_autonomy_autonomous_reichskommissariat: "Рейхскомиссариат Украина"
+ UKR_autonomy_autonomous_reichskommissariat_DEF: "Рейхскомиссариат Украина"
+ UKR_autonomy_integrated_reichskommissariat: "Рейхскомиссариат Украина"
+ UKR_autonomy_integrated_reichskommissariat_DEF: "Рейхскомиссариат Украина"
+
+ GRE_EAM: "Греция"
+ GRE_EAM_DEF: "Временное демократическое правительство Греции"
+ GRE_EAM_ADJ: "Греческ"
+
+ GRE_EAM_post_war: "Греческая Народная Республика"
+ GRE_EAM_post_war_DEF: "Греческая Народная Республика"
+ GRE_EAM_post_war_ADJ: "Греческ"
+
+ HNS_HU: "Греческий союз"
+ HNS_HU_DEF: "Греческий союз"
+ HNS_HU_ADJ: "Греческ"
+
+ HNS_HNS: "Греческое национальное государство"
+ HNS_HNS_DEF: "Греческое национальное государство"
+ HNS_HNS_ADJ: "Греческ"
+
+ GRE_Kingdom: "Королевство Греция"
+ GRE_Kingdom_DEF: "Королевство Греция"
+ GRE_Kingdom_ADJ: "Греческ"
+
+ #LBA_ITA_fascism_autonomy_satellite: "Королевство Ливия"
+ #LBA_ITA_fascism_autonomy_reichsprotektorat: "Киренаика"
+ #LBA_ITA_fascism_autonomy_reichskommissariat: "Итальянская Северная Африка"
+ #ETH_ITA_fascism_autonomy_satellite: "Королевство Эфиопия"
+ #ETH_ITA_fascism_autonomy_reichsprotektorat: "Губернаторство Эфиопия"
+ #ETH_ITA_fascism_autonomy_reichskommissariat: "Итальянская Восточная Африка"
+ #LBA_ITA_fascism_autonomy_satellite_DEF: "Королевство Ливия"
+ #LBA_ITA_fascism_autonomy_reichsprotektorat_DEF: "Киренаика"
+ #LBA_ITA_fascism_autonomy_reichskommissariat_DEF: "Итальянская Северная Африка"
+ #ETH_ITA_fascism_autonomy_satellite_DEF: "Королевство Эфиопия"
+ #ETH_ITA_fascism_autonomy_reichsprotektorat_DEF: "Губернаторство Эфиопия"
+ #ETH_ITA_fascism_autonomy_reichskommissariat_DEF: "Итальянская Восточная Африка"
+ #EGY_ITA_fascism_autonomy_satellite: "Королевство Египет"
+ #EGY_ITA_fascism_autonomy_satellite_DEF: "Королевство Египет"
+ #EGY_ITA_fascism_autonomy_reichsprotektorat: "Губернаторство Египет"
+ #EGY_ITA_fascism_autonomy_reichsprotektorat_DEF: "Губернаторство Египет"
+ #EGY_ITA_fascism_autonomy_reichskommissariat: "Итальянский Египет"
+ #EGY_ITA_fascism_autonomy_reichskommissariat_DEF: "Итальянский Египет"
+ #EGY_ITA_fascism_autonomy_dominion: "Королевство Египет"
+ #EGY_ITA_fascism_autonomy_dominion_DEF: "Королевство Египет"
+ #EGY_ITA_fascism_autonomy_colony: "Великое герцогство Египет"
+ #EGY_ITA_fascism_autonomy_colony_DEF: "Великое герцогство Египет"
+ #EGY_ITA_fascism_autonomy_puppet: "Губернаторство Египет"
+ #EGY_ITA_fascism_autonomy_puppet_DEF: "Губернаторство Египет"
+ #EGY_ITA_fascism_autonomy_integrated_puppet: "Итальянский Египет"
+ #EGY_ITA_fascism_autonomy_integrated_puppet_DEF: "Итальянский Египет"
+ #MNT_ITA_fascism_autonomy_reichskommissariat: "Провинция Черногория"
+ #MNT_ITA_fascism_autonomy_reichskommissariat_DEF: "Провинция Черногория"
+ #MNT_ITA_fascism_autonomy_reichsprotektorat: "Губернаторство Черногория"
+ #MNT_ITA_fascism_autonomy_reichsprotektorat_DEF: "Губернаторство Черногория"
+ #MNT_ITA_fascism_autonomy_satellite: "Королевство Черногория"
+ #MNT_ITA_fascism_autonomy_satellite_DEF: "Королевство Черногория"
+ #LBA_ITA_fascism_autonomy_dominion: "Королевство Ливия"
+ #LBA_ITA_fascism_autonomy_colony: "Ливия"
+ #LBA_ITA_fascism_autonomy_puppet: "Киренаика"
+ #LBA_ITA_fascism_autonomy_integrated_puppet: "Итальянская Северная Африка"
+ #ETH_ITA_fascism_autonomy_dominion: "Королевство Эфиопия"
+ #ETH_ITA_fascism_autonomy_colony: "Великое герцегство Эфиопия"
+ #ETH_ITA_fascism_autonomy_puppet: "Губернаторство Эфиопия"
+ #ETH_ITA_fascism_autonomy_integrated_puppet: "Итальянская Восточная Африка"
+ #LBA_ITA_fascism_autonomy_dominion_DEF: "Королевство Ливия"
+ #LBA_ITA_fascism_autonomy_colony_DEF: "Ливия"
+ #LBA_ITA_fascism_autonomy_puppet_DEF: "Киренаика"
+ #LBA_ITA_fascism_autonomy_integrated_puppet_DEF: "Итальянская Северная Африка"
+ #ETH_ITA_fascism_autonomy_dominion_DEF: "Королевство Эфиопия"
+ #ETH_ITA_fascism_autonomy_colony_DEF: "Великое герцегство Эфиопия"
+ #ETH_ITA_fascism_autonomy_puppet_DEF: "Губернаторство Эфиопия"
+ #ETH_ITA_fascism_autonomy_integrated_puppet_DEF: "Итальянская Восточная Африка"
+
+ EGY_ITA_despotism_autonomy_italy_reliant: "Королевство Египет"
+ EGY_ITA_despotism_autonomy_italy_reliant_DEF: "Королевство Египет"
+ EGY_ITA_paternalism_autonomy_italy_reliant: "Королевство Египет"
+ EGY_ITA_paternalism_autonomy_italy_reliant_DEF: "Королевство Египет"
+
+ IEA_ITA_fascism_autonomy_italy_protectorate: "Протекторат Восточная Африка"
+ IEA_ITA_fascism_autonomy_italy_protectorate_DEF: "Протекторат Восточная Африка"
+ IEA_ITA_fascism_autonomy_italy_governate: "Итальянская Восточная Африка"
+ IEA_ITA_fascism_autonomy_italy_governate_DEF: "Итальянская Восточная Африка"
+ IEA_ITA_fascism_autonomy_italy_hefty_influence: "Итальянская Восточная Африка"
+ IEA_ITA_fascism_autonomy_italy_hefty_influence_DEF: "Итальянская Восточная Африка"
+ IEA_ITA_despotism_autonomy_italy_protectorate: "Протекторат Восточная Африка"
+ IEA_ITA_despotism_autonomy_italy_protectorate_DEF: "Протекторат Восточная Африка"
+ IEA_ITA_despotism_autonomy_italy_governate: "Итальянская Восточная Африка"
+ IEA_ITA_despotism_autonomy_italy_governate_DEF: "Итальянская Восточная Африка"
+ IEA_ITA_despotism_autonomy_italy_hefty_influence: "Итальянская Восточная Африка"
+ IEA_ITA_despotism_autonomy_italy_hefty_influence_DEF: "Итальянская Восточная Африка"
+
+ #IME_sinai_despotism: "Синайское губернаторство"
+ #IME_sinai_despotism_DEF: "Синайское губернаторство"
+
+ ILG_ITA_fascism_autonomy_italy_protectorate: "Алжирская военная территория"
+ ILG_ITA_fascism_autonomy_italy_protectorate_DEF: "Алжирская военная территория"
+ ILG_ITA_fascism_autonomy_italy_governate: "Алжирская военная территория"
+ ILG_ITA_fascism_autonomy_italy_governate_DEF: "Алжирская военная территория"
+ ILG_ITA_fascism_autonomy_italy_puppet: "Алжирская военная территория"
+ ILG_ITA_fascism_autonomy_italy_puppet_DEF: "Алжирская военная территория"
+
+ ILG_italy_vic_despotism: "Алжирский союз"
+ ILG_italy_vic_despotism_DEF: "Алжирский союз"
+ ILG_italy_vic_liberalism: "Алжирская Республика"
+ ILG_italy_vic_liberalism_DEF: "Алжирская Республика"
+ ILG_italy_vic_conservatism: "Алжирская Республика"
+ ILG_italy_vic_conservatism_DEF: "Алжирская Республика"
+ ILG_italy_vic_paternalism: "Алжирский мандат"
+ ILG_italy_vic_paternalism_DEF: "Алжирский мандат"
+
+ SLG_IBR_despotism_autonomy_integrated_puppet: "Алжирское военное командование"
+ SLG_IBR_despotism_autonomy_integrated_puppet_DEF: "Алжирское военное командование"
+ SLG_IBR_paternalism_autonomy_integrated_puppet: "Алжирское военное командование"
+ SLG_IBR_paternalism_autonomy_integrated_puppet_DEF: "Алжирское военное командование"
+ 
+ RIF_postwar: "Марокканская Республика"
+ RIF_postwar_DEF: "Марокканская Республика"
+ RIF_postwar_ADJ: "Марокканск"
+
+ EGY_postwar_kingdom: "Королевство Египет"
+ EGY_postwar_kingdom_DEF: "Королевство Египет"
+ EGY_postwar_kingdom_ADJ: "Египетск"
+ 
+ EGB_postwar: "Арабская Республика Египет"
+ EGB_postwar_DEF: "Арабская Республика Египет"
+ EGB_postwar_ADJ: "Египетск"
+ 
+ SDS_postwar: "Социалистическая Республика Судан"
+ SDS_postwar_DEF: "Социалистическая Республика Судан"
+ SDS_postwar_ADJ: "Суданск"
+ 
+ EGY_postwar: "Республика Египет"
+ EGY_postwar_DEF: "Республика Египет"
+ EGY_postwar_ADJ: "Египетск"
+ 
+ EGQ_postwar: "Исламское государство Египет"
+ EGQ_postwar_DEF: "Исламское государство Египет"
+ EGQ_postwar_ADJ: "Египетск"
+ 
+ SDF_postwar: "Государство Судан"
+ SDF_postwar_DEF: "Государство Судан"
+ SDF_postwar_ADJ: "Суданск"
+
+ #UkrainianInsurgentArmy_paternalism: "Украинская Повстанческая Армия"
+ #UkrainianInsurgentArmy_paternalism_DEF: "Украинская Повстанческая Армия"
+ #BRI_REPUBLIC_fascism: "Британская Республика"
+ #BRI_REPUBLIC_fascism_DEF: "Британская Республика"
+ #BRI_REPUBLIC_fascism_ADJ: "Британск."
+ #SCO_BRI_REPUBLIC: "Республика Британия"
+ #BRI_MONARCHY: "Великобритания"
+ #BRI_MONARCHY1: "Соединённое Королевство"
+ #BRI_MONARCHY_DEF: "Великобритания"
+ #BRI_MONARCHY1_DEF: "Соединённое Королевство"
+ #BRI_MONARCHY_ADJ: "Британск."
+ #BRI_REICHSKOMMISSARIAT: "Рейхскомиссариат Гроссбритания"
+ #BRI_REICHSKOMMISSARIAT_DEF: "Рейхскомиссариат Гроссбритания"
+ #BRI_REICHSKOMMISSARIAT_ADJ: "Британск."
+
+ #Speer cosmetics
+
+ SGR_authdem2: "Великогерманский Рейх"
+ SGR_authdem2_DEF: "Великогерманский Рейх немецкой нации"
+ SGR_authdem2_ADJ: "Германск"
+
+ SGR_authdem1: "Великогерманский Рейх"
+ SGR_authdem1_DEF: "Великогерманский Рейх немецкой нации"
+ SGR_authdem1_ADJ: "Германск"
+
+ SGR_neutral: "Великогерманский Рейх"
+ SGR_neutral_DEF: "Великогерманский Рейх немецкой нации"
+ SGR_neutral_ADJ: "Германск"
+ 
+ SGR_fash1: "Великогерманский Рейх"
+ SGR_fash1_DEF: "Великогерманский Рейх немецкой нации"
+ SGR_fash1_ADJ: "Германск"
+
+ SGR_fash2: "Великогерманский Рейх"
+ SGR_fash2_DEF: "Великогерманский Рейх немецкой нации"
+ SGR_fash2_ADJ: "Германск"
+
+ GER_speidel: "Защитная зона Германия"
+ GER_speidel_DEF: "Защитная зона Германия"
+ GER_speidel_ADJ: "Германск"
+ 
+ RPO_protectorate: "Рейхспротекторат Польша"
+ RPO_protectorate_DEF: "Рейхспротекторат Польша"
+ RPO_protectorate_ADJ: "Польск"
+
+ MAG_merc: "Республика Западная Аляска"
+ MAG_merc_DEF: "Республика Западная Аляска"
+ MAG_merc_ADJ: "Западноаляскинск"
+
+ IEA_CollapseNiceGuys_despotism: "Восточноафриканская военная администрация"
+ IEA_CollapseNiceGuys_despotism_DEF: "Восточноафриканская военная администрация"
+ IEA_CollapseNiceGuys_despotism_ADJ: "Итальянская Восточная Африка"
+ IEA_CollapseNiceGuys_paternalism: "Восточноафриканская военная администрация"
+ IEA_CollapseNiceGuys_paternalism_DEF: "Восточноафриканская военная администрация"
+ IEA_CollapseNiceGuys_paternalism_ADJ: "Итальянская Восточная Африка"
+ IEA_ETHtakeover_communist: "Национальное Правительство Эфиопии"
+ IEA_ETHtakeover_communist_DEF: "Национальное Правительство Эфиопии"
+ IEA_ETHtakeover_communist_ADJ: "Эфиопск"
+ IEA_ETHtakeover_socialist: "Национальное Правительство Эфиопии"
+ IEA_ETHtakeover_socialist_DEF: "Национальное Правительство Эфиопии"
+ IEA_ETHtakeover_socialist_ADJ: "Эфиопск"
+
+ #RK_Italy_national_socialism: "Итальянская Социальная Республика"
+ #RK_Italy_national_socialism_DEF: "Итальянская Социальная Республика"
+ #RK_Italy_national_socialism_ADJ: "Итальянск"
+ #RK_Italy_fascism: "Итальянская Социальная Республика"
+ #RK_Italy_fascism_DEF: "Итальянская Социальная Республика"
+ #RK_Italy_fascism_ADJ: "Итальянск"
+ ITA_middle_east_government: "Губернаторство Ближний Восток"
+ ITA_middle_east_government_DEF: "Губернаторство Ближний Восток"
+ ITA_middle_east_government_ADJ: "Ближневосточн"
+ ITA_middle_east_government_saudis: "Губернаторство Аравийский полуостров"
+ ITA_middle_east_government_saudis_DEF: "Губернаторство Аравийский полуостров"
+ ITA_middle_east_government_saudis_ADJ: "Саудовск"
+
+
+ CRO_Yugoslavia: "Югославия"
+ CRO_Yugoslavia_DEF: "Республика Югославия"
+ CRO_Yugoslavia_ADJ: "Югославск"
+ 
+ PRM_ANARCHY_paternalism: "Пермский Антифашистский Комитет"
+ PRM_ANARCHY_paternalism_DEF: "Пермский Антифашистский Комитет"
+ PRM_ANARCHY_paternalism_ADJ: "Пермск"
+ 
+ SVR_ANARCHY_despotism: "Екатеринбург"
+ SVR_ANARCHY_despotism_ADJ: "Екатеринбургск"
+ SVR_ANARCHY_despotism_DEF: "Екатеринбург"
+ 
+ ZLT_ANARCHY_conservatism: "Нижний Тагил"
+ ZLT_ANARCHY_conservatism_DEF: "Нижний Тагил"
+ ZLT_ANARCHY_conservatism_ADJ: "Нижнетагильск"
+ 
+ SAM_ANARCHY_progressivism: "Самарское народное собрание"
+ SAM_ANARCHY_progressivism_DEF: "Самарское народное собрание"
+ SAM_ANARCHY_progressivism_ADJ: "Самарск"
+ 
+ VYT_ANARCHY_conservatism: "Вятское княжество"
+ VYT_ANARCHY_conservatism_DEF: "Вятское княжество"
+ VYT_ANARCHY_conservatism_ADJ: "Вятск"
+ 
+ GOR_ANARCHY_liberalism: "Вольный Нижний Новгород"
+ GOR_ANARCHY_liberalism_DEF: "Вольный Нижний Новгород"
+ GOR_ANARCHY_liberalism_ADJ: "Нижегородск"
+
+ GAY_ANARCHY_liberal_conservatism: "Удмуртская Республика"
+ GAY_ANARCHY_liberal_conservatism_DEF: "Удмуртская Республика"
+ GAY_ANARCHY_liberal_conservatism_ADJ: "Удмуртск"
+
+ VOL_ANARCHY_liberal_conservatism: "Марийская Республика"
+ VOL_ANARCHY_liberal_conservatism_DEF: "Марийская Республика"
+ VOL_ANARCHY_liberal_conservatism_ADJ: "Марийск"
+ 
+ VOR_ANARCHY_paternalism: "Челябинск"
+ VOR_ANARCHY_paternalism_DEF: "Челябинская Республика"
+ VOR_ANARCHY_paternalism_ADJ: "Челябинск"
+ 
+ KOM_BURGSYS_COLLAPSE: "Священная Российская Империя"
+ KOM_BURGSYS_COLLAPSE_DEF: "Священная Российская империя"
+ KOM_BURGSYS_COLLAPSE_ADJ: "Имперск"
+
+ PAL_Levant_Union_national_socialism: "Левантийское Королевство"
+ PAL_Levant_Union_national_socialism_DEF: "Левантийское Королевство"
+ PAL_Levant_Union_national_socialism_ADJ: "Левантийск."
+ PAL_Levant_Union_fascism: "Левантийское Королевство"
+ PAL_Levant_Union_fascism_DEF: "Левантийское Королевство"
+ PAL_Levant_Union_liberalism: "Левант"
+ PAL_Levant_Union_liberalism_DEF: "Левантийская Конфедерация"
+ PAL_Levant_Union_conservatism: "Левантийская Конфедерация"
+ PAL_Levant_Union_conservatism_DEF: "Левантийская Конфедерация"
+ PAL_Levant_Union_communist: "Левантийская Конфедерация"
+ PAL_Levant_Union_communist_DEF: "Левантийская Конфедерация"
+ PAL_Levant_Union_socialist: "Левантийская Конфедерация"
+ PAL_Levant_Union_socialist_DEF: "Левантийская Конфедерация"
+ PAL_Levant_Union_fascism_ADJ: "Левантийск"
+ PAL_Levant_Union_liberalism_ADJ: "Левантийск"
+ PAL_Levant_Union_conservatism_ADJ: "Левантийск"
+ PAL_Levant_Union_paternalism_ADJ: "Левантийск"
+ PAL_Levant_Union_despotism_ADJ: "Левантийск"
+ PAL_Levant_Union_communist_ADJ: "Левантийск"
+ PAL_Levant_Union_socialist_ADJ: "Левантийск"
+ PAL_Levant_Union_progressivism: "Левантийская Конфедерация"
+ PAL_Levant_Union_progressivism_DEF: "Левантийская Конфедерация"
+ PAL_Levant_Union_progressivism_ADJ: "Левантийск."
+
+ PAL_Levant_Kingdom_paternalism: "Объединённое Арабское Королевство"
+ PAL_Levant_Kingdom_paternalism_DEF: "Объединённое Арабское Королевство Палестины и Иордании"
+ PAL_Levant_Kingdom_despotism: "Объединённое Арабское Королевство"
+ PAL_Levant_Kingdom_despotism_DEF: "Объединённое Арабское Королевство Палестины и Иордании"
+
+ PAL_communism_bad_communist: "Демократическая республика Палестина"
+ PAL_communism_bad_communist_DEF: "Демократическая республика Палестина"
+ PAL_communism_bad_communist_ADJ: "Палестинск"
+ PAL_communism_bad_socialist: "Арабская Демократическая Республика"
+ PAL_communism_bad_socialist_DEF: "Арабская Демократическая Республика"
+ PAL_communism_bad_socialist_ADJ: "Палестинск"
+
+ PAL_PAS_ultranationalism: "Палестинское Арабское Государство"
+ PAL_PAS_ultranationalism_DEF: "Палестинское Арабское Государство"
+ PAL_PAS_ultranationalism_ADJ: "Палестинск"
+
+ PAL_DAPR: "Арабская Народная Республика"
+ PAL_DAPR_DEF: "Арабская Народная Республика"
+ PAL_DAPR_ADJ: "Арабск"
+ 
+ JOR_HABASH: "Социалистическая Республика Иордания"
+ JOR_HABASH_DEF: "Социалистическая Республика Иордания"
+ JOR_HABASH_ADJ: "Иорданск"
+ 
+ JOR_BEGIN: "Республика Амман"
+ JOR_BEGIN_DEF: "Республика Амман"
+ JOR_BEGIN_ADJ: "Амманск"
+ 
+ JOR_PARTI: "Королевство Иордания"
+ JOR_PARTI_DEF: "Королевство Иордания"
+ JOR_PARTI_ADJ: "Иорданск"
+
+ SPS_MILITARYCOUP: "Иберийский военный режим"
+ SPS_MILITARYCOUP_DEF: "Иберийский военный режим"
+ SPS_MILITARYCOUP_ADJ: "Иберийск"
+ 
+ IBR_MILITARYCOUP: "Иберийское Государство"
+ IBR_MILITARYCOUP_DEF: "Иберийское Государство"
+
+ ### Speer Cosmetic Tags ###
+ 
+ SGR_HOL_provisional_government: "Голландское переходное правительство"
+ SGR_HOL_provisional_government_DEF: "Голландское переходное правительство"
+
+ SGR_CAU_provisional_government: "Кавказская военная администрация"
+ SGR_CAU_provisional_government_DEF: "Кавказская военная администрация"
+
+ UKR_SGR: "Украинская Национальная Республика"
+ UKR_SGR_DEF: "Украинская Национальная Республика"
+ 
+ POL_SGR_paternalism: "Польша"
+ POL_SGR_paternalism_DEF: "Республика Польша"
+ POL_SGR_national_socialism: "Переходное правительство Польши"
+ POL_SGR_national_socialism_DEF: "Переходное правительство Польши"
+
+ BEL_SGR: "Рейхскомиссариат Бельгия-Нордфранкрайх"
+ BEL_SGR_DEF: "Рейхскомиссариат Бельгия-Нордфранкрайх"
+ 
+ EST_SGR: "Балтийская Федерация"
+ EST_SGR_DEF: "Балтийская Федерация" 
+ 
+ OST_BLT: "Балтийская Федерация"
+ OST_BLT_DEF: "Балтийская Федерация" 
+ 
+ BLR_SGR: "Республика Беларусь"
+ BLR_SGR_DEF: "Республика Беларусь"
+
+ OST_BLT2: "Рейхсланд Балтикум"
+ OST_BLT2_DEF: "Рейхсланд Балтикум"
+ 
+ BLR_SGR2: "Рейхсланд Вайсрутения"
+ BLR_SGR2_DEF: "Рейхсланд Вайсрутения" 
+ 
+ POL_SGR2: "Рейхсланд Полен"
+ POL_SGR2_DEF: "Рейхсланд Полен" 
+ 
+ UKR_SGR2: "Рейхсланд Украина"
+ UKR_SGR2_DEF: "Рейхсланд Украина" 
+ 
+ CAU_SGR2: "Рейхспротекторат Кавказ"
+ CAU_SGR2_DEF: "Рейхспротекторат Кавказ"
+ 
+ 
+ ### Heydrich ###
+ HGR_DEAD: "СС-Германия"
+ HGR_DEAD_DEF: "СС-Германия"
+ 
+ KUW: "Кувейт"
+ 
+ MEN_CHI_gaw: "Монголия"
+ MEN_CHI_gaw_DEF: "Монголия"
+ MEN_CHI_gaw_ADJ: "Монгольск"
+
+ ILG_VICTORY_GOV: "Временное правительство Алжира"
+ ILG_VICTORY_GOV_DEF: "Временное правительство Алжира"
+ ILG_VICTORY_GOV_ADJ: "Алжирск"
+
+ ###Iberian Wars Postwar###
+ FSR_POSTWAR: "Священное Иберийское регентство"
+ FSR_POSTWAR_DEF: "Священное Иберийское регентство"
+ FSR_POSTWAR_ADJ: "Иберийск"
+ 
+ GNS_POSTWAR: "Португальская национальная республика"
+ GNS_POSTWAR_DEF: "Португальская национальная республика"
+ GNS_POSTWAR_ADJ: "Португальск"
+ 
+ CNT_POSTWAR: "Вольная территория Каталонии"
+ CNT_AUTHSOC: "Свободная Каталония"
+ 
+ SPS_unified: "Испанское государство"
+ SPS_unified_DEF: "Испанское государство"
+ 
+ POR_puppet: "Португалия"
+ POR_puppet_DEF: "Португалия"
+ 
+ SPR_puppet: "Испанская республика"
+ SPR_puppet_DEF: "Испанская республика"
+ 
+ PPR_unified: "Португальская Народная Республика"
+ PPR_unified_DEF: "Португальская народная Республика"
+ 
+ ###Iberian Wars Governates
+ GAL_GNS_autonomy_ibrgovernate: "Губернаторство Галисия"
+ TBA_GNS_autonomy_ibrgovernate: "Губернаторство Астурия"
+ SPA_GNS_autonomy_ibrgovernate: "Губернаторство Андалусия"
+ SPR_GNS_autonomy_ibrgovernate: "Губернаторство Кастилия"
+ SPS_GNS_autonomy_ibrgovernate: "Губернаторство Кастилия"
+ FSR_GNS_autonomy_ibrgovernate: "Губернаторство Кастилия"
+ MOR_GNS_autonomy_ibrgovernate: "Губернаторство Марокко"
+ CTL_GNS_autonomy_ibrgovernate: "Губернаторство Каталония"
+ CNT_GNS_autonomy_ibrgovernate: "Губернаторство Каталония"
+ BSQ_GNS_autonomy_ibrgovernate: "Губернаторство Басков"
+ PPR_GNS_autonomy_ibrgovernate: "Губернаторство Португалия"
+ POR_GNS_autonomy_ibrgovernate: "Губернаторство Португалия"
+ RPP_GNS_autonomy_ibrgovernate: "Губернаторство Португалия"
+ GNS_GNS_autonomy_ibrgovernate: "Губернаторство Португалия"
+ 
+ GAL_SPR_autonomy_ibrgovernate: "Правительство Галисии"
+ TBA_SPR_autonomy_ibrgovernate: "Правительство Астурии"
+ SPA_SPR_autonomy_ibrgovernate: "Правительство Андалусии"
+ SPR_SPR_autonomy_ibrgovernate: "Правительство Кастилии"
+ SPS_SPR_autonomy_ibrgovernate: "Правительство Кастилии"
+ FSR_SPR_autonomy_ibrgovernate: "Правительство Кастилии"
+ MOR_SPR_autonomy_ibrgovernate: "Правительство Марокко"
+ CTL_SPR_autonomy_ibrgovernate: "Правительство Каталонии"
+ CNT_SPR_autonomy_ibrgovernate: "Правительство Каталонии"
+ BSQ_SPR_autonomy_ibrgovernate: "Правительство Басков"
+ PPR_SPR_autonomy_ibrgovernate: "Правительство Португалии"
+ POR_SPR_autonomy_ibrgovernate: "Правительство Португалии"
+ RPP_SPR_autonomy_ibrgovernate: "Правительство Португалии"
+ GNS_SPR_autonomy_ibrgovernate: "Правительство Португалии"
+ 
+ GAL_SPS_autonomy_ibrgovernate: "Губернаторство Галисия"
+ TBA_SPS_autonomy_ibrgovernate: "Губернаторство Астурия"
+ SPA_SPS_autonomy_ibrgovernate: "Губернаторство Андалусия"
+ SPR_SPS_autonomy_ibrgovernate: "Губернаторство Кастилия"
+ SPS_SPS_autonomy_ibrgovernate: "Губернаторство Кастилия"
+ FSR_SPS_autonomy_ibrgovernate: "Губернаторство Кастилия"
+ MOR_SPS_autonomy_ibrgovernate: "Губернаторство Марокко"
+ CTL_SPS_autonomy_ibrgovernate: "Губернаторство Каталония"
+ CNT_SPS_autonomy_ibrgovernate: "Губернаторство Каталония"
+ BSQ_SPS_autonomy_ibrgovernate: "Губернаторство Басков"
+ PPR_SPS_autonomy_ibrgovernate: "Губернаторство Португалия"
+ POR_SPS_autonomy_ibrgovernate: "Губернаторство Португалия"
+ RPP_SPS_autonomy_ibrgovernate: "Губернаторство Португалия"
+ GNS_SPS_autonomy_ibrgovernate: "Губернаторство Португалия"
+ 
+ GAL_SPA_autonomy_ibrgovernate: "Губернаторство Галисия"
+ TBA_SPA_autonomy_ibrgovernate: "Губернаторство Астурия"
+ SPA_SPA_autonomy_ibrgovernate: "Губернаторство Андалусия"
+ SPR_SPA_autonomy_ibrgovernate: "Губернаторство Кастилия"
+ SPS_SPA_autonomy_ibrgovernate: "Губернаторство Кастилия"
+ FSR_SPA_autonomy_ibrgovernate: "Губернаторство Кастилия"
+ MOR_SPA_autonomy_ibrgovernate: "Губернаторство Марокко"
+ CTL_SPA_autonomy_ibrgovernate: "Губернаторство Каталония"
+ CNT_SPA_autonomy_ibrgovernate: "Губернаторство Каталония"
+ BSQ_SPA_autonomy_ibrgovernate: "Губернаторство Басков"
+ PPR_SPA_autonomy_ibrgovernate: "Губернаторство Португалия"
+ POR_SPA_autonomy_ibrgovernate: "Губернаторство Португалия"
+ RPP_SPA_autonomy_ibrgovernate: "Губернаторство Португалия"
+ GNS_SPA_autonomy_ibrgovernate: "Губернаторство Португалия"
+ 
+ GAL_CTL_autonomy_ibrgovernate: "Правительство Галисии"
+ TBA_CTL_autonomy_ibrgovernate: "Правительство Астурии"
+ SPA_CTL_autonomy_ibrgovernate: "Правительство Андалусии"
+ SPR_CTL_autonomy_ibrgovernate: "Правительство Кастилии"
+ SPS_CTL_autonomy_ibrgovernate: "Правительство Кастилии"
+ FSR_CTL_autonomy_ibrgovernate: "Правительство Кастилии"
+ MOR_CTL_autonomy_ibrgovernate: "Правительство Марокко"
+ CTL_CTL_autonomy_ibrgovernate: "Правительство Каталонии"
+ CNT_CTL_autonomy_ibrgovernate: "Правительство Каталонии"
+ BSQ_CTL_autonomy_ibrgovernate: "Правительство Басков"
+ PPR_CTL_autonomy_ibrgovernate: "Правительство Португалии"
+ POR_CTL_autonomy_ibrgovernate: "Правительство Португалии"
+ RPP_CTL_autonomy_ibrgovernate: "Правительство Португалии"
+ GNS_CTL_autonomy_ibrgovernate: "Правительство Португалии"
+ 
+ GAL_CNT_autonomy_ibrgovernate: "Вольная территория Галисия"
+ TBA_CNT_autonomy_ibrgovernate: "Вольная территория Астурия"
+ SPA_CNT_autonomy_ibrgovernate: "Вольная территория Андалусия"
+ SPR_CNT_autonomy_ibrgovernate: "Вольная территория Кастилия"
+ SPS_CNT_autonomy_ibrgovernate: "Вольная территория Кастилия"
+ FSR_CNT_autonomy_ibrgovernate: "Вольная территория Кастилия"
+ MOR_CNT_autonomy_ibrgovernate: "Вольная территория Марокко"
+ CNT_CNT_autonomy_ibrgovernate: "Вольная территория Каталония"
+ BSQ_CNT_autonomy_ibrgovernate: "Вольная территория Басков"
+ PPR_CNT_autonomy_ibrgovernate: "Вольная территория Португалия"
+ POR_CNT_autonomy_ibrgovernate: "Вольная территория Португалия"
+ RPP_CNT_autonomy_ibrgovernate: "Вольная территория Португалия"
+ GNS_CNT_autonomy_ibrgovernate: "Вольная территория Португалия"
+ 
+ GAL_TBA_autonomy_ibrgovernate: "Социалистическая Республика Галисия"
+ TBA_TBA_autonomy_ibrgovernate: "Социалистическая Республика Астурия"
+ SPA_TBA_autonomy_ibrgovernate: "Социалистическая Республика Андалусия"
+ SPR_TBA_autonomy_ibrgovernate: "Социалистическая Республика Кастилия"
+ SPS_TBA_autonomy_ibrgovernate: "Социалистическая Республика Кастилия"
+ FSR_TBA_autonomy_ibrgovernate: "Социалистическая Республика Кастилия"
+ MOR_TBA_autonomy_ibrgovernate: "Социалистическая Республика Марокко"
+ CTL_TBA_autonomy_ibrgovernate: "Социалистическая Республика Каталония"
+ CNT_TBA_autonomy_ibrgovernate: "Социалистическая Республика Каталония"
+ BSQ_TBA_autonomy_ibrgovernate: "Социалистическая Республика Басков"
+ PPR_TBA_autonomy_ibrgovernate: "Социалистическая Республика Португалия"
+ POR_TBA_autonomy_ibrgovernate: "Социалистическая Республика Португалия"
+ RPP_TBA_autonomy_ibrgovernate: "Социалистическая Республика Португалия"
+ GNS_TBA_autonomy_ibrgovernate: "Социалистическая Республика Португалия"
+ 
+ GAL_PPR_autonomy_ibrgovernate: "Социалистическая Республика Галисия"
+ TBA_PPR_autonomy_ibrgovernate: "Социалистическая Республика Астурия"
+ SPA_PPR_autonomy_ibrgovernate: "Социалистическая Республика Андалусия"
+ SPR_PPR_autonomy_ibrgovernate: "Социалистическая Республика Кастилия"
+ SPS_PPR_autonomy_ibrgovernate: "Социалистическая Республика Кастилия"
+ FSR_PPR_autonomy_ibrgovernate: "Социалистическая Республика Кастилия"
+ MOR_PPR_autonomy_ibrgovernate: "Социалистическая Республика Марокко"
+ CTL_PPR_autonomy_ibrgovernate: "Социалистическая Республика Каталония"
+ CNT_PPR_autonomy_ibrgovernate: "Социалистическая Республика Каталония"
+ BSQ_PPR_autonomy_ibrgovernate: "Социалистическая Республика Басков"
+ PPR_PPR_autonomy_ibrgovernate: "Социалистическая Республика Португалия"
+ POR_PPR_autonomy_ibrgovernate: "Социалистическая Республика Португалия"
+ RPP_PPR_autonomy_ibrgovernate: "Социалистическая Республика Португалия"
+ GNS_PPR_autonomy_ibrgovernate: "Социалистическая Республика Португалия"
+ 
+ GAL_RPP_autonomy_ibrgovernate: "Губернаторство Галисия"
+ TBA_RPP_autonomy_ibrgovernate: "Губернаторство Астурия"
+ SPA_RPP_autonomy_ibrgovernate: "Губернаторство Андалусия"
+ SPR_RPP_autonomy_ibrgovernate: "Губернаторство Кастилия"
+ SPS_RPP_autonomy_ibrgovernate: "Губернаторство Кастилия"
+ FSR_RPP_autonomy_ibrgovernate: "Губернаторство Кастилия"
+ MOR_RPP_autonomy_ibrgovernate: "Губернаторство Марокко"
+ CTL_RPP_autonomy_ibrgovernate: "Губернаторство Каталония"
+ CNT_RPP_autonomy_ibrgovernate: "Губернаторство Каталония"
+ BSQ_RPP_autonomy_ibrgovernate: "Губернаторство Басков"
+ PPR_RPP_autonomy_ibrgovernate: "Губернаторство Португалия"
+ POR_RPP_autonomy_ibrgovernate: "Губернаторство Португалия"
+ RPP_RPP_autonomy_ibrgovernate: "Губернаторство Португалия"
+ GNS_RPP_autonomy_ibrgovernate: "Губернаторство Португалия"
+
+ IBR_greater_spain: "Великая Испания"
+ IBR_greater_spain_DEF: "Великая Испания"
+ IBR_greater_spain_ADJ: "Испанск"
+
+ #SSRs
+ PAU_ssr: "Германская ССР"
+ PAU_ssr_DEF: "Германская Советская Социалистическая Республика"
+ PAU_ssr_ADJ: "Германск"
+ 
+ ONG_ssr: "Карело-финская ССР"
+ ONG_ssr_DEF: "Карело-финская Советская Социалистическая Республика"
+ ONG_ssr_ADJ: "Карело-финск"
+ 
+ CAU_ssr: "Закавказская СФСР"
+ CAU_ssr_DEF: "Закавказская Социалистическая Федеративная Советская Республика"
+ CAU_ssr_ADJ: "Закавказск"
+ 
+ KAZ_ssr: "Казахская ССР"
+ KAZ_ssr_DEF: "Казахская Советская Социалистическая Республика"
+ KAZ_ssr_ADJ: "Казахск"
+ 
+ TAJ_ssr: "Таджикская ССР"
+ TAJ_ssr_DEF: "Таджикская Советская Социалистическая Республика"
+ TAJ_ssr_ADJ: "Таджикск"
+ 
+ UZB_ssr: "Узбекская ССР"
+ UZB_ssr_DEF: "Узбекская Советская Социалистическая Республика"
+ UZB_ssr_ADJ: "Узбекск"
+ 
+ KYR_ssr: "Киргизская ССР"
+ KYR_ssr_DEF: "Киргизская Советская Социалистическая Республика"
+ KYR_ssr_ADJ: "Киргизск"
+ 
+ TRK_ssr: "Туркменская ССР"
+ TRK_ssr_DEF: "Туркменская Советская Социалистическая Республика"
+ TRK_ssr_ADJ: "Туркменск"
+ 
+ EST_ssr: "Эстонская ССР"
+ EST_ssr_DEF: "Эстонская Советская Социалистическая Республика"
+ EST_ssr_ADJ: "Эстонск"
+ 
+ LIT_ssr: "Литовская ССР"
+ LIT_ssr_DEF: "Литовская Советская Социалистическая Республика"
+ LIT_ssr_ADJ: "Литовск"
+ 
+ LAT_ssr: "Латвийская ССР"
+ LAT_ssr_DEF: "Латвийская Советская Социалистическая Республика"
+ LAT_ssr_ADJ: "Латвийск"
+ 
+ BLR_ssr: "Белорусская ССР"
+ BLR_ssr_DEF: "Белорусская Советская Социалистическая Республика"
+ BLR_ssr_ADJ: "Белорусск" 
+ 
+ UKR_ssr: "Украинская ССР"
+ UKR_ssr_DEF: "Украинская Советская Социалистическая Республика"
+ UKR_ssr_ADJ: "Украинск"
+
+ #UKRAINE PEACEFUL REJOINING SPEER#
+
+ Speer_UKR_rejoined_peacefully: "Украинское переходное правительство"
+ Speer_UKR_rejoined_peacefully_def: "Украинское переходное правительство"
+ Speer_UKR_rejoined_peacefully_ADJ: "Украинск"
+ 
+ #East African Cosmetic Tags#
+ ETH_AMHARA: "Амхара"
+ ETH_AMHARA_DEF: "Амхара"
+ ETH_AMHARA_ADJ: "Амхарск"
+
+ ORM_LIBERATIONFRONT: "Фронт Освобождения Оромо"
+ ORM_LIBERATIONFRONT_DEF: "Фронт Освобождения Оромо"
+ ORM_LIBERATIONFRONT_ADJ: "Оромск"
+ 
+ #SPEER MOSKOWIEN COSMETIC TAGS#
+ MCW_SGR: "Военный округ Руссланд"
+ MCW_SGR_DEF: "Военный округ Руссланд"
+ MCW_SGR_ADJ: "Руссландск"
+ MCW_SGR_despotism: "Комиссия Пакта по делам России"
+ MCW_SGR_despotism_DEF: "Комиссия Пакта по делам России"
+ MCW_SGR_despotism_ADJ: "Руссландск"
+ 
+ #SGR_PAU: "Рейхсланд Волга"
+ #SGR_PAU_ADJ: "Волжск."
+ #SGR_PAU_DEF: "Рейхсланд Волга"
+
+ #SPEER KAUKASIA
+ #SGR_AZR_industry_UKR_speer_prov_government_national_socialism: "Бакинский Административный Округ" 
+ #SGR_AZR_industry_UKR_speer_prov_government_national_socialism_ADJ: "Кавказск"
+ #SGR_AZR_industry_UKR_speer_prov_government_national_socialism_DEF: "Бакинский Административный Округ"
+
+ #SPEER OSTLAND
+ ostland_occupation_authority: "Остландская оккупационная администрация"
+ ostland_occupation_authority_DEF: "Остландская оккупационная администрация"
+ ostland_occupation_authority_ADJ: "Остландск"
+
+ #PETROGRAD OKB
+ OKB_OKB: "Оберкомандование Санкт-Петербурга"
+ OKB_OKB_DEF: "Оберкомандование Санкт-Петербурга"
+ OKB_OKB_ADJ: "Санкт-Петербужск"
+ 
+ #Bormann Moskowien provisional military authority
+ MCW_BOR: "Военное Правительство Московии"
+ MCW_BOR_DEF: "Военное Правительство Московии"
+ MCW_BOR_ADJ: "Московск"
+
+ #Bormann Moskowien Russian protectorate
+ MCW_BOR2: "Военный округ Московия"
+ MCW_BOR2_DEF: "Военный округ Московия"
+ MCW_BOR2_ADJ: "Московск"
+
+ #Bormann Kaukasien provisional military authority
+ CAU_BOR: "Военное Правительство Кавказа"
+ CAU_BOR_DEF: "Военное Правительство Кавказа"
+ CAU_BOR_ADJ: "Кавказск"
+
+ #Schörner funtime
+ #GER_RNW: "Правительство национального восстановления"
+ #GER_RNW_DEF: "Правительство национального восстановления"
+ #GER_RNW_ADJ: "Германск."
+ 
+ #United Kingdom
+ ENG_transitional_govt: "Свободная Британия"
+ ENG_transitional_govt_DEF: "Свободная Британия"
+ ENG_transitional_govt_ADJ: "Британск."
+ ENG_commonwealth_britain: "Содружество Великобритания"
+ ENG_commonwealth_britain_DEF: "Содружество Великобритания"
+ ENG_commonwealth_britain_ADJ: "Британск"
+ ENG_HMMLR1: "Великобритания"
+ ENG_HMMLR1_DEF: "Соединенное Королевство Великобритании и Северной Ирландии"
+ ENG_HMMLR1_ADJ: "Британск"
+ ENG_national_republic: "Британская национальная Республика"
+ ENG_national_republic_DEF: "Британская национальная Республика"
+ ENG_national_republic_ADJ: "Британск"
+ 
+ ENG_MILITARY_COMMAND: "Английское Военное Командование"
+ ENG_MILITARY_COMMAND_DEF: "Английское Военное Командование"
+ ENG_MILITARY_COMMAND_ADJ: "Английск"
+ 
+ USA_you_really_fucked_up: "Соединенные Штаты Америки"
+ USA_you_really_fucked_up_DEF: "Соединенные Штаты Америки"
+ USA_you_really_fucked_up_ADJ: "Американск"
+ 
+ ENG_united_kingdom: "Соединенное Королевство"
+ ENG_united_kingdom_DEF: "Соединенное Королевство"
+ ENG_united_kingdom_ADJ: "Британск"
+ 
+ ENG_free: "Королевство Англии"
+ ENG_free_DEF: "Королевство Англии"
+ ENG_free_ADJ: "Английск"
+
+ ENG_free_england_and_wales: "Королевство Англии и Уэльса"
+ ENG_free_england_and_wales_DEF: "Королевство Англии и Уэльса"
+ ENG_free_england_and_wales_ADJ: "Английск"
+ 
+ ENG_commonwealth_britain_old: "Содружество Великобритания"
+ ENG_commonwealth_britain_old_DEF: "Содружество Великобритания"
+ ENG_commonwealth_britain_ADJ: "Британск"
+ 
+ ENG_commonwealth_england: "Содружество Англия"
+ ENG_commonwealth_england_DEF: "Содружество Англия"
+ ENG_commonwealth_england_ADJ: "Английск"
+ 
+ ENG_commonwealth_england_and_wales: "Содружество Англии и Уэльса"
+ ENG_commonwealth_england_and_wales_DEF: "Содружество Англии и Уэльса"
+ ENG_commonwealth_england_and_wales_ADJ: "Английск"
+ 
+ ENG_england_and_wales: "Королевство Англии и Уэльса"
+ ENG_england_and_wales_DEF: "Королевство Англии и Уэльса"
+ ENG_england_and_wales_ADJ: "Английск"
+ 
+ # West Indies Federation
+ WIN_unitary: "Карибский союз"
+ WIN_unitary_DEF: "Карибский союз"
+ WIN_unitary_liberalism: "Карибский союз"
+ WIN_unitary_liberalism_DEF: "Карибский союз"
+ WIN_unitary_progressivism: "Карибский союз"
+ WIN_unitary_progressivism_DEF: "Карибский союз"
+ WIN_unitary_ADJ: "Карибск"
+ WIN_unitary_conservatism: "Карибский союз"
+ WIN_unitary_conservatism_DEF: "Карибский союз"
+ 
+ WIN_federated: "Вест-Индское содружество"
+ WIN_federated_DEF: "Вест-Индское содружество"
+ WIN_federated_liberalism: "Вест-Индское содружество"
+ WIN_federated_liberalism_DEF: "Вест-Индское содружество"
+ WIN_federated_progressivism: "Вест-Индское содружество"
+ WIN_federated_progressivism_DEF: "Вест-Индское содружество"
+ WIN_federated_ADJ: "Вест-Индск"
+ WIN_federated_conservatism: "Вест-Индское содружество"
+ WIN_federated_conservatism_DEF: "Вест-Индское содружество"
+
+ TRI_grenada: "Тринидад, Тобаго и Гренада"
+ TRI_grenada_DEF: "Тринидад, Тобаго и Гренада"
+ 
+ ###PHILIPPINES
+ 
+ PHI_JAP_Administration: "Филиппинский Императорский Гарнизон"
+ PHI_JAP_Administration_DEF: "Филиппинский Императорский Гарнизон"
+ PHI_JAP_Administration_ADJ: "Филиппинск"
+ 
+ SPH_PRP: "Народная Республика Филиппины"
+ SPH_PRP_DEF: "Народная Республика Филиппины"
+ SPH_PRP_ADJ: "Филиппинск"
+ 
+ SPH_Marcos: "Третья Филиппинская Республика"
+ SPH_Marcos_DEF: "Третья Филиппинская Республика"
+ SPH_Marcos_ADJ: "Филиппинск"
+ 
+ PHI_UPH_Republic: "Республика Филиппины"
+ PHI_UPH_Republic_DEF: "Республика Филиппины"
+ PHI_UPH_Republic_ADJ: "Филиппинск"
+ 
+ SPH_Coalition_Government: "Третья Филиппинская Республика"
+ SPH_Coalition_Government_DEF: "Третья Филиппинская Республика"
+ SPH_Coalition_Government_ADJ: "Филиппинск"
+
+ SPH_Magsaysays_Republic: "Республика Филиппины"
+ SPH_Magsaysays_Republic_DEF: "Республика Филиппины"
+ SPH_Magsaysays_Republic_ADJ: "Филиппинск"
+
+ #AM
+ TMA_unified: "Российская Народная Свободная Республика"
+ TMD_unified: "Непобедимая Хунта Имперской гвардии"
+ TMF_unified: "Свободные Российские Коммуны"
+ TMO_unified: "Всероссийское Правительство Национального Отмщения"
+ TMT_unified: "Великая Евразийская Конфедерация"
+ TMU_unified: "Орден Чистоты Священной России"
+ TMN_unified: "Объединённое Российское Революционное Государство"
+ TMQ_unified: "Евразийское Правительство Умиротворения"
+ TMS_unified: "Российская Христианская Республика"
+ TMV_unified: "Имперские Уделы Священной России"
+ TML_unified: "Автономные Советы Евразии"
+ TMI_unified: "Российская Ультравизионерная Советская Федерация"
+ TMP_unified: "Очищенное Государство Казахстан"
+ TMK_unified: "Свободная Республика Казахстан"
+ TMB_unified: "Царство Преисподнее"
+ TMJ_unified: "Третья Российская Республика"
+ TME_unified: "Объединённая Евразийская Республика"
+ TMH_unified: "Царство Рюриковичей"
+ TMW_unified: "Вольная Родина"
+ TMG_unified: "Российская Народная Империя"
+ TMY_unified: "Вечное Регентство Священной России"
+ TMR_unified: "Российское Правительство Восстановления"
+ TMM_unified: "Правительство Восстановления Российского Адмиралтейства"
+ TMC_unified: "Российское Национальное Правительство Восстановления"
+ KOM_unified: "Правительство Искупления Священной России"
+ TMX_unified: "Всероссийский Освободительный Авангард"
+
+ ANG_FREE: "Республика Ангола"
+ ANG_FREE_ADJ: "Ангольск"
+ ANG_FREE_DEF: "Республика Ангола"
+
+ ANG_GER: "Рейхскомиссариат Зюдвестафрика"
+ ANG_GER_ADJ: "Зюдвестафриканск"
+ ANG_GER_DEF: "Рейхскомиссариат Зюдвестафрика"
+
+ #ARA_ARMY: "Освободительная армия Аракана"
+ #ARA_ARMY_DEF: "Освободительная армия Аракана"
+ #ARA_ARMY_ADJ: "Араканск."
+
+ #CBR_ARMY: "Народная армия Бирмы"
+ #CBR_ARMY_DEF: "Народная армия Бирмы"
+ #CBR_ARMY_ADJ: "Бирманск."
+
+ #CHN_ARMY: "Освободительная армия Чин"
+ #CHN_ARMY_DEF: "Освободительная армия Чин"
+ #CHN_ARMY_ADJ: "Чинск."
+
+ COG_GER: "Рейхскомиссариат Центральафрика"
+ COG_GER_DEF: "Рейхскомиссариат Центральафрика"
+ COG_GER_ADJ: "Центральафриканск"
+
+ CRI_SGR: "Административный Округ Готенланд"
+ CRI_SGR_DEF: "Административный Округ Готенланд"
+ CRI_SGR_ADJ: "Готск"
+
+ #KAC_ARMY: "Качинская армия независимости"
+ #KAC_ARMY_DEF: "Качинская армия независимости"
+ #KAC_ARMY_ADJ: "Качинск."
+
+ #KAR_ARMY: "Каренская национально-освободительная армия"
+ #KAR_ARMY_DEF: "Каренская национально-освободительная армия"
+ #KAR_ARMY_ADJ: "Каренск."
+
+ #RAM_ARMY: "Монская национально-освободительная армия"
+ #RAM_ARMY_DEF: "Монская национально-освободительная армия"
+ #RAM_ARMY_ADJ: "Монск."
+
+ #SHA_ARMY: "Армия штата Шан"
+ #SHA_ARMY_DEF: "Армия штата Шан"
+ #SHA_ARMY_ADJ: "Шанск."
+
+#Guangxi IJA
+GUX_IJA: "Зона умиротворения Гуанси"
+GUX_IJA_DEF: "Зона умиротворения Гуанси"
+GUX_IJA_ADJ: "Гуансийск"
+
+#Xinjiang IJA
+XIN_IJA: "Провинция Синьцзян"
+XIN_IJA_DEF: "Провинция Синьцзян"
+XIN_IJA_ADJ: "Синьцзянск"
+
+# WAC
+
+PAR_SOLER: "Парагвай"
+PAR_SOLER_DEF: "Социалистическая Республика Парагвай"
+PAR_SOLER_ADJ: "Парагвайск"
+
+ARG_confederation: "Аргентинская Конфедерация"
+ARG_confederation_DEF: "Конфедерация хустисиалистов Аргентины"
+ARG_confederation_ADJ: "Аргетинск"
+
+CHL_fascist: "Чилийское Государство"
+CHL_fascist_DEF: "Чилийское Государство"
+CHL_fascist_ADJ: "Чилийское Государство"
+
+STC_banzer_war: "Восточная Армия"
+STC_banzer_war_DEF: "Боливийская восточная армия"
+STC_banzer_peace_DEF: "Боливийский Союз"
+
+STC_oriental_republic_DEF: "Восточная Республика Санта-Крус"
+
+# France
+ FRA_republic: "Французская Республика"
+ FRA_republic_DEF: "Французская Республика"
+ FRA_kingdom: "Королевство Франция"
+ FRA_kingdom_DEF: "Королевство Франция"
+
+ FRA_FFR: "Французская Республика"
+ FRA_FFR_DEF: "Французская Республика"
+ FRA_FFR_ADJ: "Французск"
+
+ MAC_peoples_republic: "Македония"
+ MAC_peoples_republic_DEF: "Народная Республика Македония"
+ MAC_peoples_republic_ADJ: "Македонск"
+
+ BUL_republic_communist: "Народная Республика Болгария"
+ BUL_republic_communist_DEF: "Народная Республика Болгария"
+ BUL_republic_socialist: "Республика Болгария"
+ BUL_republic_socialist_DEF: "Республика Болгария"
+ BUL_republic_paternalism: "Независимая Республика Болгария"
+ BUL_republic_paternalism_DEF: "Независимая Республика Болгария"
+ BUL_republic_ADJ: "Болгарск"
+ 
+ CLL_unification: "Республика Колумбия"
+ CLL_unification_DEF: "Республика Колумбия"
+ CLL_unification_ADJ: "Колумбийск"
+ CLL_Partisans: "Объединенный демократический фронт"
+ CLL_Partisans_DEF: "Объединенный демократический фронт" 
+ CLL_CCW3: "Демократическая Республика Колумбия"
+ CLL_CCW3_DEF: "Демократическая Республика Колумбия"
+ 
+ CLL_communist_coup: "Рабочая Республика Колумбия"
+ CLL_communist_coup_DEF: "Рабочая Республика Колумбия"
+ CLL_communist_coup_ADJ: "Колумбийск" 
+
+ CLC_unification_despotist: "Конфедерация городов Новой Гранады"
+ CLC_unification_despotist_DEF: "Конфедерация городов Новой Гранады"
+ CLC_unification_fascist: "Государство Новая Гранада"
+ CLC_unification_fascist_DEF: "Государство Новая Гранада"
+ CLC_unification_national_socialism: "Католическое государство Новая Гранада"
+ CLC_unification_national_socialism_DEF: "Католическое государство Новая Гранада"
+ CLC_unification_catholic: "Католическая республика Новая Гранада"
+ CLC_unification_catholic_DEF: "Католическая республика Новая Гранада"
+ CLC_unification_ultranationalism: "Священное царство Новой Гранады"
+ CLC_unification_ultranationalism_DEF: "Священное царство Новой Гранады"
+ CLC_unification_ADJ: "Новогранадск"
+ CLC_CCW2: "Национал-социалистическая лига"
+ CLC_CCW2_DEF: "Национал-социалистическая лига"
+ CLC_Nazis: "Народное государство Колумбия"
+ CLC_Nazis_DEF: "Народное государство Колумбия"
+
+ CLD_unification: "Свободное государство Колумбия"
+ CLD_unification_DEF: "Свободное государство Колумбия"
+ CLD_unification_ADJ: "Колумбийск"
+ CLD_CCW3: "Боливарская Республика Колумбия"
+ CLD_CCW3_DEF: "Боливарская Республика Колумбия"
+ 
+ KAZ_Tashenev: "Народная Республика Казахстан"
+ KAZ_Tashenev_DEF: "Народная Республика Казахстан"
+ KAZ_Tashenev_ADJ: "Казахск"
+ 
+ KZR_Shchelokov_1: "Организация по сохранению Советского Союза"
+ KZR_Shchelokov_1_DEF: "Организация по сохранению Советского Союза"
+ KZR_Shchelokov_1_ADJ: "Казахско-русск"
+ 
+ KZR_Shchelokov_2: "Алма-Атинская автономия"
+ KZR_Shchelokov_2_DEF: "Алма-Атинская автономия"
+ KZR_Shchelokov_2_ADJ: "Казахско-русск"
+ 
+ KZR_Solomentsev: "Казахская Советская Социалистическая Республика"
+ KZR_Solomentsev_DEF: "Казахская Советская Социалистическая Республика"
+ KZR_Solomentsev_ADJ: "Казахско-русск"
+ 
+ KAZ_Nurmagambetov_1: "Силы обороны Казахстана"
+ KAZ_Nurmagambetov_1_DEF: "Силы обороны Казахстана"
+ KAZ_Nurmagambetov_1_ADJ: "Казахск"
+ 
+ KAZ_Nurmagambetov_2: "Республика Казахстан"
+ KAZ_Nurmagambetov_2_DEF: "Республика Казахстан"
+ KAZ_Nurmagambetov_2_ADJ: "Казахск"
+ 
+ CME_PACIFICA: "Бретань-Каролина"
+ CME_PACIFICA_DEF: "Конфедеративные штаты Бретани и Северной Каролины"
+ CME_PACIFICA_ADJ: "Бретань-Каролинск"
+ CME_PACIFICA_party: "Центральный разработчик"
