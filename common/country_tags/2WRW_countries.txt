@@ -9,6 +9,7 @@ HRC = "countries/Germany - Proper.txt"			# Hamburg Revolutionary Council
 GMA = "countries/Germany - Proper.txt"			# German Military Authority
 SFK = "countries/Germany - SS.txt"				# Silesian Freikorps
 OZW = "countries/Germany - Europe.txt"			# Operation Zone Warschau
+WLL = "countries/Germany - Europe.txt"			# Grand Duchy of Wallonia
 HUD = "countries/East Europe - Pakt.txt"		# Republic of Hungary
 HUS = "countries/East Europe - Pakt.txt"		# Hungarian People's Republic
 MON = "countries/China.txt"						# Mongolia

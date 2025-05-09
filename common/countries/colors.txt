@@ -78,8 +78,8 @@ CRN = {
 	color_ui = rgb { 51 51 51 }
 }
 HOL = {
-	color = rgb { 60 60 60 }
-	color_ui = rgb { 60 60 60 }
+	color = rgb { 114 100 89 }
+	color_ui = rgb { 114 100 89 }
 }
 DEN = {
 	color = rgb { 112 97 89 }
@@ -2312,4 +2312,10 @@ GFA = {
 	color = rgb { 83 124 107 }
 	color_ui = rgb { 83 124 107 }
 }
+
+WLL = {
+	color = rgb { 70 0 32 }
+	color_ui = rgb { 60 60 60 }
+}
+
 ### END 2WRW ###

@@ -147,6 +147,13 @@ ideologies = {
 		ai_neutral = yes
 		can_be_boosted = no
 	}
+	ultranationalism_1 = {
+		types = { ultranationalism_1_subtype = {} }
+		dynamic_faction_names = {}
+		color = { 35 35 35 }
+		ai_neutral = yes
+		can_be_boosted = no
+	}
 
 	########################################
 	#               Despotism              #

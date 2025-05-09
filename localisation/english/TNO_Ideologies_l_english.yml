@@ -614,3 +614,10 @@ communist_4_noun:0 "§Y[?communist_4_var.GetTokenLocalizedKey]§!"
 communist_4_desc:0 "$communist$"
 communist_4_subtype_desc:0 "$communist_subtype_desc$"
 communist_4_drift:0 "Daily §Y[?communist_4_var.GetTokenLocalizedKey]§! Support"
+
+### Ultranationalism ###
+ultranationalism_1:0 "$ultranationalism$"
+ultranationalism_1_noun:0 "§Y[?ultranationalism_1_var.GetTokenLocalizedKey]§!"
+ultranationalism_1_desc:0 "$ultranationalism$"
+ultranationalism_1_subtype_desc:0 "$ultranationalism_subtype_desc$"
+ultranationalism_1_drift:0 "Daily §Y[?ultranationalism_1_var.GetTokenLocalizedKey]§! Support"
