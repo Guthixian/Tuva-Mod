@@ -4,3 +4,465 @@ SE_RUSSIAN_REUNIFICATION_PRC: "ОБЪЕДИНЕНИЕ РОССИИ"
 SE_RUSSIAN_REUNIFICATION_PRC_D: "Работа милиции, как искусство, литература, призвана внушить людям непоколебимый оптимизм, веру в лучшие проявления человеческих душ, стремлений, желаний, помыслов. \n- Nikolai Shchelokov"
 SE_RUSSIAN_REUNIFICATION_PRC_A: "За Союз!"
 TNO_SE_RUSSIAN_REUNIFICATION_PRC: "ОБЪЕДИНЕНИЕ РОССИИ"
+
+SE_GERMAN_CIVIL_WAR: "ГРАЖДАНСКАЯ ВОЙНА В ГЕРМАНИИ"
+SE_GERMAN_CIVIL_WAR_D: "Таким образом, необходимо, чтобы индивид в конце концов осознал, что его собственное эго не имеет никакого значения в сравнении с выживанием нации.\n- Адольф Гитлер"
+SE_GERMAN_CIVIL_WAR_A: "Итак, началось"
+TNO_SE_GERMAN_CIVIL_WAR: "ГРАЖДАНСКАЯ ВОЙНА В ГЕРМАНИИ"
+
+SE_SOUTH_AFRICAN_WAR: "ЮЖНО-АФРИКАНСКАЯ ВОЙНА"
+SE_SOUTH_AFRICAN_WAR_D: "Никто не начинает войну - или, вернее, никто в здравом уме не должен этого делать, не выяснив предварительно, чего он намерен добиться этой войной и как он намерен её вести.\n- Карл фон Клаузевиц"
+SE_SOUTH_AFRICAN_WAR_A: "Принцип домино"
+TNO_SE_SOUTH_AFRICAN_WAR: "ЮЖНО-АФРИКАНСКАЯ ВОЙНА"
+
+SE_SOUTH_AFRICAN_WAR_BRAZIL_D: "Жизнь без борьбы - это мертвое море во вселенском организме.\n- Машаду де Ассис"
+SE_SOUTH_AFRICAN_WAR_BRAZIL_A: "Колесо сансары"
+TNO_SE_SOUTH_AFRICAN_WAR_BRAZIL: "ЮЖНО-АФРИКАНСКАЯ ВОЙНА - БРАЗИЛИЯ"
+
+SE_JAPANESE_ECONOMIC_WAR: "КРИЗИС ЯСУДЫ"
+SE_JAPANESE_ECONOMIC_WAR_D: "Мужчины спокойно стояли у подоконника и ждали своей очереди, чтобы спрыгнуть.\n- Секретарь Токийской биржи"
+SE_JAPANESE_ECONOMIC_WAR_A: "Падение с треском" 
+TNO_SE_JAPANESE_ECONOMIC_WAR: "КРИЗИС ЯСУДЫ"
+
+SE_INDONESIAN_WAR: "ИНДОНЕЗИЙСКАЯ ВОЙНА"
+SE_INDONESIAN_WAR_D: "Мы предпочитаем независимость в бедности рабству в изобилии!\n- Секу Туре"
+SE_INDONESIAN_WAR_A: "Тихий океан горит"
+TNO_SE_INDONESIAN_WAR: "ИНДОНЕЗИЙСКАЯ ВОЙНА"
+
+SE_GREAT_ASIAN_WAR: "ВЕЛИКАЯ АЗИАТСКАЯ ВОЙНА"
+SE_GREAT_ASIAN_WAR_D_1: "У китайцев есть дух бороться с врагом до последней капли крови, решимость вернуть утраченные территории собственными силами и способность стоять на ногах.\n- Мао Цзэдун"
+SE_GREAT_ASIAN_WAR_D_2: "Если и когда начнётся война, где бы или кем бы вы ни были, все обязаны защитить наш дом и дать отпор врагу, у всех должна быть воля к самопожертвованию!\n- Чан Кайши"
+SE_GREAT_ASIAN_WAR_A: "Два солнца, одно небо"
+TNO_SE_GREAT_ASIAN_WAR: "ВЕЛИКАЯ АЗИАТСКАЯ ВОЙНА"
+TNO_SE_GREAT_ASIAN_WAR_2: "ВЕЛИКАЯ АЗИАТСКАЯ ВОЙНА"
+TNO_SE_GREAT_ASIAN_WAR_3: "ВЕЛИКАЯ АЗИАТСКАЯ ВОЙНА"
+
+SE_THE_HALL_INAUGURATION: "ПРЕЗИДЕНТСТВО ХОЛЛА"
+SE_THE_HALL_INAUGURATION_D: ""Новый мир родится снова пепел старого стряхнув,\nВсе вместе мы сильны"\n- Традиционное народное произведение"
+SE_THE_HALL_INAUGURATION_A: "Солидарность навсегда"
+TNO_SE_SHOOT_THEM_DOWN: "ПРЕЗИДЕНТСТВО ХОЛЛА"
+
+SE_THE_YOCKEY_INAUGURATION: "ПРЕЗИДЕНТСТВО ЙОКИ"
+SE_THE_YOCKEY_INAUGURATION_D: ""Всеобщее разложение принципов и нравов, несомненно, опрокинет свободы Америки больше, чем все силы общего врага."\n- Сэмюэл Адамс"
+SE_THE_YOCKEY_INAUGURATION_A: "Это случилось здесь"
+TNO_SE_THE_YOCKEY_PRESIDENCY: "ПРЕЗИДЕНТСТВО ЙОКИ"
+
+#SE_THE_MARS_LANDING: "ВЫСАДКА НА МАРС"
+#SE_THE_MARS_LANDING_D: ""Земля - колыбель человечества, но человечество не может оставаться в колыбели вечно."\n- Константин Циолковский"
+#SE_THE_MARS_LANDING_A: "Путешествие начинается"
+#TNO_SE_MARS_LANDING: "ВЫСАДКА НА МАРС"
+
+SE_NUCLEAR_WAR: "ЯДЕРНАЯ ВОЙНА"
+SE_NUCLEAR_WAR_D: ""
+SE_NUCLEAR_WAR_A: "До свидания"
+TNO_SE_NUCLEAR_WAR: "ЯДЕРНАЯ ВОЙНА"
+
+SE_WW3: "ТРЕТЬЯ МИРОВАЯ ВОЙНА"
+SE_WW3_D: "Я разрушаю свои мосты позади себя... Тогда нет другого выбора, кроме как двигаться вперёд.\n- Фритьоф Нансен"
+SE_WW3_A: "И вот мы идём"
+TNO_SE_WW3: "ТРЕТЬЯ МИРОВАЯ ВОЙНА"
+
+#SE_GERMAN_ITALIAN_INVASION: "ОПЕРАЦИЯ ГЕЙЗЕРИХ"
+#SE_GERMAN_ITALIAN_INVASION_D: "В Европе будет господствовать Германия. Побеждённые государства будут не более чем колониями.\n- Бенито Муссолини"
+#SE_GERMAN_ITALIAN_INVASION_A: "Последний бой Европы"
+#TNO_SE_GERMAN_ITALIAN_INVASION: "ОПЕРАЦИЯ ГЕЙЗЕРИХ"
+
+SE_IBERIAN_WARS: "ИБЕРИЙСКИЕ ВОЙНЫ"
+SE_IBERIAN_WARS_D: "В войне нет ни победителей, ни побеждённых - только жертвы.\n- Мишель дель Кастильо"
+SE_IBERIAN_WARS_A: "Сумерки в Иберии"
+TNO_SE_IBERIAN_WARS: "ИБЕРИЙСКИЕ ВОЙНЫ"
+
+SE_OIL_CRISIS: "НЕФТЯНОЙ КРИЗИС"
+SE_OIL_CRISIS_D: "Людям не нужны слова - им нужен звук битвы - битвы судьбы.\n- Гамаль Абдель Насер"
+SE_OIL_CRISIS_A: "Кровь и песок"
+TNO_SE_OIL_CRISIS: "НЕФТЯНОЙ КРИЗИС"
+
+#SE_ORDER_44: "ПРИКАЗ 44"
+#SE_ORDER_44_D: "Путь воина можно найти в смерти.\n- Ямамото Цунэтомо"
+#SE_ORDER_44_A: "Всё сводится к этому"
+#TNO_SE_ORDER_44: "ПРИКАЗ 44"
+
+SE_SLAVE_REVOLT: "ВОССТАНИЕ РАБОВ"
+SE_SLAVE_REVOLT_D: "Да будем мы свободными, как предки,\nИ смерть пусть каждый рабству предпочтёт.\nФридрих Шиллер, "Вильгельм Телль""
+SE_SLAVE_REVOLT_A: "Свобода манит"
+TNO_SE_SLAVE_REVOLT: "ВОССТАНИЕ РАБОВ"
+
+SE_ZWEITE_NACHT_DER_LANGEN_MESSER: "ВТОРАЯ НОЧЬ ДЛИННЫХ НОЖЕЙ"
+SE_ZWEITE_NACHT_DER_LANGEN_MESSER_D: "Жизнь не прощает слабости.\n- Адольф Гитлер"
+SE_ZWEITE_NACHT_DER_LANGEN_MESSER_A: "Чтобы длиться вечно"
+TNO_SE_ZWEITE_NACHT_DER_LANGEN_MESSER: "ВТОРАЯ НОЧЬ ДЛИННЫХ НОЖЕЙ"
+
+SE_THE_JUNE_OF_DECEIT: "ИЮНЬ ОБМАНА"
+SE_THE_JUNE_OF_DECEIT_D: "Ситуация очень серьёзная...\nНелояльность, кажется, берёт верх повсюду...\nРейхсканцелярия в груде обломков.\n- Мартин Борман в своей последней телеграмме"
+SE_THE_JUNE_OF_DECEIT_A: "Чтобы длиться вечно"
+TNO_SE_JUNE_OF_DECEIT: "ИЮНЬ ОБМАНА"
+
+SE_PF: "ВЗРЫВ НА ПЬЯЦЦА ФОНТАНА"
+SE_PF_D: "На рассвете умирает не просто ночь, а человек и его становление, и тёплая кровь, окрашивающая мостовую, - это слово, которое только начинается.\n- Риккардо Маннерини"
+SE_PF_A: "Конец осени"
+TNO_SE_ITALY_PF: "ВЗРЫВ НА ПЬЯЦЦА ФОНТАНА"
+
+SE_RUSSIAN_REUNIFICATION_SVERDLOVSK_BATOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_SVERDLOVSK_BATOV_D: "Одна минута может решить исход сражения, один час - исход кампании, а один день - судьбу страны.\n- Александ Суворов"
+SE_RUSSIAN_REUNIFICATION_SVERDLOVSK_BATOV_A: "Служить России"
+TNO_SE_RUSSIAN_REUNIFICATION_SVERDLOVSK_BATOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_WRRF_TUKHA: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_WRRF_TUKHA_D: "Война может быть закончена только с приходом к власти диктатуры пролетариата, так как буржуазия не позволит социалистическому острову жить в мире.\n- Михаил Тухачевский"
+SE_RUSSIAN_REUNIFICATION_WRRF_TUKHA_A: "Красный рассвет"
+TNO_SE_RUSSIAN_REUNIFICATION_WRRF_TUKHA: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_WRRF_ZHUKOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_WRRF_ZHUKOV_D: "Мы сделаем всё возможное, чтобы обеспечить мир... но если война будет навязана нам, мы будем вместе плечом к плечу, как в прошлой войне, бороться за счастье человечества.\n- Георгий Жуков"
+SE_RUSSIAN_REUNIFICATION_WRRF_ZHUKOV_A: "Красный рассвет"
+TNO_SE_RUSSIAN_REUNIFICATION_WRRF_ZHUKOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_KOMI_TABORITSKY: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_KOMI_TABORITSKY_D: "Пусть погибнет мир, но восторжествует правосудие.\n- Фердинанд I, Император Священной Римской Империи"
+SE_RUSSIAN_REUNIFICATION_KOMI_TABORITSKY_A: "Одиннадцатый час"
+TNO_SE_RUSSIAN_REUNIFICATION_KOMI_TABBY: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_VYATKA_LIBDEM: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_VYATKA_LIBDEM_D: "Монархия, управляемая с бесконечной мудростью и бесконечной благосклонностью, является самым совершенным из всех возможных правительств.\n- Эзра Стайлз"
+SE_RUSSIAN_REUNIFICATION_VYATKA_LIBDEM_A: "Новая империя"
+TNO_SE_RUSSIAN_REUNIFICATION_VYATKA_GUL: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_VYATKA_CONDEM: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_VYATKA_CONDEM_D: "Закон природы... есть свобода каждого человека использовать свою собственную силу, как он сам того хочет, для сохранения своей собственной природы, то есть своей собственной жизни.\n- Томас Гоббс"
+SE_RUSSIAN_REUNIFICATION_VYATKA_CONDEM_A: "Жизнь - это цикл"
+TNO_SE_RUSSIAN_REUNIFICATION_VYATKA_SHULGIN: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_VYATKA_AUTHDEM: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_VYATKA_AUTHDEM_D: "Насколько это возможно, князь должен держаться пути добра, но, если возникнет необходимость, он должен знать, как следовать злу.\n- Никколо Макиавелли"
+SE_RUSSIAN_REUNIFICATION_VYATKA_AUTHDEM_A: "За Империю"
+TNO_SE_RUSSIAN_REUNIFICATION_VYATKA_SOLZH: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_ARYAN_BROTHERHOOD_VAGNER: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_ARYAN_BROTHERHOOD_VAGNER_D: "Возможно, через сто лет появится великий человек, который даст им шанс на спасение. Он возьмёт меня за образец, воспользуется моими идеями и пойдёт по намеченному мною пути.\n- Адольф Гитлер"
+SE_RUSSIAN_REUNIFICATION_ARYAN_BROTHERHOOD_VAGNER_A: "Триумф воли"
+TNO_SE_RUSSIAN_REUNIFICATION_AB_VAGNER: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_ARYAN_BROTHERHOOD_HYPERBOREA: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_ARYAN_BROTHERHOOD_HYPERBOREA_D: "Гроза грянула над нами; наше естество померкло, ибо не было у нас иного выбора.\n- Фридрих Ницше"
+SE_RUSSIAN_REUNIFICATION_ARYAN_BROTHERHOOD_HYPERBOREA_A: "Слава Перуну"
+TNO_SE_RUSSIAN_REUNIFICATION_AB_YEMELYANOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_SAMARA_ZYKOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_SAMARA_ZYKOV_D: "Мир думает, что русская революция подошла к концу. Не ошибайтесь. Русская революция только начинается.\n- Александр Керенский"
+SE_RUSSIAN_REUNIFICATION_SAMARA_ZYKOV_A: "Из тьмы - свет"
+TNO_SE_RUSSIAN_REUNIFICATION_SAMARA_ZYKOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_SAMARA_BUNYACHENKO: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_SAMARA_BUNYACHENKO_D: "Не выпускайте из рук полученного оружия, боритесь с врагами народа. Вас ждут замученные народы России. Освободите их!\n- Андрей Власов"
+SE_RUSSIAN_REUNIFICATION_SAMARA_BUNYACHENKO_A: "Конец слабости"
+TNO_SE_RUSSIAN_REUNIFICATION_SAMARA_BUNYA: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_SAMARA_OKTAN: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_SAMARA_OKTAN_D: "Думая получить сразу всё золото, которое может дать гусыня, он зарезал её и вскрыл, но ничего не нашёл.\n- Эзоп"
+SE_RUSSIAN_REUNIFICATION_SAMARA_OKTAN_A: "Солдатское богатство"
+TNO_SE_RUSSIAN_REUNIFICATION_SAMARA_OKTAN: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_OMSK: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_OMSK_D: "Ненависть к вторгшемуся врагу - самое священное и гуманное чувство. Но оно рождается с такой болью сердца и муками души, что не дай Бог кому-нибудь испытать его во второй раз.\n- Павел Батов"
+SE_RUSSIAN_REUNIFICATION_OMSK_A: "Начало конца"
+TNO_SE_RUSSIAN_REUNIFICATION_OMSK: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_KEMEROVO_YURIY: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_KEMEROVO_YURIY_D: "Солдатские желудки не довольствуются пустыми обещаниями и надеждами.\n- Пётр Великий"
+SE_RUSSIAN_REUNIFICATION_KEMEROVO_YURIY_A: "Да здравствует Царь!"
+TNO_SE_RUSSIAN_REUNIFICATION_KEMEROVO_YURIY: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_KEMEROVO_LYDIA: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_KEMEROVO_LYDIA_D: "Вы, философы, счастливчики. Вы пишете на бумаге, а бумага всё стерпит. Несчастная императрица, я пишу на чувствительной коже живых существ.\n- Екатерина Великая"
+SE_RUSSIAN_REUNIFICATION_KEMEROVO_LYDIA_A: "Да здравствует Царь!"
+TNO_SE_RUSSIAN_REUNIFICATION_KEMEROVO_LYDIA: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_SBA_DESPOTIST: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_SBA_DESPOTIST_D: "Проблема тем более трудна для решения, что существует очень много людей, которые являются одновременно "бандитами" и "анархистами".\n- Георгий Плеханов"
+SE_RUSSIAN_REUNIFICATION_SBA_DESPOTIST_A: "Едем дальше"
+TNO_SE_RUSSIAN_REUNIFICATION_SBA_DESPOT: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_SBA_LIBSOC: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_SBA_LIBSOC_D: "Под анархистским духом я подразумеваю то глубоко человеческое чувство, которое стремится к всеобщему благу, к свободе и справедливости для всех, к солидарности и любви между людьми.\n- Эррико Малатеста"
+SE_RUSSIAN_REUNIFICATION_SBA_LIBSOC_A: "Ни богов, ни господ"
+TNO_SE_RUSSIAN_REUNIFICATION_SBA_LIBSOC: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_TYUMEN_KAGANOVICH: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_TYUMEN_KAGANOVICH_D: "Если оппозиция разоружится, всё будет хорошо. Если она откажется разоружиться, мы сами её разоружим.\n- Иосиф Сталин"
+SE_RUSSIAN_REUNIFICATION_TYUMEN_KAGANOVICH_A: "Земля стали"
+TNO_SE_RUSSIAN_REUNIFICATION_TYUMEN_KAGANOVICH: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_TYUMEN_KHRUSHCHEV: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_TYUMEN_KHRUSHCHEV_D: "Мы должны, наконец, понять, что из всего драгоценного капитала в мире самый драгоценный капитал, самый решающий капитал - это люди.\n- Иосиф Сталин"
+SE_RUSSIAN_REUNIFICATION_TYUMEN_KHRUSHCHEV_A: "Мечта о народе"
+TNO_SE_RUSSIAN_REUNIFICATION_TYUMEN_KHRUSHCHEV: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_KOMI_ZHDANOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_KOMI_ZHDANOV_D: "Все наши знания - прошлые, настоящие и будущие - ничто по сравнению с тем, что мы никогда не узнаем.\n- Константин Циолковский"
+SE_RUSSIAN_REUNIFICATION_KOMI_ZHDANOV_A: "Без границ"
+TNO_SE_RUSSIAN_REUNIFICATION_KOMI_ZHDANOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_KOMI_STALINA: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_KOMI_STALINA_D: "Когда вы однажды обрели зрение, невозможно притворяться слепым.\n- Светлана Сталина"
+SE_RUSSIAN_REUNIFICATION_KOMI_STALINA_A: "Нация стали"
+TNO_SE_RUSSIAN_REUNIFICATION_KOMI_STALINA: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_KOMI_BUKHARINA: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_KOMI_BUKHARINA_D: "Трепещите, разбойники! Ваш час пробил. Мир угнетения, рабства и слёз сменяется светлым миром международного братства трудящихся!\n- Александра Коллонтай"
+SE_RUSSIAN_REUNIFICATION_KOMI_BUKHARINA_A: "Новая революция"
+TNO_SE_RUSSIAN_REUNIFICATION_KOMI_BUKHARINA: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_KOMI_GUMMILYOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_KOMI_GUMMILYOV_D: "Он был человеком, рождённым на свет, чтобы потрясать народы, бичом всех стран, который каким-то образом наводил ужас на всё человечество ужасными слухами, ходившими о нём повсюду.\n- Иордан"
+SE_RUSSIAN_REUNIFICATION_KOMI_GUMMILYOV_A: "Зов Евразии"
+TNO_SE_RUSSIAN_REUNIFICATION_KOMI_GUMILYOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_KOMI_SHAFAREVICH: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_KOMI_SHAFAREVICH_D: "Пока сохраняется нравственный тон, солнце нашей славы не зайдёт, не наступит национального упадка и гибели.\n- Фредерик Уильям Робинсон"
+SE_RUSSIAN_REUNIFICATION_KOMI_SHAFAREVICH_A: "Из пепла"
+TNO_SE_RUSSIAN_REUNIFICATION_KOMI_SHAFA: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_KOMI_SEROV: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_KOMI_SEROV_D: "Мы — с вами, но мы — не ваши. Не думайте, что мы изменились, признав ваше красное знамя; мы его признали только потому, что оно зацветает национальными цветами.\n- Николай Устрялов"
+SE_RUSSIAN_REUNIFICATION_KOMI_SEROV_A: "Класс и нация"
+TNO_SE_RUSSIAN_REUNIFICATION_KOMI_SEROV: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_KOMI_SUSLOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_KOMI_SUSLOV_D: "Революцию не делают в белых перчатках.\n- Владимир Ленин"
+SE_RUSSIAN_REUNIFICATION_KOMI_SUSLOV_A: "Красный кулак"
+TNO_SE_RUSSIAN_REUNIFICATION_KOMI_SUSLOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_KOMI_DEMOCRATIC: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_KOMI_DEMOCRATIC_D: "Если бы настоящее не было таким ужасным и мрачным, а будущее - таким таинственным и загадочным, можно было бы сойти с ума от радости.\n- Константин Кавелин"
+SE_RUSSIAN_REUNIFICATION_KOMI_DEMOCRATIC_A: "К лучшей истории"
+TNO_SE_RUSSIAN_REUNIFICATION_KOMI_DEMOCRATIC: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_SVERDLOVSK_YELTSIN: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_SVERDLOVSK_YELTSIN_D: "Человек должен жить, как огромное яркое пламя, и гореть так ярко, как только может. В конце концов он сгорит. Но это гораздо лучше, чем жалкий маленький огонёк.\n- Борис Ельцин"
+SE_RUSSIAN_REUNIFICATION_SVERDLOVSK_YELTSIN_A: "Конец эпохи"
+
+SE_RUSSIAN_REUNIFICATION_TOMSK_HUMANIST: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_TOMSK_HUMANIST_D: "Война принесла большое горе и сделала жизнь очень и очень тяжёлой. Но до войны было ещё тяжелее, потому что тогда каждый был одинок в своём горе.\n- Дмитрий Шостакович"
+SE_RUSSIAN_REUNIFICATION_TOMSK_HUMANIST_A: "Русская симфония"
+TNO_SE_RUSSIAN_REUNIFICATION_TOMSK_HUMANISTS: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_TOMSK_BASTILLARDS: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_TOMSK_BASTILLARDS_D: "Меня интересует только "бессмыслица", только то, что не имеет практического смысла. Меня интересует жизнь только в её абсурдных проявлениях.\n- Даниил Хармс"
+SE_RUSSIAN_REUNIFICATION_TOMSK_BASTILLARDS_A: "Порядок и воля"
+TNO_SE_RUSSIAN_REUNIFICATION_TOMSK_BASTILLARDS: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_TOMSK_MODERNISTS: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_TOMSK_MODERNISTS_D: "Всякое прибавление к истинному знанию есть прибавление к человеческой силе.\n- Хорас Манн"
+SE_RUSSIAN_REUNIFICATION_TOMSK_MODERNISTS_A: "К звёздам"
+TNO_SE_RUSSIAN_REUNIFICATION_TOMSK_MODERNISTS: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_TOMSK_DECEMBRISTS: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_TOMSK_DECEMBRISTS_D: "Да, странную, блестящую, неземную перспективу открываешь ты, о Россия, страна моя!\n- Николай Гоголь"
+SE_RUSSIAN_REUNIFICATION_TOMSK_DECEMBRISTS_A: "Мудрость и рост"
+TNO_SE_RUSSIAN_REUNIFICATION_TOMSK_DECEMBRISTS: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_NOVOSIBIRSK_POKRYSHKIN: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_NOVOSIBIRSK_POKRYSHKIN_D: "От вас потребуют поступать неправильно, куда бы вы ни пошли. Это основное условие жизни - быть вынужденным нарушать собственную идентичность.\n- Филипп К. Дик"
+SE_RUSSIAN_REUNIFICATION_NOVOSIBIRSK_POKRYSHKIN_A: "Земля силы"
+TNO_SE_RUSSIAN_REUNIFICATION_NOVOSIBIRSK_POKRYSHKIN: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_NOVOSIBIRSK_SHUKSHIN: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_NOVOSIBIRSK_SHUKSHIN_D: "Что-то остаётся в нас от Родины такое, что живёт в нас всю жизнь, то радуя, то мучая, и всегда кажется, что мы когда-нибудь увидим её, нашу Родину.\n- Василий Шукшин"
+SE_RUSSIAN_REUNIFICATION_NOVOSIBIRSK_SHUKSHIN_A: "Мечты о Федерации"
+TNO_SE_RUSSIAN_REUNIFICATION_NOVOSIBIRSK_SHUKSHIN: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_PRC: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_PRC_D: "И эта победа означала, что наша Родина выдержала одно из самых тяжелых испытаний в своей истории.\n- Александр Василевский"
+SE_RUSSIAN_REUNIFICATION_PRC_A: "За Союз!"
+TNO_SE_RUSSIAN_REUNIFICATION_PRC: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_IRKUTSK_PARTY: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_IRKUTSK_PARTY_D: "Наша партия, как и всякая другая политическая партия, стремится к политическому господству для себя.\n- Владимир Ленин"
+SE_RUSSIAN_REUNIFICATION_IRKUTSK_PARTY_A: "За Союз!"
+TNO_SE_RUSSIAN_REUNIFICATION_IRKUTSK_PARTY: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_IRKUTSK_STATE: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_IRKUTSK_STATE_D: "Средство может быть оправдано только целью. Но ведь и цель, в свою очередь, должна быть оправдана.\n- Лев Троцкий"
+SE_RUSSIAN_REUNIFICATION_IRKUTSK_STATE_A: "Порядок превыше всего"
+TNO_SE_RUSSIAN_REUNIFICATION_IRKUTSK_STATE: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_BURYATIA_LIBSOC: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_BURYATIA_LIBSOC_D: "Будьте сильны и верьте, что жизнь прекрасна. Будьте позитивными и верьте, что Революция всегда побеждает\n- Валерий Саблин"
+SE_RUSSIAN_REUNIFICATION_BURYATIA_LIBSOC_A: "Ленин снова жив"
+TNO_SE_RUSSIAN_REUNIFICATION_BURYATIA_LIBSOC: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_BURYATIA_AUTHSOC: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_BURYATIA_AUTHSOC_D: "Моими действиями руководит только одно желание — сделать, что в моих силах, чтобы народ наш, хороший, могучий народ Родины нашей, разбудить от политической спячки.\n- Валерий Саблин"
+SE_RUSSIAN_REUNIFICATION_BURYATIA_AUTHSOC_A: "Ленин снова жив"
+TNO_SE_RUSSIAN_REUNIFICATION_BURYATIA_AUTHSOC: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_CHITA_STRATOCRATIC: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_CHITA_STRATOCRATIC_D: "У России есть только два союзника: армия и флот.\n- Александр III"
+SE_RUSSIAN_REUNIFICATION_CHITA_STRATOCRATIC_A: "Боже, Царя храни"
+TNO_SE_RUSSIAN_REUNIFICATION_CHITA_SHEPUNOV: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_CHITA_IMPERIAL: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_CHITA_IMPERIAL_D: "Каким бы обречённым ни был человек, у него всё ещё есть свобода мысли, которая может пронести его через прошлое и будущее, единственный атрибут, который никогда не может быть отнят тираном или обстоятельствами.\n- Дмитрий Волкогонов"
+SE_RUSSIAN_REUNIFICATION_CHITA_IMPERIAL_A: "Боже, Царя храни"
+TNO_SE_RUSSIAN_REUNIFICATION_CHITA_MIKHAIL: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_AMUR: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_AMUR_D: "Не сгибайтесь, не поддавайтесь, не пытайтесь, чтобы всё выглядело логичным, не меняйте свою душу в соответствии с веяниями моды. Вместо этого, будьте одержимы своими самыми сильными идеями и следуйте им несмотря ни на что.\n- Франц Кафка"
+SE_RUSSIAN_REUNIFICATION_AMUR_A: "Слава России"
+TNO_SE_RUSSIAN_REUNIFICATION_AMUR: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_MAGADAN_MATKOVSKY: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_MAGADAN_MATKOVSKY_D: "Сила приходит к сильному человеку сама собой. Мы примем нашу свободу и наши законы от русского патриота, который ведет Россию к спасению.\n- Иван Ильин"
+SE_RUSSIAN_REUNIFICATION_MAGADAN_MATKOVSKY_A: "Воля к власти"
+TNO_SE_RUSSIAN_REUNIFICATION_MAGADAN_MATKOVSKY: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_MAGADAN_PETLIN: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_MAGADAN_PETLIN_D: "Во дни сомнений, во дни тягостных раздумий о судьбах моей родины, — ты одна мне поддержка и опора, о великая, могучая, правдивая и свободная Россия!\n- Иван Тургенев"
+SE_RUSSIAN_REUNIFICATION_MAGADAN_PETLIN_A: "Земля свободы"
+TNO_SE_RUSSIAN_REUNIFICATION_MAGADAN_PETLIN: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_MAGADAN_WERBELL: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_MAGADAN_WERBELL_D: "Если кто-то держит своё государство, основанное на наёмниках, он не будет в безопасности или в мире; ибо они разделены, честолюбивы и лишены дисциплины... они не боятся Бога и не верны ближним...\n- Никколо Макиавелли"
+SE_RUSSIAN_REUNIFICATION_MAGADAN_WERBELL_A: "Богатство и слава"
+TNO_SE_RUSSIAN_REUNIFICATION_MAGADAN_WERBELL: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_FATHER_MEN: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_FATHER_MEN_D: "Сейчас я работаю так, как работал всегда: лицом к ветру... Я всего лишь инструмент, в оуках Спасителя. В конце концов, всё будет по воле Божьей.\n- Александр Мень"
+SE_RUSSIAN_REUNIFICATION_FATHER_MEN_A: "Блаженны кроткие"
+TNO_SE_RUSSIAN_REUNIFICATION_FATHER: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+#SE_GERMAN_WARLORD_ERA: "КРАХ ГЕРМАНИИ"
+#SE_GERMAN_WARLORD_ERA_D: "Нам не хватало самообладания. Мы не признавали никаких границ. В противном случае Рейх просуществовал бы более четырёх десятилетий\n- Вильгельм Фрик"
+#SE_GERMAN_WARLORD_ERA_A: "Это конец..."
+#TNO_SE_GERMAN_WARLORD_ERA: "КРАХ ГЕРМАНИИ"
+
+#SE_FALL_ROCKWELL: "ПЛАН РОКУЭЛЛ"
+#SE_FALL_ROCKWELL_D: ""Он протрубил в трубу, которая никогда не призовёт к отступлению;\nОн просеивает сердца людей перед\nCвоим судилищем;"\n- Джулия Уорд Хоу"
+#SE_FALL_ROCKWELL_A: "Панихида по свободе"
+TNO_SE_FALLROCKWELL: "ПЛАН РОКУЭЛЛ"
+
+SE_FALL_SCHWARZ: "ПЛАН ШВАРЦ"
+SE_FALL_SCHWARZ_D: "Мятежи подавляются в соответствии с вечными и неизменными железными законами.\n- Адольф Гитлер"
+SE_FALL_SCHWARZ_A: "Концы в воду"
+TNO_SE_FALLSCHWARZ: "ПЛАН ШВАРЦ"
+
+#SE_FALL_ROT: "ПЛАН РОТ"
+#SE_FALL_ROT_D: "Те, кто хочет жить, пусть сражаются, а те, кто не хочет сражаться в этом мире вечной борьбы, не заслуживают того, чтобы жить.\n- Адольф Гитлер"
+#SE_FALL_ROT_A: "Последняя война"
+#TNO_SE_FALLROT: "ПЛАН РОТ"
+
+#SE_FALL_DAMMERUNG: "ПЛАН ДЭММЕРУНГ"
+#SE_FALL_DAMMERUNG_D: "Если мы так высоко ценим достоинство жизни, как мы можем не ценить достоинство смерти? Ни одну смерть нельзя назвать бесполезной.\n- Юкио Мисима"
+#SE_FALL_DAMMERUNG_A: "Столкновение цивилизаций"
+#TNO_SE_FALLDAMMERUNG: "ПЛАН ДЭММЕРУНГ"
+
+SE_BRITISH_REUNIFICATION: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+SE_BRITISH_REUNIFICATION_D: "Правь, Британия! Британия, правь волнами!\nБританцы никогда не станут рабами.\n- Популярная патриотическая песня"
+SE_BRITISH_REUNIFICATION_A: "Правь, Британия"
+tno_british_reunification: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+
+SE_BRITISH_REUNIFICATION_THATCHER: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+SE_BRITISH_REUNIFICATION_THATCHER_D: "Важно не то, что они думают обо мне, а то, что я думаю о них.\n- Королева Виктория"
+SE_BRITISH_REUNIFICATION_THATCHER_A: "Правь, Британия"
+TNO_SE_BRITISH_REUNIFICATION_THATCHER: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+
+SE_BRITISH_REUNIFICATION_MAC: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+SE_BRITISH_REUNIFICATION_MAC_D: "У меня нет особой блестящей безделушки или пера в шапке, чтобы толпы глазели на меня или преклоняли колени, но у меня есть сила и решимость, чтобы враги трепетали.\n- Оливер Кромвель"
+SE_BRITISH_REUNIFICATION_MAC_A: "Свет из тьмы"
+TNO_SE_BRITISH_REUNIFICATION_SUPERMAC: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+
+SE_BRITISH_REUNIFICATION_MAUDLING: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+SE_BRITISH_REUNIFICATION_MAUDLING_D: "Демократия - это правление народа, избранное народом и для народа.\n- Авраам Линкольн"
+SE_BRITISH_REUNIFICATION_MAUDLING_A: "Демократия манит"
+TNO_SE_BRITISH_REUNIFICATION_MAUDLING: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+
+#SE_BRITISH_REUNIFICATION_CHES: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+#SE_BRITISH_REUNIFICATION_CHES_D: "Угрожайте нам, сражайтесь с нами, оскорбляйте нас. Мы будем продолжать идти, и вы нас не остановите.\n- Джон Тиндалл"
+#SE_BRITISH_REUNIFICATION_CHES_A: "Они отыгрались"
+#TNO_SE_BRITISH_REUNIFICATION_CHESTERTON: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+
+SE_BRITISH_REUNIFICATION_WILSON: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+SE_BRITISH_REUNIFICATION_WILSON_D: "Поднимитесь как львы ото сна, в непобедимом количестве. Скиньте свои цепи на землю как росу во сне. Ибо вас много, а их мало.\n- Перси Биши Шелли"
+SE_BRITISH_REUNIFICATION_WILSON_A: "Кэйбл-стрит отомщена"
+TNO_SE_BRITISH_REUNIFICATION_WILSON: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+
+#SE_BRITISH_REUNIFICATION_BIRCH: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+#SE_BRITISH_REUNIFICATION_BIRCH_D: "Не парламент, а только рабочие Советы могут быть орудием достижения целей пролетариата, и, конечно, те, кто не понял этого до сих пор, суть злейшие реакционеры.\n- Владимир Ленин"
+#SE_BRITISH_REUNIFICATION_BIRCH_A: "Гордость Ленина"
+#TNO_SE_BRITISH_REUNIFICATION_BIRCH: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+
+SE_BRITISH_REUNIFICATION_JELLICOE: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+SE_BRITISH_REUNIFICATION_JELLICOE_D: "Зачем тебе быть моряком? В политике бывают такие бури, каких никогда не встретишь на море. Пиратство, бортовые залпы, кровь на палубах. Вы найдёте их все в политике.\n- Дэвид Ллойд Джордж"
+SE_BRITISH_REUNIFICATION_JELLICOE_A: "Возвращение старого"
+TNO_SE_BRITISH_REUNIFICATION_JELLICOE: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+
+#SE_BRITISH_REUNIFICATION_STIRLING: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+#SE_BRITISH_REUNIFICATION_STIRLING_D: "Железная рука сокрушила голову тирана и стала тираном вместо него.\n- Уильям Блейк"
+#SE_BRITISH_REUNIFICATION_STIRLING_A: "Кто рискует, побеждает"
+#TNO_SE_BRITISH_REUNIFICATION_STIRLING: "ВОССОЕДИНЕНИЕ БРИТАНИИ"
+
+SE_HUTTIG_COLLAPSE: "КОНЕЦ РЕЙХСШТААТА"
+SE_HUTTIG_COLLAPSE_D: "Ваша сила - это просто случайность, возникающая из слабости других.\n- Джозеф Конрад"
+SE_HUTTIG_COLLAPSE_A: "Африка дышит"
+TNO_SE_HUTTIG_COLLAPSE: "КОНЕЦ РЕЙХСШТААТА"
+
+SE_THE_AFRICAN_DEVASTATION: "АФРИКАНСКОЕ ОПУСТОШЕНИЕ"
+SE_THE_AFRICAN_DEVASTATION_D: "Моя вина в том, что я всё ещё здесь. В этом моя вина.\n- Франц Штангль"
+SE_THE_AFRICAN_DEVASTATION_A: "Ужас! У-"
+TNO_SE_THE_AFRICAN_DEVASTATION: "АФРИКАНСКОЕ ОПУСТОШЕНИЕ"
+
+SE_THE_AFRICAN_CRISIS: "АФРИКАНСКИЙ КРИЗИС"
+SE_THE_AFRICAN_CRISIS_D: "Империализм оставляет после себя зародыши гнили, которые мы должны клинически обнаружить и удалить не только с нашей земли, но и из наших умов.\n- Франц Фанон"
+SE_THE_AFRICAN_CRISIS_A: "Насилие - это человек"
+TNO_SE_AFRICAN_CRISIS: "АФРИКАНСКИЙ КРИЗИС"
+
+SE_BURGUNDIAN_SPRING: "БУРГУНДСКАЯ ВЕСНА"
+SE_BURGUNDIAN_SPRING_D: "Не вымаливайте право на жизнь - возьмите его.\n- Неизвестный француз, 1968"
+SE_BURGUNDIAN_SPRING_A: "Это его конец"
+TNO_SE_BURGUNDIAN_SPRING: "БУРГУНДСКАЯ ВЕСНА"
+
+SE_WEST_AFRICAN_WAR: "ЗАПАДНО-АФРИКАНСКАЯ ВОЙНА"
+SE_WEST_AFRICAN_WAR_A: "Африка кровоточит"
+SE_WEST_AFRICAN_WAR_D_1: "Только ликвидация неоколониализма позволит объединить весь континент под властью одного правительства на службе африканского народа.\n- Осенде Афана"
+SE_WEST_AFRICAN_WAR_D_2: "У Вас есть цепочка домино; Вы опрокидываете первую, и что произойдёт с последней? Она упадёт очень быстро.\n- Дуайт Д. Эйзенхауэр"
+SE_WEST_AFRICAN_WAR_D_3: "Верно утверждение, что перед лицом великих опасностей спасение есть только в величии.\n- Шарль де Голль"
+TNO_SE_WEST_AFRICAN_WAR_1: "ЗАПАДНО-АФРИКАНСКАЯ ВОЙНА"
+TNO_SE_WEST_AFRICAN_WAR_2: "ЗАПАДНО-АФРИКАНСКАЯ ВОЙНА"
+TNO_SE_WEST_AFRICAN_WAR_3: "ЗАПАДНО-АФРИКАНСКАЯ ВОЙНА"
+
+SE_JUSHIN_COUP: "КОНЕЦ ЁКУСАНКАЙ"
+SE_JUSHIN_COUP_D: "Император есть глава Империи, соединяющий в себе права верховные и осуществляющий их в согласии с постановлениями настоящей конституции.\n- Статья 4 Конституции Мэйдзи"
+SE_JUSHIN_COUP_A: "Всё кончено"
+TNO_SE_JUSHIN_COUP: "КОНЕЦ ЁКУСАНКАЙ"
+
+SE_MUTOS_COUP: "КОНЕЦ ЁКУСАНКАЙ"
+SE_MUTOS_COUP_D: "Будь то ярость небес или крики земли - сейчас гремит рёв эпохи.\n- Ода реставрации Сёва, 1930"
+SE_MUTOS_COUP_A: "Тучи сгущаются"
+TNO_SE_MUTOS_COUP: "КОНЕЦ ЁКУСАНКАЙ"
+
+SE_FRENCH_RECLAMATION: "ВОЗВРАЩЕНИЕ ФРАНЦИИ"
+SE_FRENCH_RECLAMATION_D: "История не учит фатализму.\n- Шарль де Голль"
+SE_FRENCH_RECLAMATION_A: "Наконец-то дома"
+TNO_SE_FRENCH_RECLAMATION: "ВОЗВРАЩЕНИЕ ФРАНЦИИ"
+
+SE_FRENCH_RECONCILIATION: "ФРАНЦУЗСКОЕ ПРИМИРЕНИЕ"
+SE_FRENCH_RECONCILIATION_D: "Настоящий государственный деятель - это тот, кто готов идти на риск.\n- Шарль де Голль"
+SE_FRENCH_RECONCILIATION_A: "Вновь братья"
+TNO_SE_FRENCH_RECONCILIATION: "ФРАНЦУЗСКОЕ ПРИМИРЕНИЕ"
+
+SE_RUSSIAN_REUNIFICATION_OMOLON_APRILFOOLS: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_OMOLON_APRILFOOLS_D: "Что весёлого в поиске смысла?\n- Дискорд"
+SE_RUSSIAN_REUNIFICATION_OMOLON_APRILFOOLS_A: "Дружба - это чудо"
+TNO_SE_RUSSIAN_REUNIFICATION_PONY_BUKHARIN: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_RUSSIAN_REUNIFICATION_OMOLON_APRILFOOLS_SUNSET: "ВОССОЕДИНЕНИЕ РОССИИ"
+SE_RUSSIAN_REUNIFICATION_OMOLON_APRILFOOLS_SUNSET_D: "Мы можем оставаться разделёнными страхом и недоверием, а можем выбрать дружбу. Мы можем выбрать любовь. Это и есть настоящее чудо.\n- Санни Старскаут"
+SE_RUSSIAN_REUNIFICATION_OMOLON_APRILFOOLS_SUNSET_A: "Дружба - это чудо"
+TNO_SE_RUSSIAN_REUNIFICATION_PONY_BUKHARIN_SUNSET: "ВОССОЕДИНЕНИЕ РОССИИ"
+
+SE_OPERATION_SEALION_2: "ОПЕРАЦИЯ МОРСКОЙ ЛЕВ II"
+SE_OPERATION_SEALION_2_D: "Самая страшная из всех легенд ожила. И вот она стояла, улыбаясь в своем эбеновом величии, с человеческим ребенком, доверчиво покоящимся на ее руках.\n- Артур Ч. Кларк"
+SE_OPERATION_SEALION_2_A: "Что ждет нас?"
+TNO_SE_OPERATION_SEALION_2: "ОПЕРАЦИЯ МОРСКОЙ ЛЕВ II"  
+
+
