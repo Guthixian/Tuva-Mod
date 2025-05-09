@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
-			ideology = national_socialism_technocratic_nazism_subtype
+			ideology = national_socialism_subtype
 			traits = { career_burocrat spineless_politician }
 			expire = "1999.1.1"
 			id = -1
