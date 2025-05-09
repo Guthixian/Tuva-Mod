@@ -1,0 +1,53 @@
+﻿l_russian:
+ ### Country Names ###
+ KZR: "Российский Казахстан"
+ KZR_DEF: "Российский Казахстан"
+ KZR_ADJ: "Российский"
+
+ ### PEOPLE ###
+KZR_Nikolai_Shchelokov: "Николай Щёлоков"
+ POLITICS_NIKOLAI_SHCHELOKOV_DESC: "Казалось бы, что он, обычный бюрократ-карьерист, может сделать для всей России?\n\nЕго планы идут дальше, чем можно было подумать. Находясь в Тыве, они желают пойти дальше: объединить их Родину и показать всем, что именно они – истинные патриоты своей страны. Но путь тернистен, ибо выйти из такой дыры будет сложно.”
+ KZR_Mikhail_Solomentsev: "Михаил Соломенцев"
+ POLITICS_MIKHAIL_SOLOMENTSEV_DESC: "Михаила Сергеевича Соломенцева нетрудно вычислить. Он представляется в виде единственного истинного коммуниста, оставшегося во всем Казахстане. Однако за его плечами безупречной службы всегда нависали истории о беспринципных скандалах, связанных с его браком. Он осуждает "казахский шовинизм" в каждой своей речи, и все же его "Советская группа" работает с открытыми шовинистами, более радикальными, чем любые казахские националисты. Как можно понять человека, который никогда ничего не объясняет себе сам?\n\nОтвет менее интересен, чем можно было бы ожидать. Соломенцев не является радикальным коммунистом. Он тактичен, у него появилось множество союзников, и он просто считает свои взгляды правильными. Для него это норма, которой он придерживался с его далекого назначения на эти земли в те сумеречные годы правления Сталина. Для Соломенцева любовь к России, Сталину и бывшему Союзу - это все одно и то же. Всем этим и был Советский Союз, величайшая страна, которую когда-либо видел этот мир. Страна, которая простиралась и на эти земли.\n\nКазахстану просто необходимо принять эту реальность."
+
+ ### Parties ###
+ KZR_communist_party: "КПК"
+ KZR_communist_party_long: "Коммунистическая Партия Казахстана"
+ KZR_socialist_party: ""
+ KZR_socialist_party_long: ""
+ KZR_progressivism_party: ""
+ KZR_progressivism_party_long: ""
+ KZR_liberalism_party: "Казахские Остатки"
+ KZR_liberalism_party_long: "Казахские Остатки"
+ KZR_conservatism_party: ""
+ KZR_conservatism_party_long: ""
+ KZR_paternalism_party: "Российское Лидерство"
+ KZR_paternalism_party_long: "Российское Лидерство"
+ KZR_despotism_party: ""
+ KZR_despotism_party_long: ""
+ KZR_ultranationalism: ""
+ KZR_ultranationalism_long: ""
+ KZR_fascism_party: ""
+ KZR_fascism_party_long: ""
+ KZR_national_socialism_party: ""
+ KZR_national_socialism_party_long: ""
+ 
+ ### Shchelokov Parties ###
+ KZR_communist_party_shchelokov: "КПК"
+ KZR_communist_party_shchelokov_long: "Коммунистическая Партия Казахстана"
+ KZR_liberalism_party_shchelokov: "Казахские Остатки"
+ KZR_liberalism_party_shchelokov_long: "Казахские Остатки"
+ KZR_paternalism_party_shchelokov: "Организация за Сохранение СССР"
+ KZR_paternalism_party_shchelokov_long: "Организация за Сохранение СССР"
+ KZR_despotism_party_shchelokov: "Военное Лидерство"
+ KZR_despotism_party_shchelokov_long: "Военное Лидерство"
+ KZR_fascism_party_shchelokov: "Защитники Руси"
+ KZR_fascism_party_shchelokov_long: "Защитники Руси"
+ 
+ ### Solomentsev Parties ###
+ KZR_communist_party_solomentsev: "KPK"
+ KZR_communist_party_solomentsev_long: "Коммунистическая Партия Казахстана"
+ KZR_paternalism_party_solomentsev: "Российское Лидерство"
+ KZR_paternalism_party_solomentsev_long: "Российское Лидерство"
+ KZR_liberalism_party_solomentsev: "Казахские Остатки"
+ KZR_liberalism_party_solomentsev_long: "Казахские Остатки"
