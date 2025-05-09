@@ -8296,8 +8296,8 @@ PRC_shchelokov_baltic_occupation = {
 					tno_security_regulated_police
 				}
 				create_country_leader = {
-						name = "Latvian Soviet"
-						picture = "gfx/leaders/RUS/Portrait_RUS_USSR_Provisional_Government.png"
+						name = "Augusts Voss"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Augusts_Voss.png"
 						desc = ""
 						expire = "1999.3.4"
 						ideology = paternalism_anocracy_communist_subtype
