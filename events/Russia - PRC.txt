@@ -1023,14 +1023,14 @@ country_event = { # Brezhnev Successor Roulette 2
 	picture = GFX_report_event_RUS_soviet_symbol
 
 	option = {
-		name = PRC_superregional.19852.a #Gorby
+		name = PRC_superregional.19852.a #Polozkov
 		set_politics = { ruling_party = paternalism
 						elections_allowed = yes
 						last_election = "1980.4.17"
 						election_frequency = 48 }
 		create_country_leader = {
-						name = "Mikhail Gorbachev"
-						picture = "gfx/leaders/Moskowien/Portrait_MSK_Mikhail_Gorbachev_drip.dds"
+						name = "Ivan Polozkov"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Ivan_Polozkov.png"
 						traits = { glasnost_and_perestroika }
 						desc = "POLITICS_MIKHAIL_GORBACHEV_DESC"
 						expire = "1999.3.4"
@@ -1044,14 +1044,14 @@ country_event = { # Brezhnev Successor Roulette 2
 			}
 		}
 	option = {
-		name = PRC_superregional.19852.b #Gorby post reforms
+		name = PRC_superregional.19852.b #Polozkov post reforms
 		set_politics = { ruling_party = paternalism
 						elections_allowed = yes
 						last_election = "1980.4.17"
 						election_frequency = 48 }
 		create_country_leader = {
-						name = "Mikhail Gorbachev"
-						picture = "gfx/leaders/Moskowien/Portrait_MSK_Mikhail_Gorbachev_drip.dds"
+						name = "Ivan Polozkov"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Ivan_Polozkov.png"
 						traits = { glasnost_and_perestroika}
 						desc = "POLITICS_MIKHAIL_GORBACHEV_POSTREFORM_DESC"
 						expire = "1999.3.4"
