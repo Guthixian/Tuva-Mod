@@ -103,4 +103,857 @@
  MSK_PRC: "Московское Правительство Перестройки"
  MSK_PRC_DEF: "Московское Правительство Перестройки"
  MSK_PRC_ADJ: "Московск"
+
+ ### Региональный этап ###
+ #Западная Россия
+ GAY_regional_unifier_despotism: "Государство Ордена Святого Георгия"
+ GAY_regional_unifier_despotism_DEF: "Государство Ордена Святого Георгия"
+ GAY_regional_unifier_despotism_ADJ: "Святогеоргиевск"
+ 
+ VYT_regional_unifier_liberalism: "Западнорусское Княжество"
+ VYT_regional_unifier_liberalism_DEF: "Западнорусское Княжество"
+ VYT_regional_unifier_liberalism_ADJ: "Западнорусск"
+ VYT_regional_unifier_conservatism: "Западнорусское Княжество"
+ VYT_regional_unifier_conservatism_DEF: "Западнорусское Княжество"
+ VYT_regional_unifier_conservatism_ADJ: "Западнорусск"
+ VYT_regional_unifier_paternalism: "Западнорусское Княжество"
+ VYT_regional_unifier_paternalism_DEF: "Западнорусское Княжество"
+ VYT_regional_unifier_paternalism_ADJ: "Западнорусск"
+ VYT_regional_unifier_despotism: "Западнорусское Княжество"
+ VYT_regional_unifier_despotism_DEF: "Западнорусское Княжество"
+ VYT_regional_unifier_despotism_ADJ: "Западнорусск"
+ VYT_le_monbol_has_arrived_communist: "Имперский Советский Союз"
+ VYT_le_monbol_has_arrived_communist_DEF: "Имперский Советский Союз"
+ VYT_le_monbol_has_arrived_communist_ADJ: "Имперскo-Советск"
+ 
+ MAR_regional_unifier_fascism: "Западнорусское Регентство Советов"
+ MAR_regional_unifier_fascism_DEF: "Западнорусское Регентство Советов"
+ MAR_regional_unifier_fascism_ADJ: "Западнорусск"
+ 
+ ##### БЛОК КОМИ ######
+
+ KOM_UNITED_FRONT: "Западнорусский объединённый фронт"
+ KOM_UNITED_FRONT_DEF: "Западнорусский объединённый фронт"
+ KOM_UNITED_FRONT_ADJ: "Западнорусск"
+
+ ### ВАРЛОРДНЫЙ ЭТАП ###
+
+ KOM_WARLORD_LEFT: "Советское Коми"
+ KOM_WARLORD_LEFT_DEF: "Советская республика Коми"
+ KOM_WARLORD_LEFT_ADJ: "Комийск"
+
+ KOM_WARLORD_CENTER: "Республика Коми" 
+ KOM_WARLORD_CENTER_DEF: "Республика Коми"
+ KOM_WARLORD_CENTER_ADJ: "Комийск"
+
+ KOM_WARLORD_STALINA: "Республика Коми"
+ KOM_WARLORD_STALINA_DEF: "Республика Коми"
+ KOM_WARLORD_STALINA_ADJ: "Комийск"
+
+ KOM_WARLORD_RIGHT: "Правительство Усть-Сысольска"
+ KOM_WARLORD_RIGHT_DEF: "Временное правительство Российского государства"
+ KOM_WARLORD_RIGHT_ADJ: "Усть-Сысольск"
+
+ ### РЕГИОНАЛЬНЫЙ ЭТАП ###
+
+ KOM_REGIONAL_SUSLOV: "Западнорусская Советская Республика"
+ KOM_REGIONAL_SUSLOV_DEF: "Западнорусская Советская Республика"
+ KOM_REGIONAL_SUSLOV_ADJ: "Западнорусск"
+
+ KOM_REGIONAL_BUKHARINA: "Западнорусская Советская Республика"
+ KOM_REGIONAL_BUKHARINA_DEF: "Западнорусская Советская Республика"
+ KOM_REGIONAL_BUKHARINA_ADJ: "Западнорусск"
+
+ KOM_REGIONAL_ZHDANOV: "Западнорусская Советская Федерация"
+ KOM_REGIONAL_ZHDANOV_DEF: "Западнорусская Советская Федерация"
+ KOM_REGIONAL_ZHDANOV_ADJ: "Западнорусск"
+
+ KOM_REGIONAL_REPUBLIC: "Западнорусская Республика"
+ KOM_REGIONAL_REPUBLIC_DEF: "Западнорусская Республика"
+ KOM_REGIONAL_REPUBLIC_ADJ: "Западнорусск"
+
+ KOM_REGIONAL_STALINA: "Западнорусское Правительство Восстановления" 
+ KOM_REGIONAL_STALINA_DEF: "Западнорусское Правительство Восстановления"
+ KOM_REGIONAL_STALINA_ADJ: "Западнорусск"
+
+ KOM_REGIONAL_TABORITSKY: "Имперское Регентство Западной России"
+ KOM_REGIONAL_TABORITSKY_DEF: "Имперское Регентство Западной России"
+ KOM_REGIONAL_TABORITSKY_ADJ: "Западнорусск"
+
+ KOM_REGIONAL_SEROV: "Западнорусская Национальная Советская Республика"
+ KOM_REGIONAL_SEROV_DEF: "Западнорусская Национальная Советская Республика"
+ KOM_REGIONAL_SEROV_ADJ: "Западнорусск"
+
+ KOM_REGIONAL_GUMILYOV: "Евразийское Временное Правительство"
+ KOM_REGIONAL_GUMILYOV_DEF: "Евразийское Временное Правительство"
+ KOM_REGIONAL_GUMILYOV_ADJ: "Евразийск"
+
+ KOM_REGIONAL_SHAFAREVICH: "Западнорусская Республика"
+ KOM_REGIONAL_SHAFAREVICH_DEF: "Западнорусская Республика"
+ KOM_REGIONAL_SHAFAREVICH_ADJ: "Западнорусск"
+
+ ### ПОСТРЕГИОНАЛЬНЫЙ ЭТАП ###
+
+ KOM_RUSSIA_SUSLOV: "Союз Советских Социалистических Республик"
+ KOM_RUSSIA_SUSLOV_DEF: "Союз Советских Социалистических Республик"
+ KOM_RUSSIA_SUSLOV_ADJ: "Советск"
+
+ KOM_RUSSIA_BUKHARINA: "Союз Советских Социалистических Республик"
+ KOM_RUSSIA_BUKHARINA_DEF: "Союз Советских Социалистических Республик"
+ KOM_RUSSIA_BUKHARINA_ADJ: "Советск"
+
+ KOM_RUSSIA_ZHDANOV: "Федерация Советских Социалистических Республик" 
+ KOM_RUSSIA_ZHDANOV_DEF: "Федерация Советских Социалистических Республик"
+ KOM_RUSSIA_ZHDANOV_ADJ: "Советск"
+
+ KOM_RUSSIA_REPUBLIC: "Российская Республика"
+ KOM_RUSSIA_REPUBLIC_DEF: "Российская Республика"
+ KOM_RUSSIA_REPUBLIC_ADJ: "Русск"
+
+ KOM_RUSSIA_STALINA: "Российское Правительство Восстановления"
+ KOM_RUSSIA_STALINA_DEF: "Российское Правительство Восстановления"
+ KOM_RUSSIA_STALINA_ADJ: "Русск"
+
+ KOM_RUSSIA_TABORITSKY: "Священная Российская Империя" 
+ KOM_RUSSIA_TABORITSKY_DEF: "Священная Российская Империя"
+ KOM_RUSSIA_TABORITSKY_ADJ: "Русск"
+
+ KOM_RUSSIA_SEROV: "Российская Национальная Советская Республика" 
+ KOM_RUSSIA_SEROV_DEF: "Российская Национальная Советская Республика"
+ KOM_RUSSIA_SEROV_ADJ: "Русск"
+
+ KOM_RUSSIA_GUMILYOV: "Евразийское Государство" 
+ KOM_RUSSIA_GUMILYOV_DEF: "Евразийское Государство"
+ KOM_RUSSIA_GUMILYOV_ADJ: "Евразийск"
+
+ KOM_RUSSIA_SHAFAREVICH: "Российская Республика" 
+ KOM_RUSSIA_SHAFAREVICH_DEF: "Российская Республика"
+ KOM_RUSSIA_SHAFAREVICH_ADJ: "Русск"
+
+ ##### КОНЕЦ БЛОКА КОМИ #####
+
+ ### Только дисплей ###
+ KOM_regional_democratic: "Западнорусская Республика"
+ KOM_regional_bukharina: "Западнорусская Советская Республика"
+ KOM_regional_zhdanov: "Западнорусская Советская Федерация"
+ KOM_regional_suslov: "Западнорусская Советская Республика"
+ KOM_regional_stalina: "Западнорусское Правительство Восстановления"
+ KOM_regional_shafarevich: "Западнорусская Республика"
+ KOM_regional_serov: "Западнорусская Национальная Советская Республика"
+ KOM_regional_gumilyov: "Западноевразийское Временное Правительство"
+ KOM_regional_taboritsky: "Имперское Регентство Западной России"
+ 
+ PRM_regional_unifier_national_socialism: "Очищенное Арийское Братство"
+ PRM_regional_unifier_national_socialism_DEF: "Очищенное Арийское Братство"
+ PRM_regional_unifier_national_socialism_ADJ: "Арийск"
+ PRM_boreal_rus_ultranationalism: "Бореальная Русь"
+ PRM_boreal_rus_ultranationalism_DEF: "Бореальная Русь"
+ PRM_boreal_rus_ultranationalism_ADJ: "Гиперборейск"
+ 
+ SAM_regional_unifier_paternalism: "Временный Комиссариат Западной России"
+ SAM_regional_unifier_paternalism_DEF: "Временный Комиссариат Западной России"
+ SAM_regional_unifier_paternalism_ADJ: "Западнорусск"
+ SAM_regional_unifier_despotism: "Временный Комиссариат Западной России"
+ SAM_regional_unifier_despotism_DEF: "Временный Комиссариат Западной России"
+ SAM_regional_unifier_despotism_ADJ: "Западнорусск"
+ SAM_regional_unifier_fascism: "Временный Комиссариат Западной России"
+ SAM_regional_unifier_fascism_DEF: "Временный Комиссариат Западной России"
+ SAM_regional_unifier_fascism_ADJ: "Западнорусск"
+ SAM_regional_unifier_national_socialism: "Временный Комиссариат Западной России"
+ SAM_regional_unifier_national_socialism_DEF: "Временный Комиссариат Западной России"
+ SAM_regional_unifier_national_socialism_ADJ: "Западнорусск"
+ 
+ VOL_regional_unifier_paternalism: "Западнорусская Нейтральная Зона"
+ VOL_regional_unifier_paternalism_DEF: "Западнорусская Нейтральная Зона"
+ VOL_regional_unifier_paternalism_ADJ: "Западнорусск"
+ 
+ WRS_regional_unifier_communist: "Западнорусский Революционный Фронт"
+ WRS_regional_unifier_communist_DEF: "Западнорусский Революционный Фронт"
+ WRS_regional_unifier_communist_ADJ: "Западнорусск"
+ WRS_regional_unifier_socialist: "Западнорусский Революционный Фронт"
+ WRS_regional_unifier_socialist_DEF: "Западнорусский Революционный Фронт"
+ WRS_regional_unifier_socialist_ADJ: "Западнорусск"
+ WRS_regional_unifier_despotism: "Западнорусский Революционный Фронт"
+ WRS_regional_unifier_despotism_DEF: "Западнорусский Революционный Фронт"
+ WRS_regional_unifier_despotism_ADJ: "Западнорусск"
+ 
+ #Западная Сибирь
+ OMS_regional_unifier_ultranationalism: "Западносибирское Временное Правительство"
+ OMS_regional_unifier_ultranationalism_DEF: "Западносибирское Временное Правительство"
+ OMS_regional_unifier_ultranationalism_ADJ: "Западносибирск"
+ 
+ TYM_regional_unifier_communist: "Западносибирская Народная Республика"
+ TYM_regional_unifier_communist_DEF: "Западносибирская Народная Республика"
+ TYM_regional_unifier_communist_ADJ: "Западносибирск"
+ TYM_regional_unifier_socialist: "Западносибирская Народная Республика"
+ TYM_regional_unifier_socialist_DEF: "Западносибирская Народная Республика"
+ TYM_regional_unifier_socialist_ADJ: "Западносибирск"
+ 
+ SVR_republic_conservatism: "Западносибирская Республика"
+ SVR_republic_conservatism_DEF: "Западносибирская Республика"
+ SVR_republic_conservatism_ADJ: "Западносибирск"
+ SVR_regional_unifier_conservatism: "Западносибирская Республика"
+ SVR_regional_unifier_conservatism_DEF: "Западносибирская Республика"
+ SVR_regional_unifier_conservatism_ADJ: "Западносибирск"
+ SVR_regional_unifier_paternalism: "Уральский Военный Округ"
+ SVR_regional_unifier_paternalism_DEF: "Уральский Военный Округ"
+ SVR_regional_unifier_paternalism_ADJ: "Уральск"
+ SVR_regional_unifier_despotism: "Екатеринбургское Регентство"
+ SVR_regional_unifier_despotism_DEF: "Екатеринбургское Регентство"
+ SVR_regional_unifier_despotism_ADJ: "Западносибирск"
+
+ #Центральная Сибирь
+ TOM_HUM_regional_unifier_progressivism: "Центральносибирское Содружество"
+ TOM_HUM_regional_unifier_progressivism_DEF: "Центральносибирское Содружество"
+ TOM_HUM_regional_unifier_progressivism_ADJ: "Центральносибирск"
+ TOM_MOD_regional_unifier_liberalism: "Центральносибирская Республика"
+ TOM_MOD_regional_unifier_liberalism_DEF: "Центральносибирская Республика"
+ TOM_MOD_regional_unifier_liberalism_ADJ: "Центральносибирск"
+ TOM_BAS_regional_unifier_paternalism: "Центральносибирская Республика"
+ TOM_BAS_regional_unifier_paternalism_DEF: "Центральносибирская Республика"
+ TOM_BAS_regional_unifier_paternalism_ADJ: "Центральносибирск"
+
+ TOM_regional_unifier_paternalism: "Центральносибирская Республика"
+ TOM_regional_unifier_paternalism_DEF: "Центральносибирская Республика"
+ TOM_regional_unifier_paternalism_ADJ: "Центральносибирск"
+ TOM_regional_unifier_conservatism: "Центральносибирская Федерация"
+ TOM_regional_unifier_conservatism_DEF: "Центральносибирская Федерация"
+ TOM_regional_unifier_conservatism_ADJ: "Центральносибирск"
+ TOM_regional_unifier_liberalism: "Центральносибирская Республика"
+ TOM_regional_unifier_liberalism_DEF: "Центральносибирская Республика"
+ TOM_regional_unifier_liberalism_ADJ: "Центральносибирск"
+ TOM_regional_unifier_progressivism: "Центральносибирское Содружество"
+ TOM_regional_unifier_progressivism_DEF: "Центральносибирское Содружество"
+ TOM_regional_unifier_progressivism_ADJ: "Центральносибирск"
+ TOM_regional_unifier_socialist: "Центральносибирская Республика"
+ TOM_regional_unifier_socialist_DEF: "Центральносибирская Республика"
+ TOM_regional_unifier_socialist_ADJ: "Центральносибирск"
+ 
+ KEM_regional_unifier_paternalism: "Великое Княжество Среднесибирское"
+ KEM_regional_unifier_paternalism_DEF: "Великое Княжество Среднесибирское"
+ KEM_regional_unifier_paternalism_ADJ: "Центральносибирск"
+ KEM_regional_unifier_despotism: "Великое Княжество Среднесибирское"
+ KEM_regional_unifier_despotism_DEF: "Великое Княжество Среднесибирское"
+ KEM_regional_unifier_despotism_ADJ: "Центральносибирск"
+ 
+ SBA_regional_unifier_socialist: "Сибирская Вольная Территория"
+ SBA_regional_unifier_socialist_DEF: "Сибирская Вольная Территория"
+ SBA_regional_unifier_socialist_ADJ: "Центральносибирск"
+ SBA_regional_unifier_despotism: "Сибирская Вольная Территория"
+ SBA_regional_unifier_despotism_DEF: "Сибирская Вольная Территория"
+ SBA_regional_unifier_despotism_ADJ: "Центральносибирск"
+ 
+ NOV_regional_unifier_conservatism: "Центральносибирская Федерация"
+ NOV_regional_unifier_conservatism_DEF: "Центральносибирская Федерация"
+ NOV_regional_unifier_conservatism_ADJ: "Центральносибирск"
+ NOV_regional_unifier_paternalism: "Центральносибирская Федерация"
+ NOV_regional_unifier_paternalism_DEF: "Центральносибирская Федерация"
+ NOV_regional_unifier_paternalism_ADJ: "Центральносибирск"
+ 
+ KRS_regional_unifier_paternalism: "Республика Сибирь"
+ KRS_regional_unifier_paternalism_DEF: "Республика Сибирь"
+ KRS_regional_unifier_paternalism_ADJ: "Сибирск"
+ 
+ PRC_regional_unifier_communist: "Временный Центральносибирский Революционный Совет"
+ PRC_regional_unifier_communist_DEF: "Временный Центральносибирский Революционный Совет"
+ PRC_regional_unifier_communist_ADJ: "Центральносибирск"
+ PRC_regional_unifier_socialist: "Временный Центральносибирский Революционный Совет"
+ PRC_regional_unifier_socialist_DEF: "Временный Центральносибирский Революционный Совет" 
+ PRC_regional_unifier_socialist_ADJ: "Центральносибирск"
+ 
+ #Дальний Восток
+ AMR_regional_unifier_national_socialism: "Всероссийское Правительство на Дальнем Востоке"
+ AMR_regional_unifier_national_socialism_DEF: "Всероссийское Правительство на Дальнем Востоке"
+ AMR_regional_unifier_national_socialism_ADJ: "Дальневосточн"
+ 
+ BRY_regional_unifier_communist: "Дальневосточная Социалистическая Республика"
+ BRY_regional_unifier_communist_DEF: "Дальневосточная Социалистическая Республика"
+ BRY_regional_unifier_communist_ADJ: "Дальневосточн"
+ BRY_regional_unifier_socialist: "Дальневосточная Социалистическая Республика"
+ BRY_regional_unifier_socialist_DEF: "Дальневосточная Социалистическая Республика"
+ BRY_regional_unifier_socialist_ADJ: "Дальневосточн"
+ 
+ IRK_regional_unifier_communist: "Дальневосточная Советская Социалистическая Республика"
+ IRK_regional_unifier_communist_DEF: "Дальневосточная Советская Социалистическая Республика"
+ IRK_regional_unifier_communist_ADJ: "Дальневосточн"
+ 
+ MAG_regional_unifier_paternalism: "Сибирская Национальная Республика"
+ MAG_regional_unifier_paternalism_DEF: "Сибирская Национальная Республика"
+ MAG_regional_unifier_paternalism_ADJ: "Дальневосточн"
+ MAG_regional_unifier_despotism: "Сибирская Национальная Республика"
+ MAG_regional_unifier_despotism_DEF: "Сибирская Национальная Республика"
+ MAG_regional_unifier_despotism_ADJ: "Дальневосточн"
+ MAG_regional_unifier_fascism: "Сибирская Национальная Республика"
+ MAG_regional_unifier_fascism_DEF: "Сибирская Национальная Республика"
+ MAG_regional_unifier_fascism_ADJ: "Дальневосточн"
+ MAG_WA_regional_unifier_paternalism: "Соединённые Штаты Сибири"
+ MAG_WA_regional_unifier_paternalism_DEF: "Соединённые Штаты Сибири"
+ MAG_WA_regional_unifier_paternalism_ADJ: "Западноаляскинск"
+ MAG_WA_SIB_paternalism: "Соединённые Штаты Сибири"
+ MAG_WA_SIB_paternalism_DEF: "Соединённые Штаты Сибири"
+ MAG_WA_SIB_paternalism_ADJ: "Сибирск"
+ MAG_WA_RUS_paternalism: "Соединённые Штаты России"
+ MAG_WA_RUS_paternalism_DEF: "Соединённые Штаты России"
+ MAG_WA_RUS_paternalism_ADJ: "Русск"
+
+ MAG_WA_republic_regional_unifier_paternalism: "Сибирская Республика"
+ MAG_WA_republic_regional_unifier_paternalism_DEF: "Сибирская Республика"
+ MAG_WA_republic_regional_unifier_paternalism_ADJ: "Сибирск"
+ MAG_WA_republic_regional_unifier_conservatism: "Сибирская Республика"
+ MAG_WA_republic_regional_unifier_conservatism_DEF: "Сибирская Республика"
+ MAG_WA_republic_regional_unifier_conservatism_ADJ: "Сибирск"
+ MAG_WA_republic_regional_unifier_liberalism: "Сибирская Республика"
+ MAG_WA_republic_regional_unifier_liberalism_DEF: "Сибирская Республика"
+ MAG_WA_republic_regional_unifier_liberalism_ADJ: "Сибирск"
+ MAG_WA_republic_regional_unifier_progressivism: "Сибирская Республика"
+ MAG_WA_republic_regional_unifier_progressivism_DEF: "Сибирская Республика"
+ MAG_WA_republic_regional_unifier_progressivism_ADJ: "Сибирск"
+ 
+ OMO_father_men: "Божие Владение над Дальним Востоком"
+ OMO_father_men_DEF: "Божие Владение над Дальним Востоком"
+ OMO_father_men_ADJ: "Сибирск"
+ OMO_regional_unifier: "Божие Владение над Дальним Востоком"
+ OMO_regional_unifier_DEF: "Божие Владение над Дальним Востоком"
+ OMO_regional_unifier_ADJ: "Сибирск"
+ 
+ CHT_regional_unifier_liberalism: "Дальневосточное Императорское Княжество"
+ CHT_regional_unifier_liberalism_DEF: "Дальневосточное Императорское Княжество"
+ CHT_regional_unifier_liberalism_ADJ: "Дальневосточн"
+ CHT_regional_unifier_paternalism: "Дальневосточное Императорское Княжество"
+ CHT_regional_unifier_paternalism_DEF: "Дальневосточное Императорское Княжество"
+ CHT_regional_unifier_paternalism_ADJ: "Дальневосточн"
+ CHT_regional_unifier_despotism: "Дальневосточное Императорское Княжество"
+ CHT_regional_unifier_despotism_DEF: "Дальневосточное Императорское Княжество"
+ CHT_regional_unifier_despotism_ADJ: "Дальневосточн"
+ 
+ #Южный Урал
+ MGN_regional_unifier_despotism: "Южноуральская Автономная Область"
+ MGN_regional_unifier_despotism_DEF: "Южноуральская Автономная Область"
+ MGN_regional_unifier_despotism_ADJ: "Магнитогорск"
+ MGN_NKVD_regional_unifier_despotism: "Магнитогорский Район"
+ MGN_NKVD_regional_unifier_despotism_DEF: "Магнитогорский Район"
+ MGN_NKVD_regional_unifier_despotism_ADJ: "Магнитогорск"
+ 
+ ORE_regional_unifier_socialist: "Обьёдинённые Коммуны Оренбурга и Южного Урала"
+ ORE_regional_unifier_socialist_DEF: "Обьёдинённые Коммуны Оренбурга и Южного Урала"
+ ORE_regional_unifier_socialist_ADJ: "Южноуральск"
+ ORE_regional_unifier_communist: "Оренбургская Автономная Советская Социалистическая Республика"
+ ORE_regional_unifier_communist_DEF: "Оренбургская Автономная Советская Социалистическая Республика"
+ ORE_regional_unifier_communist_ADJ: "Оренбургск"
+ ORE_regional_unifier_paternalism: "Оренбургская Республика"
+ ORE_regional_unifier_paternalism_DEF: "Оренбургская Республика"
+ ORE_regional_unifier_paternalism_ADJ: "Оренбургск"
+ 
+ DIR_BEST_national_socialism: "Владение Дирлевангера"
+ DIR_BEST_national_socialism_ADJ: "Дирлевангерск"
+ DIR_BEST_national_socialism_DEF: "Владение Дирлевангера"
+
+ DRL_DED: ""
+ DRL_DED_DEF: "" 
+ DRL_DED_ADJ: "Орск"
+ 
+ URL_regional_unifier_paternalism: "Объединённая Лига Защиты Урала"
+ URL_regional_unifier_paternalism_DEF: "Объединённая Лига Защиты Урала"
+ 
+ #Kazakhstan - 1776
+ KAZ_1776: "Республика Казахстан"
+ KAZ_1776_DEF: "Республика Казахстан"
+ KAZ_1776_ADJ: "Казахск"
+
+ #AKT_regional_unifier_national_socialism: "Казахское Государство"
+ #AKT_regional_unifier_national_socialism_DEF: "Казахское Государство"
+ #AKT_regional_unifier_national_socialism_ADJ: "Казахск"
+ 
+ #ARL_regional_unifier_despotism: "Национальная Республика Казахстан"
+ #ARL_regional_unifier_despotism_DEF: "Национальная Республика Казахстан"
+ #ARL_regional_unifier_despotism_ADJ: "Казахск"
+ 
+ #DER_regional_unifier_despotism: "Исламская Республика Казахстан"
+ #DER_regional_unifier_despotism_DEF: "Исламская Республика Казахстан"
+ #DER_regional_unifier_despotism_ADJ: "Казахск"
+ 
+ #KAZ_regional_unifier_communist: "Казахская Советская Социалистическая Республика"
+ #KAZ_regional_unifier_communist_DEF: "Казахская Советская Социалистическая Республика"
+ #KAZ_regional_unifier_communist_ADJ: "Казахск"
+ 
+ #KOK_regional_unifier_despotism: "Казахское Ханство"
+ #KOK_regional_unifier_despotism_DEF: "Казахское Ханство"
+ #KOK_regional_unifier_despotism_ADJ: "Казахск"
+ 
+ ### Национальный этап ###
+ 
+ ###СИБИРЯКИ
+ #Томск
+ TOM_HUM_SIB_progressivism: "Cибирское Содружество"
+ TOM_HUM_SIB_progressivism_DEF: "Центральносибирское Содружество"
+ TOM_HUM_SIB_progressivism_ADJ: "Сибирск"
+ 
+ TOM_MOD_SIB_liberalism: "Сибирская Республика"
+ TOM_MOD_SIB_liberalism_DEF: "Сибирская Республика"
+ TOM_MOD_SIB_liberalism_ADJ: "Сибирск"
+ 
+ TOM_SIB_conservatism: "Сибирская Федерация"
+ TOM_SIB_conservatism_DEF: "Сибирская Федерация"
+ TOM_SIB_conservatism_ADJ: "Сибирск"
+ 
+ TOM_BAS_SIB_paternalism: "Сибирская Республика"
+ TOM_BAS_SIB_paternalism_DEF: "Сибирская Республика"
+ TOM_BAS_SIB_paternalism_ADJ: "Сибирск"
+ 
+ #Новосибирск
+ NOV_SIB_conservatism: "Сибирская Федерация"
+ NOV_SIB_conservatism_DEF: "Сибирская Федерация"
+ NOV_SIB_conservatism_ADJ: "Сибирск"
+ NOV_SIB_paternalism: "Сибирская Федерация"
+ NOV_SIB_paternalism_DEF: "Сибирская Федерация"
+ NOV_SIB_paternalism_ADJ: "Сибирск"
+ 
+ #Кемерово
+ KEM_SIB_paternalism: "Царство Сибирское"
+ KEM_SIB_paternalism_DEF: "Царство Сибирское"
+ KEM_SIB_paternalism_ADJ: "Сибирск"
+ KEM_SIB_despotism: "Царство Сибирское"
+ KEM_SIB_despotism_DEF: "Царство Сибирское"
+ KEM_SIB_despotism_ADJ: "Сибирск"
+
+ #Народно-революционный совет
+ PRC_SIB_communist: "Сибирское Революционное Командование"
+ PRC_SIB_communist_DEF: "Сибирское Революционное Командование"
+ PRC_SIB_communist_ADJ: "Сибирск"
+ 
+ #Красноярск
+ KRS_national_unifier_paternalism: "Российская Федерация"
+ KRS_national_unifier_paternalism_DEF: "Российская Федерация"
+ KRS_national_unifier_paternalism_ADJ: "Русск"
+ 
+ #Хакассия
+ SBA_SIB_socialist: "Сибирская Вольная Территория"
+ SBA_SIB_socialist_DEF: "Сибирская Вольная Территория"
+ SBA_SIB_socialist_ADJ: "Сибирск"
+ SBA_SIB_despotism: "Сибирская Вольная Территория"
+ SBA_SIB_despotism_DEF: "Сибирская Вольная Территория"
+ SBA_SIB_despotism_ADJ: "Сибирск"
+ 
+ #Иркутск
+ IRK_SIB_communist: "Сибирская Советская Социалистическая Республика"
+ IRK_SIB_communist_DEF: "Сибирская Советская Социалистическая Республика"
+ IRK_SIB_communist_ADJ: "Сибирск"
+ 
+ #Бурятия
+ BRY_SIB_communist: "Сибирская Социалистическая Республика"
+ BRY_SIB_communist_DEF: "Сибирская Социалистическая Республика"
+ BRY_SIB_communist_ADJ: "Сибирск"
+ BRY_SIB_socialist: "Сибирская Социалистическая Республика"
+ BRY_SIB_socialist_DEF: "Сибирская Социалистическая Республика"
+ BRY_SIB_socialist_ADJ: "Сибирск"
+ 
+ #Чита
+ CHT_SIB_liberalism: "Сибирская Империя"
+ CHT_SIB_liberalism_DEF: "Сибирская Империя"
+ CHT_SIB_liberalism_ADJ: "Сибирск"
+ CHT_SIB_paternalism: "Сибирская Империя"
+ CHT_SIB_paternalism_DEF: "Сибирская Империя"
+ CHT_SIB_paternalism_ADJ: "Сибирск"
+ CHT_SIB_despotism: "Сибирская Империя"
+ CHT_SIB_despotism_DEF: "Сибирская Империя"
+ CHT_SIB_despotism_ADJ: "Сибирск"
+ CHT_SIB_ultranationalism: "Сибирское Регентство"
+ CHT_SIB_ultranationalism_DEF: "Сибирское Регентство"
+ CHT_SIB_ultranationalism_ADJ: "Сибирск" 
+ 
+ #Амур
+ AMR_SIB_national_socialism: "Сибирское Национальное Государство"
+ AMR_SIB_national_socialism_DEF: "Сибирское Национальное Государство"
+ AMR_SIB_national_socialism_ADJ: "Сибирск"
+ 
+ #Магадан
+ MAG_SIB_paternalism: "Сибирская Национальная Республика"
+ MAG_SIB_paternalism_DEF: "Сибирская Национальная Республика"
+ MAG_SIB_paternalism_ADJ: "Сибирск"
+ MAG_SIB_despotism: "Сибирская Национальная Республика"
+ MAG_SIB_despotism_DEF: "Сибирская Национальная Республика"
+ MAG_SIB_despotism_ADJ: "Сибирск"
+ MAG_SIB_fascism: "Сибирская Национальная Республика"
+ MAG_SIB_fascism_DEF: "Сибирская Национальная Республика"
+ MAG_SIB_fascism_ADJ: "Сибирск"
+ 
+ #Отец Мень
+ OMO_SIB: "Божие Владение над Сибирью"
+ OMO_SIB_DEF: "Божие Владение над Сибирью"
+ OMO_SIB_ADJ: "Сибирск"
+
+
+ ###РУССКИЕ
+
+ #Омск
+ OMS_POTEMKIN_RUS: "Правительство Национального Освобождения России"
+ OMS_POTEMKIN_RUS_DEF: "Правительство Национального Освобождения России"
+ OMS_POTEMKIN_RUS_ADJ: "Русск"
+ OMS_RUS_ultranationalism: "Правительство Национального Освобождения России"
+ OMS_RUS_ultranationalism_DEF: "Правительство Национального Освобождения России"
+ OMS_RUS_ultranationalism_ADJ: "Русск"
+
+ #Tyumen
+ TYM_RUS_communist: "Союз Советских Социалистических Республик"
+ TYM_RUS_communist_DEF: "Союз Советских Социалистических Республик"
+ TYM_RUS_communist_ADJ: "Советск"
+ 
+ #Sverdlovsk
+ SVR_RUS_conservatism: "Российская Федеративная Республика"
+ SVR_RUS_conservatism_DEF: "Российская Федеративная Республика"
+ SVR_RUS_conservatism_ADJ: "Русск"
+ SVR_RUS_YELTSIN_conservatism: "Российская Федеративная Республика"
+ SVR_RUS_YELTSIN_conservatism_DEF: "Российская Федеративная Республика"
+ SVR_RUS_YELTSIN_conservatism_ADJ: "Русск"
+ SVR_RUS_paternalism: "Российский Народный Союз"
+ SVR_RUS_paternalism_DEF: "Российский Народный Союз"
+ SVR_RUS_paternalism_ADJ: "Русск"
+ 
+ #Самара
+ SAM_RUS_fascism: "Российское Государство"
+ SAM_RUS_fascism_DEF: "Российское Государство"
+ SAM_RUS_fascism_ADJ: "Русск"
+ 
+ SAM_RUS_liberalism: "Российская Республика"
+ SAM_RUS_liberalism_DEF: "Российская Республика"
+ SAM_RUS_liberalism_ADJ: "Русск"
+ 
+ SAM_RUS_conservatism: "Российская Республика"
+ SAM_RUS_conservatism_DEF: "Российская Республика"
+ SAM_RUS_conservatism_ADJ: "Русск"
+ 
+ SAM_RUS_paternalism: "Российская Республика"
+ SAM_RUS_paternalism_DEF: "Российская Республика"
+ SAM_RUS_paternalism_ADJ: "Русск"
+ 
+ SAM_RUS_despotism: "Российская Республика"
+ SAM_RUS_despotism_DEF: "Российская Республика"
+ SAM_RUS_despotism_ADJ: "Русск" 
+ 
+ SAM_RUS_national_socialism: "Российское Государство"
+ SAM_RUS_national_socialism_DEF: "Российское Государство"
+ SAM_RUS_national_socialism_ADJ: "Русск"
+ 
+ #Пермь
+ PRM_RUS: "Руссише Райх"
+ PRM_RUS_DEF: "Руссише Райх"
+ PRM_RUS_ADJ: "Руссиш"
+ 
+ PRM_hyperborea_RUS: "Гиперборея"
+ PRM_hyperborea_RUS_DEF: "Гиперборея"
+ PRM_hyperborea_RUS_ADJ: "Гиперборейск" 
+
+ PRM_hyperborea_regional: "Гиперборея"
+ PRM_hyperborea_regional_DEF: "Гиперборея"
+ PRM_hyperborea_regional_ADJ: "Гиперборейск"
+
+ #Гайна
+ GAY_RUS_despotism: "Священное Русское Государство"
+ GAY_RUS_despotism_DEF: "Священное Русское Государство"
+ GAY_RUS_despotism_ADJ: "Святорусск"
+ 
+ #Вятка
+ VYT_RUS_liberalism: "Российская Империя"
+ VYT_RUS_liberalism_DEF: "Российская Империя"
+ VYT_RUS_liberalism_ADJ: "Русск" 
+ 
+ VYT_RUS_conservatism: "Российская Империя"
+ VYT_RUS_conservatism_DEF: "Российская Империя"
+ VYT_RUS_conservatism_ADJ: "Русск"
+ 
+ VYT_RUS_paternalism: "Российская Империя"
+ VYT_RUS_paternalism_DEF: "Российская Империя"
+ VYT_RUS_paternalism_ADJ: "Русск" 
+ 
+ VYT_RUS_despotism: "Российская Империя"
+ VYT_RUS_despotism_DEF: "Российская Империя"
+ VYT_RUS_despotism_ADJ: "Русск" 
+
+ #ЗРРФ
+ WRS_RUS_tukha_communist: "Союз Советских Социалистических Республик"
+ WRS_RUS_tukha_communist_DEF: "Союз Советских Социалистических Республик"
+ WRS_RUS_tukha_communist_ADJ: "Советск"
+ 
+ WRS_RUS_communist: "Союз Советских Социалистических Республик"
+ WRS_RUS_communist_DEF: "Союз Советских Социалистических Республик"
+ WRS_RUS_communist_ADJ: "Советск"
+ 
+ WRS_RUS_progressivism: "Союз Советских Социалистических Республик"
+ WRS_RUS_progressivism_DEF: "Союз Советских Социалистических Республик"
+ WRS_RUS_progressivism_ADJ: "Советск"
+ 
+ WRS_RUS_socialist: "Союз Советских Социалистических Республик"
+ WRS_RUS_socialist_DEF: "Союз Советских Социалистических Республик"
+ WRS_RUS_socialist_ADJ: "Советск"
+ 
+ WRS_RUS_despotism: "Союз Советских Социалистических Республик"
+ WRS_RUS_despotism_DEF: "Союз Советских Социалистических Республик"
+ WRS_RUS_despotism_ADJ: "Советск"
+ 
+ WRS_USSR_tukha: "Союз Советских Социалистических Республик"
+ WRS_USSR_tukha_DEF: "Союз Советских Социалистических Республик"
+ WRS_USSR_tukha_ADJ: "Советск"
+ 
+ WRS_USSR_zhukov: "Союз Советских Социалистических Республик"
+ WRS_USSR_zhukov_DEF: "Союз Советских Социалистических Республик"
+ WRS_USSR_zhukov_ADJ: "Советск"
+ 
+ ###СИБИРСКИЕ РУССКИЕ
+
+ #Томск
+ TOM_RUS_progressivism: "Российское Содружество"
+ TOM_RUS_progressivism_DEF: "Российское Содружество"
+ TOM_RUS_progressivism_ADJ: "Русск"
+
+ TOM_RUS_HUMANIST_progressivism: "Российское Содружество"
+ TOM_RUS_HUMANIST_progressivism_DEF: "Российское Содружество"
+ TOM_RUS_HUMANIST_progressivism_ADJ: "Русск"
+ 
+ TOM_RUS_liberalism: "Российская Республика"
+ TOM_RUS_liberalism_DEF: "Российская Республика"
+ TOM_RUS_liberalism_ADJ: "Русск"
+
+ TOM_RUS_MODERNIST_liberalism: "Российская Республика"
+ TOM_RUS_MODERNIST_liberalism_DEF: "Российская Республика"
+ TOM_RUS_MODERNIST_liberalism_ADJ: "Русск"
+ 
+ TOM_RUS_conservatism: "Российская Федерация"
+ TOM_RUS_conservatism_DEF: "Российская Федерация"
+ TOM_RUS_conservatism_ADJ: "Русск"
+
+ TOM_RUS_paternalism: "Российская Республика"
+ TOM_RUS_paternalism_DEF: "Российская Республика"
+ TOM_RUS_paternalism_ADJ: "Русск"
+ 
+ TOM_RUS_BASTILLARD_paternalism: "Российская Республика"
+ TOM_RUS_BASTILLARD_paternalism_DEF: "Российская Республика"
+ TOM_RUS_BASTILLARD_paternalism_ADJ: "Русск"
+ 
+ #Новосибирск
+ NOV_RUS_conservatism: "Российская Федерация"
+ NOV_RUS_conservatism_DEF: "Российская Федерация"
+ NOV_RUS_conservatism_ADJ: "Русск"
+ NOV_RUS_paternalism: "Российская Федерация"
+ NOV_RUS_paternalism_DEF: "Российская Федерация"
+ NOV_RUS_paternalism_ADJ: "Русск"
+ 
+ #Кемерово
+ KEM_RUS_paternalism: "Царство Русское"
+ KEM_RUS_paternalism_DEF: "Царство Русское"
+ KEM_RUS_paternalism_ADJ: "Русск"
+ KEM_RUS_despotism: "Царство Русское"
+ KEM_RUS_despotism_DEF: "Царство Русское"
+ KEM_RUS_despotism_ADJ: "Русск"
+ 
+ #Хакассия
+ SBA_RUS_socialist: "Российская Вольная Территория"
+ SBA_RUS_socialist_DEF: "Российская Вольная Территория"
+ SBA_RUS_socialist_ADJ: "Российск"
+ SBA_RUS_despotism: "Российская Вольная Территория"
+ SBA_RUS_despotism_DEF: "Российская Вольная Территория"
+ SBA_RUS_despotism_ADJ: "Российск"
+
+ #Народно-революционный Совет
+ PRC_RUS_communist: "Союз Советских Социалистических Республик"
+ PRC_RUS_communist_DEF: "Союз Советских Социалистических Республик"
+ PRC_RUS_communist_ADJ: "Советск"
+ 
+ #Иркутск
+ IRK_RUS_communist: "Союз Советских Социалистических Республик"
+ IRK_RUS_communist_DEF: "Союз Советских Социалистических Республик"
+ IRK_RUS_communist_ADJ: "Советск"
+ 
+ #Бурятия
+ BRY_RUS_communist: "Союз Советских Социалистических Республик"
+ BRY_RUS_communist_DEF: "Союз Советских Социалистических Республик"
+ BRY_RUS_communist_ADJ: "Советск"
+ BRY_RUS_socialist: "Союз Советских Социалистических Республик"
+ BRY_RUS_socialist_DEF: "Союз Советских Социалистических Республик"
+ BRY_RUS_socialist_ADJ: "Советск"
+ 
+ #Чита
+ CHT_RUS_liberalism: "Российская Империя"
+ CHT_RUS_liberalism_DEF: "Российская Империя"
+ CHT_RUS_liberalism_ADJ: "Русск"
+ CHT_RUS_paternalism: "Российская Империя"
+ CHT_RUS_paternalism_DEF: "Российская Империя"
+ CHT_RUS_paternalism_ADJ: "Русск"
+ CHT_RUS_despotism: "Российская Империя"
+ CHT_RUS_despotism_DEF: "Российская Империя"
+ CHT_RUS_despotism_ADJ: "Русск"
+ CHT_RUS_ultranationalism: "Российская Империя"
+ CHT_RUS_ultranationalism_DEF: "Российская Империя"
+ CHT_RUS_ultranationalism_ADJ: "Русск"
+ 
+ #Амур
+ AMR_RUS_national_socialism:0 "Русское Национальное Государство"
+ AMR_RUS_national_socialism_DEF:0 "Русское Национальное Государство"
+ AMR_RUS_national_socialism_ADJ:0 "Русск"
+ 
+ #Магадан
+ MAG_RUS_paternalism:0 "Российская Национальная Республика"
+ MAG_RUS_paternalism_DEF:0 "Российская Национальная Республика"
+ MAG_RUS_paternalism_ADJ:0 "Российск"
+ MAG_RUS_despotism:0 "Русская Национальная Республика"
+ MAG_RUS_despotism_DEF:0 "Русская Национальная Республика"
+ MAG_RUS_despotism_ADJ:0 "Русск"
+ MAG_RUS_fascism:0 "Русская Национальная Республика"
+ MAG_RUS_fascism_DEF:0 "Русская Национальная Республика"
+ MAG_RUS_fascism_ADJ:0 "Русск"
+ 
+ #Отец Мень
+ OMO_RUS: "Божие Владение над Россией"
+ OMO_RUS_DEF: "Божие Владение над Россией"
+ OMO_RUS_ADJ: "Русск" 
+ 
+ 
+ RUS_unified: "Россия"
+ RUS_unified_DEF: "Россия"
+ RUS_free: "Свободная Россия"
+ RUS_free_DEF: "Свободная Россия"
+ 
+ RUS_republic: "Российская Республика"
+ RUS_republic_DEF: "Российская Республика"
+ RUS_federation: "Российская Федерация"
+ RUS_federation_DEF: "Российская Федерация"
+ RUS_commonwealth: "Российское Содружество"
+ RUS_commonwealth_DEF: "Российское Содружество"
+ 
+ RUS_state: "Русское Государство"
+ RUS_state_DEF: "Русское Государство"
+ RUS_union: "Российский Союз"
+ RUS_union_DEF: "Российский Союз"
+ RUS_order: "Российский Орден"
+ RUS_order_DEF: "Российский Орден"
+ RUS_all_russian: "Российское Национальное Государство"
+ RUS_all_russian_DEF: "Российское Национальное Государство"
+ RUS_white: "Белая Россия"
+ RUS_white_DEF: "Белая Россия"
+ 
+ RUS_soviet_communist: "Союз Советских Социалистических Республик"
+ RUS_soviet_communist_DEF: "Союз Советских Социалистических Республик"
+ RUS_soviet_socialist: "Советский Союз"
+ RUS_soviet_socialist_DEF: "Советский Союз" 
+ RUS_soviet_despotism: "Российская Империя"
+ RUS_soviet_despotism_DEF: "Российская Империя"
+ RUS_soviet_republic_communist: "Советская Республика"
+ RUS_soviet_republic_communist_DEF: "Советская Республика"
+ RUS_soviet_republic_socialist: "Советская Республика"
+ RUS_soviet_republic_socialist_DEF: "Советская Республика"
+ RUS_sfsr_communist: "Российская Советская Федеративная Социалистическая Республика"
+ RUS_sfsr_communist_DEF: "Российская Советская Федеративная Социалистическая Республика"
+ RUS_sfsr_socialist: "Российская Советская Федеративная Социалистическая Республика"
+ RUS_sfsr_socialist_DEF: "Российская Советская Федеративная Социалистическая Республика"
+ RUS_peoples_republic_communist: "Российская Народная Республика"
+ RUS_peoples_republic_communist_DEF: "Российская Народная Республика"
+ RUS_peoples_republic_socialist: "Российская Народная Республика"
+ RUS_peoples_republic_socialist_DEF: "Российская Народная Республика"
+ RUS_anarchist_socialist: "Российская Вольная Территория"
+ RUS_anarchist_socialist_DEF: "Российская Вольная Территория"
+ RUS_black: "Черная Россия"
+ RUS_black_DEF: "Черная Россия"
+ RUS_ssr: "Российская ССР"
+ RUS_ssr_DEF: "Российская ССР"
+ 
+ #RUS_empire_despotism: "Российская Империя"
+ #RUS_empire_despotism_DEF: "Российская Империя"
+ #RUS_kingdom: "Российское Царство"
+ #RUS_kingdom_DEF: "Российское Царство"
+ 
+ #RUS_holy: "Священное Российское Государство"
+ #RUS_holy_DEF: "Священное Российское Государство"
+ #RUS_golden: "Золотая Россия"
+ #RUS_golden_DEF: "Золотая Россия"
+ 
+ #RUS_reorganized: "Реорганизованная Россия"
+ #RUS_reorganized_DEF: "Реорганизованная Россия" 
+ #RUS_great_rus: "Великая Русь"
+ #RUS_great_rus_DEF: "Великая Русь"
+ #RUS_reich: "Русский Рейх"
+ #RUS_reich_DEF: "Русский Рейх"
+
+ ### Элементы Второй Эры Варлордов для датамайнеров ###
+ KOM_sec_warlord_despotism: "Сыктывкар"
+ VYT_sec_warlord_despotism: "Вятка"
+ TAR_sec_warlord_despotism: "Всероссийское Правительство Единства"
+ SAM_sec_warlord_despotism: "Самара"
+ PRM_sec_warlord_despotism: "Народный Комитет Освобождения Россия"
+ MAR_sec_warlord_despotism: "Ижевск"
+ BKR_sec_warlord_despotism: "Уфа"
+ ORE_sec_warlord_despotism: "Оренбург"
+ GOR_sec_warlord_despotism: "Симбирск"
+ PLS_sec_warlord_despotism: "Котлас"
+ VOR_sec_warlord_despotism: "Воркута"
+ FAV_sec_warlord_despotism: "Сургут"
+ YGR_sec_warlord_despotism: "Ханты-Мансийск"
+ ZLT_sec_warlord_despotism: "Нижний Тагил"
+ SVR_sec_warlord_despotism: "Свердловск"
+ TYM_sec_warlord_despotism: "Российское Временное Правительство"
+ MGN_sec_warlord_despotism: "Магнитогорск"
+ NOV_sec_warlord_despotism: "Новосибирск"
+ TOM_sec_warlord_despotism: "Томск"
+ OMS_sec_warlord_despotism: "Всероссийская Лига Единства"
+ ALT_sec_warlord_despotism: "Барнаул"
+ KEM_sec_warlord_despotism: "Кемерово"
+ KRS_sec_warlord_despotism: "Единый Комитет Спасения России"
+ PRC_sec_warlord_despotism: "Тува"
+ IRK_sec_warlord_despotism: "Сибирское Единое Правительство Продолжения"
+ VIL_sec_warlord_despotism: "Вилюй"
+ OMO_sec_warlord_despotism: "Омолон"
+ KOL_sec_warlord_despotism: "Яна"
+ KMC_sec_warlord_despotism: "Камчатка"
+ YAK_sec_warlord_despotism: "Республика Якутия"
+ BRY_sec_warlord_despotism: "Бурятия"
+ CHT_sec_warlord_despotism: "Чита"
+ MAG_sec_warlord_despotism: "Магадан"
+ AMR_sec_warlord_despotism: "Зея"
+
+ ### Коллапс Дальнего Востока ###
+ BRY_collapse_despotism: "Партизанская Республика Бурятия"
+ BRY_collapse_despotism_DEF: "Партизанская Республика Бурятия"
+ BRY_collapse_despotism_ADJ: "Партизанско-бурятск"
+ CHT_collapse_paternalism: "Забайкальская Губерния"
+ CHT_collapse_paternalism_DEF: "Забайкальская Губерния"
+ CHT_collapse_paternalism_ADJ: "Забайкальск"
+ IRK_collapse_communist: "Духовная Автономия Бурятии"
+ IRK_collapse_communist_DEF: "Духовная Автономия Бурятии"
+ IRK_collapse_communist_ADJ: "Духовно-бурятск"
+ KMC_collapse_despotism: "Камчатское военно-морское управление"
+ KMC_collapse_despotism_DEF: "Камчатское военно-морское управление"
+ KMC_collapse_despotism_ADJ: "Камчатск"
+ MAG_collapse_paternalism: "Сибирский Комитет Защиты"
+ MAG_collapse_paternalism_DEF: "Сибирский Комитет Защиты"
+ MAG_collapse_paternalism_ADJ: "Сибирск"
+ OMO_collapse_despotism: "Колымская Зона Развития"
+ OMO_collapse_despotism_DEF: "Колымская Зона Развития"
+ OMO_collapse_despotism_ADJ: "Колымск"
+ VIL_collapse_despotism: "Божие Владение над Дальним Востоком"
+ VIL_collapse_despotism_DEF: "Божие Владение над Дальним Востоком"
+ VIL_collapse_despotism_ADJ: "Христианск"
+ YAK_collapse_despotism: "Первая армия "Дмитрий Донской""
+ YAK_collapse_despotism_DEF: "Первая армия "Дмитрий Донской""
+ YAK_collapse_despotism_ADJ: "Первоармейск"
+ 
+ ### Коллапс СЧА ###
+ NOV_collapse: "Новосибирск"
+ NOV_collapse_DEF: "Новосибирский Союз"
+ NOV_collapse_ADJ: "Новосибирск"
+ KAL_collapse: "Северная Сибирь"
+ KAL_collapse_DEF: "Северо-Сибирские Советы"
+ KAL_collapse_ADJ: "Северо-Сибирск"
+ KRS_collapse: "Красноярск"
+ KRS_collapse_DEF: "Республика Красноярск"
+ KRS_collapse_ADJ: "Красноярск"
+ ALT_collapse: "Барнаул"
+ ALT_collapse_DEF: "Федерация Барнаула"
+ ALT_collapse_ADJ: "Барнаульск"
+ PRC_collapse: "Сибирская Чёрная Армия"
+ PRC_collapse_DEF: "Сибирская Чёрная Армия"
+ PRC_collapse_ADJ: "Черноармейск"
+ KRS_SBA_Collapse_Unifier: "Центральносибирская Республика"
+ KRS_SBA_Collapse_Unifier_DEF: "Центральносибирская Республика"
+ KRS_SBA_Collapse_Unifier_ADJ: "Центральносибирск"
+ NOV_SBA_Collapse_Unifier: "Сибирская Федерация Трудящихся"
+ NOV_SBA_Collapse_Unifier_DEF: "Сибирская Федерация Трудящихся"
+ NOV_SBA_Collapse_Unifier_ADJ: "Шахтёрск"
  
