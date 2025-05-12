@@ -7835,11 +7835,11 @@ PRC_shchelokov_moskowien_occupation = {
 			}
 			
 			create_country_leader = {
-						name = "Mikhail Gorbachev"
-						picture = "gfx/leaders/Moskowien/Portrait_MSK_Mikhail_Gorbachev_drip.dds"
+						name = "Ivan Polozkov"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Ivan_Polozkov_young.png"
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_anocracy_communist_subtype
+						ideology = paternalism_social_nationalism_communist_subtype
 					}
 			
 			set_party_name = { 
