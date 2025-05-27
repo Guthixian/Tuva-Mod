@@ -991,7 +991,7 @@ country_event = { # Brezhnev Successor Roulette 1
 						traits = { }
 						desc = ""
 						expire = "1999.3.4"
-						ideology = paternalism_social_nationalism_subtype
+						ideology = paternalism_social_nationalism_communist_subtype
 					}
 			
 		}
@@ -1076,18 +1076,20 @@ country_event = { # Brezhnev Successor Roulette 2
 			
 		}
 	option = {
-		name = PRC_superregional.19852.c #Shcherbina
+		name = PRC_superregional.19852.c #Secret Man
 		set_politics = { ruling_party = paternalism
 						elections_allowed = yes
 						last_election = "1980.4.17"
 						election_frequency = 48 }
 		create_country_leader = {
-						name = "Boris Shcherbina"
-						picture = "gfx/leaders/TYM/Portrait_Tyumen_Boris_Shcherbina.dds"
-						desc = ""
+						name = "Alexei Romanov"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Secret.png"
+						traits = {}
+						desc = "POLITICS_ALEXEI_ROMANOV_DESC"
 						expire = "1999.3.4"
-						ideology = paternalism_authoritarian_developmentalism_communist_subtype
+						ideology = paternalism_personalist_dictatorship_communist_subtype
 					}
+
 			
 		}
 	option = {

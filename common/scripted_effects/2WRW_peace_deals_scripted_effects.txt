@@ -9126,8 +9126,8 @@ PRC_shchelokov_ukraine_occupation = {
 				ruling_party = paternalism
 			}
 			create_country_leader = {
-						name = "Boris Shcherbina"
-						picture = "gfx/leaders/TYM/Portrait_Tyumen_Boris_Shcherbina.dds"
+						name = "Vitaly Masol"
+						picture = "gfx/leaders/PRC/Portrait_PRC_Vitaly_Masol.dds"
 						desc = ""
 						expire = "1999.3.4"
 						ideology = paternalism_idiosyncratic_communism_postwar_subtype

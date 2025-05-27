@@ -258,6 +258,7 @@ ideologies = {
 			paternalism_social_nationalism_communist_subtype = { can_be_randomly_selected = no }
 			paternalism_authoritarian_developmentalism_communist_subtype = { can_be_randomly_selected = no }
 			paternalism_technocratic_communism_subtype = { can_be_randomly_selected = no }
+			paternalism_personalist_dictatorship_communist_subtype = { can_be_randomly_selected = no }
 			### END 2WRW ###
 
 			paternalism_herrerism_subtype = { can_be_randomly_selected = no }
