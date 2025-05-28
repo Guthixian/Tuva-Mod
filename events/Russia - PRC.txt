@@ -1347,7 +1347,7 @@ country_event = { # Big Trouble In Little Haishenwai
 					diplomatic_relation = { country = ALT relation = guarantee active = no }
 					}
 	}
-	option = {
+	# option = {
 		name = PRC_vladivostok.1.b
 		ai_chance = { factor = 0.10 }
 		set_politics = {
