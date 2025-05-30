@@ -45,7 +45,7 @@ PRC_factionalism2: "Home of the Brezhnev Clan"
 PRC_factionalism3: "Home of the Brezhnev Clan"
 PRC_factionalism4: "Home of the Brezhnev Clan"
 PRC_democratic_military: "Corrupted Remnant"
-PRC_democratic_military_desc: "No statelet in Russia is more clearly the inheritor of the Soviet government than our own. When all others betrayed Premier Bukharin’s vision and carved up the flesh of Siberia into their personal fiefdoms, only we kept the ember of Party rule and administration alive. If only we could say the same about Party doctrine…\n\nThe awkward truth is that after so many years at the edge of the old Union, we have long dispensed with the stilted formalities of doctrine. When the survival of Russia is at stake, there is no time for Idealist purism! \n\nAnd that if means that the occasional compromise, then so be it. After all, a bargain for a bargain makes the world go round…"
+PRC_democratic_military_desc: "No statelet in Russia is more clearly the inheritor of the Soviet government than our own. When all others betrayed Premier Bukharin’s vision and carved up the flesh of Siberia into their personal fiefdoms, only we kept the ember of Party rule and administration alive. If only we could say the same about Party doctrine…\n\nThe awkward truth is that after so many years at the edge of the old Union, we have long dispensed with the stilted formalities of doctrine. When the survival of Russia is at stake, there is no time for Idealist purism! \n\nAnd that if means that the occasional compromise, then so be it. After all, a bargain for a bargain makes the world go round..."
 PRC_democratic_military2: "Corrupted Remnant"
 PRC_unclear_war_communism: "Unclear War Communism"
 PRC_unclear_war_communism_desc: "When the Great V. I. Lenin defeated the Fascistic Whites, his victory rested on the material conditions brought forward by War Communism. Only the State's total control of critical resources and industries, together with the iron discipline of the Proletariat could bring forth the fruits of victory. \n\nSome pernicious persons deny this truth, claiming that War Communism meant that the Party and Military elite ate caviar and drank champagne as the working man toiled away in conditions worse than under Tsarism. Not so! The Proletariat endured the conditions of the war out of love for Russia and for Communism, understanding that the Party Vanguard could not be distracted from their leading role by the disruption of their needs. \n\nNow the old Union is once again under the jackboot of the Whites, the Bandits and worse and we must once again bring forth the fruits of War Communism if we are to save Russia. If only we understood what exactly it entailed..."
@@ -129,7 +129,7 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  PRC.29.e: "On second thought, let's pocket the investment instead."
  
  PRC.40.t: "Alienable Rights"
- PRC.40.d: "This is all placeholder text but look at my Brezhnev constitution IRL :goog: \n\nArticle 39 enabled the government to prohibit any activities it considered detrimental by stating that "Enjoyment of the rights and freedoms of citizens must not be to the detriment of the interests of society or the state." \n\nArticle 59 obliged citizens to obey the laws and comply with the standards of socialist society as determined by the Party. The government did not treat as inalienable those political and socioeconomic rights the Constitution granted to the people. Citizens enjoyed rights only when the exercise of those rights did not interfere with the interests of the state, and the CPSU alone had the power and authority to determine policies for the government and society."
+ PRC.40.d: "This is all placeholder text but look at my Brezhnev constitution IRL :goog: \n\nArticle 39 enabled the government to prohibit any activities it considered detrimental by stating that \"Enjoyment of the rights and freedoms of citizens must not be to the detriment of the interests of society or the state.\" \n\nArticle 59 obliged citizens to obey the laws and comply with the standards of socialist society as determined by the Party. The government did not treat as inalienable those political and socioeconomic rights the Constitution granted to the people. Citizens enjoyed rights only when the exercise of those rights did not interfere with the interests of the state, and the CPSU alone had the power and authority to determine policies for the government and society."
  PRC.40.a: "Not to worry comrades, temporary measures!"
  
  PRC_regional.4.t: "The Union on Unions"
@@ -219,7 +219,7 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  
  PRC.regional14.tt: "Work will begin on the §RBrezhnev Constitution§!!"
  PRC.regional15.tt: "We will add §Yimmigration§! and §Yreligious§! amendments to the §RBrezhnev Constitution§!."
- PRC.regional10.tt: "We will rescind some of the §Yemergency conscription orders§! instated by §RVasilevsky§! during the §W1950s§!.
+ PRC.regional10.tt: "We will rescind some of the §Yemergency conscription orders§! instated by §RVasilevsky§! during the §W1950s§!."
  
  PRC_regional20.tt: "Surely the §Rpeople§! will love our §Yreforms§!!"
  PRC_regional20_2.tt: "Based on our choices during the promulgation of the new Soviet constitution, the people will react."
@@ -235,7 +235,7 @@ PRC_preparation_for_war_desc: "The state's preparations have been completed, and
  
  PRC_regional64.tt: "We will reach out to compatible §Rsocialist§! governments across the world to join our upcoming §Yalliance§!."
  
- PRC_regional73.tt: "We will reach out to compatible §Rsocialist§! governments across the world to join our upcoming §Yalliance§!
+ PRC_regional73.tt: "We will reach out to compatible §Rsocialist§! governments across the world to join our upcoming §Yalliance§!"
  
  PRC_superregional.1977.tt: "The politics chart will change to reflect the current balance of power within the All-Union Communist Party."
  
