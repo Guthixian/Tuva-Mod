@@ -1975,3 +1975,39 @@ country_event = { #Load postwar tree
 
 	}
 }
+
+country_event = { # Lore accurate Gutrum Vagner
+	id = PRC_postwar.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event PRC_postwar.2" }
+	title = PRC_postwar.2.t
+	desc = PRC_postwar.2.d
+	is_triggered_only = yes
+	picture = GFX_report_event_GNG_corruption_generic_2
+
+	option = {
+		name = PRC_postwar.2.a
+		add_country_leader_role = {
+				character = PRM_Gutrum_Vagner
+				promote_leader = yes
+				country_leader = {
+					desc = ""
+					expire = "1999.1.1"
+					ideology = ultranationalism_national_anarchism_subtype
+					traits = {
+
+					}
+				}
+			}
+			set_party_name = {
+				ideology = ultranationalism
+				long_name = "Velikiy Kulatskiy Sobor"
+				name = "Velikiy Kulatskiy Sobor"
+			}
+			
+			set_ruling_party = ultranationalism
+			set_popularities = {
+				ultranationalism = 100
+			}
+
+	}
+}

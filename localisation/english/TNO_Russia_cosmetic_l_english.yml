@@ -125,7 +125,7 @@
  KOM_regional_gumilyov: "West Eurasian Provisional Authority"
  KOM_regional_taboritsky: "Imperial Regency of Western Russia"
 
- PRM_regional_unifier: "Purified Aryan Brotherhood"
+ PRM_regional_unifier: "West Russian Jaquerie"
  PRM_regional_unifier_DEF: "the Purified Aryan Brotherhood"
  PRM_regional_unifier_ADJ: "Aryan"
  PRM_boreal_rus: "Boreal Rus"
@@ -386,9 +386,9 @@
  SAM_RUS_national_socialism_DEF: "the Russian State"
 
  #Perm
- PRM_RUS: "Russkiy Reykh"
- PRM_RUS_DEF: "Russkiy Reykh"
- PRM_RUS_ADJ: "Russkiy"
+ PRM_RUS: "Great Jaquerie of Russia"
+ PRM_RUS_DEF: "The Great Jaquerie of Russia"
+ PRM_RUS_ADJ: "Russian"
 
  PRM_hyperborea_RUS: "Hyperborea"
  PRM_hyperborea_RUS_DEF: "Hyperborea"
